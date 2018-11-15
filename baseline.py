@@ -4,11 +4,36 @@ import csv
 import numpy as np
 import itertools
 
-responses_csv = "FR_MAUR_NIG_SA_responseIndicators.csv"
-transitions_csv = "FR_MAUR_NIG_SA_transitions.csv"
+responses_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv'
+transitions_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
 NUM_COUNTRIES = 4
 INDEX_RESOURCE = NUM_COUNTRIES*2
 LEFTOVER_RESOURCES_WEIGHT = 0.6
+INFECTION_COEFFICIENT = 3.0
+
+def loadFlights(flightdata):
+	countries = []
+	neighbors = {}
+	totalSeats = 0
+	with open(flightdata) as flightFile:
+		next(flightFile)
+		csvReader = csv.reader(flightFile, delimiter=',')
+		for row in csvReader:
+			dest = row[1].strip()
+			if dest not in neighbors.keys():
+				neighbors[dest] = []
+			neighbors[dest] += [(row[0].strip(), int(row[2]))]
+			totalSeats += int(row[2])
+			if dest not in countries:
+				countries.append(dest)
+	countries.append(totalSeats)
+	return countries, neighbors, totalSeats
+
+countries, neighbors, totalSeats = loadFlights(transitions_csv)
+print neighbors, totalSeats, countries
+
+def getCountryFromIndex(index, countries):
+	return countries[index]
 
 # def normalizeResponseIndicators(num):
 # 	return (num/(1+num))
@@ -41,9 +66,19 @@ def getActions(state):
 			all_actions.append(action)
 	return all_actions
 
-def sampleNextStateReward(state, action):
+# gets the probability a country is infected as a function of number of seats coming in from infected neighbors
+def getInfectionProb(index, state, countries, neighbors):
+	country = countries[index]
+	infectedSeats = 0
+	for neighbor in neighbors[country]:
+		if state[countries.index(neighbor[0])] == 1: # if neighbor is infected
+			infectedSeats += neighbor[1]
+	return infectedSeats * INFECTION_COEFFICIENT / countries[-1]
 
-	# TODO alter per-country resistances to reflect new resource allocation based on action. diminishing returns?
+def sampleNextStateReward(state, action, countries, neighbors):
+
+	# TODO alter per-country resistances to reflect new resource allocation based on action.
+	# diminishing returns?
 	# use y = x / (1+x) along w action
 
 
@@ -51,13 +86,15 @@ def sampleNextStateReward(state, action):
 
 	for index in range(NUM_COUNTRIES):
 		if newState[index] == 0:
-			p = 0.5           # TODO dummy value. need info about neighbors - lookup dict?
+			p = getInfectionProb(index, state, countries, neighbors)    # p(infected from neighbors)
 			if random.uniform(0,1) < p:
 				newState = newState[:index] + [1] + newState[index + 1:]
 		elif newState[index] == 1:
 			q = newState[index + NUM_COUNTRIES]  # get resistance score = prob(cure) = q
 												 # TODO make this more sophisticated?
+			print 'print q:', q
 			if random.uniform(0,1) < q:
+				print 'cured'
 				newState = newState[:index] + [0] + newState[index + 1:]
 		else:
 			print 'INFECTION FLAG NON-BINARY VALUE ERROR FOR COUNTRY AT INDEX', index
@@ -77,8 +114,8 @@ def getReward(state):
 		if state[i] == 0: num_zeros += 1
 	return num_zeros + leftover
 
-state = [0,1,0,1,0,0,0,0,3]
+state = [0,1,0,1,0.1,0.3,0.3,0.7,3]
 print getActions(state)
 print(getReward(state))
-print sampleNextStateReward(state, [0,0,0,0])
+print sampleNextStateReward(state, [0,0,0,0], countries, neighbors)
 
