@@ -59,6 +59,7 @@ def getStates(state, action):
 				nextProbs[tuple(newState)] += (1 - p) # add likelihood of not flipping
 			elif newState[index] == 1:
 				q = newState[index + NUM_COUNTRIES]  # get resistance score = prob(cure) = q
+													 # TODO make this more sophisticated?
 				newStateFlip = newState[:index] + [0] + newState[index + 1:]
 				nextStates[tuple(newStateFlip)] = newStateFlip
 				nextProbs[tuple(newStateFlip)] = q
@@ -66,7 +67,7 @@ def getStates(state, action):
 			else:
 				print 'INFECTION FLAG NON-BINARY VALUE ERROR FOR COUNTRY AT INDEX', index
 
-	# all probabilities of states should sum to 1
+	# all probabilities of states should sum to 1, plus need to zip dicts together
 	probSum = 0.0
 	for key, prob in nextProbs.items():
 		probSum += prob
