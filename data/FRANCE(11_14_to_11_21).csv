@@ -1,0 +1,264 @@
+Origin,Origin Name,Origin City,Origin State,Origin Country,Destination,Destination Name,Destination City,Destination State,Destination Country,Direct Flights,Total Seats
+countryName:France,,Brest,,,BCN,Barcelona,Barcelona,,Spain,218,43360
+countryName:France,,"Ajaccio, Corsica",,,AMS,Schiphol,Amsterdam,,Netherlands,251,38510
+countryName:France,,Biarritz,,,MAD,Adolfo Suarez-Barajas,Madrid,,Spain,252,36600
+countryName:France,,Paris-De Gaulle,,,LHR,Heathrow,London-Heathrow,EN,United Kingdom,187,31629
+countryName:France,,Paris-De Gaulle,,,FCO,Fiumicino,Rome-Da Vinci,,Italy,162,31432
+countryName:France,,Bordeaux,,,LIS,Lisboa,Lisbon,,Portugal,159,27088
+countryName:France,,Bordeaux,,,ALG,Houari Boumediene,Algiers,,Algeria,163,25491
+countryName:France,,Bordeaux,,,MUC,Franz Josef Strauss International,Munich,,Germany,178,24310
+countryName:France,,"Bastia, Corsica",,,LGW,Gatwick,London-Gatwick,EN,United Kingdom,145,24131
+countryName:France,,Paris-De Gaulle,,,DXB,Dubai International,Dubai,,United Arab Emirates,45,21032
+countryName:France,,"Ajaccio, Corsica",,,STN,Stansted,London-Stansted,EN,United Kingdom,111,20733
+countryName:France,,Paris-De Gaulle,,,JFK,John F Kennedy Intl,New York-JFK,NY,United States,49,19250
+countryName:France,,Bordeaux,,,OPO,Porto,Porto,,Portugal,90,17280
+countryName:France,,Biarritz,,,DUB,Dublin International,Dublin,,Ireland,103,16521
+countryName:France,,Bordeaux,,,VCE,Marco Polo,Venice,,Italy,107,16360
+countryName:France,,Paris-De Gaulle,,,IST,Ataturk,Istanbul,,Turkey,71,15954
+countryName:France,,"Bastia, Corsica",,,TXL,Tegel,Berlin-Tegel,,Germany,68,15132
+countryName:France,,Bordeaux,,,CMN,Mohammed V,Casablanca,,Morocco,108,14823
+countryName:France,,"Bastia, Corsica",,,VIE,Vienna International,Vienna,,Austria,94,14768
+countryName:France,,Paris-De Gaulle,,,SVO,Sheremetyevo,Moscow-Sheremetyevo,CF,Russian Federation,90,13955
+countryName:France,,Bordeaux,,,TLV,Ben Gurion Intl,Tel Aviv-Yafo,,Israel,66,13141
+countryName:France,,"Bastia, Corsica",,,DUS,Duesseldorf International,Duesseldorf,,Germany,94,12429
+countryName:France,,Brest,,,AGP,Malaga Airport,Malaga,,Spain,71,12337
+countryName:France,,Paris-De Gaulle,,,CPH,Kastrup,Copenhagen,,Denmark,68,11993
+countryName:France,,Paris-De Gaulle,,,YUL,Pierre E. Trudeau Intl,Montreal-PET,QC,Canada,25,11621
+countryName:France,,Bordeaux,,,RAK,Menara,Marrakech,,Morocco,65,11446
+countryName:France,,Bordeaux,,,LTN,Luton International,London-Luton,EN,United Kingdom,68,11265
+countryName:France,,Paris-De Gaulle,,,PVG,Pudong International,Shanghai,,China,34,10912
+countryName:France,,Bordeaux,,,PRG,Ruzyne,Prague,,Czech Republic,64,10616
+countryName:France,,Bordeaux,,,ATH,Eleftherios Venizelos Airport,Athens,,Greece,58,10214
+countryName:France,,Beziers,,,MAN,Manchester Airport,Manchester,EN,United Kingdom,82,10210
+countryName:France,,Bordeaux,,,WAW,Okecie,Warsaw,,Poland,64,10190
+countryName:France,,Paris-De Gaulle,,,ATL,Hartsfield-Jackson ATL,Atlanta,GA,United States,25,9976
+countryName:France,,Paris-De Gaulle,,,DOH,Hamad International Airport,Doha,,Qatar,22,9720
+countryName:France,,Bordeaux,,,OTP,Otopeni International,Bucharest,,Romania,60,9580
+countryName:France,,"Bastia, Corsica",,,HAM,Hamburg,Hamburg,,Germany,56,9029
+countryName:France,,Paris-De Gaulle,,,HND,Tokyo Intl (Haneda),Tokyo-Haneda,,Japan,29,9018
+countryName:France,,Paris-De Gaulle,,,LAX,Los Angeles Intl,Los Angeles,CA,United States,15,8529
+countryName:France,,Paris-De Gaulle,,,GRU,Guarulhos Intl,Sao Paulo-Guarulhos,SP,Brazil,20,7865
+countryName:France,,Bordeaux,,,EDI,Turnhouse,Edinburgh,SC,United Kingdom,56,7858
+countryName:France,,Bordeaux,,,BUD,Liszt Ferenc International,Budapest,,Hungary,42,7752
+countryName:France,,Paris-De Gaulle,,,ARN,Arlanda,Stockholm-Arlanda,,Sweden,39,7605
+countryName:France,,Brest,,,PMI,Palma De Mallorca,Palma de Mallorca,,Spain,44,7557
+countryName:France,,Paris-De Gaulle,,,ICN,Incheon International Airport,Seoul,,South Korea,16,7415
+countryName:France,,Bordeaux,,,BHX,Birmingham Airport,Birmingham,EN,United Kingdom,68,7360
+countryName:France,,Paris-De Gaulle,,,PEK,Capital International,Beijing,,China,20,7309
+countryName:France,,Paris-De Gaulle,,,TUN,Carthage,Tunis,,Tunisia,41,7248
+countryName:France,,Paris-De Gaulle,,,BKK,Suvarnabhumi - New Bangkok International Airport,Bangkok,,Thailand,9,6944
+countryName:France,,Bordeaux,,,ORN,Ahmed Ben Bella,Oran,,Algeria,45,6913
+countryName:France,,Paris-De Gaulle,,,AUH,Abu Dhabi Intl,Abu Dhabi,,United Arab Emirates,9,6832
+countryName:France,,Paris-De Gaulle,,,BEY,Rafic Hariri International,Beirut,,Lebanon,17,6792
+countryName:France,,Paris-De Gaulle,,,HKG,Hong Kong Intl,Hong Kong,,Hong Kong,13,6600
+countryName:France,,Paris-De Gaulle,,,HEL,Helsinki-Vantaa,Helsinki,,Finland,36,6491
+countryName:France,,Paris-De Gaulle,,,OSL,Oslo Airport,Oslo,,Norway,24,6321
+countryName:France,,Bordeaux,,,BRS,Bristol/Lulsgate,Bristol,EN,United Kingdom,47,6292
+countryName:France,,Paris-De Gaulle,,,MEX,Benito Juarez Intl,Mexico City,,Mexico,9,6264
+countryName:France,,Bordeaux,,,FAO,Faro,Faro,,Portugal,35,6254
+countryName:France,,Bordeaux,,,SVQ,Sevilla Airport,Sevilla,,Spain,33,6238
+countryName:France,,Paris-De Gaulle,,,SIN,Changi,Singapore,,Singapore,12,5913
+countryName:France,,Bordeaux,,,BLQ,Guglielmo Marconi,Bologna,,Italy,39,5860
+countryName:France,,Paris-De Gaulle,,,MRU,Sir S. Ramgoolam International,Mauritius,,Mauritius,10,5795
+countryName:France,,Paris-De Gaulle,,,KEF,Keflavik Intl,Reykjavik,,Iceland,19,5608
+countryName:France,,Paris-De Gaulle,,,RUN,Roland Garros,St. Denis,,Reunion,9,5546
+countryName:France,,Paris-De Gaulle,,,FLR,Peretola,Florence,,Italy,33,5240
+countryName:France,,Paris-De Gaulle,,,MIA,Miami International,Miami,FL,United States,9,5228
+countryName:France,,Paris-De Gaulle,,,CAI,Cairo Intl,Cairo,,Egypt,14,5163
+countryName:France,,Paris-De Gaulle,,,DEL,Indira Gandhi Intl,Delhi,,India,9,4936
+countryName:France,,Paris-De Gaulle,,,BOM,Mumbai (Chhatrapati Shivaji) International,Mumbai/Bombay,,India,9,4832
+countryName:France,,Bordeaux,,,FEZ,Sais,Fez,,Morocco,26,4734
+countryName:France,,Paris-De Gaulle,,,YYZ,Lester B. Pearson Intl,Toronto,ON,Canada,9,4696
+countryName:France,,Paris-De Gaulle,,,HAV,Jose Marti Intl,Havana,,Cuba,7,4688
+countryName:France,,Paris-De Gaulle,,,IAD,Dulles International,Washington-Dulles,VA,United States,9,4640
+countryName:France,,Brest,,,HER,Nikos Kazantzakis Airport,Irakleion,,Greece,26,4617
+countryName:France,,Paris-De Gaulle,,,EWR,Newark Intl,Newark,NJ,United States,25,4446
+countryName:France,,Bordeaux,,,NAP,Capodichino,Naples,,Italy,22,4362
+countryName:France,,Paris,,,VLC,Valencia Airport,Valencia,,Spain,24,4312
+countryName:France,,Paris-De Gaulle,,,CZL,Mohamed Boudiaf,Constantine,,Algeria,24,4308
+countryName:France,,Paris-De Gaulle,,,DTW,Metropolitan Wayne County,Detroit,MI,United States,12,4272
+countryName:France,,Paris-De Gaulle,,,SFO,San Francisco Intl,San Francisco,CA,United States,11,4252
+countryName:France,,Bordeaux,,,CTA,Fontanarossa,Catania,,Italy,22,4143
+countryName:France,,Paris-De Gaulle,,,JNB,O.R. Tambo International Airport,Johannesburg,,South Africa,1,4128
+countryName:France,,Paris-De Gaulle,,,ORD,O'Hare International,Chicago-O'Hare,IL,United States,16,3997
+countryName:France,,Paris-De Gaulle,,,BOS,Logan International,Boston,MA,United States,9,3992
+countryName:France,,Bordeaux,,,SXF,Schoenefeld,Berlin-Schoenefeld,,Germany,20,3972
+countryName:France,,Paris-De Gaulle,,,KBP,Boryspil International,Kiev,,Ukraine,24,3920
+countryName:France,,Paris,,,BEG,Nikola Tesla Airport,Belgrade,,Serbia,19,3896
+countryName:France,,Bordeaux,,,CIA,Ciampino,Rome-Ciampino,,Italy,20,3780
+countryName:France,,Paris-De Gaulle,,,TPE,Taiwan Taoyuan International Airport,Taipei,,Taiwan,4,3700
+countryName:France,,Paris-De Gaulle,,,ABJ,Felix Houphouet Boigny,Abidjan,,Ivory Coast (Cote d'Ivoire),4,3663
+countryName:France,,Paris,,,RBA,Sale,Rabat,,Morocco,23,3662
+countryName:France,,Bordeaux,,,MLA,Luqa International,Malta,,Malta,21,3619
+countryName:France,,Paris-De Gaulle,,,PTP,Le Raizet,Pointe A Pitre,,Guadeloupe,9,3480
+countryName:France,,Paris,,,KRK,John Paul Ii Balice In,Krakow,,Poland,18,3255
+countryName:France,,Paris-De Gaulle,,,LPL,John Lennon Airport,Liverpool,EN,United Kingdom,17,3171
+countryName:France,,Paris-De Gaulle,,,NUE,Nuremberg,Nuremberg,,Germany,24,3100
+countryName:France,,Bordeaux,,,BGY,Bergamo/Orio Al Serio,Milan-Orio Serio,,Italy,16,3024
+countryName:France,,Paris-De Gaulle,,,PUJ,Punta Cana International,Punta Cana,,Dominican Republic,6,2909
+countryName:France,,Paris-De Gaulle,,,HAJ,Hannover,Hannover,,Germany,24,2908
+countryName:France,,Paris-De Gaulle,,,GIG,Galeao-A.C.Jobim Intl,Rio De Janeiro,RJ,Brazil,1,2888
+countryName:France,,Paris-De Gaulle,,,NRT,Narita,Tokyo-Narita,,Japan,1,2888
+countryName:France,,Paris-De Gaulle,,,SCL,Arturo M Benitez,Santiago,,Chile,1,2888
+countryName:France,,Paris-De Gaulle,,,CAN,Baiyun International,Guangzhou,,China,5,2794
+countryName:France,,Bordeaux,,,ALC,Alicante Airport,Alicante,,Spain,16,2730
+countryName:France,,Paris-De Gaulle,,,LBV,Leon M'ba International,Libreville,,Gabon,4,2705
+countryName:France,,Lyon,,,QSF,Setif,Setif,,Algeria,14,2636
+countryName:France,,Paris-De Gaulle,,,SEA,Seattle-Tacoma Intl,Seattle,WA,United States,5,2568
+countryName:France,,Paris-De Gaulle,,,NCL,Newcastle International Airport,Newcastle,EN,United Kingdom,20,2564
+countryName:France,,Paris,,,SOF,Sofia-Vrazhdebna,Sofia,,Bulgaria,10,2546
+countryName:France,,Paris-De Gaulle,,,ADD,Bole International,Addis Ababa,,Ethiopia,1,2520
+countryName:France,,Paris-De Gaulle,,,NBO,Jomo Kenyatta Intl,Nairobi,,Kenya,4,2484
+countryName:France,,Paris-De Gaulle,,,HAN,Noi Bai International,Hanoi,,Vietnam,2,2440
+countryName:France,,Paris-De Gaulle,,,PTY,"Tocumen Intl, Panama R",Panama City,,Panama,1,2400
+countryName:France,,Paris-De Gaulle,,,EZE,Ministro Pistarini,Buenos Aires,BA,Argentina,3,2400
+countryName:France,,Paris-De Gaulle,,,BLR,Kempegowda International,Bengaluru,,India,1,2400
+countryName:France,,Paris,,,VNO,Vilnius International,Vilnius,,Lithuania,11,2389
+countryName:France,,Bordeaux,,,PMO,Punta Raisi,Palermo,,Italy,14,2370
+countryName:France,,Paris-De Gaulle,,,MSP,International,Minneapolis/St. Paul,MN,United States,1,2344
+countryName:France,,Paris-De Gaulle,,,AMM,Queen Alia Intl,Amman,,Jordan,9,2332
+countryName:France,,Paris-De Gaulle,,,FDF,Martinique A. Cesaire,Fort De France,,Martinique,6,2313
+countryName:France,,Paris-De Gaulle,,,SGN,Tan Son Nhat International Airport,Ho Chi Minh City,,Vietnam,4,2303
+countryName:France,,Paris-De Gaulle,,,TNR,Ivato International,Antananarivo,,Madagascar,8,2300
+countryName:France,,Paris-De Gaulle,,,BKO,Senou International,Bamako,,Mali,1,2256
+countryName:France,,Paris-De Gaulle,,,BOG,El Dorado Intl,Bogota,,Colombia,1,2256
+countryName:France,,Paris-De Gaulle,,,SXM,Prinses Juliana International,St. Maarten,,Sint Maarten,1,2200
+countryName:France,,Paris-De Gaulle,,,CUN,Cancun International,Cancun,,Mexico,2,2187
+countryName:France,,Bordeaux,,,SEN,Southend,London,EN,United Kingdom,17,2182
+countryName:France,,Paris-De Gaulle,,,MCT,Seeb International,Muscat,,Oman,1,2144
+countryName:France,,Paris,,,SKP,Skopje,Skopje,,Macedonia,9,2140
+countryName:France,,Bordeaux,,,TFS,Sur Reina Sofia,Tenerife-Reinasofia,,Spain,12,2121
+countryName:France,,Paris-De Gaulle,,,AAE,Rabah Bitat,Annaba,,Algeria,14,2114
+countryName:France,,Carcassonne,,,EMA,East Midlands,East Midlands,EN,United Kingdom,11,2079
+countryName:France,,Marseille,,,EIN,Eindhoven,Eindhoven,,Netherlands,11,2079
+countryName:France,,Paris-De Gaulle,,,PHL,Philadelphia Intl,Philadelphia,PA,United States,1,2032
+countryName:France,,Paris-De Gaulle,,,RIX,Riga-Arpt Internaitonal,Riga,,Latvia,8,2030
+countryName:France,,Carcassonne,,,GLA,Glasgow International,Glasgow,SC,United Kingdom,10,2004
+countryName:France,,Paris-De Gaulle,,,SOU,Southampton,Southampton,EN,United Kingdom,25,1950
+countryName:France,,Paris-De Gaulle,,,ZAG,Pleso,Zagreb,,Croatia,10,1928
+countryName:France,,Paris,,,CLJ,Napoca,Cluj-Napoca,,Romania,3,1870
+countryName:France,,Paris-De Gaulle,,,MIR,Skanes,Monastir,,Tunisia,9,1850
+countryName:France,,Paris-De Gaulle,,,DJE,Zarsis,Djerba,,Tunisia,8,1830
+countryName:France,,Paris-De Gaulle,,,ABZ,Dyce,Aberdeen,SC,United Kingdom,17,1824
+countryName:France,,Paris-De Gaulle,,,DLA,Douala International,Douala,,Cameroon,6,1800
+countryName:France,,Paris-De Gaulle,,,CVG,Cincinnati Northern Kentucky Airport,"Cincinnati, OH/Covington",KY,United States,1,1736
+countryName:France,,Paris-De Gaulle,,,IND,Indianapolis Intl,Indianapolis,IN,United States,1,1736
+countryName:France,,Paris-De Gaulle,,,SLC,Salt Lake City Intl,Salt Lake City,UT,United States,1,1736
+countryName:France,,Paris-De Gaulle,,,BLL,Billund,Billund,,Denmark,12,1711
+countryName:France,,Paris-De Gaulle,,,KIX,Kansai International,Osaka-Kansai,,Japan,1,1692
+countryName:France,,Paris-De Gaulle,,,LOS,Murtala Muhammed International,Lagos,,Nigeria,1,1664
+countryName:France,,Paris-De Gaulle,,,IAH,George Bush Intercontinental,Houston-Intercontinental,TX,United States,1,1664
+countryName:France,,Paris-De Gaulle,,,IKA,Imam Khomeini International,Tehran,,Iran,5,1600
+countryName:France,,Paris-De Gaulle,,,SEZ,Seychelles Intl,Seychelles,,Seychelles,4,1587
+countryName:France,,Paris-De Gaulle,,,GOT,Goteborg-Landvetter Airport,Goteborg,,Sweden,10,1552
+countryName:France,,Paris-De Gaulle,,,FUE,Fuerteventura,Fuerteventura,,Spain,8,1535
+countryName:France,,Bordeaux,,,PSA,Galileo Galilei,Pisa,,Italy,9,1517
+countryName:France,,Paris,,,BRI,Palese Macchie,Bari,,Italy,8,1512
+countryName:France,,Paris,,,TSF,Venice-Treviso,Venice-Treviso,,Italy,5,1512
+countryName:France,,Brest,,,AGA,Agadir-Al Massira Airport,Agadir,,Morocco,8,1496
+countryName:France,,Paris-De Gaulle,,,MAA,Chennai International Airport,Chennai,,India,1,1465
+countryName:France,,Paris-De Gaulle,,,PNR,Pointe Noire,Pointe Noire,,Congo,1,1456
+countryName:France,,Paris-De Gaulle,,,LIM,Jorge Chavez Intl,Lima,,Peru,1,1444
+countryName:France,,Paris-De Gaulle,,,RDU,Raleigh-Durham,Raleigh/Durham,NC,United States,1,1400
+countryName:France,,Paris-De Gaulle,,,CPT,Cape Town Intl.,Cape Town,,South Africa,1,1375
+countryName:France,,Paris-De Gaulle,,,DFW,Dallas/Ft Worth Intl,Dallas/Fort Worth,TX,United States,1,1375
+countryName:France,,Paris-De Gaulle,,,NSI,Nsimalen Intl,Yaounde,,Cameroon,3,1322
+countryName:France,,Paris,,,IAS,Iasi,Iasi,,Romania,6,1302
+countryName:France,,Paris,,,TNG,Boukhalef,Tangier,,Morocco,7,1293
+countryName:France,,Paris-De Gaulle,,,LAD,4 De Fevereiro,Luanda,,Angola,2,1291
+countryName:France,,Paris-De Gaulle,,,TGD,Golubovci,Podgorica,,Montenegro,11,1276
+countryName:France,,Paris,,,KIV,Kishinev International,Kishinev,,Moldova,5,1274
+countryName:France,,Paris-De Gaulle,,,ABV,Nnamdi Azikiwe International Airport,Abuja,,Nigeria,1,1248
+countryName:France,,Paris-De Gaulle,,,CCS,Simon Bolivar International,Caracas,,Venezuela,1,1248
+countryName:France,,Paris-De Gaulle,,,NIM,Diori Hamani International Airport,Niamey,,Niger,1,1248
+countryName:France,,Paris-De Gaulle,,,LJU,Joze Pucnik,Ljubljana,,Slovenia,9,1228
+countryName:France,,Paris-De Gaulle,,,BFS,Belfast Intl,Belfast,NI,United Kingdom,3,1227
+countryName:France,,Paris-De Gaulle,,,BRE,Bremen,Bremen,,Germany,9,1216
+countryName:France,,Paris-De Gaulle,,,YVR,Vancouver Intl,Vancouver,BC,Canada,1,1200
+countryName:France,,Paris,,,NYO,Stockholm Skavsta,Nykoping,,Sweden,6,1134
+countryName:France,,Paris,,,OUD,Les Angades,Oujda,,Morocco,6,1134
+countryName:France,,Paris,,,WMI,Modlin,Nowy Dwor Mazowiecki,,Poland,5,1134
+countryName:France,,Paris,,,ZAD,Zadar,Zadar,,Croatia,6,1134
+countryName:France,,Lyon,,,BJA,Soummam-Abane Ramdane,Bejaia,,Algeria,6,1128
+countryName:France,,Paris-De Gaulle,,,LED,Pulkovo,St. Petersburg,NF,Russian Federation,1,1120
+countryName:France,,Paris-De Gaulle,,,CWL,Cardiff-Wales,Cardiff,WL,United Kingdom,11,1088
+countryName:France,,Paris,,,CAG,Elmas,Cagliari,,Italy,6,1084
+countryName:France,,Paris-De Gaulle,,,SJO,Juan Santamaria Intl,San Jose,,Costa Rica,1,1083
+countryName:France,,Paris-De Gaulle,,,DZA,Pamandzi International,Dzaoudzi,,Mayotte,2,1048
+countryName:France,,Paris-De Gaulle,,,ORK,Cork International,Cork,,Ireland,1,1044
+countryName:France,,Paris-De Gaulle,,,OUA,Ouagadougou,Ouagadougou,,Burkina Faso,1,1040
+countryName:France,,Paris-De Gaulle,,,COO,Cadjehoun,Cotonou,,Benin,1,1040
+countryName:France,,Paris-De Gaulle,,,NKC,Nouakchott,Nouakchott,,Mauritania,1,1040
+countryName:France,,Paris-De Gaulle,,,BZV,Maya Maya,Brazzaville,,Congo,1,1040
+countryName:France,,Paris-De Gaulle,,,BAH,Bahrain Intl,Bahrain,,Bahrain,1,984
+countryName:France,,Paris-De Gaulle,,,LBA,Leeds/Bradford Airport,Leeds/Bradford,EN,United Kingdom,6,970
+countryName:France,,Paris-De Gaulle,,,SAW,Sabiha Gokcen,Sabiha Gokcen,,Turkey,1,942
+countryName:France,,Paris,,,NDR,Nador,Nador,,Morocco,5,930
+countryName:France,,Paris-De Gaulle,,,CTU,Shuangliu International,Chengdu,,China,1,918
+countryName:France,,Paris-De Gaulle,,,MLE,Ibrahim Nasir International,Male,,Maldives,1,900
+countryName:France,,Paris-De Gaulle,,,SCQ,Santiago de Compostela,Santiago de Compostela,,Spain,1,895
+countryName:France,,Paris,,,SBZ,Sibiu,Sibiu,,Romania,1,856
+countryName:France,,Paris-De Gaulle,,,RHO,Diagoras,Rhodes,,Greece,5,856
+countryName:France,,Mulhouse/Basel,,,OHD,Ohrid,Ohrid,,Macedonia,1,856
+countryName:France,,Mulhouse/Basel,,,TZL,Tuzla International Airport,Tuzla,,Bosnia and Herzegovina,3,856
+countryName:France,,Paris-De Gaulle,,,KWI,Kuwait Intl,Kuwait,,Kuwait,1,848
+countryName:France,,Bordeaux,,,JTR,Santorini,Santorini,,Greece,5,822
+countryName:France,,Bergerac,,,RTM,Rotterdam Airport,Rotterdam,,Netherlands,5,785
+countryName:France,,Paris-De Gaulle,,,EVN,Zvartnots International Airport,Yerevan,,Armenia,3,782
+countryName:France,,Paris-De Gaulle,,,XIY,Xianyang International,Xi'an,,China,1,780
+countryName:France,,Paris-De Gaulle,,,CFK,AbouBakr Belkaid,Chlef,,Algeria,4,756
+countryName:France,,Lyon,,,TLM,Zenata,Tlemcen,,Algeria,4,741
+countryName:France,,Paris-De Gaulle,,,KMG,Changshui International,Kunming,,China,1,726
+countryName:France,,Paris-De Gaulle,,,OVD,Asturias,Asturias,,Spain,1,716
+countryName:France,,Paris,,,GDN,Gdansk Lech Walesa,Gdansk,,Poland,1,666
+countryName:France,,Paris-De Gaulle,,,TSE,Astana International,Astana,,Kazakhstan,1,664
+countryName:France,,Paris,,,TSR,Timisoara,Timisoara,,Romania,1,642
+countryName:France,,Paris,,,CRA,Craioya,Craiova,,Romania,1,642
+countryName:France,,Paris,,,POZ,Lawica,Poznan,,Poland,1,642
+countryName:France,,Paris,,,KUT,Kutaisi,Kutaisi,,Georgia,1,642
+countryName:France,,Mulhouse/Basel,,,INI,Nis Constantine the Great Airport,Nis,,Serbia,1,642
+countryName:France,,Paris-De Gaulle,,,FIH,N'Djili International,Kinshasa,,Democratic Republic of the Congo,1,624
+countryName:France,,Paris-De Gaulle,,,NDJ,Ndjamena,N'Djamena,,Chad,1,624
+countryName:France,,Paris-De Gaulle,,,ACC,Kotoka International,Accra,,Ghana,1,624
+countryName:France,,Paris-De Gaulle,,,RUH,King Khalid Intl,Riyadh,,Saudi Arabia,1,624
+countryName:France,,Paris-De Gaulle,,,WUH,Tianhe International,Wuhan,,China,1,624
+countryName:France,,Paris-De Gaulle,,,FNA,Lungi International,Freetown,,Sierra Leone,1,624
+countryName:France,,Paris-De Gaulle,,,BGF,Mpoko Intl,Bangui,,Central African Republic,1,600
+countryName:France,,Paris-De Gaulle,,,SID,Amilcar Cabral Intl,Sal Island,,Cape Verde,3,581
+countryName:France,,Paris-De Gaulle,,,TLL,Lennart Meri,Tallinn,,Estonia,1,572
+countryName:France,,Paris,,,BDS,Papola Casale,Brindisi,,Italy,1,567
+countryName:France,,Paris,,,WRO,Strachowice,Wroclaw,,Poland,3,567
+countryName:France,,Paris,,,SKG,Makedonia,Thessaloniki,,Greece,3,567
+countryName:France,,Paris-De Gaulle,,,FOR,Pinto Martins International,Fortaleza,CE,Brazil,1,550
+countryName:France,,Paris-De Gaulle,,,ACE,Lanzarote,Lanzarote,,Spain,3,513
+countryName:France,,Lyon,,,LPA,Gran Canaria,Gran Canaria,,Spain,3,501
+countryName:France,,Paris-De Gaulle,,,SZG,Salzburg,Salzburg,,Austria,3,450
+countryName:France,,Bordeaux,,,DBV,Dubrovnik,Dubrovnik,,Croatia,3,429
+countryName:France,,Paris,,,DEB,Debrecen,Debrecen,,Hungary,1,428
+countryName:France,,Paris-De Gaulle,,,LFW,G. Eyadema International,Lome,,Togo,1,416
+countryName:France,,Bordeaux,,,SPU,Sinj,Split,,Croatia,3,411
+countryName:France,,Paris,,,BTS,M.R. Stefanik,Bratislava,,Slovakia,1,378
+countryName:France,,Beziers,,,NRN,Nordrhein-Westfale,Nordrhein-Westfale,,Germany,2,378
+countryName:France,,Paris-De Gaulle,,,ADB,Adnan Menderes,Izmir-Adnan Mend,,Turkey,1,378
+countryName:France,,Marseille,,,IBZ,Ibiza,Ibiza,,Spain,2,378
+countryName:France,,Paris-De Gaulle,,,TAS,Tashkent-Vostochny International,Tashkent,,Uzbekistan,2,374
+countryName:France,,Paris-De Gaulle,,,GRX,Granada,Granada,,Spain,1,358
+countryName:France,,Paris-De Gaulle,,,ISB,Benazir Bhutto Intl,Islamabad,,Pakistan,1,357
+countryName:France,,Paris-De Gaulle,,,LHE,Allama Iqbal Intl,Lahore,,Pakistan,1,357
+countryName:France,,Paris-De Gaulle,,,SVX,Koltsovo Airport,Yekaterinburg,UF,Russian Federation,2,336
+countryName:France,,Paris-De Gaulle,,,JED,King Abdulaziz Intl,Jeddah,,Saudi Arabia,1,330
+countryName:France,,Paris-De Gaulle,,,ESB,Esenboga,Ankara,,Turkey,1,316
+countryName:France,,Lyon,,,BLJ,Mostepha Ben Boulaid,Batna,,Algeria,2,302
+countryName:France,,Paris-De Gaulle,,,LCA,Larnaca,Larnaca,,Cyprus,1,290
+countryName:France,,Bordeaux,,,OLB,Costa Smeralda,Olbia,,Italy,2,286
+countryName:France,,Paris-De Gaulle,,,TIV,Tivat,Tivat,,Montenegro,2,232
+countryName:France,,Paris-De Gaulle,,,JIB,Ambouli International,Djibouti,,Djibouti,1,208
+countryName:France,,Paris-De Gaulle,,,VXE,San Pedro,Sao Vicente Island,,Cape Verde,1,198
+countryName:France,,Paris-De Gaulle,,,TBS,Novo Alexeyevka International,Tbilisi,,Georgia,1,194
+countryName:France,,Paris-De Gaulle,,,AYT,Antalya,Antalya,,Turkey,1,189
+countryName:France,,Paris-De Gaulle,,,DSA,Robin Hood,Doncaster/Sheffield,EN,United Kingdom,1,176
+countryName:France,,Paris-De Gaulle,,,ELU,Guemar,El Oued,,Algeria,1,151
+countryName:France,,Paris-De Gaulle,,,BSK,Mohamed Khider,Biskra,,Algeria,1,151
+countryName:France,,Paris-De Gaulle,,,ASB,Ashgabat International,Ashgabat,,Turkmenistan,1,144
+countryName:France,,Bordeaux,,,FNC,Madeira Airport,Madeira,,Portugal,1,143
+countryName:France,,Paris-De Gaulle,,,GYD,Heydar Aliyev,Baku,,Azerbaijan,1,122

@@ -1,0 +1,29 @@
+Origin,Origin Name,Origin City,Origin State,Origin Country,Destination,Destination Name,Destination City,Destination State,Destination Country,Direct Flights,Total Seats
+countryName:Nigeria,,Abuja,,,ADD,Bole International,Addis Ababa,,Ethiopia,19,8117
+countryName:Nigeria,,Abuja,,,DXB,Dubai International,Dubai,,United Arab Emirates,22,7920
+countryName:Nigeria,,Abuja,,,LHR,Heathrow,London-Heathrow,EN,United Kingdom,17,6680
+countryName:Nigeria,,Abuja,,,ACC,Kotoka International,Accra,,Ghana,59,5398
+countryName:Nigeria,,Abuja,,,CAI,Cairo Intl,Cairo,,Egypt,15,3885
+countryName:Nigeria,,Abuja,,,IST,Ataturk,Istanbul,,Turkey,9,3464
+countryName:Nigeria,,Abuja,,,FRA,Frankfurt International Airport,Frankfurt,,Germany,9,3066
+countryName:Nigeria,,Abuja,,,CDG,Charles De Gaulle,Paris-De Gaulle,,France,9,2912
+countryName:Nigeria,,Lagos,,,AMS,Schiphol,Amsterdam,,Netherlands,1,2208
+countryName:Nigeria,,Lagos,,,DOH,Hamad International Airport,Doha,,Qatar,1,2080
+countryName:Nigeria,,Lagos,,,JNB,O.R. Tambo International Airport,Johannesburg,,South Africa,1,1992
+countryName:Nigeria,,Lagos,,,KGL,Kigali International Airport,Kigali,,Rwanda,6,1681
+countryName:Nigeria,,Lagos,,,AUH,Abu Dhabi Intl,Abu Dhabi,,United Arab Emirates,1,1572
+countryName:Nigeria,,Abuja,,,LFW,G. Eyadema International,Lome,,Togo,13,1474
+countryName:Nigeria,,Lagos,,,ATL,Hartsfield-Jackson ATL,Atlanta,GA,United States,1,1170
+countryName:Nigeria,,Abuja,,,ABJ,Felix Houphouet Boigny,Abidjan,,Ivory Coast (Cote d'Ivoire),9,972
+countryName:Nigeria,,Lagos,,,LGW,Gatwick,London-Gatwick,EN,United Kingdom,5,970
+countryName:Nigeria,,Lagos,,,NBO,Jomo Kenyatta Intl,Nairobi,,Kenya,3,960
+countryName:Nigeria,,Lagos,,,JFK,John F Kennedy Intl,New York-JFK,NY,United States,1,936
+countryName:Nigeria,,Lagos,,,CMN,Mohammed V,Casablanca,,Morocco,2,888
+countryName:Nigeria,,Lagos,,,DLA,Douala International,Douala,,Cameroon,5,670
+countryName:Nigeria,,Lagos,,,BEY,Rafic Hariri International,Beirut,,Lebanon,1,488
+countryName:Nigeria,,Lagos,,,WDH,Windhoek Intl,Windhoek,,Namibia,1,448
+countryName:Nigeria,,Lagos,,,FNA,Lungi International,Freetown,,Sierra Leone,2,292
+countryName:Nigeria,,Abuja,,,NDJ,Ndjamena,N'Djamena,,Chad,1,268
+countryName:Nigeria,,Abuja,,,NSI,Nsimalen Intl,Yaounde,,Cameroon,2,268
+countryName:Nigeria,,Lagos,,,LBV,Leon M'ba International,Libreville,,Gabon,1,134
+countryName:Nigeria,,Port Harcourt,,,SSG,Santa Isabel International,Malabo,,Equatorial Guinea,1,50

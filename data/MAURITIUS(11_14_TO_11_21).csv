@@ -1,0 +1,31 @@
+Origin,Origin Name,Origin City,Origin State,Origin Country,Destination,Destination Name,Destination City,Destination State,Destination Country,Direct Flights,Total Seats
+countryName:Mauritius,,Mauritius,,,RUN,Roland Garros,St. Denis,,Reunion,57,9163
+countryName:Mauritius,,Mauritius,,,DXB,Dubai International,Dubai,,United Arab Emirates,9,8272
+countryName:Mauritius,,Mauritius,,,CDG,Charles De Gaulle,Paris-De Gaulle,,France,10,5795
+countryName:Mauritius,,Mauritius,,,JNB,O.R. Tambo International Airport,Johannesburg,,South Africa,20,4558
+countryName:Mauritius,,Mauritius,,,FRA,Frankfurt International Airport,Frankfurt,,Germany,7,2274
+countryName:Mauritius,,Mauritius,,,TNR,Ivato International,Antananarivo,,Madagascar,10,2161
+countryName:Mauritius,,Mauritius,,,LGW,Gatwick,London-Gatwick,EN,United Kingdom,4,2044
+countryName:Mauritius,,Mauritius,,,ORY,Orly,Paris-Orly,,France,3,1599
+countryName:Mauritius,,Mauritius,,,ZSE,Pierrefonds,Saint-Pierre,,Reunion,18,1504
+countryName:Mauritius,,Mauritius,,,LHR,Heathrow,London-Heathrow,EN,United Kingdom,4,1495
+countryName:Mauritius,,Mauritius,,,IST,Ataturk,Istanbul,,Turkey,1,1488
+countryName:Mauritius,,Mauritius,,,AMS,Schiphol,Amsterdam,,Netherlands,4,1480
+countryName:Mauritius,,Mauritius,,,SIN,Changi,Singapore,,Singapore,1,1375
+countryName:Mauritius,,Mauritius,,,BOM,Mumbai (Chhatrapati Shivaji) International,Mumbai/Bombay,,India,3,1148
+countryName:Mauritius,,Mauritius,,,SEZ,Seychelles Intl,Seychelles,,Seychelles,3,916
+countryName:Mauritius,,Mauritius,,,CPT,Cape Town Intl.,Cape Town,,South Africa,1,897
+countryName:Mauritius,,Mauritius,,,PVG,Pudong International,Shanghai,,China,2,897
+countryName:Mauritius,,Mauritius,,,DEL,Indira Gandhi Intl,Delhi,,India,2,849
+countryName:Mauritius,,Mauritius,,,PER,Perth International,Perth,WA,Australia,1,825
+countryName:Mauritius,,Mauritius,,,VIE,Vienna International,Vienna,,Austria,1,620
+countryName:Mauritius,,Mauritius,,,MUC,Franz Josef Strauss International,Munich,,Germany,1,620
+countryName:Mauritius,,Mauritius,,,BLR,Kempegowda International,Bengaluru,,India,1,598
+countryName:Mauritius,,Mauritius,,,HKG,Hong Kong Intl,Hong Kong,,Hong Kong,1,550
+countryName:Mauritius,,Mauritius,,,DUR,King Shaka Intl,Durban,,South Africa,1,496
+countryName:Mauritius,,Mauritius,,,MAN,Manchester Airport,Manchester,EN,United Kingdom,1,317
+countryName:Mauritius,,Mauritius,,,CGN,Konrad Adenauer,Cologne-Bonn,,Germany,1,310
+countryName:Mauritius,,Mauritius,,,CTU,Shuangliu International,Chengdu,,China,1,299
+countryName:Mauritius,,Mauritius,,,CAN,Baiyun International,Guangzhou,,China,1,275
+countryName:Mauritius,,Mauritius,,,NBO,Jomo Kenyatta Intl,Nairobi,,Kenya,1,248
+countryName:Mauritius,,Mauritius,,,DAR,Julius Nyerere International,Dar Es Salaam,,Tanzania,1,124
