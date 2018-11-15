@@ -1,0 +1,50 @@
+Origin,Origin Name,Origin City,Origin State,Origin Country,Destination,Destination Name,Destination City,Destination State,Destination Country,Direct Flights,Total Seats
+countryName:South Africa,,Cape Town,,,DXB,Dubai International,Dubai,,United Arab Emirates,57,24464
+countryName:South Africa,,Cape Town,,,LHR,Heathrow,London-Heathrow,EN,United Kingdom,49,18064
+countryName:South Africa,,Cape Town,,,ADD,Bole International,Addis Ababa,,Ethiopia,25,8776
+countryName:South Africa,,Cape Town,,,WDH,Windhoek Intl,Windhoek,,Namibia,80,8680
+countryName:South Africa,,Cape Town,,,DOH,Hamad International Airport,Doha,,Qatar,17,7808
+countryName:South Africa,,Cape Town,,,FRA,Frankfurt International Airport,Frankfurt,,Germany,19,7439
+countryName:South Africa,,Johannesburg,,,NBO,Jomo Kenyatta Intl,Nairobi,,Kenya,29,6356
+countryName:South Africa,,Cape Town,,,AMS,Schiphol,Amsterdam,,Netherlands,9,5952
+countryName:South Africa,,Cape Town,,,MRU,Sir S. Ramgoolam International,Mauritius,,Mauritius,25,5951
+countryName:South Africa,,Cape Town,,,CDG,Charles De Gaulle,Paris-De Gaulle,,France,9,5778
+countryName:South Africa,,Durban,,,MPM,Maputo International,Maputo,,Mozambique,46,4851
+countryName:South Africa,,Cape Town,,,IST,Ataturk,Istanbul,,Turkey,9,4768
+countryName:South Africa,,Johannesburg,,,HKG,Hong Kong Intl,Hong Kong,,Hong Kong,9,4616
+countryName:South Africa,,Cape Town,,,LAD,4 De Fevereiro,Luanda,,Angola,14,4347
+countryName:South Africa,,Cape Town,,,MUC,Franz Josef Strauss International,Munich,,Germany,10,4174
+countryName:South Africa,,Johannesburg,,,GRU,Guarulhos Intl,Sao Paulo-Guarulhos,SP,Brazil,9,3372
+countryName:South Africa,,Johannesburg,,,JFK,John F Kennedy Intl,New York-JFK,NY,United States,1,2536
+countryName:South Africa,,Johannesburg,,,ATL,Hartsfield-Jackson ATL,Atlanta,GA,United States,1,2328
+countryName:South Africa,,Johannesburg,,,DAR,Julius Nyerere International,Dar Es Salaam,,Tanzania,9,2192
+countryName:South Africa,,Johannesburg,,,ACC,Kotoka International,Accra,,Ghana,8,2160
+countryName:South Africa,,Johannesburg,,,SYD,Kingsford Smith,Sydney,NS,Australia,1,2154
+countryName:South Africa,,Johannesburg,,,AUH,Abu Dhabi Intl,Abu Dhabi,,United Arab Emirates,1,2096
+countryName:South Africa,,Johannesburg,,,SIN,Changi,Singapore,,Singapore,4,2024
+countryName:South Africa,,Johannesburg,,,PER,Perth International,Perth,WA,Australia,1,2024
+countryName:South Africa,,Johannesburg,,,LOS,Murtala Muhammed International,Lagos,,Nigeria,1,1992
+countryName:South Africa,,Johannesburg,,,ZRH,Zurich,Zurich,,Switzerland,1,1752
+countryName:South Africa,,Cape Town,,,WVB,Walvis Bay Airport,Walvis Bay,,Namibia,25,1552
+countryName:South Africa,,Johannesburg,,,CAI,Cairo Intl,Cairo,,Egypt,1,1505
+countryName:South Africa,,Johannesburg,,,BLZ,Chileka Intl,Blantyre,,Malawi,5,1424
+countryName:South Africa,,Johannesburg,,,TLV,Ben Gurion Intl,Tel Aviv-Yafo,,Israel,6,1302
+countryName:South Africa,,Johannesburg,,,LLW,Kamuzu Intl,Lilongwe,,Malawi,2,1156
+countryName:South Africa,,Johannesburg,,,PEK,Capital International,Beijing,,China,1,1136
+countryName:South Africa,,Johannesburg,,,FCO,Fiumicino,Rome-Da Vinci,,Italy,1,1032
+countryName:South Africa,,Johannesburg,,,EBB,Entebbe International,Entebbe/Kampala,,Uganda,5,1008
+countryName:South Africa,,Cape Town,,,VIE,Vienna International,Vienna,,Austria,1,930
+countryName:South Africa,,Johannesburg,,,MAD,Adolfo Suarez-Barajas,Madrid,,Spain,1,864
+countryName:South Africa,,Johannesburg,,,SEZ,Seychelles Intl,Seychelles,,Seychelles,1,816
+countryName:South Africa,,Johannesburg,,,TNR,Ivato International,Antananarivo,,Madagascar,1,808
+countryName:South Africa,,Cape Town,,,LGW,Gatwick,London-Gatwick,EN,United Kingdom,1,792
+countryName:South Africa,,Johannesburg,,,FIH,N'Djili International,Kinshasa,,Democratic Republic of the Congo,4,740
+countryName:South Africa,,Johannesburg,,,VNX,Vilankulos,Vilankulos,,Mozambique,9,592
+countryName:South Africa,,Johannesburg,,,JED,King Abdulaziz Intl,Jeddah,,Saudi Arabia,1,522
+countryName:South Africa,,Johannesburg,,,ZNZ,Zanzibar International,Zanzibar,,Tanzania,2,513
+countryName:South Africa,,Johannesburg,,,BEW,Beira,Beira,,Mozambique,5,500
+countryName:South Africa,,Johannesburg,,,TET,Chingozi,Tete,,Mozambique,10,426
+countryName:South Africa,,Johannesburg,,,RUN,Roland Garros,St. Denis,,Reunion,1,324
+countryName:South Africa,,Johannesburg,,,APL,Nampula,Nampula,,Mozambique,1,296
+countryName:South Africa,,Johannesburg,,,POL,Pemba,Pemba,,Mozambique,1,222
+countryName:South Africa,,Johannesburg,,,NOS,Fascene,Nosy-Be,,Madagascar,1,37
