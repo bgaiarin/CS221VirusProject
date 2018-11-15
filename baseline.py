@@ -5,11 +5,13 @@ import numpy as np
 responses_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv'
 transitions_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
 NUM_COUNTRIES = 4
+
 INDEX_RESOURCE = NUM_COUNTRIES*2
 LEFTOVER_RESOURCES_WEIGHT = 0.6
 INFECTION_COEFFICIENT = 3.0
 PREVENTION_COST = 0.8
 INFECTION_COST = 0.6 # 0 < x < 1, should be <= PREVENTION_COST
+MAX_RESPONSE_SCORE = 0.99
 
 def loadFlights(flightdata):
 	countries = []
@@ -35,9 +37,6 @@ print neighbors, totalSeats, countries
 def getCountryFromIndex(index, countries):
 	return countries[index]
 
-# def normalizeResponseIndicators(num):
-# 	return (num/(1+num))
-
 # If NUM_COUNTRIES = 4, creates an array of indices: [0, 1, 2, 3]
 def getIndexArray(): 
 	arr = []
@@ -56,6 +55,7 @@ def iterateGetActions(index_array, resources):
 		arr.append(actions)
 	return arr
 
+# Given a  state, returns all possible actions (resource allocations). 
 def getActions(state):
 	num_resources = state[INDEX_RESOURCE]
 	all_actions = []
@@ -65,6 +65,26 @@ def getActions(state):
 		for action in actions: 
 			all_actions.append(action)
 	return all_actions
+
+# Takes a number and makes it fall between 1 and 0. 
+def squash(num):
+ 	return (num/(1.0+num))
+
+# Accepts a state and an action (ex: [0, 1, 0, 2, 0]), and updates response indicators for countries 
+# that have been granted additional resources by the action. Returns a state with the updated response indicators.
+# NOTE: There is some funky math here. The equation we use for updating is subject to be changed. 
+# NOTE: Why do we have "scalar += 1"? We add 1 to any resource allocation that's > 0 to ensure that 
+# 		newState[i] gets increased and not decremented. Again, we can choose not to do this if we change
+#		the update equation that we use. 
+def updateResistances(state, action): 
+	newState = state[:]
+	for i in range(NUM_COUNTRIES, INDEX_RESOURCE):
+		scalar = action[i-NUM_COUNTRIES]
+		if (scalar != 0):
+			scalar += 1					
+			update = newState[i]*scalar*(squash(scalar))					
+			newState[i] = ( update if update < 1.0 else MAX_RESPONSE_SCORE )	#Keep in range (0,1)
+	return newState
 
 # gets the probability a country is infected as a function of number of seats coming in from infected neighbors
 def getInfectionProb(index, state, countries, neighbors):
@@ -90,9 +110,9 @@ def sampleNextStateReward(state, action, countries, neighbors):
 			print 'INFECTION FLAG NON-BINARY VALUE ERROR FOR COUNTRY AT INDEX', index
 	print 'after updating scores:',newState
 
-
 	# TODO next, alter per-country resistances in newState to reflect new resource allocation based on action.
 	# use y = x / (1+x) along w action?
+	newState = updateResistances(newState, action)
 
 	for index in range(NUM_COUNTRIES):
 		if newState[index] == 0:
@@ -109,14 +129,10 @@ def sampleNextStateReward(state, action, countries, neighbors):
 	reward = getReward(newState)
 	return newState, reward
 
-# Takes a number and makes it fall between 1 and 0. 
-def normalize(num):
- 	return (num/(1.0+num))
-
 # Return reward for a given state, where reward = (# uninfected countries + weight*leftover_resources)
 def getReward(state): 
 	num_zeros = 0
-	leftover = normalize(state[INDEX_RESOURCE])*LEFTOVER_RESOURCES_WEIGHT
+	leftover = squash(state[INDEX_RESOURCE])*LEFTOVER_RESOURCES_WEIGHT
 	for i in range(0, NUM_COUNTRIES): 
 		if state[i] == 0: num_zeros += 1
 	return num_zeros + leftover
