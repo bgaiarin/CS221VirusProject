@@ -82,6 +82,7 @@ def squash(num):
 # 		newState[i] gets increased and not decremented. Again, we can choose not to do this if we change
 #		the update equation that we use. 
 def updateResistances(state, action): 
+	units_used = sum(action)
 	newState = state[:]
 	for i in range(NUM_COUNTRIES, INDEX_RESOURCE):
 		scalar = action[i-NUM_COUNTRIES]
@@ -89,6 +90,7 @@ def updateResistances(state, action):
 			scalar += 1					
 			update = newState[i]*scalar*(squash(scalar))					
 			newState[i] = ( update if update < 1.0 else MAX_RESPONSE_SCORE )	#Keep in range (0,1)
+	newState[INDEX_RESOURCE] -= units_used
 	return newState
 
 
