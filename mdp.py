@@ -34,7 +34,6 @@ def loadFlights(flightdata):
 	return countries, neighbors, totalSeats
 
 countries, neighbors, totalSeats = loadFlights(transitions_csv)
-print neighbors, totalSeats, countries
 
 
 # If NUM_COUNTRIES = 4, creates an array of indices: [0, 1, 2, 3]
@@ -89,7 +88,7 @@ def updateResistances(state, action):
 			scalar += 1					
 			update = newState[i]*scalar*(squash(scalar))					
 			newState[i] = ( update if update < 1.0 else MAX_RESPONSE_SCORE )	#Keep in range (0,1)
-	newState[INDEX_RESOURCE] -= units_used
+	newState[INDEX_RESOURCE] = newState[INDEX_RESOURCE]-units_used
 	return newState
 
 
@@ -101,42 +100,6 @@ def getInfectionProb(index, state, countries, neighbors):
 		if state[countries.index(neighbor[0])] == 1: # if neighbor is infected
 			infectedSeats += neighbor[1]
 	return infectedSeats * INFECTION_COEFFICIENT / countries[-1]
-
-
-# generates a next state and its reward probabilistically based on current state
-def sampleNextStateReward(state, action, countries, neighbors):
-	newState = state[:]
-
-	# Reduce the resistance scores of infected countries by a coefficient of INFECTION_COST
-	# and uninfected countries by a coefficient of PREVENTION_COST (resources spent in most recent time step).
-	for i in range(NUM_COUNTRIES):
-		if state[i] == 0:
-			newState[NUM_COUNTRIES + i] *= PREVENTION_COST
-		elif state[i] == 1:
-			newState[NUM_COUNTRIES + i] *= INFECTION_COST
-		else:
-			print 'INFECTION FLAG NON-BINARY VALUE ERROR FOR COUNTRY AT INDEX', index
-	print 'after updating scores:',newState
-
-	# Alter per-country resistances in newState to reflect new resource allocation based on action.
-	newState = updateResistances(newState, action)
-	print 'after updating resistances to handle actions:', newState
-
-	# Re-sample a listing of infected and uninfected binary values [0, 1, 0, 0, etc.].
-	for index in range(NUM_COUNTRIES):
-		if newState[index] == 0:
-			p = getInfectionProb(index, state, countries, neighbors)    # p(infected from neighbors)
-			if random.uniform(0,1) < p:
-				newState = newState[:index] + [1] + newState[index + 1:]
-		elif newState[index] == 1:
-			q = state[index + NUM_COUNTRIES]  # get resistance score = prob(cure) = q
-			if random.uniform(0,1) < q:
-				newState = newState[:index] + [0] + newState[index + 1:]
-		else:
-			print 'INFECTION FLAG NON-BINARY VALUE ERROR FOR COUNTRY AT INDEX', index
-
-	reward = getReward(newState)
-	return newState, reward
 
 
 # Checks to see if no country contains virus (we have all zeros [0, 0, 0, 0]). Return True/False and count of 1's.
@@ -151,7 +114,8 @@ def noVirus(state):
 
 # Checks to see if a state is a terminal state (is all [0, 0, 0, 0] or has depleted resources). 
 def isEnd(state):
-	if (state[INDEX_RESOURCE] == 0): return True 
+	# if (state[INDEX_RESOURCE] == 0): 
+	# 		return True 
 	return (noVirus(state)[0])
 
 
@@ -182,18 +146,53 @@ def getReward(state):
 			if state[i] == 0: num_zeros += 1
 		return num_zeros + leftover
 
+# generates a next state and its reward probabilistically based on current state
+def sampleNextStateReward(state, action):
+	newState = state[:]
+
+	# Reduce the resistance scores of infected countries by a coefficient of INFECTION_COST
+	# and uninfected countries by a coefficient of PREVENTION_COST (resources spent in most recent time step).
+	for i in range(NUM_COUNTRIES):
+		if state[i] == 0:
+			newState[NUM_COUNTRIES + i] *= PREVENTION_COST
+		elif state[i] == 1:
+			newState[NUM_COUNTRIES + i] *= INFECTION_COST
+		else:
+			print 'INFECTION FLAG NON-BINARY VALUE ERROR FOR COUNTRY AT INDEX', index
+	#print 'after updating scores:',newState
+
+	# Alter per-country resistances in newState to reflect new resource allocation based on action.
+	newState = updateResistances(newState, action)
+	#print 'after updating resistances to handle actions:', newState
+
+	# Re-sample a listing of infected and uninfected binary values [0, 1, 0, 0, etc.].
+	for index in range(NUM_COUNTRIES):
+		if newState[index] == 0:
+			p = getInfectionProb(index, state, countries, neighbors)    # p(infected from neighbors)
+			if random.uniform(0,1) < p:
+				newState = newState[:index] + [1] + newState[index + 1:]
+		elif newState[index] == 1:
+			q = state[index + NUM_COUNTRIES]  # get resistance score = prob(cure) = q
+			if random.uniform(0,1) < q:
+				newState = newState[:index] + [0] + newState[index + 1:]
+		else:
+			print 'INFECTION FLAG NON-BINARY VALUE ERROR FOR COUNTRY AT INDEX', index
+
+	reward = getReward(newState)
+	return newState, reward
+
 #####################################################################
 
 # FUN TESTING ZONE  :) 
 
-state = [0,1,0,1,0.1,0.3,0.3,0.7,3]
-print state
-print getActions(state)
-print(getReward(state))
-print sampleNextStateReward(state, [0,1,1,0], countries, neighbors)
-state2 = [0,0,0,0,0.1,0.3,0.3,0.7,5]
-print(getReward(state2))
-state3 = [0,0,0,0,0.1,0.3,0.3,0.7,0]
-print(getReward(state3))
+# state = [0,1,0,1,0.1,0.3,0.3,0.7,3]
+# print state
+# print getActions(state)
+# print(getReward(state))
+# print sampleNextStateReward(state, [0,1,1,0])
+# state2 = [0,0,0,0,0.1,0.3,0.3,0.7,5]
+# print(getReward(state2))
+# state3 = [0,0,0,0,0.1,0.3,0.3,0.7,0]
+# print(getReward(state3))
 
 
