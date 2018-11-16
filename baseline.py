@@ -113,6 +113,7 @@ def sampleNextStateReward(state, action, countries, neighbors):
 	# TODO next, alter per-country resistances in newState to reflect new resource allocation based on action.
 	# use y = x / (1+x) along w action?
 	newState = updateResistances(newState, action)
+	print 'after updating resistances to handle actions:', newState
 
 	for index in range(NUM_COUNTRIES):
 		if newState[index] == 0:
