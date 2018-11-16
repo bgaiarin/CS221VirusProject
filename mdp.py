@@ -7,7 +7,6 @@ transitions_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
 NUM_COUNTRIES = 4
 
 INDEX_RESOURCE = NUM_COUNTRIES*2
-LEFTOVER_RESOURCES_WEIGHT = 0.6
 INFECTION_COEFFICIENT = 3.0
 PREVENTION_COST = 0.8
 INFECTION_COST = 0.6 # 0 < x < 1, should be <= PREVENTION_COST
@@ -178,7 +177,7 @@ def getReward(state):
 	# NOT AN END STATE
 	else:
 		num_zeros = 0
-		leftover = squash(state[INDEX_RESOURCE])*LEFTOVER_RESOURCES_WEIGHT
+		leftover = squash(state[INDEX_RESOURCE])
 		for i in range(0, NUM_COUNTRIES): 
 			if state[i] == 0: num_zeros += 1
 		return num_zeros + leftover
