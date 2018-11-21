@@ -1,0 +1,220 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+stateName:Illinois,,Chicago,IL,,LGA,"La Guardia","New York-La Guardia",NY,"United States",373,49577
+stateName:Illinois,,Bloomington/Normal,IL,,ATL,"Hartsfield-Jackson ATL",Atlanta,GA,"United States",330,39729
+stateName:Illinois,,Bloomington/Normal,IL,,MSP,International,"Minneapolis/St. Paul",MN,"United States",304,36768
+stateName:Illinois,,Chicago,IL,,SFO,"San Francisco Intl","San Francisco",CA,"United States",195,36134
+stateName:Illinois,,Chicago,IL,,DEN,"Denver International",Denver,CO,"United States",200,34485
+stateName:Illinois,,Chicago,IL,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",214,33832
+stateName:Illinois,,Chicago,IL,,BOS,"Logan International",Boston,MA,"United States",200,30913
+stateName:Illinois,,Chicago,IL,,DCA,"Ronald Reagan National",Washington-National,DC,"United States",226,30018
+stateName:Illinois,,Bloomington/Normal,IL,,DFW,"Dallas/Ft Worth Intl","Dallas/Fort Worth",TX,"United States",218,29256
+stateName:Illinois,,Chicago,IL,,PHX,"Sky Harbor Intl",Phoenix,AZ,"United States",163,28345
+stateName:Illinois,,Chicago,IL,,LAS,"Mccarran Intl","Las Vegas",NV,"United States",148,25143
+stateName:Illinois,,Chicago,IL,,MCO,"Orlando Intl",Orlando,FL,"United States",157,24765
+stateName:Illinois,,Chicago,IL,,PHL,"Philadelphia Intl",Philadelphia,PA,"United States",151,23976
+stateName:Illinois,,Chicago,IL,,SEA,"Seattle-Tacoma Intl",Seattle,WA,"United States",147,23868
+stateName:Illinois,,Chicago,IL,,DTW,"Metropolitan Wayne County",Detroit,MI,"United States",233,23589
+stateName:Illinois,,Chicago,IL,,EWR,"Newark Intl",Newark,NJ,"United States",166,22341
+stateName:Illinois,,Chicago,IL,,CLT,"Charlotte-Douglas International Airport",Charlotte-Douglas,NC,"United States",141,19132
+stateName:Illinois,,Chicago,IL,,SAN,"San Diego International Airport","San Diego",CA,"United States",107,18110
+stateName:Illinois,,Chicago,IL,,BNA,"Nashville Metro",Nashville,TN,"United States",180,16978
+stateName:Illinois,,Chicago,IL,,CLE,"Hopkins Intl",Cleveland,OH,"United States",159,16789
+stateName:Illinois,,Chicago,IL,,MCI,"Kansas City Intl","Kansas City",MO,"United States",151,16501
+stateName:Illinois,,Chicago,IL,,CMH,"Port Columbus Intl",Columbus,OH,"United States",175,16373
+stateName:Illinois,,Chicago,IL,,FLL,"Ft Lauderdale Intl","Fort Lauderdale",FL,"United States",103,16161
+stateName:Illinois,,Chicago-O'Hare,IL,,MIA,"Miami International",Miami,FL,"United States",89,16025
+stateName:Illinois,,Chicago,IL,,PIT,"Pittsburgh Internation",Pittsburgh,PA,"United States",121,14575
+stateName:Illinois,,Chicago-O'Hare,IL,,YYZ,"Lester B. Pearson Intl",Toronto,ON,Canada,151,14350
+stateName:Illinois,,Chicago,IL,,BWI,"Baltimore/Wash Intl",Baltimore,MD,"United States",114,13988
+stateName:Illinois,,Chicago-O'Hare,IL,,IAH,"George Bush Intercontinental",Houston-Intercontinental,TX,"United States",98,13241
+stateName:Illinois,,Chicago,IL,,CVG,"Cincinnati Northern Kentucky Airport","Cincinnati, OH/Covington",KY,"United States",163,12877
+stateName:Illinois,,Chicago,IL,,OMA,"Eppley Airfield",Omaha,NE,"United States",126,12823
+stateName:Illinois,,Chicago-O'Hare,IL,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",51,12527
+stateName:Illinois,,Chicago,IL,,TPA,"Tampa International",Tampa,FL,"United States",82,12305
+stateName:Illinois,,Chicago,IL,,AUS,"Austin-Bergstrom International Airport",Austin,TX,"United States",84,12247
+stateName:Illinois,,Chicago,IL,,RSW,"Southwest Florida","Fort Myers",FL,"United States",70,11503
+stateName:Illinois,,Chicago,IL,,PDX,"Portland Intl",Portland,OR,"United States",70,11178
+stateName:Illinois,,Chicago,IL,,RDU,Raleigh-Durham,Raleigh/Durham,NC,"United States",95,11159
+stateName:Illinois,,Chicago,IL,,BDL,"Bradley Intl",Hartford,CT,"United States",93,10871
+stateName:Illinois,,Chicago,IL,,SLC,"Salt Lake City Intl","Salt Lake City",UT,"United States",101,10835
+stateName:Illinois,,Chicago,IL,,BUF,"Buffalo Niagara International",Buffalo,NY,"United States",105,10557
+stateName:Illinois,,Chicago,IL,,IND,"Indianapolis Intl",Indianapolis,IN,"United States",152,9968
+stateName:Illinois,,Chicago,IL,,GRR,"Gerald R. Ford International Airport","Grand Rapids",MI,"United States",124,9554
+stateName:Illinois,,Chicago,IL,,SDF,"Standiford Field",Louisville,KY,"United States",113,9203
+stateName:Illinois,,Chicago,IL,,CUN,"Cancun International",Cancun,,Mexico,48,8855
+stateName:Illinois,,Chicago-O'Hare,IL,,MEX,"Benito Juarez Intl","Mexico City",,Mexico,48,8499
+stateName:Illinois,,Chicago,IL,,MSY,"New Orleans Intl","New Orleans",LA,"United States",65,8346
+stateName:Illinois,,Chicago-O'Hare,IL,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",77,8277
+stateName:Illinois,,Chicago-O'Hare,IL,,NRT,Narita,Tokyo-Narita,,Japan,27,8122
+stateName:Illinois,,Chicago,IL,,DAL,"Love Field",Dallas-Love,TX,"United States",55,8067
+stateName:Illinois,,Chicago,IL,,HOU,"William P Hobby",Houston-Hobby,TX,"United States",49,7919
+stateName:Illinois,,Chicago-O'Hare,IL,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,20,7832
+stateName:Illinois,,Chicago-O'Hare,IL,,IAD,"Dulles International",Washington-Dulles,VA,"United States",47,7748
+stateName:Illinois,,Chicago,IL,,SJC,"San Jose Municipal","San Jose",CA,"United States",45,7539
+stateName:Illinois,,Chicago,IL,,SAT,"San Antonio Intl","San Antonio",TX,"United States",66,7104
+stateName:Illinois,,Chicago-O'Hare,IL,,MSN,"DCRA, Dane County Regional Airport",Madison,WI,"United States",89,6966
+stateName:Illinois,,Chicago,IL,,ORF,"Norfolk Intl",Norfolk,VA,"United States",63,6925
+stateName:Illinois,,Chicago-O'Hare,IL,,SNA,"John Wayne Airport","Orange County",CA,"United States",42,6831
+stateName:Illinois,,Chicago,IL,,ALB,"Albany International",Albany,NY,"United States",63,6659
+stateName:Illinois,,Chicago,IL,,CHS,"Charleston International/AFB",Charleston,SC,"United States",51,6487
+stateName:Illinois,,Chicago,IL,,SMF,"Sacramento International",Sacramento,CA,"United States",40,6281
+stateName:Illinois,,Chicago-O'Hare,IL,,DSM,"Des Moines Airport","Des Moines",IA,"United States",88,6057
+stateName:Illinois,,Chicago-O'Hare,IL,,MKE,"General Mitchell Intl",Milwaukee,WI,"United States",104,5802
+stateName:Illinois,,Chicago-O'Hare,IL,,PVG,"Pudong International",Shanghai,,China,16,5604
+stateName:Illinois,,Chicago-O'Hare,IL,,YVR,"Vancouver Intl",Vancouver,BC,Canada,34,5576
+stateName:Illinois,,Chicago-O'Hare,IL,,PEK,"Capital International",Beijing,,China,17,5540
+stateName:Illinois,,Chicago,IL,,MEM,"Memphis Intl",Memphis,TN,"United States",63,5492
+stateName:Illinois,,Chicago-O'Hare,IL,,DAY,"Dayton James M. Cox International",Dayton,OH,"United States",87,5362
+stateName:Illinois,,Chicago,IL,,PVD,"T Francis Green St",Providence,RI,"United States",55,5306
+stateName:Illinois,,Chicago-O'Hare,IL,,ROC,"Monroe County",Rochester,NY,"United States",63,5223
+stateName:Illinois,,Chicago,IL,,OAK,"Metro Oakland Intl",Oakland,CA,"United States",30,4963
+stateName:Illinois,,Chicago-O'Hare,IL,,YUL,"Pierre E. Trudeau Intl",Montreal-PET,QC,Canada,72,4895
+stateName:Illinois,,Chicago-O'Hare,IL,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",11,4888
+stateName:Illinois,,Chicago,IL,,OKC,"Will Rogers World","Oklahoma City",OK,"United States",64,4848
+stateName:Illinois,,Chicago,IL,,ABQ,"International Sunport",Albuquerque,NM,"United States",49,4837
+stateName:Illinois,,Chicago-O'Hare,IL,,MUC,"Franz Josef Strauss International",Munich,,Germany,9,4808
+stateName:Illinois,,Chicago,IL,,BHM,"Birmingham Municipal",Birmingham,AL,"United States",61,4795
+stateName:Illinois,,Chicago,IL,,JAX,"Jacksonville Intl",Jacksonville,FL,"United States",51,4754
+stateName:Illinois,,Chicago-O'Hare,IL,,CID,"The Eastern Iowa Airport","Cedar Rapids",IA,"United States",81,4714
+stateName:Illinois,,Chicago-O'Hare,IL,,SYR,"Clarence E Hancock",Syracuse,NY,"United States",72,4658
+stateName:Illinois,,Chicago-O'Hare,IL,,PBI,"Palm Beach Intl","West Palm Beach",FL,"United States",25,4656
+stateName:Illinois,,Chicago,IL,,MHT,"Manchester Boston Regional Airport",Manchester,NH,"United States",46,4052
+stateName:Illinois,,Chicago,IL,,PUJ,"Punta Cana International","Punta Cana",,"Dominican Republic",19,4023
+stateName:Illinois,,Chicago-O'Hare,IL,,ICN,"Incheon International Airport",Seoul,,"South Korea",9,3946
+stateName:Illinois,,Chicago-O'Hare,IL,,RIC,"Richard E Byrd Field International",Richmond,VA,"United States",53,3906
+stateName:Illinois,,Chicago,IL,,MBJ,"Sangster Intl","Montego Bay",,Jamaica,17,3814
+stateName:Illinois,,Chicago-O'Hare,IL,,GRB,"Austin-Straubel Intl","Green Bay",WI,"United States",65,3744
+stateName:Illinois,,Chicago,IL,,TUS,"Tucson International",Tucson,AZ,"United States",29,3742
+stateName:Illinois,,Chicago-O'Hare,IL,,PTY,"Tocumen Intl, Panama R","Panama City",,Panama,18,3717
+stateName:Illinois,,Chicago-O'Hare,IL,,KEF,"Keflavik Intl",Reykjavik,,Iceland,11,3716
+stateName:Illinois,,Chicago,IL,,SJU,"Luis Munoz Marin Int","San Juan",PR,"United States",24,3696
+stateName:Illinois,,Chicago-O'Hare,IL,,XNA,"Northwest Arkansas Regional Airport",Fayetteville/Springd.,AR,"United States",67,3636
+stateName:Illinois,,Chicago-O'Hare,IL,,MDT,"Olmsted State International",Harrisburg,PA,"United States",47,3636
+stateName:Illinois,,Chicago-O'Hare,IL,,COS,Municipal,"Colorado Springs",CO,"United States",40,3628
+stateName:Illinois,,Chicago-O'Hare,IL,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,15,3545
+stateName:Illinois,,Chicago-O'Hare,IL,,TUL,"Tulsa International",Tulsa,OK,"United States",48,3523
+stateName:Illinois,,Chicago-O'Hare,IL,,AMS,Schiphol,Amsterdam,,Netherlands,10,3421
+stateName:Illinois,,Chicago-O'Hare,IL,,DUB,"Dublin International",Dublin,,Ireland,5,3408
+stateName:Illinois,,Chicago-O'Hare,IL,,ATW,"Outagamie County Regional",Appleton,WI,"United States",55,3010
+stateName:Illinois,,Chicago-O'Hare,IL,,IST,Ataturk,Istanbul,,Turkey,1,3000
+stateName:Illinois,,Chicago,IL,,GDL,"Miguel Hidalgo Intl",Guadalajara,,Mexico,13,2916
+stateName:Illinois,,Chicago-O'Hare,IL,,SGF,"Springfield Branson Re",Springfield,MO,"United States",59,2910
+stateName:Illinois,,Chicago-O'Hare,IL,,DXB,"Dubai International",Dubai,,"United Arab Emirates",1,2904
+stateName:Illinois,,Chicago-O'Hare,IL,,DOH,"Hamad International Airport",Doha,,Qatar,1,2888
+stateName:Illinois,,Chicago,IL,,YTZ,"Billy Bishop City A/P",Toronto-City,ON,Canada,39,2886
+stateName:Illinois,,Chicago-O'Hare,IL,,ICT,Mid-Continent,Wichita,KS,"United States",59,2870
+stateName:Illinois,,Chicago,IL,,BOI,"Boise Air Term/Gowen Field",Boise,ID,"United States",32,2857
+stateName:Illinois,,Chicago-O'Hare,IL,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",1,2848
+stateName:Illinois,,Chicago-O'Hare,IL,,FWA,"Fort Wayne International","Fort Wayne",IN,"United States",49,2800
+stateName:Illinois,,Chicago-O'Hare,IL,,RST,"Rochester International",Rochester,MN,"United States",51,2750
+stateName:Illinois,,Chicago-O'Hare,IL,,GSO,"Piedmont Triad Intl",Greensboro,NC,"United States",48,2750
+stateName:Illinois,,Chicago-O'Hare,IL,,FNT,"Bishop International",Flint,MI,"United States",50,2706
+stateName:Illinois,,Chicago-O'Hare,IL,,GSP,Greenville/Spartanbg,Greenville/Spartanburg,SC,"United States",47,2700
+stateName:Illinois,,Chicago-O'Hare,IL,,LEX,"Blue Grass",Lexington,KY,"United States",46,2672
+stateName:Illinois,,Chicago-O'Hare,IL,,LIT,"B. & H. Clinton National","Little Rock",AR,"United States",39,2672
+stateName:Illinois,,Chicago-O'Hare,IL,,SJD,"Los Cabos Intl","San Jose del Cabo",,Mexico,12,2624
+stateName:Illinois,,Chicago-O'Hare,IL,,HNL,"Honolulu Intl",Honolulu/Oahu,HI,"United States",1,2624
+stateName:Illinois,,Chicago-O'Hare,IL,,GRU,"Guarulhos Intl","Sao Paulo-Guarulhos",SP,Brazil,1,2624
+stateName:Illinois,,Chicago,IL,,RNO,"Reno/Tahoe Internation",Reno,NV,"United States",17,2599
+stateName:Illinois,,Chicago-O'Hare,IL,,TYS,"Mc Ghee Tyson",Knoxville,TN,"United States",40,2542
+stateName:Illinois,,Chicago-O'Hare,IL,,DEL,"Indira Gandhi Intl",Delhi,,India,1,2528
+stateName:Illinois,,Chicago-O'Hare,IL,,CAK,"Canton Regional",Akron/Canton,OH,"United States",48,2520
+stateName:Illinois,,Chicago-O'Hare,IL,,FAR,"Hector International",Fargo,ND,"United States",53,2518
+stateName:Illinois,,Chicago-O'Hare,IL,,ANC,"Ted Stevens Intl",Anchorage,AK,"United States",7,2358
+stateName:Illinois,,Chicago-O'Hare,IL,,AZO,"Kalamazoo/Battle Creek International","Kalamazoo/Battle Creek",MI,"United States",42,2300
+stateName:Illinois,,Chicago-O'Hare,IL,,BRU,"Brussels Airport",Brussels,,Belgium,5,2296
+stateName:Illinois,,Chicago-O'Hare,IL,,ELP,"El Paso Intl","El Paso",TX,"United States",27,2296
+stateName:Illinois,,Chicago-O'Hare,IL,,HND,"Tokyo Intl (Haneda)",Tokyo-Haneda,,Japan,1,2288
+stateName:Illinois,,Chicago-O'Hare,IL,,MAD,"Adolfo Suarez-Barajas",Madrid,,Spain,1,2272
+stateName:Illinois,,Chicago-O'Hare,IL,,EVV,"Evansville Regional",Evansville,IN,"United States",40,2254
+stateName:Illinois,,Chicago-O'Hare,IL,,CWA,"Central Wisconsin",Wausau,WI,"United States",39,2252
+stateName:Illinois,,Chicago-O'Hare,IL,,LAN,"Capital Region International",Lansing,MI,"United States",41,2212
+stateName:Illinois,,Chicago-O'Hare,IL,,SAV,"Savannah Intl",Savannah,GA,"United States",25,2200
+stateName:Illinois,,Chicago-O'Hare,IL,,FSD,"Joe Foss Field","Sioux Falls",SD,"United States",38,2166
+stateName:Illinois,,Chicago-O'Hare,IL,,TVC,"Cherry Capital","Traverse City",MI,"United States",41,2162
+stateName:Illinois,,Chicago-O'Hare,IL,,ARN,Arlanda,Stockholm-Arlanda,,Sweden,1,2128
+stateName:Illinois,,Chicago-O'Hare,IL,,HPN,"Westchester County","Westchester County",NY,"United States",31,2074
+stateName:Illinois,,Chicago-O'Hare,IL,,YYC,"Calgary Intl",Calgary,AB,Canada,18,2020
+stateName:Illinois,,Chicago-O'Hare,IL,,CHO,Albemarle,Charlottesville,VA,"United States",33,2000
+stateName:Illinois,,Chicago-O'Hare,IL,,CPH,Kastrup,Copenhagen,,Denmark,1,1960
+stateName:Illinois,,Chicago-O'Hare,IL,,ZRH,Zurich,Zurich,,Switzerland,1,1888
+stateName:Illinois,,Chicago-O'Hare,IL,,DLH,"Duluth International",Duluth,MN,"United States",17,1800
+stateName:Illinois,,Chicago-O'Hare,IL,,WAW,Okecie,Warsaw,,Poland,1,1764
+stateName:Illinois,,Chicago,IL,,GEG,"Spokane International Airport",Spokane,WA,"United States",16,1754
+stateName:Illinois,,Chicago-O'Hare,IL,,TPE,"Taiwan Taoyuan International Airport",Taipei,,Taiwan,5,1750
+stateName:Illinois,,Chicago-O'Hare,IL,,PSP,"Palm Springs Muni","Palm Springs",CA,"United States",9,1704
+stateName:Illinois,,Chicago-O'Hare,IL,,AMM,"Queen Alia Intl",Amman,,Jordan,1,1668
+stateName:Illinois,,Chicago-O'Hare,IL,,BTV,"Burlington Intl",Burlington,VT,"United States",31,1664
+stateName:Illinois,,Chicago-O'Hare,IL,,OGG,Kahului,Kahului/Maui,HI,"United States",1,1640
+stateName:Illinois,,Chicago-O'Hare,IL,,PVR,"G. Diaz Ordaz Intl","Puerto Vallarta",,Mexico,2,1600
+stateName:Illinois,,Chicago-O'Hare,IL,,COU,"Columbia Regional",Columbia,MO,"United States",25,1600
+stateName:Illinois,,Chicago-O'Hare,IL,,AVL,"Asheville Regional",Asheville,NC,"United States",25,1600
+stateName:Illinois,,Chicago-O'Hare,IL,,VIE,"Vienna International",Vienna,,Austria,1,1550
+stateName:Illinois,,Chicago-O'Hare,IL,,TTN,"Mercer County",Trenton,NJ,"United States",7,1440
+stateName:Illinois,,Chicago-O'Hare,IL,,ISP,"Long Islnd Macarthur","Long Island-Macarthur",NY,"United States",1,1440
+stateName:Illinois,,Chicago-O'Hare,IL,,SBN,"South Bend International","South Bend",IN,"United States",24,1410
+stateName:Illinois,,Chicago,IL,,ONT,"Ontario Intl",Ontario,CA,"United States",8,1400
+stateName:Illinois,,Chicago-O'Hare,IL,,LNK,"Lincoln Municipal",Lincoln,NE,"United States",23,1324
+stateName:Illinois,,Chicago-O'Hare,IL,,BZN,"Yellowstone Intl",Bozeman,MT,"United States",1,1208
+stateName:Illinois,,Chicago-O'Hare,IL,,BIS,"Bismarck Municipal",Bismarck,ND,"United States",17,1200
+stateName:Illinois,,Chicago-O'Hare,IL,,DBQ,"Dubuque Municipal",Dubuque,IA,"United States",17,1200
+stateName:Illinois,,Chicago-O'Hare,IL,,CHA,"Lovell Field",Chattanooga,TN,"United States",17,1200
+stateName:Illinois,,Chicago-O'Hare,IL,,HSV,"Huntsville International Airport",Huntsville/Decatur,AL,"United States",19,1200
+stateName:Illinois,,Chicago-O'Hare,IL,,SCE,"State College","State College",PA,"United States",17,1200
+stateName:Illinois,,Chicago,IL,,PWM,"Portland Intl Jetprt",Portland,ME,"United States",25,1190
+stateName:Illinois,,Chicago-O'Hare,IL,,MTY,"Mariano Escobedo Intl",Monterrey,,Mexico,11,1188
+stateName:Illinois,,Chicago-O'Hare,IL,,LSE,"La Crosse Regional","La Crosse",WI,"United States",19,1150
+stateName:Illinois,,Chicago-O'Hare,IL,,TOL,"Toledo Express",Toledo,OH,"United States",19,1150
+stateName:Illinois,,Chicago-O'Hare,IL,,MBS,"MBS International","Saginaw/Midland/Bay C.",MI,"United States",17,1150
+stateName:Illinois,,Chicago-O'Hare,IL,,YWG,"J.A. Richardson Intl",Winnipeg,MB,Canada,17,1060
+stateName:Illinois,,Chicago-O'Hare,IL,,YOW,"Macdonald-Cartier Intl",Ottawa,ON,Canada,19,1052
+stateName:Illinois,,Chicago-O'Hare,IL,,ROA,"Roanoke Municipal",Roanoke,VA,"United States",15,1050
+stateName:Illinois,,Chicago-O'Hare,IL,,SRQ,Sarasota-Bradenton,Sarasota/Bradenton,FL,"United States",1,1024
+stateName:Illinois,,Chicago,IL,,MLM,"F.J. Mujica Intl",Morelia,,Mexico,1,1008
+stateName:Illinois,,Chicago-O'Hare,IL,,ABE,"Lehigh Valley International",Allentown,PA,"United States",20,1004
+stateName:Illinois,,Chicago,IL,,PNS,"Pensacola International",Pensacola,FL,"United States",6,942
+stateName:Illinois,,Chicago-O'Hare,IL,,MHK,"Manhattan Municipal",Manhattan,KS,"United States",9,800
+stateName:Illinois,,Chicago-O'Hare,IL,,ALO,"Waterloo Municipal",Waterloo,IA,"United States",9,800
+stateName:Illinois,,Chicago-O'Hare,IL,,SUX,"Sioux Gateway","Sioux City",IA,"United States",9,800
+stateName:Illinois,,Chicago-O'Hare,IL,,CMX,"Houghton County Memorial",Hancock,MI,"United States",9,800
+stateName:Illinois,,Chicago-O'Hare,IL,,ILM,"New Hanover County",Wilmington,NC,"United States",9,800
+stateName:Illinois,,Chicago-O'Hare,IL,,MKG,"Muskegon County",Muskegon,MI,"United States",9,800
+stateName:Illinois,,Chicago-O'Hare,IL,,CAE,"Columbia Metropolitan Airport",Columbia,SC,"United States",10,752
+stateName:Illinois,,Chicago-O'Hare,IL,,JAN,"Allen C Thompson Fld",Jackson,MS,"United States",13,752
+stateName:Illinois,,Chicago-O'Hare,IL,,RAP,"Rapid City Regional","Rapid City",SD,"United States",9,752
+stateName:Illinois,,Chicago-O'Hare,IL,,EAU,"Chippewa Valley Rgnl","Eau Claire",WI,"United States",9,750
+stateName:Illinois,,Chicago-O'Hare,IL,,ERI,"Erie International",Erie,PA,"United States",9,750
+stateName:Illinois,,Chicago-O'Hare,IL,,PAH,"Barkley Regional",Paducah,KY,"United States",9,750
+stateName:Illinois,,Chicago-O'Hare,IL,,SAL,"El Salvador Intl","San Salvador",,"El Salvador",1,720
+stateName:Illinois,,Chicago-O'Hare,IL,,CGI,"Cape Girardeau Muni","Cape Girardeau",MO,"United States",8,700
+stateName:Illinois,,Chicago-O'Hare,IL,,AVP,"Wilkes-Barre/Scranton International Airport",Wilkes-Barre/Scranton,PA,"United States",9,660
+stateName:Illinois,,Chicago-O'Hare,IL,,CRW,Yeager,Charleston,WV,"United States",9,660
+stateName:Illinois,,Chicago-O'Hare,IL,,GCM,"Owen Roberts Intl","Grand Cayman",,"Cayman Islands",1,603
+stateName:Illinois,,Chicago,IL,,ZCL,"Leobardo C. Ruiz Intl",Zacatecas,,Mexico,1,576
+stateName:Illinois,,Chicago-O'Hare,IL,,ASE,"Pitkin County",Aspen,CO,"United States",1,544
+stateName:Illinois,,Chicago-O'Hare,IL,,BUD,"Liszt Ferenc International",Budapest,,Hungary,1,504
+stateName:Illinois,,Chicago-O'Hare,IL,,NAS,"Lynden Pindling Intl",Nassau,,Bahamas,5,459
+stateName:Illinois,,Chicago-O'Hare,IL,,MQT,"Marquette County",Marquette,MI,"United States",1,448
+stateName:Illinois,,Chicago,IL,,BJX,"Del Bajio International",Leon/Guanajuato,,Mexico,1,432
+stateName:Illinois,,Chicago-O'Hare,IL,,CKB,Benedum,Clarksburg,WV,"United States",2,400
+stateName:Illinois,,Chicago-O'Hare,IL,,LWB,"Greenbrier Valley",Greenbrier,WV,"United States",2,400
+stateName:Illinois,,Chicago-O'Hare,IL,,MEI,"Key Field",Meridian,MS,"United States",1,400
+stateName:Illinois,,Chicago-O'Hare,IL,,YQB,"Jean Lesage Intl",Quebec,QC,Canada,1,352
+stateName:Illinois,,Chicago-O'Hare,IL,,SLN,"Salina Municipal",Salina,KS,"United States",1,350
+stateName:Illinois,,Chicago-O'Hare,IL,,MOB,"Mobile Municipal",Mobile,AL,"United States",1,308
+stateName:Illinois,,Chicago,IL,,QRO,"Queretaro Intercontinental",Queretaro,,Mexico,1,288
+stateName:Illinois,,Chicago,IL,,DGO,"Guadalupe Victoria Intl",Durango,,Mexico,2,288
+stateName:Illinois,,Chicago-O'Hare,IL,,KRK,"John Paul Ii Balice In",Krakow,,Poland,1,252
+stateName:Illinois,,Chicago-O'Hare,IL,,ZIH,"Ixtapa/Zihuatanejo International",Ixtapa/Zihuatanejo,,Mexico,1,174
+stateName:Illinois,,Chicago-O'Hare,IL,,HUX,"Bahias de Huatulco Intl",Huatulco,,Mexico,1,174
+stateName:Illinois,,Chicago-O'Hare,IL,,IWD,"Gogebic-Iron County",Ironwood,MI,"United States",14,165
+stateName:Illinois,,Chicago-O'Hare,IL,,BZE,"Belize International","Belize City",,Belize,1,159
+stateName:Illinois,,Chicago-O'Hare,IL,,CZM,"Cozumel International",Cozumel,,Mexico,1,159
+stateName:Illinois,,Chicago-O'Hare,IL,,LIR,"D. Oduber Quiros Intl",Liberia,,"Costa Rica",1,159
+stateName:Illinois,,Chicago-O'Hare,IL,,PLS,"Providenciales Intl",Providenciales,,"Turks and Caicos Islands",1,159
+stateName:Illinois,,Chicago-O'Hare,IL,,MCW,"Mason City Municipal","Mason City",IA,"United States",13,154
+stateName:Illinois,,Chicago-O'Hare,IL,,AUA,"Reina Beatrix",Aruba,,Aruba,1,151
+stateName:Illinois,,Chicago-O'Hare,IL,,EYW,"Key West Intl","Key West",FL,"United States",1,138
+stateName:Illinois,,Chicago,IL,,ECP,"Northwest Florida Beaches International Airport","Panama City",FL,"United States",1,134
+stateName:Illinois,,Chicago-O'Hare,IL,,STT,"Cyril E. King Airport","St. Thomas",VI,"United States",1,128
+stateName:Illinois,,Chicago-O'Hare,IL,,SXM,"Prinses Juliana International","St. Maarten",,"Sint Maarten",1,128

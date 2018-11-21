@@ -1,0 +1,173 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Canada,,Ottawa,ON,,LGA,"La Guardia","New York-La Guardia",NY,"United States",320,30648
+countryName:Canada,,Halifax,NS,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",107,29891
+countryName:Canada,,Ottawa,ON,,ORD,"O'Hare International",Chicago-O'Hare,IL,"United States",340,28902
+countryName:Canada,,Edmonton,AB,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",176,27204
+countryName:Canada,,Edmonton,AB,,CUN,"Cancun International",Cancun,,Mexico,127,24012
+countryName:Canada,,Halifax,NS,,EWR,"Newark Intl",Newark,NJ,"United States",329,22660
+countryName:Canada,,Edmonton,AB,,LAS,"Mccarran Intl","Las Vegas",NV,"United States",124,18530
+countryName:Canada,,Montreal-PET,QC,,SFO,"San Francisco Intl","San Francisco",CA,"United States",142,17954
+countryName:Canada,,Vancouver,BC,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",48,17736
+countryName:Canada,,Montreal-PET,QC,,MEX,"Benito Juarez Intl","Mexico City",,Mexico,105,16694
+countryName:Canada,,Montreal-PET,QC,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,42,16301
+countryName:Canada,,Edmonton,AB,,IAH,"George Bush Intercontinental",Houston-Intercontinental,TX,"United States",128,14296
+countryName:Canada,,Montreal-PET,QC,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,37,14284
+countryName:Canada,,Edmonton,AB,,PHX,"Sky Harbor Intl",Phoenix,AZ,"United States",89,13408
+countryName:Canada,,Montreal-PET,QC,,PVG,"Pudong International",Shanghai,,China,37,12968
+countryName:Canada,,Edmonton,AB,,DEN,"Denver International",Denver,CO,"United States",146,12952
+countryName:Canada,,Edmonton,AB,,AMS,Schiphol,Amsterdam,,Netherlands,38,12514
+countryName:Canada,,Montreal-PET,QC,,PEK,"Capital International",Beijing,,China,37,12379
+countryName:Canada,,Montreal-PET,QC,,ATL,"Hartsfield-Jackson ATL",Atlanta,GA,"United States",111,11820
+countryName:Canada,,Edmonton,AB,,MCO,"Orlando Intl",Orlando,FL,"United States",79,11395
+countryName:Canada,,Montreal-PET,QC,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",98,11208
+countryName:Canada,,Edmonton,AB,,PVR,"G. Diaz Ordaz Intl","Puerto Vallarta",,Mexico,55,10278
+countryName:Canada,,Edmonton,AB,,PUJ,"Punta Cana International","Punta Cana",,"Dominican Republic",50,10256
+countryName:Canada,,Ottawa,ON,,PHL,"Philadelphia Intl",Philadelphia,PA,"United States",152,10183
+countryName:Canada,,Montreal-PET,QC,,DFW,"Dallas/Ft Worth Intl","Dallas/Fort Worth",TX,"United States",92,9986
+countryName:Canada,,Vancouver,BC,,TPE,"Taiwan Taoyuan International Airport",Taipei,,Taiwan,25,9770
+countryName:Canada,,Montreal-PET,QC,,MIA,"Miami International",Miami,FL,"United States",55,8917
+countryName:Canada,,Ottawa,ON,,VRA,"Juan G. Gomez Intl",Varadero,,Cuba,49,8540
+countryName:Canada,,Edmonton,AB,,PSP,"Palm Springs Muni","Palm Springs",CA,"United States",45,8240
+countryName:Canada,,Ottawa,ON,,DTW,"Metropolitan Wayne County",Detroit,MI,"United States",113,7710
+countryName:Canada,,Ottawa,ON,,FLL,"Ft Lauderdale Intl","Fort Lauderdale",FL,"United States",49,7622
+countryName:Canada,,Montreal-PET,QC,,MBJ,"Sangster Intl","Montego Bay",,Jamaica,39,7485
+countryName:Canada,,Ottawa,ON,,IAD,"Dulles International",Washington-Dulles,VA,"United States",120,7356
+countryName:Canada,,Vancouver,BC,,ICN,"Incheon International Airport",Seoul,,"South Korea",19,6923
+countryName:Canada,,Vancouver,BC,,MNL,"Ninoy Aquino Intl",Manila,,Philippines,12,6168
+countryName:Canada,,Ottawa,ON,,DCA,"Ronald Reagan National",Washington-National,DC,"United States",78,5594
+countryName:Canada,,Edmonton,AB,,KEF,"Keflavik Intl",Reykjavik,,Iceland,22,5410
+countryName:Canada,,Vancouver,BC,,HND,"Tokyo Intl (Haneda)",Tokyo-Haneda,,Japan,9,5360
+countryName:Canada,,Calgary,AB,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",17,5117
+countryName:Canada,,Montreal-PET,QC,,NRT,Narita,Tokyo-Narita,,Japan,20,5074
+countryName:Canada,,Vancouver,BC,,OGG,Kahului,Kahului/Maui,HI,"United States",24,4783
+countryName:Canada,,Quebec,QC,,CCC,"Jardines del Rey","Cayo Coco",,Cuba,27,4602
+countryName:Canada,,Quebec,QC,,SNU,"Abel Santamaria","Santa Clara",,Cuba,25,4159
+countryName:Canada,,Edmonton,AB,,SJD,"Los Cabos Intl","San Jose del Cabo",,Mexico,24,3900
+countryName:Canada,,Vancouver,BC,,HNL,"Honolulu Intl",Honolulu/Oahu,HI,"United States",18,3795
+countryName:Canada,,Montreal-PET,QC,,CLT,"Charlotte-Douglas International Airport",Charlotte-Douglas,NC,"United States",48,3790
+countryName:Canada,,Vancouver,BC,,SLC,"Salt Lake City Intl","Salt Lake City",UT,"United States",37,3588
+countryName:Canada,,Ottawa,ON,,RSW,"Southwest Florida","Fort Myers",FL,"United States",27,3554
+countryName:Canada,,Montreal-PET,QC,,MUC,"Franz Josef Strauss International",Munich,,Germany,10,3519
+countryName:Canada,,Montreal-PET,QC,,IST,Ataturk,Istanbul,,Turkey,8,3519
+countryName:Canada,,Vancouver,BC,,DEL,"Indira Gandhi Intl",Delhi,,India,9,3444
+countryName:Canada,,Montreal-PET,QC,,CMN,"Mohammed V",Casablanca,,Morocco,9,3400
+countryName:Canada,,Ottawa,ON,,TPA,"Tampa International",Tampa,FL,"United States",22,3124
+countryName:Canada,,Vancouver,BC,,SAN,"San Diego International Airport","San Diego",CA,"United States",22,3025
+countryName:Canada,,Toronto,ON,,TLV,"Ben Gurion Intl","Tel Aviv-Yafo",,Israel,9,2947
+countryName:Canada,,Toronto,ON,,DXB,"Dubai International",Dubai,,"United Arab Emirates",4,2929
+countryName:Canada,,Montreal-PET,QC,,ZRH,Zurich,Zurich,,Switzerland,6,2926
+countryName:Canada,,Toronto-City,ON,,MDW,"Chicago Midway International",Chicago,IL,"United States",39,2886
+countryName:Canada,,Calgary,AB,,NAS,"Lynden Pindling Intl",Nassau,,Bahamas,19,2881
+countryName:Canada,,Toronto,ON,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,6,2800
+countryName:Canada,,Toronto,ON,,BGI,"Grantley Adams International",Bridgetown,,Barbados,6,2755
+countryName:Canada,,Vancouver,BC,,CAN,"Baiyun International",Guangzhou,,China,9,2751
+countryName:Canada,,Toronto,ON,,DUB,"Dublin International",Dublin,,Ireland,6,2663
+countryName:Canada,,Toronto,ON,,LIS,Lisboa,Lisbon,,Portugal,9,2637
+countryName:Canada,,Montreal-PET,QC,,BRU,"Brussels Airport",Brussels,,Belgium,6,2570
+countryName:Canada,,Vancouver,BC,,SYD,"Kingsford Smith",Sydney,NS,Australia,4,2400
+countryName:Canada,,Montreal-PET,QC,,PTY,"Tocumen Intl, Panama R","Panama City",,Panama,10,2355
+countryName:Canada,,Toronto,ON,,GRU,"Guarulhos Intl","Sao Paulo-Guarulhos",SP,Brazil,1,2296
+countryName:Canada,,Montreal-PET,QC,,HOG,"Frank Pais International",Holguin,,Cuba,13,2185
+countryName:Canada,,Toronto,ON,,PDL,Nordela,"Ponta Delgada",,Portugal,5,2128
+countryName:Canada,,Toronto,ON,,POS,"Piarco International","Port of Spain",,"Trinidad and Tobago",5,2019
+countryName:Canada,,Vancouver,BC,,BNE,"Brisbane Intl",Brisbane,QL,Australia,1,2008
+countryName:Canada,,Toronto,ON,,CVG,"Cincinnati Northern Kentucky Airport","Cincinnati, OH/Covington",KY,"United States",29,1906
+countryName:Canada,,Montreal-PET,QC,,POP,"Gregorio Luperon Intl","Puerto Plata",,"Dominican Republic",12,1878
+countryName:Canada,,"Spring Island",BC,,TAO,"Liuting International",Qingdao,,China,8,1870
+countryName:Canada,,Toronto,ON,,KIN,"Norman Manley Intl",Kingston,,Jamaica,11,1823
+countryName:Canada,,Montreal-PET,QC,,HAV,"Jose Marti Intl",Havana,,Cuba,12,1819
+countryName:Canada,,Toronto,ON,,BNA,"Nashville Metro",Nashville,TN,"United States",24,1794
+countryName:Canada,,Toronto,ON,,SCL,"Arturo M Benitez",Santiago,,Chile,1,1722
+countryName:Canada,,Toronto,ON,,ADD,"Bole International","Addis Ababa",,Ethiopia,4,1605
+countryName:Canada,,Vancouver,BC,,AKL,"Auckland Intl",Auckland,,"New Zealand",1,1560
+countryName:Canada,,Toronto,ON,,CLE,"Hopkins Intl",Cleveland,OH,"United States",25,1550
+countryName:Canada,,Toronto,ON,,WAW,Okecie,Warsaw,,Poland,1,1512
+countryName:Canada,,Toronto,ON,,BOM,"Mumbai (Chhatrapati Shivaji) International",Mumbai/Bombay,,India,1,1500
+countryName:Canada,,Toronto,ON,,BWI,"Baltimore/Wash Intl",Baltimore,MD,"United States",23,1500
+countryName:Canada,,Toronto,ON,,CMH,"Port Columbus Intl",Columbus,OH,"United States",23,1500
+countryName:Canada,,Calgary,AB,,LIR,"D. Oduber Quiros Intl",Liberia,,"Costa Rica",8,1474
+countryName:Canada,,Montreal-PET,QC,,DOH,"Hamad International Airport",Doha,,Qatar,1,1444
+countryName:Canada,,Vancouver,BC,,MEL,"Melbourne Airport",Melbourne,VI,Australia,1,1435
+countryName:Canada,,Montreal-PET,QC,,ALG,"Houari Boumediene",Algiers,,Algeria,4,1300
+countryName:Canada,,Vancouver,BC,,KOA,Keahole,Kona/Hawaii,HI,"United States",7,1280
+countryName:Canada,,Montreal-PET,QC,,PLS,"Providenciales Intl",Providenciales,,"Turks and Caicos Islands",9,1267
+countryName:Canada,,Montreal-PET,QC,,BDL,"Bradley Intl",Hartford,CT,"United States",50,1259
+countryName:Canada,,Toronto,ON,,BOG,"El Dorado Intl",Bogota,,Colombia,1,1235
+countryName:Canada,,Montreal-PET,QC,,GVA,"Geneva International Airport",Geneva,,Switzerland,2,1208
+countryName:Canada,,Montreal-PET,QC,,LYS,Satolas,Lyon,,France,1,1208
+countryName:Canada,,Toronto,ON,,RDU,Raleigh-Durham,Raleigh/Durham,NC,"United States",17,1150
+countryName:Canada,,Toronto,ON,,EZE,"Ministro Pistarini","Buenos Aires",BA,Argentina,1,1148
+countryName:Canada,,Vancouver,BC,,SJC,"San Jose Municipal","San Jose",CA,"United States",9,1125
+countryName:Canada,,Vancouver,BC,,LIH,Lihue,Lihue,HI,"United States",6,1120
+countryName:Canada,,Montreal-PET,QC,,PAP,"Toussaint Louverture","Port Au Prince",,Haiti,3,1114
+countryName:Canada,,Toronto,ON,,SAL,"El Salvador Intl","San Salvador",,"El Salvador",6,1110
+countryName:Canada,,Edmonton,AB,,HUX,"Bahias de Huatulco Intl",Huatulco,,Mexico,5,1104
+countryName:Canada,,Toronto,ON,,PIT,"Pittsburgh Internation",Pittsburgh,PA,"United States",17,1100
+countryName:Canada,,Toronto,ON,,STL,"Lambert International","St. Louis",MO,"United States",16,1100
+countryName:Canada,,Toronto,ON,,CAI,"Cairo Intl",Cairo,,Egypt,1,1092
+countryName:Canada,,Toronto,ON,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",1,1068
+countryName:Canada,,"Spring Island",BC,,CHG,Chaoyang,Chaoyang,,China,1,1024
+countryName:Canada,,Montreal-PET,QC,,SJO,"Juan Santamaria Intl","San Jose",,"Costa Rica",3,1019
+countryName:Canada,,Toronto,ON,,LIM,"Jorge Chavez Intl",Lima,,Peru,1,988
+countryName:Canada,,Edmonton,AB,,MZT,"Rafael Buelna Intl",Mazatlan,,Mexico,6,939
+countryName:Canada,,Toronto,ON,,CPH,Kastrup,Copenhagen,,Denmark,1,906
+countryName:Canada,,Toronto,ON,,BDA,"L.F. Wade International",Bermuda,,Bermuda,5,897
+countryName:Canada,,Toronto,ON,,VIE,"Vienna International",Vienna,,Austria,1,880
+countryName:Canada,,Vancouver,BC,,SNA,"John Wayne Airport","Orange County",CA,"United States",1,834
+countryName:Canada,,Montreal-PET,QC,,ORY,Orly,Paris-Orly,,France,1,801
+countryName:Canada,,Toronto,ON,,IND,"Indianapolis Intl",Indianapolis,IN,"United States",9,800
+countryName:Canada,,Toronto,ON,,MCI,"Kansas City Intl","Kansas City",MO,"United States",9,800
+countryName:Canada,,Toronto,ON,,KBP,"Boryspil International",Kiev,,Ukraine,1,783
+countryName:Canada,,Montreal-PET,QC,,ANU,"V C Bird Intl",Antigua,,"Antigua and Barbuda",5,774
+countryName:Canada,,"Spring Island",BC,,SHE,"Taoxian International",Shenyang,,China,2,758
+countryName:Canada,,Toronto,ON,,GLA,"Glasgow International",Glasgow,SC,"United Kingdom",3,750
+countryName:Canada,,Montreal-PET,QC,,AZS,"EL Catey Intl",Samana,,"Dominican Republic",4,748
+countryName:Canada,,Toronto,ON,,BCN,Barcelona,Barcelona,,Spain,1,741
+countryName:Canada,,Vancouver,BC,,NKG,"Lukou International",Nanjing,,China,1,726
+countryName:Canada,,Montreal-PET,QC,,PBI,"Palm Beach Intl","West Palm Beach",FL,"United States",6,720
+countryName:Canada,,Toronto,ON,,LHE,"Allama Iqbal Intl",Lahore,,Pakistan,2,714
+countryName:Canada,,Toronto,ON,,UVF,"Hewanorra Intl","St. Lucia-Vieux Fort",,"Saint Lucia",5,707
+countryName:Canada,,Toronto,ON,,MAD,"Adolfo Suarez-Barajas",Madrid,,Spain,1,633
+countryName:Canada,,"Spring Island",BC,,HLD,Dongshan,Hailar,,China,1,628
+countryName:Canada,,"Spring Island",BC,,NAY,"Nanyuan Airport",Beijing,,China,1,628
+countryName:Canada,,Toronto,ON,,AUA,"Reina Beatrix",Aruba,,Aruba,4,627
+countryName:Canada,,Calgary,AB,,BZE,"Belize International","Belize City",,Belize,4,619
+countryName:Canada,,Toronto,ON,,SXM,"Prinses Juliana International","St. Maarten",,"Sint Maarten",4,598
+countryName:Canada,,Toronto,ON,,MSY,"New Orleans Intl","New Orleans",LA,"United States",4,584
+countryName:Canada,,Toronto,ON,,AUS,"Austin-Bergstrom International Airport",Austin,TX,"United States",1,584
+countryName:Canada,,Calgary,AB,,ZIH,"Ixtapa/Zihuatanejo International",Ixtapa/Zihuatanejo,,Mexico,4,579
+countryName:Canada,,Vancouver,BC,,XMN,"Gaoqi International",Xiamen,,China,1,568
+countryName:Canada,,Vancouver,BC,,CGO,"Xinzheng International",Zhengzhou,,China,1,562
+countryName:Canada,,Montreal-PET,QC,,AMM,"Queen Alia Intl",Amman,,Jordan,1,556
+countryName:Canada,,Toronto,ON,,SRQ,Sarasota-Bradenton,Sarasota/Bradenton,FL,"United States",1,544
+countryName:Canada,,Montreal-PET,QC,,CMW,"Ignacio Agramonte International",Camaguey,,Cuba,3,534
+countryName:Canada,,Toronto,ON,,MAN,"Manchester Airport",Manchester,EN,"United Kingdom",2,500
+countryName:Canada,,Montreal-PET,QC,,CYO,"Vilo Acuna Intl","Cayo Largo Del Sur",,Cuba,3,486
+countryName:Canada,,Toronto,ON,,GCM,"Owen Roberts Intl","Grand Cayman",,"Cayman Islands",3,472
+countryName:Canada,,Toronto,ON,,SAT,"San Antonio Intl","San Antonio",TX,"United States",1,438
+countryName:Canada,,Edmonton,AB,,AZA,"Mesa Gateway Airport",Phoenix,AZ,"United States",3,425
+countryName:Canada,,Toronto,ON,,MDT,"Olmsted State International",Harrisburg,PA,"United States",15,418
+countryName:Canada,,Toronto,ON,,JAX,"Jacksonville Intl",Jacksonville,FL,"United States",1,400
+countryName:Canada,,Toronto,ON,,MEM,"Memphis Intl",Memphis,TN,"United States",1,400
+countryName:Canada,,Montreal-PET,QC,,CZM,"Cozumel International",Cozumel,,Mexico,3,395
+countryName:Canada,,Toronto,ON,,MZO,"Sierra Maestra",Manzanillo,,Cuba,1,374
+countryName:Canada,,Toronto,ON,,KHI,"Jinnah Intl",Karachi,,Pakistan,1,357
+countryName:Canada,,Toronto,ON,,ISB,"Benazir Bhutto Intl",Islamabad,,Pakistan,1,357
+countryName:Canada,,Montreal-PET,QC,,CFG,"Jaime Gonzalez",Cienfuegos,,Cuba,2,320
+countryName:Canada,,Montreal-PET,QC,,AGP,"Malaga Airport",Malaga,,Spain,1,310
+countryName:Canada,,Montreal-PET,QC,,MRS,Marignane,Marseille,,France,1,310
+countryName:Canada,,Toronto,ON,,CUR,"Hato International",Curacao,,Curacao,2,296
+countryName:Canada,,Montreal-PET,QC,,FDF,"Martinique A. Cesaire","Fort De France",,Martinique,1,272
+countryName:Canada,,Montreal-PET,QC,,PTP,"Le Raizet","Pointe A Pitre",,Guadeloupe,1,272
+countryName:Canada,,"Spring Island",BC,,DLC,"Zhoushuizi International",Dalian,,China,1,267
+countryName:Canada,,Toronto,ON,,GEO,"Cheddi Jagan International",Georgetown,,Guyana,1,225
+countryName:Canada,,Toronto,ON,,FPO,"Grand Bahama International",Freeport,,Bahamas,1,187
+countryName:Canada,,Montreal-PET,QC,,LRM,"Casa de Campo Intl","La Romana",,"Dominican Republic",1,166
+countryName:Canada,,Calgary,AB,,ZLO,"Playa de Oro Intl",Manzanillo,,Mexico,1,160
+countryName:Canada,,Toronto,ON,,SCU,"Antonio Maceo Intl","Santiago de Cuba",,Cuba,1,160
+countryName:Canada,,Calgary,AB,,LTO,"Loreto International",Loreto,,Mexico,1,139
+countryName:Canada,,Toronto,ON,,SJU,"Luis Munoz Marin Int","San Juan",PR,"United States",1,139
+countryName:Canada,,Montreal-PET,QC,,ZSA,"Cockburn Town","San Salvador",,Bahamas,1,136
+countryName:Canada,,Toronto,ON,,GND,"Maurice Bishop International",Grenada,,"Grenada and South Grenadines",1,136
+countryName:Canada,,Toronto,ON,,GGT,"Georgetown-Exuma International","George Town",,Bahamas,1,97
+countryName:Canada,,Killineq,QC,,AAN,"Al Ain International","Al Ain",,"United Arab Emirates",1,0

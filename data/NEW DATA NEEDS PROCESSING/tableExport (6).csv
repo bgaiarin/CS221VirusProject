@@ -1,0 +1,116 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Egypt,,Aswan,,,JED,"King Abdulaziz Intl",Jeddah,,"Saudi Arabia",202,38816
+countryName:Egypt,,Asyut,,,KWI,"Kuwait Intl",Kuwait,,Kuwait,136,26042
+countryName:Egypt,,Cairo,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",57,17920
+countryName:Egypt,,Asyut,,,RUH,"King Khalid Intl",Riyadh,,"Saudi Arabia",87,17288
+countryName:Egypt,,Asyut,,,AMM,"Queen Alia Intl",Amman,,Jordan,80,11499
+countryName:Egypt,,Cairo,,,MED,"Medina-Prince Mohammad",Madinah,,"Saudi Arabia",47,11084
+countryName:Egypt,,Cairo,,,IST,Ataturk,Istanbul,,Turkey,60,9878
+countryName:Egypt,,Cairo,,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",56,9540
+countryName:Egypt,,Cairo,,,DMM,"King Fahad International Airport",Dammam,,"Saudi Arabia",32,8687
+countryName:Egypt,,Cairo,,,BEY,"Rafic Hariri International",Beirut,,Lebanon,37,6666
+countryName:Egypt,,Cairo,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,24,6228
+countryName:Egypt,,Asyut,,,SHJ,Sharjah,Sharjah,,"United Arab Emirates",35,6184
+countryName:Egypt,,Cairo,,,YNB,Yanbo,Yanbo,,"Saudi Arabia",30,6116
+countryName:Egypt,,Cairo,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",19,6017
+countryName:Egypt,,Cairo,,,KRT,"Khartoum Civil International",Khartoum,,Sudan,28,5623
+countryName:Egypt,,Cairo,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,17,5163
+countryName:Egypt,,Asyut,,,ELQ,Gassim,Gassim,,"Saudi Arabia",24,4512
+countryName:Egypt,,Cairo,,,MUC,"Franz Josef Strauss International",Munich,,Germany,16,4489
+countryName:Egypt,,Cairo,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,19,4485
+countryName:Egypt,,Cairo,,,MXP,Malpensa,Milan-Malpensa,,Italy,16,4239
+countryName:Egypt,,Hurghada,,,DUS,"Duesseldorf International",Duesseldorf,,Germany,18,3725
+countryName:Egypt,,Cairo,,,BAH,"Bahrain Intl",Bahrain,,Bahrain,17,3540
+countryName:Egypt,,Cairo,,,ATH,"Eleftherios Venizelos Airport",Athens,,Greece,19,3416
+countryName:Egypt,,Hurghada,,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",15,3240
+countryName:Egypt,,Cairo,,,CMN,"Mohammed V",Casablanca,,Morocco,14,3182
+countryName:Egypt,,Cairo,,,CAN,"Baiyun International",Guangzhou,,China,1,2912
+countryName:Egypt,,Cairo,,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",1,2912
+countryName:Egypt,,Cairo,,,BGW,"Baghdad International Airport",Baghdad,,Iraq,12,2675
+countryName:Egypt,,Cairo,,,ADD,"Bole International","Addis Ababa",,Ethiopia,6,2405
+countryName:Egypt,,Cairo,,,TIF,Taif,Taif,,"Saudi Arabia",12,2372
+countryName:Egypt,,Cairo,,,ALG,"Houari Boumediene",Algiers,,Algeria,9,2284
+countryName:Egypt,,Hurghada,,,MAN,"Manchester Airport",Manchester,EN,"United Kingdom",10,2244
+countryName:Egypt,,Cairo,,,MCT,"Seeb International",Muscat,,Oman,10,2080
+countryName:Egypt,,Cairo,,,VIE,"Vienna International",Vienna,,Austria,7,1969
+countryName:Egypt,,Cairo,,,AHB,Abha,Abha,,"Saudi Arabia",9,1933
+countryName:Egypt,,Cairo,,,TUU,Tabuk,Tabuk,,"Saudi Arabia",9,1712
+countryName:Egypt,,Hurghada,,,STR,"Echterdingen Airport",Stuttgart,,Germany,9,1623
+countryName:Egypt,,Hurghada,,,HAJ,Hannover,Hannover,,Germany,9,1617
+countryName:Egypt,,Cairo,,,BRU,"Brussels Airport",Brussels,,Belgium,6,1607
+countryName:Egypt,,Alexandria,,,TIP,"Tripoli Intl",Tripoli,,Libya,5,1554
+countryName:Egypt,,Cairo,,,AMS,Schiphol,Amsterdam,,Netherlands,1,1480
+countryName:Egypt,,Cairo,,,LOS,"Murtala Muhammed International",Lagos,,Nigeria,1,1480
+countryName:Egypt,,Cairo,,,MAD,"Adolfo Suarez-Barajas",Madrid,,Spain,1,1480
+countryName:Egypt,,Cairo,,,TUN,Carthage,Tunis,,Tunisia,1,1480
+countryName:Egypt,,Cairo,,,ASM,"Asmara International",Asmara,,Eritrea,1,1480
+countryName:Egypt,,Cairo,,,ZRH,Zurich,Zurich,,Switzerland,6,1479
+countryName:Egypt,,Hurghada,,,LEJ,Leipzig,Leipzig,,Germany,6,1443
+countryName:Egypt,,Cairo,,,CPH,Kastrup,Copenhagen,,Denmark,5,1418
+countryName:Egypt,,Hurghada,,,BHX,"Birmingham Airport",Birmingham,EN,"United Kingdom",6,1342
+countryName:Egypt,,Cairo,,,ABV,"Nnamdi Azikiwe International Airport",Abuja,,Nigeria,1,1295
+countryName:Egypt,,Cairo,,,JNB,"O.R. Tambo International Airport",Johannesburg,,"South Africa",1,1204
+countryName:Egypt,,Cairo,,,BKK,"Suvarnabhumi - New Bangkok International Airport",Bangkok,,Thailand,1,1204
+countryName:Egypt,,Cairo,,,HAS,Hail,Hail,,"Saudi Arabia",5,1192
+countryName:Egypt,,Cairo,,,BCN,Barcelona,Barcelona,,Spain,1,1110
+countryName:Egypt,,Cairo,,,KAN,"Mallam Aminu Kano Intl",Kano,,Nigeria,1,1110
+countryName:Egypt,,Cairo,,,ACC,"Kotoka International",Accra,,Ghana,6,1110
+countryName:Egypt,,Cairo,,,YYZ,"Lester B. Pearson Intl",Toronto,ON,Canada,1,1092
+countryName:Egypt,,Hurghada,,,HAM,Hamburg,Hamburg,,Germany,5,1090
+countryName:Egypt,,Cairo,,,BUD,"Liszt Ferenc International",Budapest,,Hungary,6,1005
+countryName:Egypt,,Cairo,,,BOM,"Mumbai (Chhatrapati Shivaji) International",Mumbai/Bombay,,India,1,925
+countryName:Egypt,,Cairo,,,GVA,"Geneva International Airport",Geneva,,Switzerland,2,923
+countryName:Egypt,,Cairo,,,SXF,Schoenefeld,Berlin-Schoenefeld,,Germany,2,880
+countryName:Egypt,,Cairo,,,GIZ,Gizan,Gizan,,"Saudi Arabia",1,860
+countryName:Egypt,,Cairo,,,PEK,"Capital International",Beijing,,China,1,855
+countryName:Egypt,,Cairo,,,AJF,"Al Jouf",Jouf,,"Saudi Arabia",4,852
+countryName:Egypt,,Cairo,,,RKT,"Ras Al Khaimah Intl","Ras Al Khaimah",,"United Arab Emirates",5,840
+countryName:Egypt,,Cairo,,,HOF,"Al-Ahsa Airport",Hofuf,,"Saudi Arabia",4,839
+countryName:Egypt,,Hurghada,,,KTW,Pyrzowice,Katowice,,Poland,5,825
+countryName:Egypt,,Hurghada,,,WAW,Okecie,Warsaw,,Poland,4,825
+countryName:Egypt,,Cairo,,,EBL,"Erbil International Airport",Erbil,,Iraq,5,741
+countryName:Egypt,,Cairo,,,NBO,"Jomo Kenyatta Intl",Nairobi,,Kenya,1,740
+countryName:Egypt,,Alexandria,,,BEN,"Benina Intl",Benghazi,,Libya,3,738
+countryName:Egypt,,"Sharm el-Sheikh",,,KIV,"Kishinev International",Kishinev,,Moldova,3,720
+countryName:Egypt,,Cairo,,,SAW,"Sabiha Gokcen","Sabiha Gokcen",,Turkey,1,688
+countryName:Egypt,,Cairo,,,AAN,"Al Ain International","Al Ain",,"United Arab Emirates",1,688
+countryName:Egypt,,Hurghada,,,TBS,"Novo Alexeyevka International",Tbilisi,,Georgia,4,660
+countryName:Egypt,,Cairo,,,TLV,"Ben Gurion Intl","Tel Aviv-Yafo",,Israel,1,584
+countryName:Egypt,,Hurghada,,,BRE,Bremen,Bremen,,Germany,3,570
+countryName:Egypt,,Alexandria,,,MJI,"Mitiga, Tripoli Airport",Tripoli,,Libya,1,568
+countryName:Egypt,,Cairo,,,LCA,Larnaca,Larnaca,,Cyprus,7,560
+countryName:Egypt,,Hurghada,,,CGN,"Konrad Adenauer",Cologne-Bonn,,Germany,3,558
+countryName:Egypt,,Hurghada,,,NUE,Nuremberg,Nuremberg,,Germany,3,558
+countryName:Egypt,,Cairo,,,EBB,"Entebbe International",Entebbe/Kampala,,Uganda,1,555
+countryName:Egypt,,Hurghada,,,OST,Oostende/Brugge,Oostende/Brugge,,Belgium,2,555
+countryName:Egypt,,Hurghada,,,KSF,Kassel-Calden,Kassel,,Germany,1,510
+countryName:Egypt,,Hurghada,,,BLL,Billund,Billund,,Denmark,3,504
+countryName:Egypt,,Hurghada,,,PRG,Ruzyne,Prague,,"Czech Republic",2,495
+countryName:Egypt,,"Sharm el-Sheikh",,,OSL,"Oslo Airport",Oslo,,Norway,3,495
+countryName:Egypt,,Hurghada,,,BRS,Bristol/Lulsgate,Bristol,EN,"United Kingdom",2,462
+countryName:Egypt,,Hurghada,,,GLA,"Glasgow International",Glasgow,SC,"United Kingdom",1,440
+countryName:Egypt,,Hurghada,,,EMA,"East Midlands","East Midlands",EN,"United Kingdom",2,440
+countryName:Egypt,,Hurghada,,,TXL,Tegel,Berlin-Tegel,,Germany,2,430
+countryName:Egypt,,"Marsa Alam",,,VRN,Verona,Verona,,Italy,2,372
+countryName:Egypt,,Cairo,,,DAR,"Julius Nyerere International","Dar Es Salaam",,Tanzania,1,370
+countryName:Egypt,,Hurghada,,,CRL,"Brussels S. Charleroi",Brussels,,Belgium,2,370
+countryName:Egypt,,Cairo,,,NRT,Narita,Tokyo-Narita,,Japan,1,364
+countryName:Egypt,,Cairo,,,PZU,"Port Sudan","Port Sudan",,Sudan,1,344
+countryName:Egypt,,Cairo,,,AQJ,"King Hussein International",Aqaba,,Jordan,1,336
+countryName:Egypt,,Alexandria,,,DOH,"Hamad International Airport",Doha,,Qatar,2,330
+countryName:Egypt,,Cairo,,,BSR,"Basrah International",Basrah,,Iraq,2,320
+countryName:Egypt,,Cairo,,,NDJ,Ndjamena,N'Djamena,,Chad,1,290
+countryName:Egypt,,Cairo,,,JUB,Juba,Juba,,"South Sudan",2,290
+countryName:Egypt,,Hurghada,,,FMO,"Osnabruck International",Muenster,,Germany,1,280
+countryName:Egypt,,Hurghada,,,NCL,"Newcastle International Airport",Newcastle,EN,"United Kingdom",1,220
+countryName:Egypt,,Hurghada,,,ARN,Arlanda,Stockholm-Arlanda,,Sweden,1,189
+countryName:Egypt,,"Marsa Alam",,,BLQ,"Guglielmo Marconi",Bologna,,Italy,1,186
+countryName:Egypt,,Hurghada,,,BEG,"Nikola Tesla Airport",Belgrade,,Serbia,1,165
+countryName:Egypt,,Hurghada,,,BTS,"M.R. Stefanik",Bratislava,,Slovakia,1,165
+countryName:Egypt,,"Sharm el-Sheikh",,,EVN,"Zvartnots International Airport",Yerevan,,Armenia,1,165
+countryName:Egypt,,"Sharm el-Sheikh",,,NAP,Capodichino,Naples,,Italy,1,165
+countryName:Egypt,,Alexandria,,,TOB,"Gamal Abd El Nasser",Tobruk,,Libya,1,156
+countryName:Egypt,,Hurghada,,,SZG,Salzburg,Salzburg,,Austria,1,150
+countryName:Egypt,,Hurghada,,,DRS,Dresden,Dresden,,Germany,1,148
+countryName:Egypt,,Hurghada,,,RLG,Laage,Rostock-Laage,,Germany,1,140
+countryName:Egypt,,Hurghada,,,FDH,Friedrichshafen,Friedrichshafen,,Germany,1,140

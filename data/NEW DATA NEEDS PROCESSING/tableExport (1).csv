@@ -1,0 +1,98 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Mexico,,Acapulco,,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",348,52318
+countryName:Mexico,,Aguascalientes,,,DFW,"Dallas/Ft Worth Intl","Dallas/Fort Worth",TX,"United States",290,33132
+countryName:Mexico,,Cancun,,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",134,22455
+countryName:Mexico,,Cancun,,,ORD,"O'Hare International",Chicago-O'Hare,IL,"United States",132,20150
+countryName:Mexico,,Leon/Guanajuato,,,ATL,"Hartsfield-Jackson ATL",Atlanta,GA,"United States",138,19345
+countryName:Mexico,,Cancun,,,MIA,"Miami International",Miami,FL,"United States",118,17295
+countryName:Mexico,,Cancun,,,SFO,"San Francisco Intl","San Francisco",CA,"United States",105,16557
+countryName:Mexico,,Cancun,,,PTY,"Tocumen Intl, Panama R","Panama City",,Panama,96,16317
+countryName:Mexico,,Cancun,,,YYZ,"Lester B. Pearson Intl",Toronto,ON,Canada,80,14260
+countryName:Mexico,,Cancun,,,BOG,"El Dorado Intl",Bogota,,Colombia,82,13796
+countryName:Mexico,,Cancun,,,HAV,"Jose Marti Intl",Havana,,Cuba,68,11336
+countryName:Mexico,,Cancun,,,YVR,"Vancouver Intl",Vancouver,BC,Canada,65,11009
+countryName:Mexico,,Cancun,,,LIM,"Jorge Chavez Intl",Lima,,Peru,60,10908
+countryName:Mexico,,Culiacan,,,PHX,"Sky Harbor Intl",Phoenix,AZ,"United States",83,10825
+countryName:Mexico,,Cancun,,,YYC,"Calgary Intl",Calgary,AB,Canada,61,10677
+countryName:Mexico,,Cancun,,,MAD,"Adolfo Suarez-Barajas",Madrid,,Spain,31,10218
+countryName:Mexico,,Cancun,,,DEN,"Denver International",Denver,CO,"United States",62,10104
+countryName:Mexico,,Cancun,,,YUL,"Pierre E. Trudeau Intl",Montreal-PET,QC,Canada,38,8457
+countryName:Mexico,,Cancun,,,MCO,"Orlando Intl",Orlando,FL,"United States",43,8082
+countryName:Mexico,,Cancun,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,16,7668
+countryName:Mexico,,Cancun,,,FLL,"Ft Lauderdale Intl","Fort Lauderdale",FL,"United States",44,7014
+countryName:Mexico,,Cancun,,,GUA,"La Aurora International","Guatemala City",,Guatemala,52,6746
+countryName:Mexico,,Guadalajara,,,LAS,"Mccarran Intl","Las Vegas",NV,"United States",40,6428
+countryName:Mexico,,Cancun,,,SJO,"Juan Santamaria Intl","San Jose",,"Costa Rica",38,6226
+countryName:Mexico,,Leon/Guanajuato,,,MDW,"Chicago Midway International",Chicago,IL,"United States",36,5650
+countryName:Mexico,,Cancun,,,AMS,Schiphol,Amsterdam,,Netherlands,17,5108
+countryName:Mexico,,Cancun,,,EWR,"Newark Intl",Newark,NJ,"United States",35,5096
+countryName:Mexico,,Cancun,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,15,5079
+countryName:Mexico,,Guadalajara,,,SJC,"San Jose Municipal","San Jose",CA,"United States",26,5047
+countryName:Mexico,,Cancun,,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",13,4924
+countryName:Mexico,,Cancun,,,DTW,"Metropolitan Wayne County",Detroit,MI,"United States",33,4776
+countryName:Mexico,,Cancun,,,SEA,"Seattle-Tacoma Intl",Seattle,WA,"United States",25,4774
+countryName:Mexico,,"Mexico City",,,SAN,"San Diego International Airport","San Diego",CA,"United States",27,4627
+countryName:Mexico,,Cancun,,,CLT,"Charlotte-Douglas International Airport",Charlotte-Douglas,NC,"United States",21,4444
+countryName:Mexico,,Leon/Guanajuato,,,OAK,"Metro Oakland Intl",Oakland,CA,"United States",25,3964
+countryName:Mexico,,Cancun,,,MAN,"Manchester Airport",Manchester,EN,"United Kingdom",11,3921
+countryName:Mexico,,Cancun,,,SCL,"Arturo M Benitez",Santiago,,Chile,13,3882
+countryName:Mexico,,Cancun,,,SAL,"El Salvador Intl","San Salvador",,"El Salvador",30,3728
+countryName:Mexico,,"Mexico City",,,NRT,Narita,Tokyo-Narita,,Japan,8,3612
+countryName:Mexico,,Cancun,,,SLC,"Salt Lake City Intl","Salt Lake City",UT,"United States",23,3596
+countryName:Mexico,,"Mexico City",,,GRU,"Guarulhos Intl","Sao Paulo-Guarulhos",SP,Brazil,8,3479
+countryName:Mexico,,Cancun,,,IAD,"Dulles International",Washington-Dulles,VA,"United States",23,3442
+countryName:Mexico,,Cancun,,,EZE,"Ministro Pistarini","Buenos Aires",BA,Argentina,6,3162
+countryName:Mexico,,Cancun,,,PHL,"Philadelphia Intl",Philadelphia,PA,"United States",18,2986
+countryName:Mexico,,"Mexico City",,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",8,2786
+countryName:Mexico,,Guadalajara,,,SMF,"Sacramento International",Sacramento,CA,"United States",12,2772
+countryName:Mexico,,Guadalajara,,,FAT,"Fresno Yosemite International",Fresno,CA,"United States",10,2628
+countryName:Mexico,,Cancun,,,YEG,"Edmonton Intl",Edmonton,AB,Canada,15,2538
+countryName:Mexico,,Cancun,,,BWI,"Baltimore/Wash Intl",Baltimore,MD,"United States",11,2472
+countryName:Mexico,,"Puerto Vallarta",,,SNA,"John Wayne Airport","Orange County",CA,"United States",12,1960
+countryName:Mexico,,Guadalajara,,,PDX,"Portland Intl",Portland,OR,"United States",9,1788
+countryName:Mexico,,Cancun,,,MUC,"Franz Josef Strauss International",Munich,,Germany,6,1675
+countryName:Mexico,,Leon/Guanajuato,,,ONT,"Ontario Intl",Ontario,CA,"United States",8,1506
+countryName:Mexico,,Cancun,,,STL,"Lambert International","St. Louis",MO,"United States",2,1429
+countryName:Mexico,,Cancun,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,5,1425
+countryName:Mexico,,Cancun,,,BOS,"Logan International",Boston,MA,"United States",9,1411
+countryName:Mexico,,"Mexico City",,,MGA,"Augusto C Sandino Intl",Managua,,Nicaragua,8,1218
+countryName:Mexico,,Tijuana,,,PVG,"Pudong International",Shanghai,,China,4,1215
+countryName:Mexico,,"Mexico City",,,UIO,"Mariscal Sucre Intl",Quito,,Ecuador,1,1092
+countryName:Mexico,,Cancun,,,MSP,International,"Minneapolis/St. Paul",MN,"United States",1,1085
+countryName:Mexico,,"Mexico City",,,MDE,"Jose Marie Cordova",Medellin,,Colombia,1,1057
+countryName:Mexico,,"Mexico City",,,SDQ,"Las Americas International","Santo Domingo",,"Dominican Republic",1,1057
+countryName:Mexico,,Monterrey,,,ICN,"Incheon International Airport",Seoul,,"South Korea",1,972
+countryName:Mexico,,Cancun,,,BHX,"Birmingham Airport",Birmingham,EN,"United Kingdom",2,814
+countryName:Mexico,,Cancun,,,CLE,"Hopkins Intl",Cleveland,OH,"United States",2,706
+countryName:Mexico,,Cancun,,,CGN,"Konrad Adenauer",Cologne-Bonn,,Germany,2,620
+countryName:Mexico,,Cancun,,,BRU,"Brussels Airport",Brussels,,Belgium,2,600
+countryName:Mexico,,"Mexico City",,,SFB,"Central Florida Region",Orlando-Sanford,FL,"United States",1,600
+countryName:Mexico,,Cancun,,,YLW,"Kelowna International",Kelowna,BC,Canada,3,577
+countryName:Mexico,,Cancun,,,MXP,Malpensa,Milan-Malpensa,,Italy,2,569
+countryName:Mexico,,Guadalajara,,,RNO,"Reno/Tahoe Internation",Reno,NV,"United States",1,522
+countryName:Mexico,,Cancun,,,DUS,"Duesseldorf International",Duesseldorf,,Germany,2,488
+countryName:Mexico,,Cancun,,,YXE,"J.G. Diefenbaker Intl",Saskatoon,SK,Canada,2,480
+countryName:Mexico,,Cancun,,,YOW,"Macdonald-Cartier Intl",Ottawa,ON,Canada,3,465
+countryName:Mexico,,Cancun,,,YWG,"J.A. Richardson Intl",Winnipeg,MB,Canada,2,438
+countryName:Mexico,,Cancun,,,BRS,Bristol/Lulsgate,Bristol,EN,"United Kingdom",1,407
+countryName:Mexico,,Cancun,,,EMA,"East Midlands","East Midlands",EN,"United Kingdom",1,407
+countryName:Mexico,,Cancun,,,NCL,"Newcastle International Airport",Newcastle,EN,"United Kingdom",1,407
+countryName:Mexico,,Cancun,,,GLA,"Glasgow International",Glasgow,SC,"United Kingdom",1,407
+countryName:Mexico,,Cancun,,,LIS,Lisboa,Lisbon,,Portugal,1,388
+countryName:Mexico,,Guadalajara,,,MKE,"General Mitchell Intl",Milwaukee,WI,"United States",1,348
+countryName:Mexico,,Cancun,,,YQB,"Jean Lesage Intl",Quebec,QC,Canada,2,332
+countryName:Mexico,,Cancun,,,YQR,"Regina International",Regina,SK,Canada,2,299
+countryName:Mexico,,Cancun,,,YYJ,"Victoria Intl",Victoria,BC,Canada,2,278
+countryName:Mexico,,Cancun,,,BNA,"Nashville Metro",Nashville,TN,"United States",2,262
+countryName:Mexico,,Cancun,,,RDU,Raleigh-Durham,Raleigh/Durham,NC,"United States",2,262
+countryName:Mexico,,"Mexico City",,,VRA,"Juan G. Gomez Intl",Varadero,,Cuba,2,186
+countryName:Mexico,,"Mexico City",,,SNU,"Abel Santamaria","Santa Clara",,Cuba,1,186
+countryName:Mexico,,Cancun,,,CVG,"Cincinnati Northern Kentucky Airport","Cincinnati, OH/Covington",KY,"United States",1,180
+countryName:Mexico,,Cancun,,,MCI,"Kansas City Intl","Kansas City",MO,"United States",1,169
+countryName:Mexico,,Cancun,,,YHZ,"Halifax Intl",Halifax,NS,Canada,1,139
+countryName:Mexico,,"Puerto Vallarta",,,YQQ,Comox,Comox,BC,Canada,1,139
+countryName:Mexico,,"Puerto Vallarta",,,YXS,"Prince George","Prince George",BC,Canada,1,139
+countryName:Mexico,,Cancun,,,CMH,"Port Columbus Intl",Columbus,OH,"United States",1,134
+countryName:Mexico,,Cancun,,,IND,"Indianapolis Intl",Indianapolis,IN,"United States",1,134
+countryName:Mexico,,Cancun,,,PIT,"Pittsburgh Internation",Pittsburgh,PA,"United States",1,134
+countryName:Mexico,,"Puerto Vallarta",,,YXX,"Abbotsford International",Abbotsford,BC,Canada,1,126

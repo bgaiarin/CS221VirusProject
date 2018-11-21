@@ -1,0 +1,76 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Ethiopia,,"Addis Ababa",,,DXB,"Dubai International",Dubai,,"United Arab Emirates",33,10516
+countryName:Ethiopia,,"Addis Ababa",,,NBO,"Jomo Kenyatta Intl",Nairobi,,Kenya,47,7628
+countryName:Ethiopia,,"Addis Ababa",,,EBB,"Entebbe International",Entebbe/Kampala,,Uganda,25,5719
+countryName:Ethiopia,,"Addis Ababa",,,JNB,"O.R. Tambo International Airport",Johannesburg,,"South Africa",17,5704
+countryName:Ethiopia,,"Addis Ababa",,,BOM,"Mumbai (Chhatrapati Shivaji) International",Mumbai/Bombay,,India,9,5488
+countryName:Ethiopia,,"Addis Ababa",,,CAN,"Baiyun International",Guangzhou,,China,9,4152
+countryName:Ethiopia,,"Addis Ababa",,,DEL,"Indira Gandhi Intl",Delhi,,India,9,3744
+countryName:Ethiopia,,"Addis Ababa",,,KRT,"Khartoum Civil International",Khartoum,,Sudan,17,3368
+countryName:Ethiopia,,"Addis Ababa",,,BEY,"Rafic Hariri International",Beirut,,Lebanon,9,3352
+countryName:Ethiopia,,"Addis Ababa",,,LOS,"Murtala Muhammed International",Lagos,,Nigeria,1,3072
+countryName:Ethiopia,,"Addis Ababa",,,CPT,"Cape Town Intl.","Cape Town",,"South Africa",1,3072
+countryName:Ethiopia,,"Addis Ababa",,,JED,"King Abdulaziz Intl",Jeddah,,"Saudi Arabia",10,3064
+countryName:Ethiopia,,"Addis Ababa",,,DAR,"Julius Nyerere International","Dar Es Salaam",,Tanzania,17,3051
+countryName:Ethiopia,,"Addis Ababa",,,BZV,"Maya Maya",Brazzaville,,Congo,9,3015
+countryName:Ethiopia,,"Addis Ababa",,,TLV,"Ben Gurion Intl","Tel Aviv-Yafo",,Israel,9,2960
+countryName:Ethiopia,,"Addis Ababa",,,ACC,"Kotoka International",Accra,,Ghana,1,2744
+countryName:Ethiopia,,"Addis Ababa",,,ABV,"Nnamdi Azikiwe International Airport",Abuja,,Nigeria,1,2744
+countryName:Ethiopia,,"Addis Ababa",,,JRO,"Kilimanjaro International",Kilimanjaro,,Tanzania,3,2744
+countryName:Ethiopia,,"Addis Ababa",,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",8,2744
+countryName:Ethiopia,,"Addis Ababa",,,PEK,"Capital International",Beijing,,China,1,2744
+countryName:Ethiopia,,"Addis Ababa",,,PVG,"Pudong International",Shanghai,,China,1,2744
+countryName:Ethiopia,,"Addis Ababa",,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,8,2700
+countryName:Ethiopia,,"Addis Ababa",,,CAI,"Cairo Intl",Cairo,,Egypt,7,2590
+countryName:Ethiopia,,"Addis Ababa",,,FIH,"N'Djili International",Kinshasa,,"Democratic Republic of the Congo",1,2568
+countryName:Ethiopia,,"Addis Ababa",,,GRU,"Guarulhos Intl","Sao Paulo-Guarulhos",SP,Brazil,3,2568
+countryName:Ethiopia,,"Addis Ababa",,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,1,2568
+countryName:Ethiopia,,"Addis Ababa",,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,1,2520
+countryName:Ethiopia,,"Addis Ababa",,,KGL,"Kigali International Airport",Kigali,,Rwanda,9,2424
+countryName:Ethiopia,,"Addis Ababa",,,BKK,"Suvarnabhumi - New Bangkok International Airport",Bangkok,,Thailand,5,2160
+countryName:Ethiopia,,"Addis Ababa",,,MBA,Mombasa,Mombasa,,Kenya,1,2160
+countryName:Ethiopia,,"Addis Ababa",,,VIE,"Vienna International",Vienna,,Austria,1,2160
+countryName:Ethiopia,,"Addis Ababa",,,HRE,"Harare International",Harare,,Zimbabwe,6,2077
+countryName:Ethiopia,,"Addis Ababa",,,BKO,"Senou International",Bamako,,Mali,4,2052
+countryName:Ethiopia,,"Addis Ababa",,,LBV,"Leon M'ba International",Libreville,,Gabon,1,1890
+countryName:Ethiopia,,"Addis Ababa",,,CTU,"Shuangliu International",Chengdu,,China,5,1890
+countryName:Ethiopia,,"Addis Ababa",,,HAH,"Prince Said Ibrahim International",Moroni-Hahaya,,Comoros,6,1833
+countryName:Ethiopia,,"Addis Ababa",,,LUN,"Lusaka Intl",Lusaka,,Zambia,4,1703
+countryName:Ethiopia,,"Addis Ababa",,,LAD,"4 De Fevereiro",Luanda,,Angola,4,1674
+countryName:Ethiopia,,"Addis Ababa",,,JUB,Juba,Juba,,"South Sudan",15,1606
+countryName:Ethiopia,,"Addis Ababa",,,SEZ,"Seychelles Intl",Seychelles,,Seychelles,8,1593
+countryName:Ethiopia,,"Addis Ababa",,,SSG,"Santa Isabel International",Malabo,,"Equatorial Guinea",1,1575
+countryName:Ethiopia,,"Addis Ababa",,,RUH,"King Khalid Intl",Riyadh,,"Saudi Arabia",1,1480
+countryName:Ethiopia,,"Addis Ababa",,,KWI,"Kuwait Intl",Kuwait,,Kuwait,1,1480
+countryName:Ethiopia,,"Addis Ababa",,,MPM,"Maputo International",Maputo,,Mozambique,1,1480
+countryName:Ethiopia,,"Addis Ababa",,,FBM,Luano,Lubumbashi,,"Democratic Republic of the Congo",1,1480
+countryName:Ethiopia,,"Addis Ababa",,,NLA,Ndola,Ndola,,Zambia,1,1480
+countryName:Ethiopia,,"Addis Ababa",,,MCT,"Seeb International",Muscat,,Oman,1,1480
+countryName:Ethiopia,,"Addis Ababa",,,LLW,"Kamuzu Intl",Lilongwe,,Malawi,1,1480
+countryName:Ethiopia,,"Addis Ababa",,,ABJ,"Felix Houphouet Boigny",Abidjan,,"Ivory Coast (Cote d'Ivoire)",1,1350
+countryName:Ethiopia,,"Addis Ababa",,,WDH,"Windhoek Intl",Windhoek,,Namibia,1,1350
+countryName:Ethiopia,,"Addis Ababa",,,ARN,Arlanda,Stockholm-Arlanda,,Sweden,1,1350
+countryName:Ethiopia,,"Addis Ababa",,,SIN,Changi,Singapore,,Singapore,1,1350
+countryName:Ethiopia,,"Addis Ababa",,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",1,1350
+countryName:Ethiopia,,"Addis Ababa",,,DUB,"Dublin International",Dublin,,Ireland,1,1350
+countryName:Ethiopia,,"Addis Ababa",,,LFW,"G. Eyadema International",Lome,,Togo,1,1350
+countryName:Ethiopia,,"Addis Ababa",,,NDJ,Ndjamena,N'Djamena,,Chad,6,1279
+countryName:Ethiopia,,"Addis Ababa",,,IST,Ataturk,Istanbul,,Turkey,1,1264
+countryName:Ethiopia,,"Addis Ababa",,,BAH,"Bahrain Intl",Bahrain,,Bahrain,5,1232
+countryName:Ethiopia,,"Addis Ababa",,,DOH,"Hamad International Airport",Doha,,Qatar,4,1207
+countryName:Ethiopia,,"Addis Ababa",,,NIM,"Diori Hamani International Airport",Niamey,,Niger,1,1170
+countryName:Ethiopia,,"Addis Ababa",,,ICN,"Incheon International Airport",Seoul,,"South Korea",1,1080
+countryName:Ethiopia,,"Addis Ababa",,,BCN,Barcelona,Barcelona,,Spain,1,1080
+countryName:Ethiopia,,"Addis Ababa",,,TNR,"Ivato International",Antananarivo,,Madagascar,4,1044
+countryName:Ethiopia,,"Addis Ababa",,,KAN,"Mallam Aminu Kano Intl",Kano,,Nigeria,4,972
+countryName:Ethiopia,,"Addis Ababa",,,DLA,"Douala International",Douala,,Cameroon,1,945
+countryName:Ethiopia,,"Addis Ababa",,,MED,"Medina-Prince Mohammad",Madinah,,"Saudi Arabia",1,925
+countryName:Ethiopia,,"Addis Ababa",,,MXP,Malpensa,Milan-Malpensa,,Italy,1,810
+countryName:Ethiopia,,"Addis Ababa",,,ENU,"Akanu Ibiam International Airport",Enugu,,Nigeria,2,774
+countryName:Ethiopia,,"Addis Ababa",,,ZNZ,"Zanzibar International",Zanzibar,,Tanzania,3,740
+countryName:Ethiopia,,"Addis Ababa",,,BJM,"Bujumbura Intl",Bujumbura,,Burundi,1,740
+countryName:Ethiopia,,"Addis Ababa",,,VFA,"Victoria Falls International","Victoria Falls",,Zimbabwe,4,673
+countryName:Ethiopia,,"Addis Ababa",,,COO,Cadjehoun,Cotonou,,Benin,1,590
+countryName:Ethiopia,,"Addis Ababa",,,FKI,"Bangoka International Airport",Kisangani,,"Democratic Republic of the Congo",1,555
+countryName:Ethiopia,,"Addis Ababa",,,DMM,"King Fahad International Airport",Dammam,,"Saudi Arabia",1,555
+countryName:Ethiopia,,"Addis Ababa",,,KAD,Kaduna,Kaduna,,Nigeria,1,555

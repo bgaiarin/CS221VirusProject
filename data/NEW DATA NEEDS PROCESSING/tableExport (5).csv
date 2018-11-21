@@ -1,0 +1,159 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Poland,,Bydgoszcz,,,STN,Stansted,London-Stansted,EN,"United Kingdom",137,25893
+countryName:Poland,,Bydgoszcz,,,LTN,"Luton International",London-Luton,EN,"United Kingdom",118,25500
+countryName:Poland,,Bydgoszcz,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,182,22439
+countryName:Poland,,Gdansk,,,MUC,"Franz Josef Strauss International",Munich,,Germany,142,15795
+countryName:Poland,,Gdansk,,,TRF,Torp,Sandefjord,,Norway,69,15769
+countryName:Poland,,Gdansk,,,NYO,"Stockholm Skavsta",Nykoping,,Sweden,56,11587
+countryName:Poland,,Bydgoszcz,,,DUB,"Dublin International",Dublin,,Ireland,50,9450
+countryName:Poland,,Gdansk,,,CPH,Kastrup,Copenhagen,,Denmark,91,9104
+countryName:Poland,,Krakow,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,56,8834
+countryName:Poland,,Gdansk,,,EIN,Eindhoven,Eindhoven,,Netherlands,35,8708
+countryName:Poland,,Gdansk,,,AMS,Schiphol,Amsterdam,,Netherlands,76,8665
+countryName:Poland,,Gdansk,,,DTM,"Dortmund Airport",Dortmund,,Germany,33,8460
+countryName:Poland,,Krakow,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",47,8400
+countryName:Poland,,Gdansk,,,TLV,"Ben Gurion Intl","Tel Aviv-Yafo",,Israel,47,8344
+countryName:Poland,,Gdansk,,,BGY,"Bergamo/Orio Al Serio","Milan-Orio Serio",,Italy,35,7209
+countryName:Poland,,Gdansk,,,BCN,Barcelona,Barcelona,,Spain,35,6696
+countryName:Poland,,Gdansk,,,ATH,"Eleftherios Venizelos Airport",Athens,,Greece,35,6564
+countryName:Poland,,Krakow,,,DUS,"Duesseldorf International",Duesseldorf,,Germany,49,6352
+countryName:Poland,,Krakow,,,CRL,"Brussels S. Charleroi",Brussels,,Belgium,32,6312
+countryName:Poland,,Krakow,,,BRU,"Brussels Airport",Brussels,,Belgium,48,6105
+countryName:Poland,,Gdansk,,,LPL,"John Lennon Airport",Liverpool,EN,"United Kingdom",26,5626
+countryName:Poland,,Warsaw,,,SVO,Sheremetyevo,Moscow-Sheremetyevo,CF,"Russian Federation",33,5440
+countryName:Poland,,Gdansk,,,IEV,"Zhuliany International",Kiev-Metro,,Ukraine,27,5278
+countryName:Poland,,Gdansk,,,MMX,Sturup,Malmo-Sturup,,Sweden,17,5173
+countryName:Poland,,Krakow,,,VIE,"Vienna International",Vienna,,Austria,45,5092
+countryName:Poland,,Krakow,,,ZRH,Zurich,Zurich,,Switzerland,46,4995
+countryName:Poland,,Gdansk,,,VNO,"Vilnius International",Vilnius,,Lithuania,46,4914
+countryName:Poland,,Gdansk,,,MAN,"Manchester Airport",Manchester,EN,"United Kingdom",25,4626
+countryName:Poland,,Bydgoszcz,,,LWO,"Lviv International",Lviv,,Ukraine,35,4568
+countryName:Poland,,Bydgoszcz,,,BHX,"Birmingham Airport",Birmingham,EN,"United Kingdom",23,4538
+countryName:Poland,,Gdansk,,,DSA,"Robin Hood",Doncaster/Sheffield,EN,"United Kingdom",19,4526
+countryName:Poland,,Gdansk,,,LIS,Lisboa,Lisbon,,Portugal,20,4488
+countryName:Poland,,Krakow,,,MAD,"Adolfo Suarez-Barajas",Madrid,,Spain,23,4323
+countryName:Poland,,Gdansk,,,BRS,Bristol/Lulsgate,Bristol,EN,"United Kingdom",23,4314
+countryName:Poland,,Krakow,,,PRG,Ruzyne,Prague,,"Czech Republic",53,4245
+countryName:Poland,,Krakow,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",9,4232
+countryName:Poland,,Warsaw,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,20,4212
+countryName:Poland,,Gdansk,,,EDI,Turnhouse,Edinburgh,SC,"United Kingdom",21,4080
+countryName:Poland,,Gdansk,,,KEF,"Keflavik Intl",Reykjavik,,Iceland,16,3876
+countryName:Poland,,Gdansk,,,GOT,"Goteborg-Landvetter Airport",Goteborg,,Sweden,19,3855
+countryName:Poland,,Warsaw,,,BUD,"Liszt Ferenc International",Budapest,,Hungary,31,3838
+countryName:Poland,,Gdansk,,,MLA,"Luqa International",Malta,,Malta,17,3807
+countryName:Poland,,Gdansk,,,HAM,Hamburg,Hamburg,,Germany,27,3756
+countryName:Poland,,Krakow,,,CIA,Ciampino,Rome-Ciampino,,Italy,19,3666
+countryName:Poland,,Gdansk,,,BVA,Beauvais-Tille,Paris,,France,16,3576
+countryName:Poland,,Warsaw,,,KBP,"Boryspil International",Kiev,,Ukraine,25,3304
+countryName:Poland,,Warsaw,,,OTP,"Otopeni International",Bucharest,,Romania,23,3252
+countryName:Poland,,Gdansk,,,BGO,Flesland,Bergen,,Norway,10,3226
+countryName:Poland,,Krakow,,,MXP,Malpensa,Milan-Malpensa,,Italy,32,3219
+countryName:Poland,,Krakow,,,EMA,"East Midlands","East Midlands",EN,"United Kingdom",17,3213
+countryName:Poland,,Gdansk,,,SVG,Sola,Stavanger,,Norway,7,3020
+countryName:Poland,,Gdansk,,,ALC,"Alicante Airport",Alicante,,Spain,15,2860
+countryName:Poland,,Gdansk,,,NAP,Capodichino,Naples,,Italy,15,2852
+countryName:Poland,,Gdansk,,,TKU,Turku,Turku,,Finland,9,2846
+countryName:Poland,,Krakow,,,ARN,Arlanda,Stockholm-Arlanda,,Sweden,29,2832
+countryName:Poland,,Gdansk,,,LBA,"Leeds/Bradford Airport",Leeds/Bradford,EN,"United Kingdom",15,2753
+countryName:Poland,,Gdansk,,,HEL,Helsinki-Vantaa,Helsinki,,Finland,26,2722
+countryName:Poland,,Warsaw,,,RIX,"Riga-Arpt Internaitonal",Riga,,Latvia,29,2702
+countryName:Poland,,Krakow,,,BLQ,"Guglielmo Marconi",Bologna,,Italy,12,2556
+countryName:Poland,,Bydgoszcz,,,GLA,"Glasgow International",Glasgow,SC,"United Kingdom",12,2507
+countryName:Poland,,Gdansk,,,CGN,"Konrad Adenauer",Cologne-Bonn,,Germany,10,2442
+countryName:Poland,,Gdansk,,,BFS,"Belfast Intl",Belfast,NI,"United Kingdom",11,2358
+countryName:Poland,,Krakow,,,OPO,Porto,Porto,,Portugal,11,2254
+countryName:Poland,,Warsaw,,,DOH,"Hamad International Airport",Doha,,Qatar,6,2080
+countryName:Poland,,Krakow,,,ORD,"O'Hare International",Chicago-O'Hare,IL,"United States",8,2016
+countryName:Poland,,Warsaw,,,TLL,"Lennart Meri",Tallinn,,Estonia,17,1992
+countryName:Poland,,Krakow,,,TFS,"Sur Reina Sofia",Tenerife-Reinasofia,,Spain,8,1938
+countryName:Poland,,Warsaw,,,PEK,"Capital International",Beijing,,China,5,1888
+countryName:Poland,,Gdansk,,,AES,Vigra,Alesund,,Norway,1,1776
+countryName:Poland,,Krakow,,,STR,"Echterdingen Airport",Stuttgart,,Germany,19,1775
+countryName:Poland,,Warsaw,,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",1,1764
+countryName:Poland,,Gdansk,,,HAU,"Haugesund Airport, Karmoy",Haugesund,,Norway,6,1712
+countryName:Poland,,Krakow,,,BSL,"EuroAirport Swiss CH",Basel/Mulhouse,,Switzerland,9,1694
+countryName:Poland,,Katowice,,,LCA,Larnaca,Larnaca,,Cyprus,10,1672
+countryName:Poland,,Warsaw,,,IST,Ataturk,Istanbul,,Turkey,6,1658
+countryName:Poland,,Katowice,,,FMM,"Allgaeu Airport",Memmingen,,Germany,4,1637
+countryName:Poland,,Krakow,,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",10,1614
+countryName:Poland,,Gdansk,,,NCL,"Newcastle International Airport",Newcastle,EN,"United Kingdom",7,1512
+countryName:Poland,,Krakow,,,SXF,Schoenefeld,Berlin-Schoenefeld,,Germany,8,1512
+countryName:Poland,,Warsaw,,,ICN,"Incheon International Airport",Seoul,,"South Korea",1,1512
+countryName:Poland,,Warsaw,,,YYZ,"Lester B. Pearson Intl",Toronto,ON,Canada,1,1512
+countryName:Poland,,Katowice,,,KUT,Kutaisi,Kutaisi,,Georgia,5,1498
+countryName:Poland,,Krakow,,,GVA,"Geneva International Airport",Geneva,,Switzerland,16,1460
+countryName:Poland,,Katowice,,,HRK,"Osnova International",Kharkiv,,Ukraine,12,1412
+countryName:Poland,,Krakow,,,LYS,Satolas,Lyon,,France,7,1324
+countryName:Poland,,Krakow,,,GRO,"Costa Brava",Gerona,,Spain,6,1323
+countryName:Poland,,Krakow,,,SNN,"Shannon International",Shannon,,Ireland,7,1323
+countryName:Poland,,Krakow,,,AGP,"Malaga Airport",Malaga,,Spain,6,1323
+countryName:Poland,,Warsaw,,,NCE,"Cote D'Azur",Nice,,France,9,1322
+countryName:Poland,,Warsaw,,,NRT,Narita,Tokyo-Narita,,Japan,1,1260
+countryName:Poland,,Gdansk,,,BLL,Billund,Billund,,Denmark,5,1234
+countryName:Poland,,Warsaw,,,OSL,"Oslo Airport",Oslo,,Norway,9,1230
+countryName:Poland,,Warsaw,,,ODS,"Odesa International",Odesa,,Ukraine,8,1162
+countryName:Poland,,Gdansk,,,PSA,"Galileo Galilei",Pisa,,Italy,6,1134
+countryName:Poland,,Krakow,,,BOJ,Burgas,Burgas,,Bulgaria,6,1134
+countryName:Poland,,Krakow,,,CAG,Elmas,Cagliari,,Italy,6,1134
+countryName:Poland,,Krakow,,,PMI,"Palma De Mallorca","Palma de Mallorca",,Spain,6,1134
+countryName:Poland,,Katowice,,,CTA,Fontanarossa,Catania,,Italy,4,1110
+countryName:Poland,,Katowice,,,BRI,"Palese Macchie",Bari,,Italy,4,1094
+countryName:Poland,,Warsaw,,,TXL,Tegel,Berlin-Tegel,,Germany,7,1092
+countryName:Poland,,Warsaw,,,SOF,Sofia-Vrazhdebna,Sofia,,Bulgaria,8,1064
+countryName:Poland,,Krakow,,,VCE,"Marco Polo",Venice,,Italy,8,1042
+countryName:Poland,,Krakow,,,SUF,"S Eufemia Airport","Lamezia Terme",,Italy,5,1020
+countryName:Poland,,Warsaw,,,SIN,Changi,Singapore,,Singapore,1,1008
+countryName:Poland,,Warsaw,,,EWR,"Newark Intl",Newark,NJ,"United States",1,1008
+countryName:Poland,,Warsaw,,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",3,1008
+countryName:Poland,,Warsaw,,,LJU,"Joze Pucnik",Ljubljana,,Slovenia,11,966
+countryName:Poland,,Gdansk,,,ORK,"Cork International",Cork,,Ireland,5,945
+countryName:Poland,,Krakow,,,VLC,"Valencia Airport",Valencia,,Spain,3,945
+countryName:Poland,,Krakow,,,SVQ,"Sevilla Airport",Sevilla,,Spain,4,945
+countryName:Poland,,Krakow,,,TSF,Venice-Treviso,Venice-Treviso,,Italy,4,945
+countryName:Poland,,Krakow,,,CHQ,"Ioannis Daskalogiannis Airport","Chania, Crete",,Greece,5,945
+countryName:Poland,,Warsaw,,,LUX,Findel,Luxembourg,,Luxembourg,7,910
+countryName:Poland,,Warsaw,,,MSQ,"Minsk International",Minsk,,Belarus,3,784
+countryName:Poland,,Krakow,,,NUE,Nuremberg,Nuremberg,,Germany,3,756
+countryName:Poland,,Katowice,,,CFU,"Ioannis Kapodistrias Airport",Kerkyra,,Greece,4,756
+countryName:Poland,,Warsaw,,,KSC,Barca,Kosice,,Slovakia,5,748
+countryName:Poland,,Warsaw,,,TSE,"Astana International",Astana,,Kazakhstan,1,744
+countryName:Poland,,Warsaw,,,ZAG,Pleso,Zagreb,,Croatia,6,738
+countryName:Poland,,Warsaw,,,SKG,Makedonia,Thessaloniki,,Greece,3,724
+countryName:Poland,,Warsaw,,,TBS,"Novo Alexeyevka International",Tbilisi,,Georgia,1,672
+countryName:Poland,,Warsaw,,,DME,Domodedovo,Moscow-Domodedovo,CF,"Russian Federation",1,672
+countryName:Poland,,Gdansk,,,TRD,Vaernes,Trondheim,,Norway,1,666
+countryName:Poland,,Katowice,,,HHN,Frankfurt-Hahn,Hahn,,Germany,1,666
+countryName:Poland,,Katowice,,,HRG,"Hurghada International Airport",Hurghada,,Egypt,4,660
+countryName:Poland,,Katowice,,,RMF,"Marsa Alam International Airport","Marsa Alam",,Egypt,3,660
+countryName:Poland,,Warsaw,,,BTS,"M.R. Stefanik",Bratislava,,Slovakia,2,658
+countryName:Poland,,Gdansk,,,TOS,Langnes,Tromso,,Norway,2,642
+countryName:Poland,,Katowice,,,DWC,"Al Maktoum Intl Emirates",Dubai,,"United Arab Emirates",1,642
+countryName:Poland,,Warsaw,,,BOD,Merignac,Bordeaux,,France,1,642
+countryName:Poland,,Warsaw,,,KIV,"Kishinev International",Kishinev,,Moldova,4,624
+countryName:Poland,,Krakow,,,PFO,"Paphos International",Paphos,,Cyprus,3,567
+countryName:Poland,,Krakow,,,PSR,Liberi,Pescara,,Italy,3,567
+countryName:Poland,,Krakow,,,LPA,"Gran Canaria","Gran Canaria",,Spain,3,567
+countryName:Poland,,Poznan,,,CDT,"Castellon Airport","Castellon de la Plana",,Spain,2,567
+countryName:Poland,,"Nowy Dwor Mazowiecki",,,TLS,Blagnac,Toulouse,,France,3,567
+countryName:Poland,,Wroclaw,,,PMO,"Punta Raisi",Palermo,,Italy,1,567
+countryName:Poland,,Warsaw,,,LED,Pulkovo,"St. Petersburg",NF,"Russian Federation",5,560
+countryName:Poland,,Warsaw,,,BEG,"Nikola Tesla Airport",Belgrade,,Serbia,4,560
+countryName:Poland,,Warsaw,,,EVN,"Zvartnots International Airport",Yerevan,,Armenia,1,560
+countryName:Poland,,Warsaw,,,KGD,Kaliningrad,Kaliningrad,CF,"Russian Federation",4,546
+countryName:Poland,,Gdansk,,,ABZ,Dyce,Aberdeen,SC,"United Kingdom",1,428
+countryName:Poland,,Gdansk,,,KRS,Kjevik,Kristiansand,,Norway,1,428
+countryName:Poland,,Warsaw,,,AGA,"Agadir-Al Massira Airport",Agadir,,Morocco,1,428
+countryName:Poland,,Warsaw,,,SDR,"Santander Airport",Santander,,Spain,1,428
+countryName:Poland,,Warsaw,,,CLJ,Napoca,Cluj-Napoca,,Romania,4,390
+countryName:Poland,,Bydgoszcz,,,NRN,Nordrhein-Westfale,Nordrhein-Westfale,,Germany,2,378
+countryName:Poland,,Gdansk,,,AAR,Tirstrup,Aarhus,,Denmark,2,378
+countryName:Poland,,Gdansk,,,VXO,Vaxjo,Vaxjo,,Sweden,2,378
+countryName:Poland,,Krakow,,,LDE,Lourdes/Tarbes-Tarbes,Lourdes,,France,2,378
+countryName:Poland,,Krakow,,,BOH,"Bournemouth/Hurn International",Bournemouth,EN,"United Kingdom",2,378
+countryName:Poland,,Krakow,,,MRS,Marignane,Marseille,,France,1,378
+countryName:Poland,,Krakow,,,RAK,Menara,Marrakech,,Morocco,1,378
+countryName:Poland,,Rzeszow,,,PIK,Prestwick,Glasgow-Prestwick,SC,"United Kingdom",2,378
+countryName:Poland,,"Nowy Dwor Mazowiecki",,,FAO,Faro,Faro,,Portugal,1,378
+countryName:Poland,,"Nowy Dwor Mazowiecki",,,FKB,"Baden Airpark","Karlsruhe/Baden Baden",,Germany,2,378
+countryName:Poland,,"Nowy Dwor Mazowiecki",,,RMI,Miramare,Rimini,,Italy,1,378
+countryName:Poland,,Katowice,,,SSH,"Sharm el-Sheikh Interrnational","Sharm el-Sheikh",,Egypt,2,330

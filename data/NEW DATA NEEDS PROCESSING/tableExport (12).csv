@@ -1,0 +1,214 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+stateName:Texas,,Austin,TX,,ATL,"Hartsfield-Jackson ATL",Atlanta,GA,"United States",606,85458
+stateName:Texas,,Amarillo,TX,,DEN,"Denver International",Denver,CO,"United States",539,72988
+stateName:Texas,,Austin,TX,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",548,71681
+stateName:Texas,,Amarillo,TX,,PHX,"Sky Harbor Intl",Phoenix,AZ,"United States",471,60659
+stateName:Texas,,Austin,TX,,ORD,"O'Hare International",Chicago-O'Hare,IL,"United States",384,52561
+stateName:Texas,,Amarillo,TX,,LAS,"Mccarran Intl","Las Vegas",NV,"United States",332,51976
+stateName:Texas,,Austin,TX,,SFO,"San Francisco Intl","San Francisco",CA,"United States",279,42534
+stateName:Texas,,Austin,TX,,CLT,"Charlotte-Douglas International Airport",Charlotte-Douglas,NC,"United States",263,39687
+stateName:Texas,,Austin,TX,,MSY,"New Orleans Intl","New Orleans",LA,"United States",277,38817
+stateName:Texas,,Dallas-Love,TX,,LGA,"La Guardia","New York-La Guardia",NY,"United States",312,37952
+stateName:Texas,,Austin,TX,,MCO,"Orlando Intl",Orlando,FL,"United States",230,35674
+stateName:Texas,,Austin,TX,,SEA,"Seattle-Tacoma Intl",Seattle,WA,"United States",216,33213
+stateName:Texas,,Austin,TX,,SAN,"San Diego International Airport","San Diego",CA,"United States",214,32689
+stateName:Texas,,Austin,TX,,DCA,"Ronald Reagan National",Washington-National,DC,"United States",218,31373
+stateName:Texas,,Austin,TX,,MEX,"Benito Juarez Intl","Mexico City",,Mexico,223,29450
+stateName:Texas,,Austin,TX,,MIA,"Miami International",Miami,FL,"United States",178,29005
+stateName:Texas,,Austin,TX,,EWR,"Newark Intl",Newark,NJ,"United States",197,27532
+stateName:Texas,,Austin,TX,,BOS,"Logan International",Boston,MA,"United States",171,27493
+stateName:Texas,,Austin,TX,,BNA,"Nashville Metro",Nashville,TN,"United States",208,27194
+stateName:Texas,,Austin,TX,,PHL,"Philadelphia Intl",Philadelphia,PA,"United States",158,25280
+stateName:Texas,,Austin,TX,,STL,"Lambert International","St. Louis",MO,"United States",196,24624
+stateName:Texas,,Austin,TX,,FLL,"Ft Lauderdale Intl","Fort Lauderdale",FL,"United States",154,24028
+stateName:Texas,,Austin,TX,,TPA,"Tampa International",Tampa,FL,"United States",153,23927
+stateName:Texas,,Austin,TX,,BWI,"Baltimore/Wash Intl",Baltimore,MD,"United States",149,22977
+stateName:Texas,,Austin,TX,,DTW,"Metropolitan Wayne County",Detroit,MI,"United States",213,22945
+stateName:Texas,,Austin,TX,,MCI,"Kansas City Intl","Kansas City",MO,"United States",183,22891
+stateName:Texas,,Austin,TX,,SLC,"Salt Lake City Intl","Salt Lake City",UT,"United States",173,22366
+stateName:Texas,,Austin,TX,,MDW,"Chicago Midway International",Chicago,IL,"United States",150,21945
+stateName:Texas,,Austin,TX,,MSP,International,"Minneapolis/St. Paul",MN,"United States",210,20458
+stateName:Texas,,Austin,TX,,ABQ,"International Sunport",Albuquerque,NM,"United States",159,19945
+stateName:Texas,,Dallas-Love,TX,,OKC,"Will Rogers World","Oklahoma City",OK,"United States",184,19689
+stateName:Texas,,Dallas-Love,TX,,SNA,"John Wayne Airport","Orange County",CA,"United States",123,19090
+stateName:Texas,,Austin,TX,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",56,18585
+stateName:Texas,,Austin,TX,,CUN,"Cancun International",Cancun,,Mexico,115,18131
+stateName:Texas,,Dallas-Love,TX,,TUL,"Tulsa International",Tulsa,OK,"United States",165,17503
+stateName:Texas,,Austin,TX,,SJC,"San Jose Municipal","San Jose",CA,"United States",118,16982
+stateName:Texas,,Austin,TX,,PDX,"Portland Intl",Portland,OR,"United States",93,15887
+stateName:Texas,,Austin,TX,,IAD,"Dulles International",Washington-Dulles,VA,"United States",137,15268
+stateName:Texas,,Austin,TX,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",89,13309
+stateName:Texas,,Dallas-Love,TX,,MEM,"Memphis Intl",Memphis,TN,"United States",109,12242
+stateName:Texas,,Austin,TX,,IND,"Indianapolis Intl",Indianapolis,IN,"United States",105,12051
+stateName:Texas,,Austin,TX,,SMF,"Sacramento International",Sacramento,CA,"United States",72,11651
+stateName:Texas,,Austin,TX,,RDU,Raleigh-Durham,Raleigh/Durham,NC,"United States",91,11000
+stateName:Texas,,"Dallas/Fort Worth",TX,,NRT,Narita,Tokyo-Narita,,Japan,36,10704
+stateName:Texas,,Austin,TX,,CVG,"Cincinnati Northern Kentucky Airport","Cincinnati, OH/Covington",KY,"United States",109,10252
+stateName:Texas,,Austin,TX,,YYZ,"Lester B. Pearson Intl",Toronto,ON,Canada,101,9929
+stateName:Texas,,"Dallas/Fort Worth",TX,,TUS,"Tucson International",Tucson,AZ,"United States",73,9776
+stateName:Texas,,Austin,TX,,CMH,"Port Columbus Intl",Columbus,OH,"United States",88,9530
+stateName:Texas,,Austin,TX,,ONT,"Ontario Intl",Ontario,CA,"United States",54,9441
+stateName:Texas,,Dallas-Love,TX,,PIT,"Pittsburgh Internation",Pittsburgh,PA,"United States",86,9334
+stateName:Texas,,"Dallas/Fort Worth",TX,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,25,9273
+stateName:Texas,,Dallas-Love,TX,,BHM,"Birmingham Municipal",Birmingham,AL,"United States",107,9238
+stateName:Texas,,Dallas-Love,TX,,LIT,"B. & H. Clinton National","Little Rock",AR,"United States",123,9146
+stateName:Texas,,"Dallas/Fort Worth",TX,,MTY,"Mariano Escobedo Intl",Monterrey,,Mexico,87,9093
+stateName:Texas,,Dallas-Love,TX,,JAX,"Jacksonville Intl",Jacksonville,FL,"United States",82,8899
+stateName:Texas,,Austin,TX,,SJD,"Los Cabos Intl","San Jose del Cabo",,Mexico,49,8720
+stateName:Texas,,Austin,TX,,CLE,"Hopkins Intl",Cleveland,OH,"United States",72,8660
+stateName:Texas,,Austin,TX,,OAK,"Metro Oakland Intl",Oakland,CA,"United States",55,8482
+stateName:Texas,,"Dallas/Fort Worth",TX,,YYC,"Calgary Intl",Calgary,AB,Canada,69,8354
+stateName:Texas,,Dallas-Love,TX,,OMA,"Eppley Airfield",Omaha,NE,"United States",88,7759
+stateName:Texas,,Austin,TX,,PNS,"Pensacola International",Pensacola,FL,"United States",91,7262
+stateName:Texas,,"Dallas/Fort Worth",TX,,COS,Municipal,"Colorado Springs",CO,"United States",51,7129
+stateName:Texas,,Austin,TX,,GDL,"Miguel Hidalgo Intl",Guadalajara,,Mexico,51,7027
+stateName:Texas,,"Dallas/Fort Worth",TX,,XNA,"Northwest Arkansas Regional Airport",Fayetteville/Springd.,AR,"United States",95,6658
+stateName:Texas,,"Dallas/Fort Worth",TX,,PVR,"G. Diaz Ordaz Intl","Puerto Vallarta",,Mexico,37,6607
+stateName:Texas,,"Dallas/Fort Worth",TX,,MKE,"General Mitchell Intl",Milwaukee,WI,"United States",48,6396
+stateName:Texas,,"Dallas/Fort Worth",TX,,SJU,"Luis Munoz Marin Int","San Juan",PR,"United States",32,6382
+stateName:Texas,,"Dallas/Fort Worth",TX,,RSW,"Southwest Florida","Fort Myers",FL,"United States",33,6370
+stateName:Texas,,"Dallas/Fort Worth",TX,,BTR,"Metropolitan -Ryan Field","Baton Rouge",LA,"United States",93,6222
+stateName:Texas,,"Dallas/Fort Worth",TX,,HNL,"Honolulu Intl",Honolulu/Oahu,HI,"United States",14,6199
+stateName:Texas,,"Dallas/Fort Worth",TX,,SYD,"Kingsford Smith",Sydney,NS,Australia,9,5824
+stateName:Texas,,"Dallas/Fort Worth",TX,,DXB,"Dubai International",Dubai,,"United Arab Emirates",9,5808
+stateName:Texas,,"Dallas/Fort Worth",TX,,ICT,Mid-Continent,Wichita,KS,"United States",69,5482
+stateName:Texas,,"Dallas/Fort Worth",TX,,SJO,"Juan Santamaria Intl","San Jose",,"Costa Rica",27,5286
+stateName:Texas,,"Dallas/Fort Worth",TX,,JAN,"Allen C Thompson Fld",Jackson,MS,"United States",81,5243
+stateName:Texas,,"Dallas/Fort Worth",TX,,SHV,"Shreveport Regional",Shreveport,LA,"United States",80,5176
+stateName:Texas,,Houston-Intercontinental,TX,,AMS,Schiphol,Amsterdam,,Netherlands,9,4976
+stateName:Texas,,"Dallas/Fort Worth",TX,,DOH,"Hamad International Airport",Doha,,Qatar,9,4960
+stateName:Texas,,"Dallas/Fort Worth",TX,,SDF,"Standiford Field",Louisville,KY,"United States",50,4646
+stateName:Texas,,Dallas-Love,TX,,CHS,"Charleston International/AFB",Charleston,SC,"United States",51,4578
+stateName:Texas,,"Dallas/Fort Worth",TX,,VPS,"Destin-Ft Walton Beach Airport","Destin-Ft Walton Beach",FL,"United States",49,4554
+stateName:Texas,,"Dallas/Fort Worth",TX,,YVR,"Vancouver Intl",Vancouver,BC,Canada,25,4512
+stateName:Texas,,"Dallas/Fort Worth",TX,,EZE,"Ministro Pistarini","Buenos Aires",BA,Argentina,7,4496
+stateName:Texas,,"Dallas/Fort Worth",TX,,GUA,"La Aurora International","Guatemala City",,Guatemala,19,4383
+stateName:Texas,,"Dallas/Fort Worth",TX,,BJX,"Del Bajio International",Leon/Guanajuato,,Mexico,37,4252
+stateName:Texas,,"Dallas/Fort Worth",TX,,LFT,"Lafayette Regional",Lafayette,LA,"United States",73,4153
+stateName:Texas,,"Dallas/Fort Worth",TX,,DSM,"Des Moines Airport","Des Moines",IA,"United States",32,4110
+stateName:Texas,,"Dallas/Fort Worth",TX,,GRU,"Guarulhos Intl","Sao Paulo-Guarulhos",SP,Brazil,9,4040
+stateName:Texas,,"Dallas/Fort Worth",TX,,RIC,"Richard E Byrd Field International",Richmond,VA,"United States",33,4016
+stateName:Texas,,"Dallas/Fort Worth",TX,,BZE,"Belize International","Belize City",,Belize,22,3917
+stateName:Texas,,"Dallas/Fort Worth",TX,,DAY,"Dayton James M. Cox International",Dayton,OH,"United States",33,3824
+stateName:Texas,,"Dallas/Fort Worth",TX,,SCL,"Arturo M Benitez",Santiago,,Chile,9,3792
+stateName:Texas,,Austin,TX,,ECP,"Northwest Florida Beaches International Airport","Panama City",FL,"United States",38,3652
+stateName:Texas,,"Dallas/Fort Worth",TX,,SAL,"El Salvador Intl","San Salvador",,"El Salvador",23,3633
+stateName:Texas,,"Dallas/Fort Worth",TX,,MOB,"Mobile Municipal",Mobile,AL,"United States",55,3568
+stateName:Texas,,"Dallas/Fort Worth",TX,,SGF,"Springfield Branson Re",Springfield,MO,"United States",69,3504
+stateName:Texas,,"Dallas/Fort Worth",TX,,HSV,"Huntsville International Airport",Huntsville/Decatur,AL,"United States",50,3496
+stateName:Texas,,"Dallas/Fort Worth",TX,,BDL,"Bradley Intl",Hartford,CT,"United States",17,3312
+stateName:Texas,,"Dallas/Fort Worth",TX,,PBI,"Palm Beach Intl","West Palm Beach",FL,"United States",17,3312
+stateName:Texas,,"Dallas/Fort Worth",TX,,TYS,"Mc Ghee Tyson",Knoxville,TN,"United States",47,3252
+stateName:Texas,,"Dallas/Fort Worth",TX,,PEK,"Capital International",Beijing,,China,6,3118
+stateName:Texas,,"Dallas/Fort Worth",TX,,LIM,"Jorge Chavez Intl",Lima,,Peru,9,3056
+stateName:Texas,,"Dallas/Fort Worth",TX,,QRO,"Queretaro Intercontinental",Queretaro,,Mexico,33,3040
+stateName:Texas,,"Dallas/Fort Worth",TX,,ICN,"Incheon International Airport",Seoul,,"South Korea",6,2973
+stateName:Texas,,Dallas-Love,TX,,RNO,"Reno/Tahoe Internation",Reno,NV,"United States",17,2955
+stateName:Texas,,"Dallas/Fort Worth",TX,,GSP,Greenville/Spartanbg,Greenville/Spartanburg,SC,"United States",25,2912
+stateName:Texas,,Houston-Intercontinental,TX,,TPE,"Taiwan Taoyuan International Airport",Taipei,,Taiwan,1,2800
+stateName:Texas,,"Dallas/Fort Worth",TX,,LIR,"D. Oduber Quiros Intl",Liberia,,"Costa Rica",18,2713
+stateName:Texas,,"Dallas/Fort Worth",TX,,FAT,"Fresno Yosemite International",Fresno,CA,"United States",15,2704
+stateName:Texas,,"Dallas/Fort Worth",TX,,BOG,"El Dorado Intl",Bogota,,Colombia,13,2688
+stateName:Texas,,"Dallas/Fort Worth",TX,,SAV,"Savannah Intl",Savannah,GA,"United States",25,2624
+stateName:Texas,,"Dallas/Fort Worth",TX,,FSM,"Fort Smith Regional","Fort Smith",AR,"United States",25,2593
+stateName:Texas,,"Dallas/Fort Worth",TX,,ORF,"Norfolk Intl",Norfolk,VA,"United States",17,2560
+stateName:Texas,,Houston-Intercontinental,TX,,PTY,"Tocumen Intl, Panama R","Panama City",,Panama,9,2544
+stateName:Texas,,"Dallas/Fort Worth",TX,,MBJ,"Sangster Intl","Montego Bay",,Jamaica,10,2497
+stateName:Texas,,"Dallas/Fort Worth",TX,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,10,2489
+stateName:Texas,,"Dallas/Fort Worth",TX,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",1,2448
+stateName:Texas,,Austin,TX,,LGB,"Long Beach Municipal","Long Beach",CA,"United States",9,2400
+stateName:Texas,,"Dallas/Fort Worth",TX,,MLU,"Monroe Regional",Monroe,LA,"United States",32,2341
+stateName:Texas,,"Dallas/Fort Worth",TX,,GPT,"Gulfport Biloxi International Airport",Gulfport/Biloxi,MS,"United States",33,2320
+stateName:Texas,,"Dallas/Fort Worth",TX,,GRR,"Gerald R. Ford International Airport","Grand Rapids",MI,"United States",25,2248
+stateName:Texas,,"Dallas/Fort Worth",TX,,AEX,"Alexandria Intl Airport",Alexandria,LA,"United States",40,2212
+stateName:Texas,,"Dallas/Fort Worth",TX,,OGG,Kahului,Kahului/Maui,HI,"United States",1,2200
+stateName:Texas,,"Dallas/Fort Worth",TX,,CZM,"Cozumel International",Cozumel,,Mexico,5,1998
+stateName:Texas,,"Dallas/Fort Worth",TX,,YUL,"Pierre E. Trudeau Intl",Montreal-PET,QC,Canada,22,1995
+stateName:Texas,,"Dallas/Fort Worth",TX,,DRO,"La Plata",Durango,CO,"United States",17,1975
+stateName:Texas,,"Dallas/Fort Worth",TX,,GJT,"Walker Field","Grand Junction",CO,"United States",17,1972
+stateName:Texas,,"Dallas/Fort Worth",TX,,SLP,"Ponciano Arriaga Intl","San Luis Potosi",,Mexico,25,1968
+stateName:Texas,,"Dallas/Fort Worth",TX,,KEF,"Keflavik Intl",Reykjavik,,Iceland,4,1925
+stateName:Texas,,"Dallas/Fort Worth",TX,,CID,"The Eastern Iowa Airport","Cedar Rapids",IA,"United States",17,1900
+stateName:Texas,,"Dallas/Fort Worth",TX,,LCH,"Lake Charles Regional","Lake Charles",LA,"United States",30,1899
+stateName:Texas,,Houston-Intercontinental,TX,,IST,Ataturk,Istanbul,,Turkey,1,1875
+stateName:Texas,,"Dallas/Fort Worth",TX,,UIO,"Mariscal Sucre Intl",Quito,,Ecuador,9,1792
+stateName:Texas,,Dallas-Love,TX,,BOI,"Boise Air Term/Gowen Field",Boise,ID,"United States",17,1766
+stateName:Texas,,"Dallas/Fort Worth",TX,,MSN,"DCRA, Dane County Regional Airport",Madison,WI,"United States",17,1748
+stateName:Texas,,Houston-Intercontinental,TX,,AKL,"Auckland Intl",Auckland,,"New Zealand",1,1734
+stateName:Texas,,"Dallas/Fort Worth",TX,,PVG,"Pudong International",Shanghai,,China,1,1698
+stateName:Texas,,"Dallas/Fort Worth",TX,,LEX,"Blue Grass",Lexington,KY,"United States",17,1666
+stateName:Texas,,"Dallas/Fort Worth",TX,,SAF,"Santa Fe Municipal","Santa Fe",NM,"United States",17,1625
+stateName:Texas,,"Dallas/Fort Worth",TX,,CAE,"Columbia Metropolitan Airport",Columbia,SC,"United States",17,1616
+stateName:Texas,,Houston-Intercontinental,TX,,GIG,"Galeao-A.C.Jobim Intl","Rio De Janeiro",RJ,Brazil,1,1592
+stateName:Texas,,Houston-Intercontinental,TX,,MUC,"Franz Josef Strauss International",Munich,,Germany,1,1592
+stateName:Texas,,"Dallas/Fort Worth",TX,,MHK,"Manhattan Municipal",Manhattan,KS,"United States",17,1560
+stateName:Texas,,"Dallas/Fort Worth",TX,,MGA,"Augusto C Sandino Intl",Managua,,Nicaragua,9,1559
+stateName:Texas,,Houston-Intercontinental,TX,,MAN,"Manchester Airport",Manchester,EN,"United Kingdom",1,1518
+stateName:Texas,,"Dallas/Fort Worth",TX,,AGU,"Aguascalientes International Airport",Aguascalientes,,Mexico,25,1504
+stateName:Texas,,"Dallas/Fort Worth",TX,,TXK,"Regional - Webb Field",Texarkana,AR,"United States",17,1364
+stateName:Texas,,"Dallas/Fort Worth",TX,,PSP,"Palm Springs Muni","Palm Springs",CA,"United States",1,1352
+stateName:Texas,,"Dallas/Fort Worth",TX,,BMI,"Central Illinois Regional",Bloomington/Normal,IL,"United States",9,1343
+stateName:Texas,,"Dallas/Fort Worth",TX,,COU,"Columbia Regional",Columbia,MO,"United States",9,1343
+stateName:Texas,,"Dallas/Fort Worth",TX,,EVV,"Evansville Regional",Evansville,IN,"United States",9,1343
+stateName:Texas,,"Dallas/Fort Worth",TX,,SPI,"A.Lincoln Capital",Springfield,IL,"United States",9,1292
+stateName:Texas,,Houston-Intercontinental,TX,,POS,"Piarco International","Port of Spain",,"Trinidad and Tobago",1,1272
+stateName:Texas,,Houston-Intercontinental,TX,,MID,"M. Crescencio Rejon",Merida,,Mexico,1,1272
+stateName:Texas,,Houston-Intercontinental,TX,,SAP,"Ramon V. Morales Intl","San Pedro Sula",,Honduras,1,1272
+stateName:Texas,,"Dallas/Fort Worth",TX,,MLI,"Quad City International",Moline,IL,"United States",9,1264
+stateName:Texas,,"Dallas/Fort Worth",TX,,FAR,"Hector International",Fargo,ND,"United States",9,1264
+stateName:Texas,,"Dallas/Fort Worth",TX,,FSD,"Joe Foss Field","Sioux Falls",SD,"United States",9,1264
+stateName:Texas,,"Dallas/Fort Worth",TX,,FWA,"Fort Wayne International","Fort Wayne",IN,"United States",9,1264
+stateName:Texas,,"Dallas/Fort Worth",TX,,GSO,"Piedmont Triad Intl",Greensboro,NC,"United States",9,1264
+stateName:Texas,,"Dallas/Fort Worth",TX,,PIA,"General Downing International",Peoria,IL,"United States",9,1264
+stateName:Texas,,"Dallas/Fort Worth",TX,,RAP,"Rapid City Regional","Rapid City",SD,"United States",9,1216
+stateName:Texas,,"Dallas/Fort Worth",TX,,TLH,"Tallahassee International",Tallahassee,FL,"United States",9,1216
+stateName:Texas,,"Dallas/Fort Worth",TX,,MGM,"Dannelly Field",Montgomery,AL,"United States",17,1200
+stateName:Texas,,"Dallas/Fort Worth",TX,,CHA,"Lovell Field",Chattanooga,TN,"United States",9,1140
+stateName:Texas,,"Dallas/Fort Worth",TX,,MAD,"Adolfo Suarez-Barajas",Madrid,,Spain,3,1100
+stateName:Texas,,Dallas-Love,TX,,BUR,Hollywood-Burbank,Burbank,CA,"United States",8,1072
+stateName:Texas,,"Dallas/Fort Worth",TX,,GRI,"Grand Island Air Pk","Grand Island",NE,"United States",9,1040
+stateName:Texas,,"Dallas/Fort Worth",TX,,JLN,"Joplin Municipal",Joplin,MO,"United States",9,1040
+stateName:Texas,,"Dallas/Fort Worth",TX,,GEG,"Spokane International Airport",Spokane,WA,"United States",1,1024
+stateName:Texas,,"Dallas/Fort Worth",TX,,SBA,"Santa Barbara Muni","Santa Barbara",CA,"United States",1,1024
+stateName:Texas,,Houston-Intercontinental,TX,,TGU,"Toncontin Intl",Tegucigalpa,,Honduras,1,1024
+stateName:Texas,,Houston-Intercontinental,TX,,YEG,"Edmonton Intl",Edmonton,AB,Canada,1,1000
+stateName:Texas,,"Dallas/Fort Worth",TX,,MLM,"F.J. Mujica Intl",Morelia,,Mexico,9,984
+stateName:Texas,,"Dallas/Fort Worth",TX,,GCM,"Owen Roberts Intl","Grand Cayman",,"Cayman Islands",2,949
+stateName:Texas,,"Dallas/Fort Worth",TX,,GCK,"Garden City Muni","Garden City",KS,"United States",9,800
+stateName:Texas,,"Dallas/Fort Worth",TX,,SWO,Regional,Stillwater,OK,"United States",9,800
+stateName:Texas,,"Dallas/Fort Worth",TX,,PBC,"Hermanos Serdan Intl",Puebla,,Mexico,9,704
+stateName:Texas,,"Dallas/Fort Worth",TX,,BIS,"Bismarck Municipal",Bismarck,ND,"United States",1,632
+stateName:Texas,,"Dallas/Fort Worth",TX,,MTJ,"Montrose County",Montrose,CO,"United States",1,632
+stateName:Texas,,"Dallas/Fort Worth",TX,,MZT,"Rafael Buelna Intl",Mazatlan,,Mexico,1,632
+stateName:Texas,,"Dallas/Fort Worth",TX,,BIL,"Logan Intl",Billings,MT,"United States",1,608
+stateName:Texas,,"Dallas/Fort Worth",TX,,BZN,"Yellowstone Intl",Bozeman,MT,"United States",1,608
+stateName:Texas,,"Dallas/Fort Worth",TX,,MSO,International,Missoula,MT,"United States",1,608
+stateName:Texas,,"Dallas/Fort Worth",TX,,ASE,"Pitkin County",Aspen,CO,"United States",1,544
+stateName:Texas,,"Dallas/Fort Worth",TX,,EGE,"Eagle County Regl",Vail/Eagle,CO,"United States",1,544
+stateName:Texas,,"Dallas/Fort Worth",TX,,JAC,"Jackson Hole","Jackson Hole",WY,"United States",1,520
+stateName:Texas,,"Dallas/Fort Worth",TX,,NAS,"Lynden Pindling Intl",Nassau,,Bahamas,5,508
+stateName:Texas,,"Dallas/Fort Worth",TX,,RTB,"Juan Manuel Galvez",Roatan,,Honduras,1,446
+stateName:Texas,,"Dallas/Fort Worth",TX,,CMI,"University of Illinois",Champaign/Urbana,IL,"United States",1,400
+stateName:Texas,,"Dallas/Fort Worth",TX,,SUX,"Sioux Gateway","Sioux City",IA,"United States",1,400
+stateName:Texas,,"Dallas/Fort Worth",TX,,PIB,"Hesler/Noble Field",Laurel/Hattiesburg,MS,"United States",2,400
+stateName:Texas,,"Dallas/Fort Worth",TX,,TRC,"Francisco Sarabia Intl",Torreon,,Mexico,1,352
+stateName:Texas,,Houston-Intercontinental,TX,,TAM,"F. Javier Mina Intl",Tampico,,Mexico,1,352
+stateName:Texas,,Houston-Intercontinental,TX,,VER,"Heriberto Jara Intl",Veracruz,,Mexico,2,352
+stateName:Texas,,Houston-Intercontinental,TX,,VSA,"C.Rovirosa Perez Intl",Villahermosa,,Mexico,1,352
+stateName:Texas,,Houston-Intercontinental,TX,,CAK,"Canton Regional",Akron/Canton,OH,"United States",1,352
+stateName:Texas,,Houston-Intercontinental,TX,,OAX,"Xoxocotlan Intl",Oaxaca,,Mexico,3,308
+stateName:Texas,,Houston-Intercontinental,TX,,CRW,Yeager,Charleston,WV,"United States",7,308
+stateName:Texas,,Houston-Hobby,TX,,AUA,"Reina Beatrix",Aruba,,Aruba,2,285
+stateName:Texas,,"Dallas/Fort Worth",TX,,PUJ,"Punta Cana International","Punta Cana",,"Dominican Republic",2,279
+stateName:Texas,,"Dallas/Fort Worth",TX,,ELD,"South Arkansas Rgnl","El Dorado",AR,"United States",21,231
+stateName:Texas,,"Dallas/Fort Worth",TX,,HOT,"Memorial Field","Hot Springs",AR,"United States",21,231
+stateName:Texas,,Houston-Intercontinental,TX,,BON,"Flamingo Field International",Bonaire,,"Bonaire, Saint Eustatius & Saba",1,159
+stateName:Texas,,Houston-Intercontinental,TX,,HAV,"Jose Marti Intl",Havana,,Cuba,1,159
+stateName:Texas,,"Dallas/Fort Worth",TX,,ZIH,"Ixtapa/Zihuatanejo International",Ixtapa/Zihuatanejo,,Mexico,2,155
+stateName:Texas,,"Dallas/Fort Worth",TX,,HRO,"Boone County",Harrison,AR,"United States",12,132
+stateName:Texas,,"Dallas/Fort Worth",TX,,ZCL,"Leobardo C. Ruiz Intl",Zacatecas,,Mexico,1,132
+stateName:Texas,,"Dallas/Fort Worth",TX,,PLS,"Providenciales Intl",Providenciales,,"Turks and Caicos Islands",1,128
+stateName:Texas,,Houston-Intercontinental,TX,,STT,"Cyril E. King Airport","St. Thomas",VI,"United States",1,128
+stateName:Texas,,Houston-Intercontinental,TX,,ACA,"Acapulco International",Acapulco,,Mexico,1,76
+stateName:Texas,,Houston-Intercontinental,TX,,ZLO,"Playa de Oro Intl",Manzanillo,,Mexico,1,76
+stateName:Texas,,Houston-Intercontinental,TX,,HUX,"Bahias de Huatulco Intl",Huatulco,,Mexico,1,76

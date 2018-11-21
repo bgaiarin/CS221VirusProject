@@ -1,0 +1,126 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Sweden,,Stockholm-Arlanda,,,OSL,"Oslo Airport",Oslo,,Norway,186,27847
+countryName:Sweden,,Stockholm-Arlanda,,,HEL,Helsinki-Vantaa,Helsinki,,Finland,195,25350
+countryName:Sweden,,Stockholm-Arlanda,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",104,18249
+countryName:Sweden,,Stockholm-Arlanda,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,110,18045
+countryName:Sweden,,Stockholm-Arlanda,,,AMS,Schiphol,Amsterdam,,Netherlands,130,17657
+countryName:Sweden,,Stockholm-Arlanda,,,MUC,"Franz Josef Strauss International",Munich,,Germany,74,11733
+countryName:Sweden,,Goteborg,,,GDN,"Gdansk Lech Walesa",Gdansk,,Poland,35,8288
+countryName:Sweden,,Stockholm-Arlanda,,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",44,8250
+countryName:Sweden,,Stockholm-Arlanda,,,BRU,"Brussels Airport",Brussels,,Belgium,62,7781
+countryName:Sweden,,Stockholm-Arlanda,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,53,7618
+countryName:Sweden,,Stockholm-Arlanda,,,IST,Ataturk,Istanbul,,Turkey,31,6608
+countryName:Sweden,,Stockholm-Arlanda,,,ZRH,Zurich,Zurich,,Switzerland,40,6531
+countryName:Sweden,,Goteborg,,,STN,Stansted,London-Stansted,EN,"United Kingdom",34,6426
+countryName:Sweden,,Stockholm-Arlanda,,,DUS,"Duesseldorf International",Duesseldorf,,Germany,46,6058
+countryName:Sweden,,Stockholm-Arlanda,,,WAW,Okecie,Warsaw,,Poland,40,6045
+countryName:Sweden,,Stockholm-Arlanda,,,RIX,"Riga-Arpt Internaitonal",Riga,,Latvia,51,5426
+countryName:Sweden,,Stockholm-Arlanda,,,BCN,Barcelona,Barcelona,,Spain,23,5286
+countryName:Sweden,,Stockholm-Arlanda,,,AGP,"Malaga Airport",Malaga,,Spain,26,5222
+countryName:Sweden,,Stockholm-Arlanda,,,ALC,"Alicante Airport",Alicante,,Spain,27,4990
+countryName:Sweden,,Stockholm-Arlanda,,,BUD,"Liszt Ferenc International",Budapest,,Hungary,18,4664
+countryName:Sweden,,Stockholm-Arlanda,,,TLL,"Lennart Meri",Tallinn,,Estonia,56,4307
+countryName:Sweden,,Stockholm-Arlanda,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",9,4206
+countryName:Sweden,,Stockholm-Arlanda,,,DOH,"Hamad International Airport",Doha,,Qatar,13,4064
+countryName:Sweden,,Stockholm-Arlanda,,,HAM,Hamburg,Hamburg,,Germany,34,3696
+countryName:Sweden,,Goteborg,,,SKP,Skopje,Skopje,,Macedonia,14,3638
+countryName:Sweden,,Stockholm-Arlanda,,,BEG,"Nikola Tesla Airport",Belgrade,,Serbia,15,3362
+countryName:Sweden,,Stockholm-Arlanda,,,KRK,"John Paul Ii Balice In",Krakow,,Poland,18,3297
+countryName:Sweden,,Stockholm-Arlanda,,,VNO,"Vilnius International",Vilnius,,Lithuania,27,3233
+countryName:Sweden,,Stockholm-Arlanda,,,PRG,Ruzyne,Prague,,"Czech Republic",23,3216
+countryName:Sweden,,Stockholm-Arlanda,,,KEF,"Keflavik Intl",Reykjavik,,Iceland,10,3127
+countryName:Sweden,,Stockholm-Arlanda,,,LPA,"Gran Canaria","Gran Canaria",,Spain,15,3018
+countryName:Sweden,,Stockholm-Arlanda,,,BKK,"Suvarnabhumi - New Bangkok International Airport",Bangkok,,Thailand,1,2912
+countryName:Sweden,,Goteborg,,,TZL,"Tuzla International Airport",Tuzla,,"Bosnia and Herzegovina",11,2782
+countryName:Sweden,,Stockholm-Arlanda,,,VIE,"Vienna International",Vienna,,Austria,20,2760
+countryName:Sweden,,Stockholm-Arlanda,,,LIS,Lisboa,Lisbon,,Portugal,5,2710
+countryName:Sweden,,Stockholm-Arlanda,,,MAN,"Manchester Airport",Manchester,EN,"United Kingdom",18,2700
+countryName:Sweden,,Stockholm-Arlanda,,,PMI,"Palma De Mallorca","Palma de Mallorca",,Spain,14,2638
+countryName:Sweden,,Stockholm-Arlanda,,,SVO,Sheremetyevo,Moscow-Sheremetyevo,CF,"Russian Federation",9,2528
+countryName:Sweden,,Stockholm-Arlanda,,,OTP,"Otopeni International",Bucharest,,Romania,12,2274
+countryName:Sweden,,Malmo-Sturup,,,KTW,Pyrzowice,Katowice,,Poland,6,2140
+countryName:Sweden,,Stockholm-Arlanda,,,EWR,"Newark Intl",Newark,NJ,"United States",1,2128
+countryName:Sweden,,Stockholm-Arlanda,,,ORD,"O'Hare International",Chicago-O'Hare,IL,"United States",1,2128
+countryName:Sweden,,Goteborg,,,BGY,"Bergamo/Orio Al Serio","Milan-Orio Serio",,Italy,11,2079
+countryName:Sweden,,Stockholm-Arlanda,,,MAD,"Adolfo Suarez-Barajas",Madrid,,Spain,9,1972
+countryName:Sweden,,Stockholm-Arlanda,,,ATH,"Eleftherios Venizelos Airport",Athens,,Greece,10,1939
+countryName:Sweden,,Stockholm-Arlanda,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,10,1880
+countryName:Sweden,,Stockholm-Arlanda,,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",1,1862
+countryName:Sweden,,Goteborg,,,WMI,Modlin,"Nowy Dwor Mazowiecki",,Poland,9,1701
+countryName:Sweden,,Stockholm-Arlanda,,,TFS,"Sur Reina Sofia",Tenerife-Reinasofia,,Spain,9,1696
+countryName:Sweden,,Stockholm-Arlanda,,,KBP,"Boryspil International",Kiev,,Ukraine,14,1664
+countryName:Sweden,,Stockholm-Arlanda,,,DUB,"Dublin International",Dublin,,Ireland,11,1641
+countryName:Sweden,,Stockholm-Arlanda,,,ADD,"Bole International","Addis Ababa",,Ethiopia,1,1620
+countryName:Sweden,,Stockholm-Arlanda,,,EDI,Turnhouse,Edinburgh,SC,"United Kingdom",9,1578
+countryName:Sweden,,Stockholm-Arlanda,,,NCE,"Cote D'Azur",Nice,,France,8,1539
+countryName:Sweden,,Stockholm-Arlanda,,,TMP,Tampere-Pirkkala,Tampere,,Finland,20,1535
+countryName:Sweden,,Stockholm-Arlanda,,,PEK,"Capital International",Beijing,,China,1,1530
+countryName:Sweden,,Stockholm-Arlanda,,,BLL,Billund,Billund,,Denmark,18,1494
+countryName:Sweden,,Stockholm-Arlanda,,,IKA,"Imam Khomeini International",Tehran,,Iran,6,1428
+countryName:Sweden,,Stockholm-Arlanda,,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",1,1330
+countryName:Sweden,,Goteborg,,,CIA,Ciampino,Rome-Ciampino,,Italy,5,1323
+countryName:Sweden,,Stockholm-Arlanda,,,ORY,Orly,Paris-Orly,,France,7,1302
+countryName:Sweden,,Stockholm-Arlanda,,,SXF,Schoenefeld,Berlin-Schoenefeld,,Germany,7,1302
+countryName:Sweden,,Malmo-Sturup,,,CLJ,Napoca,Cluj-Napoca,,Romania,4,1284
+countryName:Sweden,,Stockholm-Arlanda,,,TXL,Tegel,Berlin-Tegel,,Germany,10,1283
+countryName:Sweden,,Stockholm-Arlanda,,,DME,Domodedovo,Moscow-Domodedovo,CF,"Russian Federation",1,1265
+countryName:Sweden,,Stockholm-Arlanda,,,LCA,Larnaca,Larnaca,,Cyprus,4,1254
+countryName:Sweden,,Stockholm-Arlanda,,,MLA,"Luqa International",Malta,,Malta,7,1179
+countryName:Sweden,,Stockholm-Arlanda,,,TRD,Vaernes,Trondheim,,Norway,9,1162
+countryName:Sweden,,Stockholm-Arlanda,,,LIN,Linate,Milan-Linate,,Italy,8,1128
+countryName:Sweden,,Stockholm-Arlanda,,,AAR,Tirstrup,Aarhus,,Denmark,24,1083
+countryName:Sweden,,Goteborg,,,WRO,Strachowice,Wroclaw,,Poland,4,1070
+countryName:Sweden,,Stockholm-Arlanda,,,MXP,Malpensa,Milan-Malpensa,,Italy,5,1056
+countryName:Sweden,,Stockholm-Arlanda,,,BGO,Flesland,Bergen,,Norway,8,1044
+countryName:Sweden,,Stockholm-Arlanda,,,DEL,"Indira Gandhi Intl",Delhi,,India,1,1024
+countryName:Sweden,,Stockholm-Arlanda,,,LED,Pulkovo,"St. Petersburg",NF,"Russian Federation",1,987
+countryName:Sweden,,Stockholm-Arlanda,,,EIN,Eindhoven,Eindhoven,,Netherlands,5,945
+countryName:Sweden,,Goteborg,,,PSA,"Galileo Galilei",Pisa,,Italy,5,945
+countryName:Sweden,,Goteborg,,,ZAD,Zadar,Zadar,,Croatia,3,945
+countryName:Sweden,,Stockholm-Arlanda,,,SKG,Makedonia,Thessaloniki,,Greece,5,897
+countryName:Sweden,,Malmo-Sturup,,,POZ,Lawica,Poznan,,Poland,3,856
+countryName:Sweden,,Stockholm-Arlanda,,,GVA,"Geneva International Airport",Geneva,,Switzerland,5,834
+countryName:Sweden,,Malmo-Sturup,,,INI,"Nis Constantine the Great Airport",Nis,,Serbia,3,806
+countryName:Sweden,,Stockholm-Arlanda,,,LTN,"Luton International",London-Luton,EN,"United Kingdom",5,780
+countryName:Sweden,,Stockholm-Arlanda,,,CGN,"Konrad Adenauer",Cologne-Bonn,,Germany,2,765
+countryName:Sweden,,Stockholm-Arlanda,,,ACE,Lanzarote,Lanzarote,,Spain,4,756
+countryName:Sweden,,Nykoping,,,BVA,Beauvais-Tille,Paris,,France,4,756
+countryName:Sweden,,Nykoping,,,NRN,Nordrhein-Westfale,Nordrhein-Westfale,,Germany,4,756
+countryName:Sweden,,Stockholm-Arlanda,,,FAO,Faro,Faro,,Portugal,4,750
+countryName:Sweden,,Stockholm-Arlanda,,,CHQ,"Ioannis Daskalogiannis Airport","Chania, Crete",,Greece,2,712
+countryName:Sweden,,Malmo-Sturup,,,DEB,Debrecen,Debrecen,,Hungary,1,642
+countryName:Sweden,,Stockholm-Arlanda,,,SVG,Sola,Stavanger,,Norway,6,614
+countryName:Sweden,,Stockholm-Arlanda,,,STR,"Echterdingen Airport",Stuttgart,,Germany,7,581
+countryName:Sweden,,Nykoping,,,CRL,"Brussels S. Charleroi",Brussels,,Belgium,3,567
+countryName:Sweden,,Nykoping,,,RHO,Diagoras,Rhodes,,Greece,3,567
+countryName:Sweden,,Nykoping,,,SOF,Sofia-Vrazhdebna,Sofia,,Bulgaria,3,567
+countryName:Sweden,,Nykoping,,,TSF,Venice-Treviso,Venice-Treviso,,Italy,3,567
+countryName:Sweden,,Stockholm-Arlanda,,,RAK,Menara,Marrakech,,Morocco,2,558
+countryName:Sweden,,Stockholm-Arlanda,,,AGA,"Agadir-Al Massira Airport",Agadir,,Morocco,3,534
+countryName:Sweden,,Stockholm-Arlanda,,,LUX,Findel,Luxembourg,,Luxembourg,7,532
+countryName:Sweden,,Stockholm-Arlanda,,,BSL,"EuroAirport Swiss CH",Basel/Mulhouse,,Switzerland,2,468
+countryName:Sweden,,Stockholm-Arlanda,,,BRS,Bristol/Lulsgate,Bristol,EN,"United Kingdom",4,466
+countryName:Sweden,,Malmo-Sturup,,,IAS,Iasi,Iasi,,Romania,1,428
+countryName:Sweden,,Nykoping,,,LUZ,Lublin,Lublin,,Poland,1,428
+countryName:Sweden,,Nykoping,,,TGD,Golubovci,Podgorica,,Montenegro,2,378
+countryName:Sweden,,Nykoping,,,NAP,Capodichino,Naples,,Italy,2,378
+countryName:Sweden,,Nykoping,,,RJK,Grobnik,Rijeka,,Croatia,1,378
+countryName:Sweden,,Nykoping,,,BRE,Bremen,Bremen,,Germany,2,378
+countryName:Sweden,,Nykoping,,,BZR,"Beziers Vias",Beziers,,France,1,378
+countryName:Sweden,,Nykoping,,,FMM,"Allgaeu Airport",Memmingen,,Germany,2,378
+countryName:Sweden,,Nykoping,,,PFO,"Paphos International",Paphos,,Cyprus,1,378
+countryName:Sweden,,Stockholm-Arlanda,,,FNC,"Madeira Airport",Madeira,,Portugal,2,375
+countryName:Sweden,,Stockholm-Arlanda,,,FUE,Fuerteventura,Fuerteventura,,Spain,2,375
+countryName:Sweden,,Stockholm-Arlanda,,,TLV,"Ben Gurion Intl","Tel Aviv-Yafo",,Israel,2,372
+countryName:Sweden,,Goteborg,,,BHX,"Birmingham Airport",Birmingham,EN,"United Kingdom",4,350
+countryName:Sweden,,Stockholm-Arlanda,,,CMN,"Mohammed V",Casablanca,,Morocco,1,333
+countryName:Sweden,,Stockholm-Arlanda,,,TOS,Langnes,Tromso,,Norway,2,282
+countryName:Sweden,,Stockholm-Arlanda,,,MIA,"Miami International",Miami,FL,"United States",1,266
+countryName:Sweden,,Stockholm-Arlanda,,,TRN,"Citta Di Torino",Turin,,Italy,1,246
+countryName:Sweden,,Stockholm-Arlanda,,,KOK,Kruunupyy,Kokkola,,Finland,8,240
+countryName:Sweden,,Lulea,,,OUL,Oulu,Oulu,,Finland,1,200
+countryName:Sweden,,Stockholm-Arlanda,,,AYT,Antalya,Antalya,,Turkey,1,189
+countryName:Sweden,,Stockholm-Arlanda,,,MIR,Skanes,Monastir,,Tunisia,1,179
+countryName:Sweden,,Stockholm-Arlanda,,,KLX,Kalamata,Kalamata,,Greece,1,174
+countryName:Sweden,,Stockholm-Arlanda,,,BEY,"Rafic Hariri International",Beirut,,Lebanon,1,140
+countryName:Sweden,,Goteborg,,,CBG,Cambridge,Cambridge,EN,"United Kingdom",2,130

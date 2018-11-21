@@ -1,0 +1,8 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Senegal,,Dakar,,,LIS,Lisboa,Lisbon,,Portugal,9,3040
+countryName:Senegal,,Dakar,,,ABJ,"Felix Houphouet Boigny",Abidjan,,"Ivory Coast (Cote d'Ivoire)",13,2256
+countryName:Senegal,,Dakar,,,NKC,Nouakchott,Nouakchott,,Mauritania,8,846
+countryName:Senegal,,Dakar,,,CKY,"Conakry Intl",Conakry,,Guinea,9,794
+countryName:Senegal,,Dakar,,,RAI,"Praia International",Praia,,"Cape Verde",6,269
+countryName:Senegal,,Dakar,,,BKO,"Senou International",Bamako,,Mali,1,252
+countryName:Senegal,,Dakar,,,OXB,"Osvaldo Vieira International",Bissau,,"Guinea Bissau",3,150

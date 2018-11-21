@@ -1,0 +1,52 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Lebanon,,Beirut,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",57,15238
+countryName:Lebanon,,Beirut,,,IST,Ataturk,Istanbul,,Turkey,37,10031
+countryName:Lebanon,,Beirut,,,KWI,"Kuwait Intl",Kuwait,,Kuwait,39,6989
+countryName:Lebanon,,Beirut,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,17,6792
+countryName:Lebanon,,Beirut,,,DOH,"Hamad International Airport",Doha,,Qatar,33,6544
+countryName:Lebanon,,Beirut,,,CAI,"Cairo Intl",Cairo,,Egypt,34,6456
+countryName:Lebanon,,Beirut,,,AMM,"Queen Alia Intl",Amman,,Jordan,42,4944
+countryName:Lebanon,,Beirut,,,RUH,"King Khalid Intl",Riyadh,,"Saudi Arabia",22,4388
+countryName:Lebanon,,Beirut,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",21,3504
+countryName:Lebanon,,Beirut,,,JED,"King Abdulaziz Intl",Jeddah,,"Saudi Arabia",15,3361
+countryName:Lebanon,,Beirut,,,ADD,"Bole International","Addis Ababa",,Ethiopia,9,3352
+countryName:Lebanon,,Beirut,,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",9,3232
+countryName:Lebanon,,Beirut,,,BGW,"Baghdad International Airport",Baghdad,,Iraq,15,2944
+countryName:Lebanon,,Beirut,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,9,2726
+countryName:Lebanon,,Beirut,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,11,2251
+countryName:Lebanon,,Beirut,,,LCA,Larnaca,Larnaca,,Cyprus,9,2162
+countryName:Lebanon,,Beirut,,,NJF,"Al-Ashraf International Airport","Al Najaf",,Iraq,12,2047
+countryName:Lebanon,,Beirut,,,ATH,"Eleftherios Venizelos Airport",Athens,,Greece,10,1548
+countryName:Lebanon,,Beirut,,,SHJ,Sharjah,Sharjah,,"United Arab Emirates",3,1176
+countryName:Lebanon,,Beirut,,,DMM,"King Fahad International Airport",Dammam,,"Saudi Arabia",1,1008
+countryName:Lebanon,,Beirut,,,EBL,"Erbil International Airport",Erbil,,Iraq,1,1008
+countryName:Lebanon,,Beirut,,,BAH,"Bahrain Intl",Bahrain,,Bahrain,3,984
+countryName:Lebanon,,Beirut,,,IKA,"Imam Khomeini International",Tehran,,Iran,3,813
+countryName:Lebanon,,Beirut,,,GVA,"Geneva International Airport",Geneva,,Switzerland,1,756
+countryName:Lebanon,,Beirut,,,DWC,"Al Maktoum Intl Emirates",Dubai,,"United Arab Emirates",1,728
+countryName:Lebanon,,Beirut,,,ORY,Orly,Paris-Orly,,France,1,708
+countryName:Lebanon,,Beirut,,,CMN,"Mohammed V",Casablanca,,Morocco,5,666
+countryName:Lebanon,,Beirut,,,BSR,"Basrah International",Basrah,,Iraq,4,648
+countryName:Lebanon,,Beirut,,,SVO,Sheremetyevo,Moscow-Sheremetyevo,CF,"Russian Federation",1,632
+countryName:Lebanon,,Beirut,,,MXP,Malpensa,Milan-Malpensa,,Italy,1,630
+countryName:Lebanon,,Beirut,,,BEG,"Nikola Tesla Airport",Belgrade,,Serbia,4,580
+countryName:Lebanon,,Beirut,,,ADA,"Adana Sakirpasa",Adana,,Turkey,3,576
+countryName:Lebanon,,Beirut,,,OTP,"Otopeni International",Bucharest,,Romania,1,536
+countryName:Lebanon,,Beirut,,,KAC,Kameshli,Kameshli,,Syria,3,510
+countryName:Lebanon,,Beirut,,,BRU,"Brussels Airport",Brussels,,Belgium,1,504
+countryName:Lebanon,,Beirut,,,ACC,"Kotoka International",Accra,,Ghana,1,488
+countryName:Lebanon,,Beirut,,,LOS,"Murtala Muhammed International",Lagos,,Nigeria,1,488
+countryName:Lebanon,,Beirut,,,SXF,Schoenefeld,Berlin-Schoenefeld,,Germany,3,420
+countryName:Lebanon,,Beirut,,,EVN,"Zvartnots International Airport",Yerevan,,Armenia,3,368
+countryName:Lebanon,,Beirut,,,BCN,Barcelona,Barcelona,,Spain,2,358
+countryName:Lebanon,,Beirut,,,PRG,Ruzyne,Prague,,"Czech Republic",1,340
+countryName:Lebanon,,Beirut,,,AQJ,"King Hussein International",Aqaba,,Jordan,1,336
+countryName:Lebanon,,Beirut,,,ZRH,Zurich,Zurich,,Switzerland,2,333
+countryName:Lebanon,,Beirut,,,MED,"Medina-Prince Mohammad",Madinah,,"Saudi Arabia",1,330
+countryName:Lebanon,,Beirut,,,MHD,"Shahid Hashemi Nejad",Mashhad,,Iran,1,271
+countryName:Lebanon,,Beirut,,,ALG,"Houari Boumediene",Algiers,,Algeria,2,252
+countryName:Lebanon,,Beirut,,,HBE,"Borg el Arab Airport",Alexandria,,Egypt,1,210
+countryName:Lebanon,,Beirut,,,DUS,"Duesseldorf International",Duesseldorf,,Germany,1,148
+countryName:Lebanon,,Beirut,,,HAM,Hamburg,Hamburg,,Germany,1,140
+countryName:Lebanon,,Beirut,,,MUC,"Franz Josef Strauss International",Munich,,Germany,1,140
+countryName:Lebanon,,Beirut,,,KBP,"Boryspil International",Kiev,,Ukraine,1,123

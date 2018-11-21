@@ -1,0 +1,87 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Morocco,,Agadir,,,ORY,Orly,Paris-Orly,,France,67,9759
+countryName:Morocco,,Casablanca,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,48,6928
+countryName:Morocco,,Casablanca,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",1,4136
+countryName:Morocco,,Casablanca,,,IST,Ataturk,Istanbul,,Turkey,9,3444
+countryName:Morocco,,Casablanca,,,ALG,"Houari Boumediene",Algiers,,Algeria,9,3232
+countryName:Morocco,,Agadir,,,LYS,Satolas,Lyon,,France,18,2513
+countryName:Morocco,,Casablanca,,,MAD,"Adolfo Suarez-Barajas",Madrid,,Spain,15,2274
+countryName:Morocco,,Casablanca,,,CAI,"Cairo Intl",Cairo,,Egypt,8,2257
+countryName:Morocco,,Casablanca,,,LIS,Lisboa,Lisbon,,Portugal,16,2229
+countryName:Morocco,,Casablanca,,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",1,2224
+countryName:Morocco,,Agadir,,,BRU,"Brussels Airport",Brussels,,Belgium,16,2178
+countryName:Morocco,,Casablanca,,,DOH,"Hamad International Airport",Doha,,Qatar,7,2152
+countryName:Morocco,,Casablanca,,,BCN,Barcelona,Barcelona,,Spain,14,2139
+countryName:Morocco,,Agadir,,,AMS,Schiphol,Amsterdam,,Netherlands,14,1982
+countryName:Morocco,,Casablanca,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,11,1844
+countryName:Morocco,,Agadir,,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",12,1810
+countryName:Morocco,,Agadir,,,EUN,"Hassan I",Laayoune,,"Western Sahara",13,1665
+countryName:Morocco,,Casablanca,,,TUN,Carthage,Tunis,,Tunisia,10,1443
+countryName:Morocco,,Agadir,,,CPH,Kastrup,Copenhagen,,Denmark,7,1419
+countryName:Morocco,,Casablanca,,,GRU,"Guarulhos Intl","Sao Paulo-Guarulhos",SP,Brazil,1,1370
+countryName:Morocco,,Casablanca,,,MXP,Malpensa,Milan-Malpensa,,Italy,9,1332
+countryName:Morocco,,Casablanca,,,BLQ,"Guglielmo Marconi",Bologna,,Italy,9,1236
+countryName:Morocco,,Casablanca,,,SAW,"Sabiha Gokcen","Sabiha Gokcen",,Turkey,6,1218
+countryName:Morocco,,Agadir,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,7,1113
+countryName:Morocco,,Agadir,,,VIL,Dakhla,Dakhla,,"Western Sahara",9,1110
+countryName:Morocco,,Casablanca,,,BGY,"Bergamo/Orio Al Serio","Milan-Orio Serio",,Italy,1,1044
+countryName:Morocco,,Agadir,,,NTE,"Chateau Bougon",Nantes,,France,7,962
+countryName:Morocco,,Casablanca,,,MRS,Marignane,Marseille,,France,7,954
+countryName:Morocco,,Casablanca,,,GIG,"Galeao-A.C.Jobim Intl","Rio De Janeiro",RJ,Brazil,1,944
+countryName:Morocco,,Casablanca,,,ABJ,"Felix Houphouet Boigny",Abidjan,,"Ivory Coast (Cote d'Ivoire)",1,888
+countryName:Morocco,,Casablanca,,,BKO,"Senou International",Bamako,,Mali,1,888
+countryName:Morocco,,Casablanca,,,CKY,"Conakry Intl",Conakry,,Guinea,3,888
+countryName:Morocco,,Casablanca,,,GVA,"Geneva International Airport",Geneva,,Switzerland,1,888
+countryName:Morocco,,Casablanca,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",1,888
+countryName:Morocco,,Agadir,,,CRL,"Brussels S. Charleroi",Brussels,,Belgium,5,883
+countryName:Morocco,,Agadir,,,TLS,Blagnac,Toulouse,,France,7,828
+countryName:Morocco,,Agadir,,,BOD,Merignac,Bordeaux,,France,7,821
+countryName:Morocco,,Agadir,,,MAN,"Manchester Airport",Manchester,EN,"United Kingdom",4,810
+countryName:Morocco,,Casablanca,,,MPL,Mediterranee,Montpellier,,France,2,807
+countryName:Morocco,,Casablanca,,,NKC,Nouakchott,Nouakchott,,Mauritania,1,777
+countryName:Morocco,,Agadir,,,BUD,"Liszt Ferenc International",Budapest,,Hungary,1,666
+countryName:Morocco,,Casablanca,,,OUA,Ouagadougou,Ouagadougou,,"Burkina Faso",1,576
+countryName:Morocco,,Casablanca,,,AGP,"Malaga Airport",Malaga,,Spain,5,560
+countryName:Morocco,,Casablanca,,,ROB,"Roberts Intl",Monrovia-Roberts,,Liberia,1,555
+countryName:Morocco,,Agadir,,,ARN,Arlanda,Stockholm-Arlanda,,Sweden,2,534
+countryName:Morocco,,Agadir,,,DUB,"Dublin International",Dublin,,Ireland,2,522
+countryName:Morocco,,Casablanca,,,VCE,"Marco Polo",Venice,,Italy,1,522
+countryName:Morocco,,Casablanca,,,BSL,"EuroAirport Swiss CH",Basel/Mulhouse,,Switzerland,1,522
+countryName:Morocco,,Casablanca,,,ORN,"Ahmed Ben Bella",Oran,,Algeria,1,520
+countryName:Morocco,,Casablanca,,,NIM,"Diori Hamani International Airport",Niamey,,Niger,1,480
+countryName:Morocco,,Casablanca,,,COO,Cadjehoun,Cotonou,,Benin,1,444
+countryName:Morocco,,Casablanca,,,FNA,"Lungi International",Freetown,,"Sierra Leone",1,444
+countryName:Morocco,,Casablanca,,,FIH,"N'Djili International",Kinshasa,,"Democratic Republic of the Congo",1,444
+countryName:Morocco,,Casablanca,,,LBV,"Leon M'ba International",Libreville,,Gabon,1,444
+countryName:Morocco,,Casablanca,,,NDJ,Ndjamena,N'Djamena,,Chad,1,444
+countryName:Morocco,,Casablanca,,,ACC,"Kotoka International",Accra,,Ghana,1,444
+countryName:Morocco,,Casablanca,,,BEY,"Rafic Hariri International",Beirut,,Lebanon,1,444
+countryName:Morocco,,Agadir,,,WAW,Okecie,Warsaw,,Poland,1,428
+countryName:Morocco,,Agadir,,,LPA,"Gran Canaria","Gran Canaria",,Spain,6,426
+countryName:Morocco,,Casablanca,,,VLC,"Valencia Airport",Valencia,,Spain,3,420
+countryName:Morocco,,Agadir,,,STN,Stansted,London-Stansted,EN,"United Kingdom",2,378
+countryName:Morocco,,Agadir,,,CGN,"Konrad Adenauer",Cologne-Bonn,,Germany,2,348
+countryName:Morocco,,Agadir,,,MUC,"Franz Josef Strauss International",Munich,,Germany,1,348
+countryName:Morocco,,Casablanca,,,BJL,"Banjul Intl",Banjul,,Gambia,1,333
+countryName:Morocco,,Casablanca,,,DLA,"Douala International",Douala,,Cameroon,1,333
+countryName:Morocco,,Casablanca,,,NSI,"Nsimalen Intl",Yaounde,,Cameroon,1,333
+countryName:Morocco,,"Al Hoceima",,,RTM,"Rotterdam Airport",Rotterdam,,Netherlands,1,298
+countryName:Morocco,,Agadir,,,ZRH,Zurich,Zurich,,Switzerland,2,246
+countryName:Morocco,,Casablanca,,,LAD,"4 De Fevereiro",Luanda,,Angola,1,236
+countryName:Morocco,,Casablanca,,,OPO,Porto,Porto,,Portugal,1,222
+countryName:Morocco,,Agadir,,,TFN,"Norte Los Rodeos","Tenerife-N Losrodeo",,Spain,2,212
+countryName:Morocco,,Casablanca,,,NCE,"Cote D'Azur",Nice,,France,2,207
+countryName:Morocco,,Agadir,,,NRN,Nordrhein-Westfale,Nordrhein-Westfale,,Germany,1,189
+countryName:Morocco,,Agadir,,,HAJ,Hannover,Hannover,,Germany,1,189
+countryName:Morocco,,Agadir,,,STR,"Echterdingen Airport",Stuttgart,,Germany,1,186
+countryName:Morocco,,Agadir,,,ETZ,Lorraine,Metz/Nancy,,France,1,185
+countryName:Morocco,,Agadir,,,DOL,"St Gatien",Deauville,,France,1,185
+countryName:Morocco,,Agadir,,,LIL,Lesquin,Lille,,France,1,185
+countryName:Morocco,,Agadir,,,DUS,"Duesseldorf International",Duesseldorf,,Germany,1,180
+countryName:Morocco,,Agadir,,,LEJ,Leipzig,Leipzig,,Germany,1,180
+countryName:Morocco,,Casablanca,,,NAP,Capodichino,Naples,,Italy,1,174
+countryName:Morocco,,Casablanca,,,BZV,"Maya Maya",Brazzaville,,Congo,1,111
+countryName:Morocco,,Casablanca,,,LOS,"Murtala Muhammed International",Lagos,,Nigeria,1,111
+countryName:Morocco,,Casablanca,,,RAI,"Praia International",Praia,,"Cape Verde",1,111
+countryName:Morocco,,Casablanca,,,TXL,Tegel,Berlin-Tegel,,Germany,1,111
+countryName:Morocco,,Casablanca,,,NDB,Nouadhibou,Nouadhibou,,Mauritania,1,84

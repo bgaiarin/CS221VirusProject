@@ -1,0 +1,52 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Indonesia,,Jakarta,,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",79,24594
+countryName:Indonesia,,Jakarta,,,NRT,Narita,Tokyo-Narita,,Japan,41,15304
+countryName:Indonesia,,Jakarta,,,PER,"Perth International",Perth,WA,Australia,73,14556
+countryName:Indonesia,,"Banda Aceh",,,JED,"King Abdulaziz Intl",Jeddah,,"Saudi Arabia",32,13699
+countryName:Indonesia,,Jakarta,,,DOH,"Hamad International Airport",Doha,,Qatar,41,13096
+countryName:Indonesia,,Jakarta,,,HND,"Tokyo Intl (Haneda)",Tokyo-Haneda,,Japan,25,12536
+countryName:Indonesia,,Jakarta,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",25,11616
+countryName:Indonesia,,Jakarta,,,SYD,"Kingsford Smith",Sydney,NS,Australia,42,11469
+countryName:Indonesia,,Jakarta,,,ICN,"Incheon International Airport",Seoul,,"South Korea",31,11178
+countryName:Indonesia,,Jakarta,,,DMK,"Don Muang International Airport - formerly BKK",Bangkok,,Thailand,45,10800
+countryName:Indonesia,,Jakarta,,,BKK,"Suvarnabhumi - New Bangkok International Airport",Bangkok,,Thailand,37,10660
+countryName:Indonesia,,Jakarta,,,TPE,"Taiwan Taoyuan International Airport",Taipei,,Taiwan,25,9872
+countryName:Indonesia,,Jakarta,,,MEL,"Melbourne Airport",Melbourne,VI,Australia,26,9677
+countryName:Indonesia,,Bandung,,,MED,"Medina-Prince Mohammad",Madinah,,"Saudi Arabia",22,9118
+countryName:Indonesia,,Jakarta,,,CAN,"Baiyun International",Guangzhou,,China,37,8500
+countryName:Indonesia,,Jakarta,,,PEK,"Capital International",Beijing,,China,22,8051
+countryName:Indonesia,,Jakarta,,,KIX,"Kansai International",Osaka-Kansai,,Japan,20,6148
+countryName:Indonesia,,Jakarta,,,PVG,"Pudong International",Shanghai,,China,12,5998
+countryName:Indonesia,,Denpasar-Bali,,,BNE,"Brisbane Intl",Brisbane,QL,Australia,22,5973
+countryName:Indonesia,,Jakarta,,,MNL,"Ninoy Aquino Intl",Manila,,Philippines,25,4836
+countryName:Indonesia,,Jakarta,,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",13,4192
+countryName:Indonesia,,Jakarta,,,IST,Ataturk,Istanbul,,Turkey,1,3000
+countryName:Indonesia,,Jakarta,,,XMN,"Gaoqi International",Xiamen,,China,13,2640
+countryName:Indonesia,,Denpasar-Bali,,,DRW,"Darwin International",Darwin,NT,Australia,6,2340
+countryName:Indonesia,,Jakarta,,,CMB,"Bandaranaike Intl",Colombo,,"Sri Lanka",1,2176
+countryName:Indonesia,,Jakarta,,,MCT,"Seeb International",Muscat,,Oman,1,2144
+countryName:Indonesia,,Jakarta,,,SZX,"Bao'an International",Shenzhen,,China,9,1908
+countryName:Indonesia,,Denpasar-Bali,,,CTU,"Shuangliu International",Chengdu,,China,6,1830
+countryName:Indonesia,,Jakarta,,,SGN,"Tan Son Nhat International Airport","Ho Chi Minh City",,Vietnam,1,1616
+countryName:Indonesia,,Jakarta,,,AMS,Schiphol,Amsterdam,,Netherlands,1,1542
+countryName:Indonesia,,Denpasar-Bali,,,KMG,"Changshui International",Kunming,,China,1,1440
+countryName:Indonesia,,Denpasar-Bali,,,NKG,"Lukou International",Nanjing,,China,1,1440
+countryName:Indonesia,,Denpasar-Bali,,,WUX,"Sunan Shuofang",Wuxi,,China,1,1440
+countryName:Indonesia,,Denpasar-Bali,,,ADL,"Adelaide International",Adelaide,SA,Australia,1,1440
+countryName:Indonesia,,Jakarta,,,FOC,"Changle International",Fuzhou,,China,5,1320
+countryName:Indonesia,,Jakarta,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",1,1062
+countryName:Indonesia,,Denpasar-Bali,,,CSX,"Huanghua International Airport",Changsha,,China,3,975
+countryName:Indonesia,,Denpasar-Bali,,,CNS,"Cairns International",Cairns,QL,Australia,1,900
+countryName:Indonesia,,Denpasar-Bali,,,WUH,"Tianhe International",Wuhan,,China,1,780
+countryName:Indonesia,,Denpasar-Bali,,,TNA,"Yaoqiang International",Jinan,,China,1,720
+countryName:Indonesia,,Jakarta,,,SYX,"Phoenix International",Sanya,,China,1,585
+countryName:Indonesia,,Denpasar-Bali,,,KHN,"Changbei International","Nanchang, Kiangsi",,China,1,585
+countryName:Indonesia,,Denpasar-Bali,,,HGH,"Xiaoshan International",Hangzhou,,China,1,585
+countryName:Indonesia,,Jakarta,,,RUH,"King Khalid Intl",Riyadh,,"Saudi Arabia",1,522
+countryName:Indonesia,,Jakarta,,,BKI,"Kota Kinabalu International","Kota Kinabalu",,Malaysia,1,504
+countryName:Indonesia,,Jakarta,,,HAK,"Meilan International",Haikou,,China,1,390
+countryName:Indonesia,,Ambon,,,JIO,"Ontario International Heliport",Ontario,CA,"United States",1,384
+countryName:Indonesia,,Denpasar-Bali,,,HFE,"Xinqiao International",Hefei,,China,1,195
+countryName:Indonesia,,Denpasar-Bali,,,CKG,"Jiangbei International",Chongqing,,China,1,180
+countryName:Indonesia,,Denpasar-Bali,,,PHE,"Port Hedland International","Port Hedland",WA,Australia,1,175
+countryName:Indonesia,,Denpasar-Bali,,,POM,"Jackson Field","Port Moresby",,"Papua New Guinea",1,148

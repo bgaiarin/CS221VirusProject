@@ -1,0 +1,20 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Guatemala,,"Guatemala City",,,MEX,"Benito Juarez Intl","Mexico City",,Mexico,45,6106
+countryName:Guatemala,,"Guatemala City",,,SAL,"El Salvador Intl","San Salvador",,"El Salvador",38,5648
+countryName:Guatemala,,"Guatemala City",,,MIA,"Miami International",Miami,FL,"United States",27,4679
+countryName:Guatemala,,"Guatemala City",,,SJO,"Juan Santamaria Intl","San Jose",,"Costa Rica",38,4625
+countryName:Guatemala,,"Guatemala City",,,PTY,"Tocumen Intl, Panama R","Panama City",,Panama,25,4311
+countryName:Guatemala,,"Guatemala City",,,IAH,"George Bush Intercontinental",Houston-Intercontinental,TX,"United States",12,3021
+countryName:Guatemala,,"Guatemala City",,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",9,2664
+countryName:Guatemala,,"Guatemala City",,,ATL,"Hartsfield-Jackson ATL",Atlanta,GA,"United States",9,1647
+countryName:Guatemala,,"Guatemala City",,,DFW,"Dallas/Ft Worth Intl","Dallas/Fort Worth",TX,"United States",2,1521
+countryName:Guatemala,,"Guatemala City",,,MGA,"Augusto C Sandino Intl",Managua,,Nicaragua,9,1344
+countryName:Guatemala,,"Guatemala City",,,SAP,"Ramon V. Morales Intl","San Pedro Sula",,Honduras,15,838
+countryName:Guatemala,,"Guatemala City",,,BOG,"El Dorado Intl",Bogota,,Colombia,1,800
+countryName:Guatemala,,"Guatemala City",,,TIJ,"A.L. Rodriguez Intl",Tijuana,,Mexico,1,576
+countryName:Guatemala,,"Guatemala City",,,TGU,"Toncontin Intl",Tegucigalpa,,Honduras,1,544
+countryName:Guatemala,,"Guatemala City",,,GDL,"Miguel Hidalgo Intl",Guadalajara,,Mexico,1,522
+countryName:Guatemala,,"Guatemala City",,,CUN,"Cancun International",Cancun,,Mexico,1,522
+countryName:Guatemala,,"Guatemala City",,,VRA,"Juan G. Gomez Intl",Varadero,,Cuba,1,422
+countryName:Guatemala,,"Guatemala City",,,EWR,"Newark Intl",Newark,NJ,"United States",2,318
+countryName:Guatemala,,Flores,,,BZE,"Belize International","Belize City",,Belize,7,66

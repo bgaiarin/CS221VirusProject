@@ -2,197 +2,223 @@ import math, random, csv, itertools
 from collections import defaultdict
 import numpy as np
 
-responses_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv'
-transitions_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
-NUM_COUNTRIES = 4
+class EpidemicMDP:
 
-INDEX_RESOURCE = NUM_COUNTRIES*2
-INFECTION_COEFFICIENT = 3.0
-PREVENTION_COST = 0.8
-INFECTION_COST = 0.6 # 0 < x < 1, should be <= PREVENTION_COST
-MAX_RESPONSE_SCORE = 0.99
-NO_VIRUS_REWARD = 100.0 + NUM_COUNTRIES
-END_RESOURCES_WEIGHT = 10.0
-RESOURCES_DEPLETED_REWARD = -100.0 - (NUM_COUNTRIES*END_RESOURCES_WEIGHT)
+	#################################################################################
+	#								GET ACTIONS 									#
+	#################################################################################
 
-def loadFlights(flightdata):
-	countries = []
-	neighbors = {}
-	totalSeats = 0
-	with open(flightdata) as flightFile:
-		next(flightFile)
-		csvReader = csv.reader(flightFile, delimiter=',')
-		for row in csvReader:
-			dest = row[1].strip()
-			if dest not in neighbors.keys():
-				neighbors[dest] = []
-			neighbors[dest] += [(row[0].strip(), int(row[2]))]
-			totalSeats += int(row[2])
-			if dest not in countries:
-				countries.append(dest)
-	countries.append(totalSeats)
-	return countries, neighbors, totalSeats
+	# If NUM_COUNTRIES = 4, creates an array of indices: [0, 1, 2, 3]
+	def getIndexArray(self): 
+		arr = []
+		for i in range(self.NUM_COUNTRIES):
+			arr.append(i)
+		return arr 
 
-countries, neighbors, totalSeats = loadFlights(transitions_csv)
+	# Get all possible combinations of actions for a given # of resources 
+	def iterateGetActions(self, index_array, resources):
+		combos = itertools.combinations_with_replacement(index_array, resources)
+		arr = []
+		for c in combos: 
+			actions = [0] * self.NUM_COUNTRIES
+			for index in c: 
+				actions[index] += 1
+			arr.append(actions)
+		return arr
 
+	# Given a  state, returns all possible actions (resource allocations). 
+	def getActions(self, state):
+		num_resources = state[self.INDEX_RESOURCE]
+		all_actions = []
+		index_array = self.getIndexArray()
+		for i in range(1, num_resources+1):
+			actions = self.iterateGetActions(index_array, i)
+			for action in actions: 
+				all_actions.append(action)
+		return all_actions
 
-# If NUM_COUNTRIES = 4, creates an array of indices: [0, 1, 2, 3]
-def getIndexArray(): 
-	arr = []
-	for i in range(NUM_COUNTRIES):
-		arr.append(i)
-	return arr 
+	#################################################################################
+	#							UPDATE RESPONSE INDICATORS 							#
+	#################################################################################
 
+	# Takes a number and makes it fall between 1 and 0. 
+	def squash(self, num):
+	 	return (num/(1.0+num))
 
-# Get all possible combinations of actions for a given # of resources 
-def iterateGetActions(index_array, resources):
-	combos = itertools.combinations_with_replacement(index_array, resources)
-	arr = []
-	for c in combos: 
-		actions = [0]*NUM_COUNTRIES
-		for index in c: 
-			actions[index] += 1
-		arr.append(actions)
-	return arr
+	# Accepts a state and an action (ex: [0, 1, 0, 2, 0]), and updates response indicators for countries 
+	# that have been granted additional resources by the action. Returns a state with the updated response indicators.
+	# NOTE: There is some funky math here. The equation we use for updating is subject to be changed. 
+	# NOTE: Why do we have "scalar += 1"? We add 1 to any resource allocation that's > 0 to ensure that 
+	# 		newState[i] gets increased and not decremented. Again, we can choose not to do this if we change
+	#		the update equation that we use. 
+	def updateResistances(self, state, action): 
+		units_used = sum(action)
+		newState = state[:]
+		for i in range(self.NUM_COUNTRIES, self.INDEX_RESOURCE):
+			scalar = action[i - self.NUM_COUNTRIES]
+			if (scalar != 0):
+				scalar += 1					
+				update = newState[i]*scalar*(self.squash(scalar))					
+				newState[i] = ( update if update < 1.0 else self.MAX_RESPONSE_SCORE )	#Keep in range (0,1)
+		newState[self.INDEX_RESOURCE] = newState[self.INDEX_RESOURCE]-units_used
+		return newState
 
+	#################################################################################
+	#							GET NEXT ACTION & REWARD 							#
+	#################################################################################
 
-# Given a  state, returns all possible actions (resource allocations). 
-def getActions(state):
-	num_resources = state[INDEX_RESOURCE]
-	all_actions = []
-	index_array = getIndexArray()
-	for i in range(1, num_resources+1):
-		actions = iterateGetActions(index_array, i)
-		for action in actions: 
-			all_actions.append(action)
-	return all_actions
+	# gets the probability a country is infected as a function of number of seats coming in from infected neighbors
+	def getInfectionProb(self, index, state):#, countries, neighbors):
+		country = self.countries[index]
+		infectedSeats = 0
+		for neighbor in self.neighbors[country]:
+			if state[self.countries.index(neighbor[0])] == 1: # if neighbor is infected
+				infectedSeats += neighbor[1]
+		return infectedSeats * self.INFECTION_COEFFICIENT / self.TOTAL_SEATS
 
+	# Checks to see if no country contains virus (we have all zeros [0, 0, 0, 0]). Return True/False and count of 1's.
+	def noVirus(self, state):
+		num_ones = 0
+		for i in range(self.NUM_COUNTRIES):
+			if (state[i] != 0): 
+				num_ones += 1
+		if (num_ones == 0): return (True, num_ones)
+		return (False, num_ones)
 
-# Takes a number and makes it fall between 1 and 0. 
-def squash(num):
- 	return (num/(1.0+num))
+	# Checks to see if a state is a terminal state (is all [0, 0, 0, 0] or has depleted resources). 
+	def isEnd(self, state):
+		return (self.noVirus(state)[0]) # if (state[INDEX_RESOURCE] == 0): return True 
 
+	# Return reward for a given state, where reward = (# uninfected countries + weight*leftover_resources)
+	# If state, however, is a terminal state, we do one of two things: 
+		# If virus is killed, we return a big positive reward. Ending with resources remaining is a bonus!
+		# If virus is not killed but resources have been all used, we return a big negative reward. Ending with uninfected countries is a bonus!
+	def getReward(self, state): 
 
-# Accepts a state and an action (ex: [0, 1, 0, 2, 0]), and updates response indicators for countries 
-# that have been granted additional resources by the action. Returns a state with the updated response indicators.
-# NOTE: There is some funky math here. The equation we use for updating is subject to be changed. 
-# NOTE: Why do we have "scalar += 1"? We add 1 to any resource allocation that's > 0 to ensure that 
-# 		newState[i] gets increased and not decremented. Again, we can choose not to do this if we change
-#		the update equation that we use. 
-def updateResistances(state, action): 
-	units_used = sum(action)
-	newState = state[:]
-	for i in range(NUM_COUNTRIES, INDEX_RESOURCE):
-		scalar = action[i-NUM_COUNTRIES]
-		if (scalar != 0):
-			scalar += 1					
-			update = newState[i]*scalar*(squash(scalar))					
-			newState[i] = ( update if update < 1.0 else MAX_RESPONSE_SCORE )	#Keep in range (0,1)
-	newState[INDEX_RESOURCE] = newState[INDEX_RESOURCE]-units_used
-	return newState
+		# Check to see if virus has been terminated and get # of uninfected countries 
+		result = self.noVirus(state)
+		virus_terminated = result[0]
+		num_uninfected_countries = self.NUM_COUNTRIES - result[1]
 
+		# END STATE: No more infected countries 
+		if (virus_terminated): 
+			return self.NO_VIRUS_REWARD + (state[self.INDEX_RESOURCE]*self.END_RESOURCES_WEIGHT)
 
-# gets the probability a country is infected as a function of number of seats coming in from infected neighbors
-def getInfectionProb(index, state, countries, neighbors):
-	country = countries[index]
-	infectedSeats = 0
-	for neighbor in neighbors[country]:
-		if state[countries.index(neighbor[0])] == 1: # if neighbor is infected
-			infectedSeats += neighbor[1]
-	return infectedSeats * INFECTION_COEFFICIENT / countries[-1]
-
-
-# Checks to see if no country contains virus (we have all zeros [0, 0, 0, 0]). Return True/False and count of 1's.
-def noVirus(state):
-	num_ones = 0
-	for i in range(NUM_COUNTRIES):
-		if (state[i] != 0): 
-			num_ones += 1
-	if (num_ones == 0): return (True, num_ones)
-	return (False, num_ones)
-
-
-# Checks to see if a state is a terminal state (is all [0, 0, 0, 0] or has depleted resources). 
-def isEnd(state):
-	# if (state[INDEX_RESOURCE] == 0): 
-	# 		return True 
-	return (noVirus(state)[0])
-
-
-# Return reward for a given state, where reward = (# uninfected countries + weight*leftover_resources)
-# If state, however, is a terminal state, we do one of two things: 
-	# If virus is killed, we return a big positive reward. Ending with resources remaining is a bonus!
-	# If virus is not killed but resources have been all used, we return a big negative reward. Ending with uninfected countries is a bonus!
-def getReward(state): 
-
-	# Check to see if virus has been terminated and get # of uninfected countries 
-	result = noVirus(state)
-	virus_terminated = result[0]
-	num_uninfected_countries = NUM_COUNTRIES - result[1]
-
-	# END STATE: No more infected countries 
-	if (virus_terminated): 
-		return NO_VIRUS_REWARD + (state[INDEX_RESOURCE]*END_RESOURCES_WEIGHT)
-
-	# END STATE: No more resources
-	elif (state[INDEX_RESOURCE] == 0): 
-		return RESOURCES_DEPLETED_REWARD + (num_uninfected_countries*END_RESOURCES_WEIGHT)
-	
-	# NOT AN END STATE
-	else:
-		num_zeros = 0
-		leftover = squash(state[INDEX_RESOURCE])
-		for i in range(0, NUM_COUNTRIES): 
-			if state[i] == 0: num_zeros += 1
-		return num_zeros + leftover
-
-# generates a next state and its reward probabilistically based on current state
-def sampleNextStateReward(state, action):
-	newState = state[:]
-
-	# Reduce the resistance scores of infected countries by a coefficient of INFECTION_COST
-	# and uninfected countries by a coefficient of PREVENTION_COST (resources spent in most recent time step).
-	for i in range(NUM_COUNTRIES):
-		if state[i] == 0:
-			newState[NUM_COUNTRIES + i] *= PREVENTION_COST
-		elif state[i] == 1:
-			newState[NUM_COUNTRIES + i] *= INFECTION_COST
+		# END STATE: No more resources
+		elif (state[self.INDEX_RESOURCE] == 0): 
+			return self.RESOURCES_DEPLETED_REWARD + (num_uninfected_countries * self.END_RESOURCES_WEIGHT)
+		
+		# NOT AN END STATE
 		else:
-			print 'INFECTION FLAG NON-BINARY VALUE ERROR FOR COUNTRY AT INDEX', index
-	#print 'after updating scores:',newState
+			num_zeros = 0
+			leftover = self.squash(state[self.INDEX_RESOURCE])
+			for i in range(0, self.NUM_COUNTRIES): 
+				if state[i] == 0: num_zeros += 1
+			return num_zeros + leftover
 
-	# Alter per-country resistances in newState to reflect new resource allocation based on action.
-	newState = updateResistances(newState, action)
-	#print 'after updating resistances to handle actions:', newState
+	# generates a next state and its reward probabilistically based on current state
+	def sampleNextStateReward(self, state, action):
+		newState = state[:]
 
-	# Re-sample a listing of infected and uninfected binary values [0, 1, 0, 0, etc.].
-	for index in range(NUM_COUNTRIES):
-		if newState[index] == 0:
-			p = getInfectionProb(index, state, countries, neighbors)    # p(infected from neighbors)
-			if random.uniform(0,1) < p:
-				newState = newState[:index] + [1] + newState[index + 1:]
-		elif newState[index] == 1:
-			q = state[index + NUM_COUNTRIES]  # get resistance score = prob(cure) = q
-			if random.uniform(0,1) < q:
-				newState = newState[:index] + [0] + newState[index + 1:]
-		else:
-			print 'INFECTION FLAG NON-BINARY VALUE ERROR FOR COUNTRY AT INDEX', index
+		# Reduce the resistance scores of infected countries by a coefficient of INFECTION_COST
+		# and uninfected countries by a coefficient of PREVENTION_COST (resources spent in most recent time step).
+		for i in range(self.NUM_COUNTRIES):
+			if state[i] == 0:
+				newState[self.NUM_COUNTRIES + i] *= self.PREVENTION_COST
+			elif state[i] == 1:
+				newState[self.NUM_COUNTRIES + i] *= self.INFECTION_COST
+			else:
+				print 'INFECTION FLAG NON-BINARY VALUE ERROR FOR COUNTRY AT INDEX', index
+		#print 'after updating scores:',newState
 
-	reward = getReward(newState)
-	return newState, reward
+		# Alter per-country resistances in newState to reflect new resource allocation based on action.
+		newState = self.updateResistances(newState, action)
+		#print 'after updating resistances to handle actions:', newState
 
-#####################################################################
+		# Re-sample a listing of infected and uninfected binary values [0, 1, 0, 0, etc.].
+		for index in range(self.NUM_COUNTRIES):
+			if newState[index] == 0:
+				p = self.getInfectionProb(index, state)#, countries, neighbors)    # p(infected from neighbors)
+				if random.uniform(0,1) < p:
+					newState = newState[:index] + [1] + newState[index + 1:]
+			elif newState[index] == 1:
+				q = state[index + self.NUM_COUNTRIES]  # get resistance score = prob(cure) = q
+				if random.uniform(0,1) < q:
+					newState = newState[:index] + [0] + newState[index + 1:]
+			else:
+				print 'INFECTION FLAG NON-BINARY VALUE ERROR FOR COUNTRY AT INDEX', index
 
-# FUN TESTING ZONE  :) 
+		reward = self.getReward(newState)
+		return newState, reward
 
-# state = [0,1,0,1,0.1,0.3,0.3,0.7,3]
-# print state
-# print getActions(state)
-# print(getReward(state))
-# print sampleNextStateReward(state, [0,1,1,0])
-# state2 = [0,0,0,0,0.1,0.3,0.3,0.7,5]
-# print(getReward(state2))
-# state3 = [0,0,0,0,0.1,0.3,0.3,0.7,0]
-# print(getReward(state3))
+	#################################################################################
+	#								INITIALIZE MDP 									#
+	#################################################################################
 
+	# loads flight info between countries & populates instance variables
+	def loadFlights(self, flightdata):
+		countries = []
+		neighbors = {}
+		totalSeats = 0
+		with open(flightdata) as flightFile:
+			next(flightFile)
+			csvReader = csv.reader(flightFile, delimiter=',')
+			for row in csvReader:
+				dest = row[1].strip()
+				if dest not in neighbors.keys():
+					neighbors[dest] = []
+				neighbors[dest] += [(row[0].strip(), int(row[2]))]
+				totalSeats += int(row[2])
+				if dest not in countries:
+					countries.append(dest)
+		return countries, neighbors, totalSeats
 
+	# builds initial state using country response data, infected countries, and # resources
+	def initState(self, responses_csv, initial_infections, initial_resources):
+			state = [initial_resources]
+			for country in self.countries:
+				state = [0, 0] + state # 2 slots for each country, keeps resources at end
+
+			with open(responses_csv) as responseFile:
+				next(responseFile)
+				csvReader = csv.reader(responseFile, delimiter=',')
+				#print self.countries
+				for row in csvReader:
+					country = row[0]
+					#print country
+					if country in self.countries:
+						#print float(row[1])
+						state[self.countries.index(country) + len(self.countries)] = float(row[1]) / self.RESPONSE_DENOMINATOR
+						#print "added country rank. new state ", state
+					else:
+						print "ERROR COUNTRY NOT FOUND IN DATABASE: ", country
+
+			for country, infection in initial_infections.items():
+				index = self.countries.index(country)
+				if index >= self.NUM_COUNTRIES or index < 0:
+					print "ERROR INITIALIZING STATE. COUNTRY NOT FOUND: ", country, index
+				else:
+					state[self.countries.index(country)] = infection
+			#print 'finished initializing state: ', state
+			return state
+
+	# initial_infections is dict from country to 1 or 0 (0 optional). initial_resources is scalar.
+	def __init__(self, transitions_csv, responses_csv, initial_infections = {}, initial_resources = 0):
+		self.countries, self.neighbors, self.TOTAL_SEATS = self.loadFlights(transitions_csv)
+		self.NUM_COUNTRIES = len(self.countries)
+		self.INDEX_RESOURCE = self.NUM_COUNTRIES * 2
+		self.RESPONSE_DENOMINATOR = 110.0 # amount response ranking is divided by during parsing; should be > 100
+		self.INFECTION_COEFFICIENT = 3.0
+		self.PREVENTION_COST = 0.8
+		self.INFECTION_COST = 0.6 # 0 < x < 1, should be <= PREVENTION_COST
+		self.MAX_RESPONSE_SCORE = 0.99
+		self.NO_VIRUS_REWARD = 100.0 + self.NUM_COUNTRIES
+		self.END_RESOURCES_WEIGHT = 10.0
+		self.RESOURCES_DEPLETED_REWARD = -100.0 - (self.NUM_COUNTRIES * self.END_RESOURCES_WEIGHT)
+		self.state = self.initState(responses_csv, initial_infections, initial_resources)
+		'''
+		print 'finished initializing'
+		print self.countries
+		print self.TOTAL_SEATS
+		print 'state is', self.state, 'and num_countries is', self.NUM_COUNTRIES
+		'''

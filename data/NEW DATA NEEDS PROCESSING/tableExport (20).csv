@@ -1,0 +1,8 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Suriname,,Paramaribo,,,AMS,Schiphol,Amsterdam,,Netherlands,10,3110
+countryName:Suriname,,Paramaribo,,,POS,"Piarco International","Port of Spain",,"Trinidad and Tobago",7,1522
+countryName:Suriname,,Paramaribo,,,CAY,"Felix Eboue",Cayenne,,"French Guiana",4,592
+countryName:Suriname,,Paramaribo,,,AUA,"Reina Beatrix",Aruba,,Aruba,4,592
+countryName:Suriname,,Paramaribo,,,CUR,"Hato International",Curacao,,Curacao,3,544
+countryName:Suriname,,Paramaribo,,,GEO,"Cheddi Jagan International",Georgetown,,Guyana,1,444
+countryName:Suriname,,Paramaribo,,,BEL,"Val de Cans Intl",Belem,PA,Brazil,1,177

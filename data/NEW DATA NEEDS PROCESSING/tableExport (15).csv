@@ -1,0 +1,56 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Kenya,,Mombasa,,,ADD,"Bole International","Addis Ababa",,Ethiopia,47,9692
+countryName:Kenya,,Mombasa,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",30,9450
+countryName:Kenya,,Nairobi,,,JNB,"O.R. Tambo International Airport",Johannesburg,,"South Africa",30,6406
+countryName:Kenya,,Nairobi,,,EBB,"Entebbe International",Entebbe/Kampala,,Uganda,59,5954
+countryName:Kenya,,Nairobi,,,AMS,Schiphol,Amsterdam,,Netherlands,9,5032
+countryName:Kenya,,Nairobi,,,DOH,"Hamad International Airport",Doha,,Qatar,17,4336
+countryName:Kenya,,Nairobi,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",9,4320
+countryName:Kenya,,Nairobi,,,DAR,"Julius Nyerere International","Dar Es Salaam",,Tanzania,41,4312
+countryName:Kenya,,Mombasa,,,KGL,"Kigali International Airport",Kigali,,Rwanda,29,3368
+countryName:Kenya,,Nairobi,,,BOM,"Mumbai (Chhatrapati Shivaji) International",Mumbai/Bombay,,India,12,2974
+countryName:Kenya,,Mombasa,,,IST,Ataturk,Istanbul,,Turkey,14,2632
+countryName:Kenya,,Nairobi,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,5,2532
+countryName:Kenya,,Mombasa,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,8,2235
+countryName:Kenya,,Mombasa,,,ZNZ,"Zanzibar International",Zanzibar,,Tanzania,30,2216
+countryName:Kenya,,Nairobi,,,BKK,"Suvarnabhumi - New Bangkok International Airport",Bangkok,,Thailand,5,1872
+countryName:Kenya,,Nairobi,,,SHJ,Sharjah,Sharjah,,"United Arab Emirates",10,1680
+countryName:Kenya,,Nairobi,,,JUB,Juba,Juba,,"South Sudan",9,1536
+countryName:Kenya,,Nairobi,,,LOS,"Murtala Muhammed International",Lagos,,Nigeria,7,1452
+countryName:Kenya,,Nairobi,,,BJM,"Bujumbura Intl",Bujumbura,,Burundi,12,1440
+countryName:Kenya,,Nairobi,,,ACC,"Kotoka International",Accra,,Ghana,6,1312
+countryName:Kenya,,Nairobi,,,TNR,"Ivato International",Antananarivo,,Madagascar,8,1300
+countryName:Kenya,,Nairobi,,,HRE,"Harare International",Harare,,Zimbabwe,8,1268
+countryName:Kenya,,Mombasa,,,MXP,Malpensa,Milan-Malpensa,,Italy,3,1264
+countryName:Kenya,,Nairobi,,,MGQ,"Mogadishu Intl",Mogadishu,,Somalia,7,1095
+countryName:Kenya,,Nairobi,,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",1,1088
+countryName:Kenya,,Nairobi,,,LUN,"Lusaka Intl",Lusaka,,Zambia,6,1048
+countryName:Kenya,,Nairobi,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,1,1032
+countryName:Kenya,,Nairobi,,,LLW,"Kamuzu Intl",Lilongwe,,Malawi,8,997
+countryName:Kenya,,Nairobi,,,CAI,"Cairo Intl",Cairo,,Egypt,1,740
+countryName:Kenya,,Nairobi,,,FIH,"N'Djili International",Kinshasa,,"Democratic Republic of the Congo",1,726
+countryName:Kenya,,Nairobi,,,JED,"King Abdulaziz Intl",Jeddah,,"Saudi Arabia",5,687
+countryName:Kenya,,Nairobi,,,ABJ,"Felix Houphouet Boigny",Abidjan,,"Ivory Coast (Cote d'Ivoire)",1,656
+countryName:Kenya,,Nairobi,,,DLA,"Douala International",Douala,,Cameroon,4,608
+countryName:Kenya,,Nairobi,,,BGF,"Mpoko Intl",Bangui,,"Central African Republic",2,588
+countryName:Kenya,,Nairobi,,,FBM,Luano,Lubumbashi,,"Democratic Republic of the Congo",2,588
+countryName:Kenya,,Nairobi,,,JIB,"Ambouli International",Djibouti,,Djibouti,3,576
+countryName:Kenya,,Nairobi,,,NLA,Ndola,Ndola,,Zambia,3,492
+countryName:Kenya,,Nairobi,,,KRT,"Khartoum Civil International",Khartoum,,Sudan,1,480
+countryName:Kenya,,Nairobi,,,MPM,"Maputo International",Maputo,,Mozambique,1,480
+countryName:Kenya,,Nairobi,,,HAH,"Prince Said Ibrahim International",Moroni-Hahaya,,Comoros,1,480
+countryName:Kenya,,Nairobi,,,CAN,"Baiyun International",Guangzhou,,China,1,476
+countryName:Kenya,,Nairobi,,,MCT,"Seeb International",Muscat,,Oman,1,475
+countryName:Kenya,,Nairobi,,,BKO,"Senou International",Bamako,,Mali,1,464
+countryName:Kenya,,Nairobi,,,BZV,"Maya Maya",Brazzaville,,Congo,1,424
+countryName:Kenya,,Nairobi,,,LVI,Livingstone,Livingstone,,Zambia,1,384
+countryName:Kenya,,Nairobi,,,MRU,"Sir S. Ramgoolam International",Mauritius,,Mauritius,3,372
+countryName:Kenya,,Nairobi,,,SEZ,"Seychelles Intl",Seychelles,,Seychelles,3,356
+countryName:Kenya,,Nairobi,,,DZA,"Pamandzi International",Dzaoudzi,,Mayotte,3,356
+countryName:Kenya,,Nairobi,,,NDJ,Ndjamena,N'Djamena,,Chad,1,333
+countryName:Kenya,,Nairobi,,,LAD,"4 De Fevereiro",Luanda,,Angola,1,288
+countryName:Kenya,,Nairobi,,,VFA,"Victoria Falls International","Victoria Falls",,Zimbabwe,1,288
+countryName:Kenya,,Nairobi,,,POL,Pemba,Pemba,,Mozambique,1,222
+countryName:Kenya,,Nairobi,,,APL,Nampula,Nampula,,Mozambique,1,192
+countryName:Kenya,,Nairobi-Wilson,,,KMK,"Makabana Airport",Makabana,,Congo,1,112
+countryName:Kenya,,Nairobi,,,GXF,"Seiyun, Yemen","Seiyun, Yemen",,Yemen,1,100

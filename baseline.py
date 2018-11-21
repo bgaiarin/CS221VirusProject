@@ -1,9 +1,11 @@
-import mdp 
+from mdp import EpidemicMDP # changed from import mdp
 
 NUM_COUNTRIES = 4
 INDEX_RESOURCE = NUM_COUNTRIES*2
 num_trials = 5
 max_iterations = 5
+resp_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv'
+trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
 
 def getDumbActions(state):
 	resources = state[INDEX_RESOURCE]
@@ -34,10 +36,10 @@ def getUniformActions(state):
 		actions[0].append(allocation)
 	return actions
 
-def simulate(startstate, actionCommand, trial_num):
+def simulate(actionCommand, trial_num, resp_csv, trans_csv, infections, resources):
 	grand_total_rewards = 0
-	
-	s = startstate
+	mdp = EpidemicMDP(trans_csv, resp_csv, infections, resources)
+	s = mdp.state
 	total_reward = 0
 	resources_depleted_delay = 2
 	its = 0
@@ -61,34 +63,38 @@ def simulate(startstate, actionCommand, trial_num):
 		total_reward += max_reward
 		its += 1
 
-	avg_reward = total_reward/its 
+	avg_reward = total_reward/float(its)
 	print "TRIAL:", trial_num, " ", avg_reward
+
+#startstate = [0,1,0,0,0.8,0.2,0.88,0.3,5]
+infections = {'France' : 1}
+resources = 5
 
 ### UNIFORM RESOURCE ALLOCATION: EVERYTHING AT T=1, EQUAL NUMBERS TO EACH STATE
 print " "
 print("##### UNIFORM RESOURCE ALLOCATION #####")
-startstate = [0,1,0,0,0.8,0.2,0.88,0.3,5]
 for i in range(num_trials):
-	simulate(startstate, getUniformActions, i)
+	simulate(getUniformActions, i, resp_csv, trans_csv, infections, resources)
 
 ### EQUAL RESOURCE ALLOCATION: EVERYTHING AT T=1, EQUAL NUMBERS TO EACH INFECTED STATE
 print " "
 print("##### EQUAL RESOURCE ALLOCATION #####") 
 for i in range(num_trials):
-	simulate(startstate, getEqualActions, i)
+	simulate(getEqualActions, i, resp_csv, trans_csv, infections, resources)
 
 
 ### DUMB RESOURCE ALLOCATION: EVERYTHING AT T=1, GIVE ALL TO ONE STATE
 print " "
 print("##### DUMB RESOURCE ALLOCATION #####") 
 for i in range(num_trials):
-	simulate(startstate, getDumbActions, i)
+	simulate(getDumbActions, i, resp_csv, trans_csv, infections, resources)
 
 ### BEST ACTION
 print " "
 print("##### USING MDP.GETACTIONS #####") 
+newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
 for i in range(num_trials):
-	simulate(startstate, mdp.getActions, i)
+	simulate(newmdp.getActions, i, resp_csv, trans_csv, infections, resources)
 
 
 ### SINGLE RESOURCE ALLOCATION: ONE UNIT PER INFECTED STATE PER TIME SLICE

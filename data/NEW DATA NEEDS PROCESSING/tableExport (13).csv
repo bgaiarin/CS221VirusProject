@@ -1,0 +1,200 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+stateName:Florida,,"Daytona Beach",FL,,ATL,"Hartsfield-Jackson ATL",Atlanta,GA,"United States",1268,195061
+stateName:Florida,,"Daytona Beach",FL,,CLT,"Charlotte-Douglas International Airport",Charlotte-Douglas,NC,"United States",626,81104
+stateName:Florida,,"Key West",FL,,EWR,"Newark Intl",Newark,NJ,"United States",512,76276
+stateName:Florida,,"Daytona Beach",FL,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",440,69400
+stateName:Florida,,"Key West",FL,,ORD,"O'Hare International",Chicago-O'Hare,IL,"United States",423,66680
+stateName:Florida,,"Fort Lauderdale",FL,,DFW,"Dallas/Ft Worth Intl","Dallas/Fort Worth",TX,"United States",406,63322
+stateName:Florida,,"Fort Lauderdale",FL,,LGA,"La Guardia","New York-La Guardia",NY,"United States",443,62815
+stateName:Florida,,"Panama City",FL,,BWI,"Baltimore/Wash Intl",Baltimore,MD,"United States",341,51341
+stateName:Florida,,"Fort Lauderdale",FL,,PHL,"Philadelphia Intl",Philadelphia,PA,"United States",320,50817
+stateName:Florida,,"Fort Lauderdale",FL,,BOS,"Logan International",Boston,MA,"United States",328,48294
+stateName:Florida,,"Key West",FL,,DCA,"Ronald Reagan National",Washington-National,DC,"United States",385,47423
+stateName:Florida,,"Fort Lauderdale",FL,,SJU,"Luis Munoz Marin Int","San Juan",PR,"United States",233,37218
+stateName:Florida,,"Panama City",FL,,IAH,"George Bush Intercontinental",Houston-Intercontinental,TX,"United States",327,36745
+stateName:Florida,,"Fort Lauderdale",FL,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",206,36137
+stateName:Florida,,"Panama City",FL,,DEN,"Denver International",Denver,CO,"United States",185,28719
+stateName:Florida,,"Panama City",FL,,MDW,"Chicago Midway International",Chicago,IL,"United States",180,27031
+stateName:Florida,,"Panama City",FL,,BNA,"Nashville Metro",Nashville,TN,"United States",195,26421
+stateName:Florida,,"Fort Lauderdale",FL,,DTW,"Metropolitan Wayne County",Detroit,MI,"United States",154,26373
+stateName:Florida,,"Fort Lauderdale",FL,,YYZ,"Lester B. Pearson Intl",Toronto,ON,Canada,173,24835
+stateName:Florida,,"Fort Lauderdale",FL,,PTY,"Tocumen Intl, Panama R","Panama City",,Panama,117,19974
+stateName:Florida,,Orlando,FL,,GRU,"Guarulhos Intl","Sao Paulo-Guarulhos",SP,Brazil,57,19906
+stateName:Florida,,"Fort Lauderdale",FL,,SFO,"San Francisco Intl","San Francisco",CA,"United States",108,18793
+stateName:Florida,,"Fort Lauderdale",FL,,NAS,"Lynden Pindling Intl",Nassau,,Bahamas,181,18006
+stateName:Florida,,"Fort Lauderdale",FL,,MEX,"Benito Juarez Intl","Mexico City",,Mexico,110,17799
+stateName:Florida,,"Panama City",FL,,STL,"Lambert International","St. Louis",MO,"United States",121,16882
+stateName:Florida,,"Fort Lauderdale",FL,,CUN,"Cancun International",Cancun,,Mexico,99,16518
+stateName:Florida,,"Fort Lauderdale",FL,,IAD,"Dulles International",Washington-Dulles,VA,"United States",117,16428
+stateName:Florida,,"Fort Lauderdale",FL,,PHX,"Sky Harbor Intl",Phoenix,AZ,"United States",97,16224
+stateName:Florida,,"Fort Lauderdale",FL,,BDL,"Bradley Intl",Hartford,CT,"United States",104,16214
+stateName:Florida,,"Fort Lauderdale",FL,,MSY,"New Orleans Intl","New Orleans",LA,"United States",119,16121
+stateName:Florida,,"Panama City",FL,,HOU,"William P Hobby",Houston-Hobby,TX,"United States",105,15833
+stateName:Florida,,"Fort Lauderdale",FL,,ISP,"Long Islnd Macarthur","Long Island-Macarthur",NY,"United States",96,15569
+stateName:Florida,,"Fort Lauderdale",FL,,RDU,Raleigh-Durham,Raleigh/Durham,NC,"United States",123,15213
+stateName:Florida,,"Fort Lauderdale",FL,,LAS,"Mccarran Intl","Las Vegas",NV,"United States",88,14941
+stateName:Florida,,"Fort Lauderdale",FL,,MSP,International,"Minneapolis/St. Paul",MN,"United States",96,14684
+stateName:Florida,,"Fort Lauderdale",FL,,PVD,"T Francis Green St",Providence,RI,"United States",91,14406
+stateName:Florida,,"Fort Lauderdale",FL,,IND,"Indianapolis Intl",Indianapolis,IN,"United States",116,14310
+stateName:Florida,,"Fort Lauderdale",FL,,PAP,"Toussaint Louverture","Port Au Prince",,Haiti,82,13990
+stateName:Florida,,Miami,FL,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",41,13980
+stateName:Florida,,"Fort Lauderdale",FL,,HAV,"Jose Marti Intl",Havana,,Cuba,81,13898
+stateName:Florida,,"Fort Lauderdale",FL,,BOG,"El Dorado Intl",Bogota,,Colombia,81,13736
+stateName:Florida,,"Fort Lauderdale",FL,,PIT,"Pittsburgh Internation",Pittsburgh,PA,"United States",108,13574
+stateName:Florida,,"Fort Lauderdale",FL,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",34,12019
+stateName:Florida,,"Fort Lauderdale",FL,,LIM,"Jorge Chavez Intl",Lima,,Peru,49,11704
+stateName:Florida,,"Panama City",FL,,DAL,"Love Field",Dallas-Love,TX,"United States",79,11611
+stateName:Florida,,"Fort Lauderdale",FL,,MBJ,"Sangster Intl","Montego Bay",,Jamaica,72,11535
+stateName:Florida,,"Panama City",FL,,AUS,"Austin-Bergstrom International Airport",Austin,TX,"United States",90,11509
+stateName:Florida,,Miami,FL,,EZE,"Ministro Pistarini","Buenos Aires",BA,Argentina,34,10861
+stateName:Florida,,"Fort Lauderdale",FL,,CMH,"Port Columbus Intl",Columbus,OH,"United States",89,10657
+stateName:Florida,,"Fort Lauderdale",FL,,HPN,"Westchester County","Westchester County",NY,"United States",81,10400
+stateName:Florida,,"Fort Lauderdale",FL,,BUF,"Buffalo Niagara International",Buffalo,NY,"United States",64,9564
+stateName:Florida,,"Fort Lauderdale",FL,,MCI,"Kansas City Intl","Kansas City",MO,"United States",68,9017
+stateName:Florida,,"Fort Lauderdale",FL,,SEA,"Seattle-Tacoma Intl",Seattle,WA,"United States",53,8960
+stateName:Florida,,"Fort Lauderdale",FL,,CVG,"Cincinnati Northern Kentucky Airport","Cincinnati, OH/Covington",KY,"United States",57,8946
+stateName:Florida,,"Fort Lauderdale",FL,,CLE,"Hopkins Intl",Cleveland,OH,"United States",58,8495
+stateName:Florida,,"Fort Lauderdale",FL,,KIN,"Norman Manley Intl",Kingston,,Jamaica,49,8488
+stateName:Florida,,"Fort Lauderdale",FL,,SLC,"Salt Lake City Intl","Salt Lake City",UT,"United States",45,8360
+stateName:Florida,,Miami,FL,,MAD,"Adolfo Suarez-Barajas",Madrid,,Spain,22,7994
+stateName:Florida,,"Fort Lauderdale",FL,,GCM,"Owen Roberts Intl","Grand Cayman",,"Cayman Islands",49,7696
+stateName:Florida,,"Fort Lauderdale",FL,,SJO,"Juan Santamaria Intl","San Jose",,"Costa Rica",41,7528
+stateName:Florida,,"Fort Lauderdale",FL,,YUL,"Pierre E. Trudeau Intl",Montreal-PET,QC,Canada,50,7465
+stateName:Florida,,"Fort Lauderdale",FL,,SDQ,"Las Americas International","Santo Domingo",,"Dominican Republic",45,7222
+stateName:Florida,,"Fort Lauderdale",FL,,SAN,"San Diego International Airport","San Diego",CA,"United States",38,6994
+stateName:Florida,,"Fort Lauderdale",FL,,AUA,"Reina Beatrix",Aruba,,Aruba,38,6768
+stateName:Florida,,"Fort Lauderdale",FL,,SAT,"San Antonio Intl","San Antonio",TX,"United States",46,6579
+stateName:Florida,,"Fort Lauderdale",FL,,POS,"Piarco International","Port of Spain",,"Trinidad and Tobago",37,6416
+stateName:Florida,,Orlando,FL,,MKE,"General Mitchell Intl",Milwaukee,WI,"United States",41,6271
+stateName:Florida,,Miami,FL,,SCL,"Arturo M Benitez",Santiago,,Chile,14,6061
+stateName:Florida,,Orlando,FL,,MAN,"Manchester Airport",Manchester,EN,"United Kingdom",14,6018
+stateName:Florida,,Orlando,FL,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,13,5856
+stateName:Florida,,"Fort Lauderdale",FL,,ALB,"Albany International",Albany,NY,"United States",41,5832
+stateName:Florida,,"Fort Lauderdale",FL,,MDE,"Jose Marie Cordova",Medellin,,Colombia,34,5747
+stateName:Florida,,"Fort Lauderdale",FL,,VCP,"Viracopos-Campinas Intl","Sao Paulo-Viraco",SP,Brazil,17,5560
+stateName:Florida,,Orlando,FL,,BHM,"Birmingham Municipal",Birmingham,AL,"United States",48,5375
+stateName:Florida,,Miami,FL,,MGA,"Augusto C Sandino Intl",Managua,,Nicaragua,25,5256
+stateName:Florida,,Orlando,FL,,GIG,"Galeao-A.C.Jobim Intl","Rio De Janeiro",RJ,Brazil,18,5190
+stateName:Florida,,"Fort Lauderdale",FL,,PLS,"Providenciales Intl",Providenciales,,"Turks and Caicos Islands",33,5184
+stateName:Florida,,"Fort Lauderdale",FL,,DXB,"Dubai International",Dubai,,"United Arab Emirates",9,5032
+stateName:Florida,,Miami,FL,,GUA,"La Aurora International","Guatemala City",,Guatemala,24,4848
+stateName:Florida,,"Fort Lauderdale",FL,,PUJ,"Punta Cana International","Punta Cana",,"Dominican Republic",26,4699
+stateName:Florida,,Miami,FL,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,10,4678
+stateName:Florida,,Miami,FL,,STT,"Cyril E. King Airport","St. Thomas",VI,"United States",21,4561
+stateName:Florida,,"Fort Lauderdale",FL,,GYE,"Jose Joaquin de Olmedo",Guayaquil,,Ecuador,17,4074
+stateName:Florida,,Miami,FL,,MUC,"Franz Josef Strauss International",Munich,,Germany,1,4072
+stateName:Florida,,Miami,FL,,CCS,"Simon Bolivar International",Caracas,,Venezuela,17,4008
+stateName:Florida,,"Fort Lauderdale",FL,,UIO,"Mariscal Sucre Intl",Quito,,Ecuador,17,3952
+stateName:Florida,,Miami,FL,,ZRH,Zurich,Zurich,,Switzerland,7,3824
+stateName:Florida,,"Fort Lauderdale",FL,,RIC,"Richard E Byrd Field International",Richmond,VA,"United States",33,3808
+stateName:Florida,,"Fort Lauderdale",FL,,BGI,"Grantley Adams International",Bridgetown,,Barbados,17,3472
+stateName:Florida,,Orlando,FL,,SDF,"Standiford Field",Louisville,KY,"United States",29,3422
+stateName:Florida,,"Fort Lauderdale",FL,,CTG,"Rafael Nunez International",Cartagena,,Colombia,17,3244
+stateName:Florida,,Orlando,FL,,AMS,Schiphol,Amsterdam,,Netherlands,6,3162
+stateName:Florida,,"Fort Lauderdale",FL,,BZE,"Belize International","Belize City",,Belize,17,3161
+stateName:Florida,,Orlando,FL,,MEM,"Memphis Intl",Memphis,TN,"United States",27,3154
+stateName:Florida,,Miami,FL,,SAP,"Ramon V. Morales Intl","San Pedro Sula",,Honduras,17,3134
+stateName:Florida,,Orlando,FL,,OMA,"Eppley Airfield",Omaha,NE,"United States",22,3001
+stateName:Florida,,Miami,FL,,LIS,Lisboa,Lisbon,,Portugal,1,2896
+stateName:Florida,,Miami,FL,,DOH,"Hamad International Airport",Doha,,Qatar,1,2888
+stateName:Florida,,Orlando,FL,,TTN,"Mercer County",Trenton,NJ,"United States",9,2880
+stateName:Florida,,Orlando,FL,,MHT,"Manchester Boston Regional Airport",Manchester,NH,"United States",20,2803
+stateName:Florida,,"Fort Lauderdale",FL,,MHH,"Marsh Harbour","Marsh Harbour",,Bahamas,65,2758
+stateName:Florida,,Orlando,FL,,CNF,"Tancredo Never International","Belo Horizonte",MG,Brazil,9,2746
+stateName:Florida,,"Fort Lauderdale",FL,,REC,"Guararapes International",Recife,PE,Brazil,8,2684
+stateName:Florida,,"Fort Lauderdale",FL,,FPO,"Grand Bahama International",Freeport,,Bahamas,48,2632
+stateName:Florida,,Miami,FL,,IST,Ataturk,Istanbul,,Turkey,1,2625
+stateName:Florida,,Orlando,FL,,ROC,"Monroe County",Rochester,NY,"United States",16,2472
+stateName:Florida,,Miami,FL,,CLO,"Alfonso B Aragon International",Cali,,Colombia,9,2402
+stateName:Florida,,Miami,FL,,SXM,"Prinses Juliana International","St. Maarten",,"Sint Maarten",9,2376
+stateName:Florida,,"Fort Lauderdale",FL,,CHS,"Charleston International/AFB",Charleston,SC,"United States",25,2366
+stateName:Florida,,Miami,FL,,SAL,"El Salvador Intl","San Salvador",,"El Salvador",9,2318
+stateName:Florida,,Miami,FL,,STX,"Henry E. Rohlsen","Saint Croix Island",VI,"United States",9,2197
+stateName:Florida,,"Fort Lauderdale",FL,,HOG,"Frank Pais International",Holguin,,Cuba,9,2152
+stateName:Florida,,"Fort Lauderdale",FL,,SNU,"Abel Santamaria","Santa Clara",,Cuba,9,2152
+stateName:Florida,,Orlando,FL,,ORF,"Norfolk Intl",Norfolk,VA,"United States",26,2140
+stateName:Florida,,Miami,FL,,SKB,"Robert L. Bradshaw Intl","St. Kitts",,"Saint Kitts and Nevis",9,2120
+stateName:Florida,,Miami,FL,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,1,2064
+stateName:Florida,,Miami,FL,,CUR,"Hato International",Curacao,,Curacao,9,2048
+stateName:Florida,,Miami,FL,,BAQ,"Ernesto Cortissoz International",Barranquilla,,Colombia,9,2044
+stateName:Florida,,Miami,FL,,TGU,"Toncontin Intl",Tegucigalpa,,Honduras,9,1920
+stateName:Florida,,Miami,FL,,MVD,Carrasco,Montevideo,,Uruguay,1,1912
+stateName:Florida,,Miami,FL,,BLA,"J.A. Anzoategui Intl",Barcelona,,Venezuela,4,1734
+stateName:Florida,,"Fort Lauderdale",FL,,BQN,"Rafael Hernandez",Aguadilla,PR,"United States",9,1650
+stateName:Florida,,"Fort Lauderdale",FL,,ORH,"Worcester Municipal",Worcester,MA,"United States",9,1600
+stateName:Florida,,"Fort Lauderdale",FL,,SWF,"Newburgh Stewart",Newburgh,NY,"United States",9,1600
+stateName:Florida,,Miami,FL,,LIR,"D. Oduber Quiros Intl",Liberia,,"Costa Rica",8,1556
+stateName:Florida,,Orlando,FL,,KEF,"Keflavik Intl",Reykjavik,,Iceland,3,1504
+stateName:Florida,,Miami,FL,,LPB,"El Alto International","La Paz",,Bolivia,8,1464
+stateName:Florida,,Miami,FL,,BSB,"J. Kubitschek Intl",Brasilia,DF,Brazil,1,1464
+stateName:Florida,,Orlando,FL,,PDX,"Portland Intl",Portland,OR,"United States",2,1448
+stateName:Florida,,Orlando,FL,,COS,Municipal,"Colorado Springs",CO,"United States",6,1440
+stateName:Florida,,"Fort Lauderdale",FL,,ELH,"North Eleuthera","North Eleuthera",,Bahamas,38,1420
+stateName:Florida,,"Fort Lauderdale",FL,,CMW,"Ignacio Agramonte International",Camaguey,,Cuba,9,1408
+stateName:Florida,,Miami,FL,,CAP,"Hugo Chavez Intl","Cap Haitien",,Haiti,3,1402
+stateName:Florida,,Orlando,FL,,GDL,"Miguel Hidalgo Intl",Guadalajara,,Mexico,6,1392
+stateName:Florida,,"Fort Lauderdale",FL,,BEL,"Val de Cans Intl",Belem,PA,Brazil,4,1384
+stateName:Florida,,Miami,FL,,POP,"Gregorio Luperon Intl","Puerto Plata",,"Dominican Republic",1,1376
+stateName:Florida,,Miami,FL,,MXP,Malpensa,Milan-Malpensa,,Italy,1,1375
+stateName:Florida,,Orlando,FL,,OAK,"Metro Oakland Intl",Oakland,CA,"United States",8,1359
+stateName:Florida,,Miami,FL,,STI,"Cibao Intl",Santiago,,"Dominican Republic",1,1352
+stateName:Florida,,Miami,FL,,VRA,"Juan G. Gomez Intl",Varadero,,Cuba,1,1352
+stateName:Florida,,Miami,FL,,BDA,"L.F. Wade International",Bermuda,,Bermuda,1,1352
+stateName:Florida,,Miami,FL,,MAR,"La Chinita International",Maracaibo,,Venezuela,1,1352
+stateName:Florida,,Miami,FL,,UVF,"Hewanorra Intl","St. Lucia-Vieux Fort",,"Saint Lucia",1,1352
+stateName:Florida,,"Fort Lauderdale",FL,,LGB,"Long Beach Municipal","Long Beach",CA,"United States",1,1200
+stateName:Florida,,Orlando,FL,,PSE,Ponce,Ponce,PR,"United States",1,1200
+stateName:Florida,,Orlando,FL,,SYR,"Clarence E Hancock",Syracuse,NY,"United States",1,1200
+stateName:Florida,,Miami,FL,,MAO,"Eduardo Gomes Intl",Manaus,AM,Brazil,9,1198
+stateName:Florida,,Orlando,FL,,SMF,"Sacramento International",Sacramento,CA,"United States",7,1154
+stateName:Florida,,Orlando,FL,,FOR,"Pinto Martins International",Fortaleza,CE,Brazil,5,1150
+stateName:Florida,,Miami,FL,,ANU,"V C Bird Intl",Antigua,,"Antigua and Barbuda",1,1136
+stateName:Florida,,Miami,FL,,TLV,"Ben Gurion Intl","Tel Aviv-Yafo",,Israel,2,1116
+stateName:Florida,,Orlando,FL,,SJC,"San Jose Municipal","San Jose",CA,"United States",8,1113
+stateName:Florida,,Miami,FL,,BCN,Barcelona,Barcelona,,Spain,1,1100
+stateName:Florida,,Miami,FL,,VIE,"Vienna International",Vienna,,Austria,1,1100
+stateName:Florida,,"Fort Lauderdale",FL,,YOW,"Macdonald-Cartier Intl",Ottawa,ON,Canada,7,1078
+stateName:Florida,,Miami,FL,,VVI,"Viru Viru Intl","Santa Cruz-Viru Viru",,Bolivia,3,1047
+stateName:Florida,,Orlando,FL,,OKC,"Will Rogers World","Oklahoma City",OK,"United States",6,1034
+stateName:Florida,,Miami,FL,,GND,"Maurice Bishop International",Grenada,,"Grenada and South Grenadines",1,1024
+stateName:Florida,,"Fort Lauderdale",FL,,GGT,"Georgetown-Exuma International","George Town",,Bahamas,14,1016
+stateName:Florida,,Miami,FL,,SVO,Sheremetyevo,Moscow-Sheremetyevo,CF,"Russian Federation",3,964
+stateName:Florida,,Orlando,FL,,TUL,"Tulsa International",Tulsa,OK,"United States",3,884
+stateName:Florida,,Orlando,FL,,DUB,"Dublin International",Dublin,,Ireland,1,873
+stateName:Florida,,Orlando,FL,,GLA,"Glasgow International",Glasgow,SC,"United Kingdom",2,864
+stateName:Florida,,Miami,FL,,HEL,Helsinki-Vantaa,Helsinki,,Finland,1,843
+stateName:Florida,,Orlando-Sanford,FL,,NCL,"Newcastle International Airport",Newcastle,EN,"United Kingdom",2,814
+stateName:Florida,,Miami,FL,,CPH,Kastrup,Copenhagen,,Denmark,1,798
+stateName:Florida,,"Fort Lauderdale",FL,,YYC,"Calgary Intl",Calgary,AB,Canada,5,758
+stateName:Florida,,Orlando,FL,,YHZ,"Halifax Intl",Halifax,NS,Canada,4,619
+stateName:Florida,,Miami,FL,,CZM,"Cozumel International",Cozumel,,Mexico,1,608
+stateName:Florida,,Miami,FL,,MID,"M. Crescencio Rejon",Merida,,Mexico,1,608
+stateName:Florida,,Miami,FL,,GSO,"Piedmont Triad Intl",Greensboro,NC,"United States",1,608
+stateName:Florida,,Miami,FL,,MTY,"Mariano Escobedo Intl",Monterrey,,Mexico,1,608
+stateName:Florida,,Miami,FL,,BRU,"Brussels Airport",Brussels,,Belgium,2,600
+stateName:Florida,,Orlando,FL,,DSM,"Des Moines Airport","Des Moines",IA,"United States",1,540
+stateName:Florida,,Miami,FL,,OSL,"Oslo Airport",Oslo,,Norway,1,532
+stateName:Florida,,"Fort Lauderdale",FL,,YQB,"Jean Lesage Intl",Quebec,QC,Canada,3,498
+stateName:Florida,,Miami,FL,,GEO,"Cheddi Jagan International",Georgetown,,Guyana,1,444
+stateName:Florida,,Orlando,FL,,GRR,"Gerald R. Ford International Airport","Grand Rapids",MI,"United States",1,414
+stateName:Florida,,Orlando-Sanford,FL,,BHX,"Birmingham Airport",Birmingham,EN,"United Kingdom",1,407
+stateName:Florida,,Orlando-Sanford,FL,,BRS,Bristol/Lulsgate,Bristol,EN,"United Kingdom",1,407
+stateName:Florida,,Miami,FL,,SAV,"Savannah Intl",Savannah,GA,"United States",1,400
+stateName:Florida,,"Fort Lauderdale",FL,,BIM,"South Bimini Intl",Bimini,,Bahamas,10,340
+stateName:Florida,,"Fort Lauderdale",FL,,TCB,"Treasure Cay","Treasure Cay",,Bahamas,10,340
+stateName:Florida,,Miami,FL,,RTB,"Juan Manuel Galvez",Roatan,,Honduras,2,321
+stateName:Florida,,Orlando,FL,,YWG,"J.A. Richardson Intl",Winnipeg,MB,Canada,2,299
+stateName:Florida,,Orlando,FL,,ABQ,"International Sunport",Albuquerque,NM,"United States",2,268
+stateName:Florida,,Miami,FL,,ARN,Arlanda,Stockholm-Arlanda,,Sweden,1,266
+stateName:Florida,,Miami,FL,,SSA,"Luis E. Magalhaes Intl",Salvador,BA,Brazil,1,230
+stateName:Florida,,"Fort Lauderdale",FL,,GHB,"Governor's Harbour","Governor's Harbour",,Bahamas,5,170
+stateName:Florida,,Orlando,FL,,YQR,"Regina International",Regina,SK,Canada,1,160
+stateName:Florida,,Orlando,FL,,YVR,"Vancouver Intl",Vancouver,BC,Canada,1,160
+stateName:Florida,,Miami,FL,,CYB,"C. Kirkconnell Intl","Cayman Brac",,"Cayman Islands",1,148
+stateName:Florida,,Orlando,FL,,YHM,"John C. Munro Hamilton",Hamilton,ON,Canada,1,139
+stateName:Florida,,Orlando,FL,,YEG,"Edmonton Intl",Edmonton,AB,Canada,1,139
+stateName:Florida,,Miami,FL,,FDF,"Martinique A. Cesaire","Fort De France",,Martinique,1,128
+stateName:Florida,,Miami,FL,,BON,"Flamingo Field International",Bonaire,,"Bonaire, Saint Eustatius & Saba",1,128
+stateName:Florida,,Miami,FL,,ZSA,"Cockburn Town","San Salvador",,Bahamas,1,128
+stateName:Florida,,Orlando,FL,,YYT,"St Johns International","St. Johns",NL,Canada,1,126
+stateName:Florida,,Miami,FL,,PTP,"Le Raizet","Pointe A Pitre",,Guadeloupe,1,76

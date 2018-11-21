@@ -1,0 +1,194 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+"stateName:New York",,Albany,NY,,ORD,"O'Hare International",Chicago-O'Hare,IL,"United States",712,74356
+"stateName:New York",,Albany,NY,,ATL,"Hartsfield-Jackson ATL",Atlanta,GA,"United States",439,63205
+"stateName:New York",,Albany,NY,,MCO,"Orlando Intl",Orlando,FL,"United States",352,52892
+"stateName:New York",,Buffalo,NY,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",285,49256
+"stateName:New York",,Albany,NY,,CLT,"Charlotte-Douglas International Airport",Charlotte-Douglas,NC,"United States",357,44213
+"stateName:New York",,Albany,NY,,BOS,"Logan International",Boston,MA,"United States",519,43659
+"stateName:New York",,"New York-JFK",NY,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",144,40242
+"stateName:New York",,"Long Island-Macarthur",NY,,MIA,"Miami International",Miami,FL,"United States",209,36481
+"stateName:New York",,Albany,NY,,DTW,"Metropolitan Wayne County",Detroit,MI,"United States",372,32703
+"stateName:New York",,Albany,NY,,FLL,"Ft Lauderdale Intl","Fort Lauderdale",FL,"United States",221,32624
+"stateName:New York",,"New York-JFK",NY,,SFO,"San Francisco Intl","San Francisco",CA,"United States",170,29132
+"stateName:New York",,Albany,NY,,DCA,"Ronald Reagan National",Washington-National,DC,"United States",371,27186
+"stateName:New York",,"New York-JFK",NY,,YYZ,"Lester B. Pearson Intl",Toronto,ON,Canada,276,25396
+"stateName:New York",,Albany,NY,,DEN,"Denver International",Denver,CO,"United States",153,23901
+"stateName:New York",,Albany,NY,,BWI,"Baltimore/Wash Intl",Baltimore,MD,"United States",184,23469
+"stateName:New York",,Albany,NY,,TPA,"Tampa International",Tampa,FL,"United States",158,21979
+"stateName:New York",,"New York-JFK",NY,,DFW,"Dallas/Ft Worth Intl","Dallas/Fort Worth",TX,"United States",164,20037
+"stateName:New York",,"New York-JFK",NY,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,49,19250
+"stateName:New York",,Albany,NY,,MSP,International,"Minneapolis/St. Paul",MN,"United States",136,18998
+"stateName:New York",,Albany,NY,,PHL,"Philadelphia Intl",Philadelphia,PA,"United States",336,18140
+"stateName:New York",,Buffalo,NY,,LAS,"Mccarran Intl","Las Vegas",NV,"United States",110,18137
+"stateName:New York",,"Westchester County",NY,,PBI,"Palm Beach Intl","West Palm Beach",FL,"United States",121,18130
+"stateName:New York",,"New York-JFK",NY,,RDU,Raleigh-Durham,Raleigh/Durham,NC,"United States",213,15577
+"stateName:New York",,"New York-JFK",NY,,MEX,"Benito Juarez Intl","Mexico City",,Mexico,77,14328
+"stateName:New York",,"New York-JFK",NY,,SEA,"Seattle-Tacoma Intl",Seattle,WA,"United States",83,14075
+"stateName:New York",,Albany,NY,,MDW,"Chicago Midway International",Chicago,IL,"United States",95,13140
+"stateName:New York",,"New York-JFK",NY,,SDQ,"Las Americas International","Santo Domingo",,"Dominican Republic",73,12864
+"stateName:New York",,"New York-JFK",NY,,STI,"Cibao Intl",Santiago,,"Dominican Republic",73,12864
+"stateName:New York",,"New York-JFK",NY,,DXB,"Dubai International",Dubai,,"United Arab Emirates",17,12408
+"stateName:New York",,Buffalo,NY,,PHX,"Sky Harbor Intl",Phoenix,AZ,"United States",71,11878
+"stateName:New York",,"New York-JFK",NY,,SAN,"San Diego International Airport","San Diego",CA,"United States",69,11822
+"stateName:New York",,"New York-JFK",NY,,BNA,"Nashville Metro",Nashville,TN,"United States",137,11542
+"stateName:New York",,"New York-JFK",NY,,YUL,"Pierre E. Trudeau Intl",Montreal-PET,QC,Canada,160,11486
+"stateName:New York",,Albany,NY,,IAD,"Dulles International",Washington-Dulles,VA,"United States",172,11230
+"stateName:New York",,"New York-La Guardia",NY,,IAH,"George Bush Intercontinental",Houston-Intercontinental,TX,"United States",95,11032
+"stateName:New York",,"New York-JFK",NY,,GRU,"Guarulhos Intl","Sao Paulo-Guarulhos",SP,Brazil,29,10892
+"stateName:New York",,"New York-JFK",NY,,ICN,"Incheon International Airport",Seoul,,"South Korea",17,10160
+"stateName:New York",,"New York-JFK",NY,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,23,9916
+"stateName:New York",,"New York-JFK",NY,,MXP,Malpensa,Milan-Malpensa,,Italy,25,9644
+"stateName:New York",,"New York-JFK",NY,,MAD,"Adolfo Suarez-Barajas",Madrid,,Spain,30,9641
+"stateName:New York",,"New York-JFK",NY,,CUN,"Cancun International",Cancun,,Mexico,53,9576
+"stateName:New York",,Albany,NY,,PIT,"Pittsburgh Internation",Pittsburgh,PA,"United States",162,9473
+"stateName:New York",,"New York-La Guardia",NY,,STL,"Lambert International","St. Louis",MO,"United States",102,9191
+"stateName:New York",,"New York-JFK",NY,,SJU,"Luis Munoz Marin Int","San Juan",PR,"United States",50,9168
+"stateName:New York",,"New York-JFK",NY,,AMS,Schiphol,Amsterdam,,Netherlands,31,9132
+"stateName:New York",,"New York-JFK",NY,,CLE,"Hopkins Intl",Cleveland,OH,"United States",138,9041
+"stateName:New York",,"New York-JFK",NY,,SVO,Sheremetyevo,Moscow-Sheremetyevo,CF,"Russian Federation",17,8016
+"stateName:New York",,"New York-JFK",NY,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",10,7826
+"stateName:New York",,"New York-JFK",NY,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",17,7776
+"stateName:New York",,"Long Island-Macarthur",NY,,MSY,"New Orleans Intl","New Orleans",LA,"United States",64,7641
+"stateName:New York",,"New York-JFK",NY,,CMH,"Port Columbus Intl",Columbus,OH,"United States",109,7479
+"stateName:New York",,"New York-JFK",NY,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,25,7386
+"stateName:New York",,"New York-La Guardia",NY,,DAL,"Love Field",Dallas-Love,TX,"United States",61,7101
+"stateName:New York",,"New York-JFK",NY,,JAX,"Jacksonville Intl",Jacksonville,FL,"United States",64,7096
+"stateName:New York",,"Westchester County",NY,,RSW,"Southwest Florida","Fort Myers",FL,"United States",45,6849
+"stateName:New York",,"New York-JFK",NY,,AUS,"Austin-Bergstrom International Airport",Austin,TX,"United States",40,6817
+"stateName:New York",,"New York-JFK",NY,,CVG,"Cincinnati Northern Kentucky Airport","Cincinnati, OH/Covington",KY,"United States",81,6733
+"stateName:New York",,"New York-JFK",NY,,CHS,"Charleston International/AFB",Charleston,SC,"United States",57,6708
+"stateName:New York",,"New York-JFK",NY,,DUB,"Dublin International",Dublin,,Ireland,17,6624
+"stateName:New York",,"New York-JFK",NY,,SLC,"Salt Lake City Intl","Salt Lake City",UT,"United States",33,6586
+"stateName:New York",,"New York-JFK",NY,,IND,"Indianapolis Intl",Indianapolis,IN,"United States",83,6505
+"stateName:New York",,"New York-JFK",NY,,PWM,"Portland Intl Jetprt",Portland,ME,"United States",77,6401
+"stateName:New York",,"New York-JFK",NY,,TLV,"Ben Gurion Intl","Tel Aviv-Yafo",,Israel,16,6010
+"stateName:New York",,"New York-JFK",NY,,BDA,"L.F. Wade International",Bermuda,,Bermuda,33,5991
+"stateName:New York",,"New York-JFK",NY,,TPE,"Taiwan Taoyuan International Airport",Taipei,,Taiwan,14,5990
+"stateName:New York",,"New York-JFK",NY,,ZRH,Zurich,Zurich,,Switzerland,18,5648
+"stateName:New York",,"New York-JFK",NY,,POS,"Piarco International","Port of Spain",,"Trinidad and Tobago",32,5634
+"stateName:New York",,"New York-JFK",NY,,RIC,"Richard E Byrd Field International",Richmond,VA,"United States",73,5482
+"stateName:New York",,"New York-JFK",NY,,DOH,"Hamad International Airport",Doha,,Qatar,9,5384
+"stateName:New York",,"New York-JFK",NY,,IST,Ataturk,Istanbul,,Turkey,13,5384
+"stateName:New York",,"New York-JFK",NY,,SAV,"Savannah Intl",Savannah,GA,"United States",49,5364
+"stateName:New York",,"New York-JFK",NY,,KIN,"Norman Manley Intl",Kingston,,Jamaica,26,5249
+"stateName:New York",,"New York-JFK",NY,,ORF,"Norfolk Intl",Norfolk,VA,"United States",81,5207
+"stateName:New York",,"New York-JFK",NY,,PUJ,"Punta Cana International","Punta Cana",,"Dominican Republic",26,5189
+"stateName:New York",,"New York-JFK",NY,,PTY,"Tocumen Intl, Panama R","Panama City",,Panama,25,5133
+"stateName:New York",,"New York-JFK",NY,,PVG,"Pudong International",Shanghai,,China,9,5056
+"stateName:New York",,"New York-JFK",NY,,MBJ,"Sangster Intl","Montego Bay",,Jamaica,25,5048
+"stateName:New York",,"New York-JFK",NY,,PDX,"Portland Intl",Portland,OR,"United States",24,4822
+"stateName:New York",,"New York-JFK",NY,,KEF,"Keflavik Intl",Reykjavik,,Iceland,13,4748
+"stateName:New York",,"New York-La Guardia",NY,,MKE,"General Mitchell Intl",Milwaukee,WI,"United States",51,4724
+"stateName:New York",,"New York-JFK",NY,,YVR,"Vancouver Intl",Vancouver,BC,Canada,9,4648
+"stateName:New York",,"New York-JFK",NY,,BOG,"El Dorado Intl",Bogota,,Colombia,12,4624
+"stateName:New York",,"New York-JFK",NY,,HOU,"William P Hobby",Houston-Hobby,TX,"United States",23,4517
+"stateName:New York",,"New York-JFK",NY,,HND,"Tokyo Intl (Haneda)",Tokyo-Haneda,,Japan,9,4368
+"stateName:New York",,"New York-JFK",NY,,NRT,Narita,Tokyo-Narita,,Japan,9,4368
+"stateName:New York",,"New York-JFK",NY,,EZE,"Ministro Pistarini","Buenos Aires",BA,Argentina,9,4312
+"stateName:New York",,"New York-JFK",NY,,PEK,"Capital International",Beijing,,China,9,4260
+"stateName:New York",,"New York-JFK",NY,,NAS,"Lynden Pindling Intl",Nassau,,Bahamas,23,4220
+"stateName:New York",,"New York-JFK",NY,,BCN,Barcelona,Barcelona,,Spain,9,4168
+"stateName:New York",,"New York-JFK",NY,,BRU,"Brussels Airport",Brussels,,Belgium,15,4032
+"stateName:New York",,"New York-JFK",NY,,AUA,"Reina Beatrix",Aruba,,Aruba,19,3996
+"stateName:New York",,"New York-JFK",NY,,PAP,"Toussaint Louverture","Port Au Prince",,Haiti,17,3848
+"stateName:New York",,"New York-La Guardia",NY,,MCI,"Kansas City Intl","Kansas City",MO,"United States",43,3759
+"stateName:New York",,"Westchester County",NY,,ACK,"Nantucket Memorial",Nantucket,MA,"United States",36,3540
+"stateName:New York",,"New York-La Guardia",NY,,GSO,"Piedmont Triad Intl",Greensboro,NC,"United States",44,3228
+"stateName:New York",,"New York-JFK",NY,,BGR,"Bangor International",Bangor,ME,"United States",32,3021
+"stateName:New York",,"New York-JFK",NY,,CAI,"Cairo Intl",Cairo,,Egypt,1,2912
+"stateName:New York",,"New York-JFK",NY,,LIS,Lisboa,Lisbon,,Portugal,1,2896
+"stateName:New York",,"New York-JFK",NY,,LIM,"Jorge Chavez Intl",Lima,,Peru,3,2870
+"stateName:New York",,"New York-JFK",NY,,BGI,"Grantley Adams International",Bridgetown,,Barbados,10,2658
+"stateName:New York",,"New York-JFK",NY,,KBP,"Boryspil International",Kiev,,Ukraine,1,2624
+"stateName:New York",,"New York-JFK",NY,,SJC,"San Jose Municipal","San Jose",CA,"United States",9,2616
+"stateName:New York",,"New York-JFK",NY,,KWI,"Kuwait Intl",Kuwait,,Kuwait,1,2552
+"stateName:New York",,"New York-JFK",NY,,JNB,"O.R. Tambo International Airport",Johannesburg,,"South Africa",1,2536
+"stateName:New York",,"New York-JFK",NY,,DEL,"Indira Gandhi Intl",Delhi,,India,1,2528
+"stateName:New York",,"New York-JFK",NY,,BQN,"Rafael Hernandez",Aguadilla,PR,"United States",9,2496
+"stateName:New York",,"New York-JFK",NY,,CAN,"Baiyun International",Guangzhou,,China,1,2472
+"stateName:New York",,"New York-JFK",NY,,CMN,"Mohammed V",Casablanca,,Morocco,8,2466
+"stateName:New York",,"New York-JFK",NY,,ORY,Orly,Paris-Orly,,France,1,2400
+"stateName:New York",,"New York-JFK",NY,,LGB,"Long Beach Municipal","Long Beach",CA,"United States",10,2400
+"stateName:New York",,"New York-JFK",NY,,POP,"Gregorio Luperon Intl","Puerto Plata",,"Dominican Republic",9,2400
+"stateName:New York",,"New York-JFK",NY,,SCL,"Arturo M Benitez",Santiago,,Chile,1,2376
+"stateName:New York",,"New York-JFK",NY,,SAL,"El Salvador Intl","San Salvador",,"El Salvador",9,2370
+"stateName:New York",,"New York-La Guardia",NY,,MEM,"Memphis Intl",Memphis,TN,"United States",25,2356
+"stateName:New York",,"New York-JFK",NY,,MAN,"Manchester Airport",Manchester,EN,"United Kingdom",5,2328
+"stateName:New York",,"New York-JFK",NY,,HEL,Helsinki-Vantaa,Helsinki,,Finland,1,2248
+"stateName:New York",,"New York-JFK",NY,,UIO,"Mariscal Sucre Intl",Quito,,Ecuador,1,2224
+"stateName:New York",,"New York-JFK",NY,,GIG,"Galeao-A.C.Jobim Intl","Rio De Janeiro",RJ,Brazil,1,2200
+"stateName:New York",,"New York-JFK",NY,,MUC,"Franz Josef Strauss International",Munich,,Germany,2,2184
+"stateName:New York",,"New York-JFK",NY,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",2,2112
+"stateName:New York",,"New York-La Guardia",NY,,SDF,"Standiford Field",Louisville,KY,"United States",24,1974
+"stateName:New York",,"New York-JFK",NY,,WAW,Okecie,Warsaw,,Poland,1,1764
+"stateName:New York",,"New York-JFK",NY,,SRQ,Sarasota-Bradenton,Sarasota/Bradenton,FL,"United States",10,1758
+"stateName:New York",,"New York-JFK",NY,,GYE,"Jose Joaquin de Olmedo",Guayaquil,,Ecuador,1,1712
+"stateName:New York",,"New York-JFK",NY,,HNL,"Honolulu Intl",Honolulu/Oahu,HI,"United States",1,1674
+"stateName:New York",,"Westchester County",NY,,MVY,"Marthas Vineyard","Martha's Vineyard",MA,"United States",18,1648
+"stateName:New York",,"New York-La Guardia",NY,,XNA,"Northwest Arkansas Regional Airport",Fayetteville/Springd.,AR,"United States",15,1596
+"stateName:New York",,"New York-La Guardia",NY,,GRR,"Gerald R. Ford International Airport","Grand Rapids",MI,"United States",15,1596
+"stateName:New York",,"New York-JFK",NY,,GCM,"Owen Roberts Intl","Grand Cayman",,"Cayman Islands",6,1490
+"stateName:New York",,"New York-JFK",NY,,GEO,"Cheddi Jagan International",Georgetown,,Guyana,2,1457
+"stateName:New York",,"New York-JFK",NY,,ANU,"V C Bird Intl",Antigua,,"Antigua and Barbuda",5,1445
+"stateName:New York",,"New York-La Guardia",NY,,MSN,"DCRA, Dane County Regional Airport",Madison,WI,"United States",13,1444
+"stateName:New York",,"New York-JFK",NY,,GVA,"Geneva International Airport",Geneva,,Switzerland,1,1416
+"stateName:New York",,"New York-JFK",NY,,EDI,Turnhouse,Edinburgh,SC,"United Kingdom",1,1400
+"stateName:New York",,"New York-JFK",NY,,FOC,"Changle International",Fuzhou,,China,1,1340
+"stateName:New York",,"New York-JFK",NY,,HAV,"Jose Marti Intl",Havana,,Cuba,2,1332
+"stateName:New York",,"New York-JFK",NY,,SMF,"Sacramento International",Sacramento,CA,"United States",2,1296
+"stateName:New York",,"New York-JFK",NY,,PLS,"Providenciales Intl",Providenciales,,"Turks and Caicos Islands",1,1296
+"stateName:New York",,"New York-JFK",NY,,SNN,"Shannon International",Shannon,,Ireland,1,1295
+"stateName:New York",,"New York-La Guardia",NY,,CHO,Albemarle,Charlottesville,VA,"United States",17,1241
+"stateName:New York",,"New York-JFK",NY,,CTG,"Rafael Nunez International",Cartagena,,Colombia,6,1230
+"stateName:New York",,"New York-JFK",NY,,GND,"Maurice Bishop International",Grenada,,"Grenada and South Grenadines",7,1200
+"stateName:New York",,"New York-JFK",NY,,ABQ,"International Sunport",Albuquerque,NM,"United States",2,1200
+"stateName:New York",,"New York-JFK",NY,,OAK,"Metro Oakland Intl",Oakland,CA,"United States",2,1200
+"stateName:New York",,"New York-JFK",NY,,BUR,Hollywood-Burbank,Burbank,CA,"United States",1,1200
+"stateName:New York",,"New York-JFK",NY,,DAB,"Daytona Beach Regl","Daytona Beach",FL,"United States",1,1200
+"stateName:New York",,"New York-JFK",NY,,PSE,Ponce,Ponce,PR,"United States",1,1200
+"stateName:New York",,"New York-JFK",NY,,RNO,"Reno/Tahoe Internation",Reno,NV,"United States",1,1200
+"stateName:New York",,"New York-JFK",NY,,SXM,"Prinses Juliana International","St. Maarten",,"Sint Maarten",1,1200
+"stateName:New York",,"New York-JFK",NY,,UVF,"Hewanorra Intl","St. Lucia-Vieux Fort",,"Saint Lucia",1,1200
+"stateName:New York",,"New York-La Guardia",NY,,MHT,"Manchester Boston Regional Airport",Manchester,NH,"United States",9,1140
+"stateName:New York",,"New York-La Guardia",NY,,OMA,"Eppley Airfield",Omaha,NE,"United States",9,1140
+"stateName:New York",,"New York-JFK",NY,,PTP,"Le Raizet","Pointe A Pitre",,Guadeloupe,1,1128
+"stateName:New York",,"New York-JFK",NY,,AMM,"Queen Alia Intl",Amman,,Jordan,1,1112
+"stateName:New York",,"New York-JFK",NY,,SAT,"San Antonio Intl","San Antonio",TX,"United States",1,1056
+"stateName:New York",,"New York-JFK",NY,,BUD,"Liszt Ferenc International",Budapest,,Hungary,1,1008
+"stateName:New York",,"New York-JFK",NY,,LOS,"Murtala Muhammed International",Lagos,,Nigeria,1,936
+"stateName:New York",,"New York-JFK",NY,,RUH,"King Khalid Intl",Riyadh,,"Saudi Arabia",1,918
+"stateName:New York",,"New York-JFK",NY,,ACC,"Kotoka International",Accra,,Ghana,1,868
+"stateName:New York",,"New York-JFK",NY,,HYA,"Barnstable Municipal",Hyannis,MA,"United States",1,800
+"stateName:New York",,"New York-JFK",NY,,ORH,"Worcester Municipal",Worcester,MA,"United States",1,800
+"stateName:New York",,"New York-JFK",NY,,YYC,"Calgary Intl",Calgary,AB,Canada,4,795
+"stateName:New York",,"New York-JFK",NY,,MTY,"Mariano Escobedo Intl",Monterrey,,Mexico,2,784
+"stateName:New York",,"New York-JFK",NY,,CTU,"Shuangliu International",Chengdu,,China,1,783
+"stateName:New York",,"New York-La Guardia",NY,,BHM,"Birmingham Municipal",Birmingham,AL,"United States",4,760
+"stateName:New York",,"New York-La Guardia",NY,,TYS,"Mc Ghee Tyson",Knoxville,TN,"United States",4,760
+"stateName:New York",,"New York-JFK",NY,,FDF,"Martinique A. Cesaire","Fort De France",,Martinique,1,752
+"stateName:New York",,"New York-JFK",NY,,CUR,"Hato International",Curacao,,Curacao,3,750
+"stateName:New York",,"New York-JFK",NY,,LIR,"D. Oduber Quiros Intl",Liberia,,"Costa Rica",3,750
+"stateName:New York",,"New York-La Guardia",NY,,DAY,"Dayton James M. Cox International",Dayton,OH,"United States",9,750
+"stateName:New York",,"New York-La Guardia",NY,,ILM,"New Hanover County",Wilmington,NC,"United States",8,700
+"stateName:New York",,"New York-La Guardia",NY,,ROA,"Roanoke Municipal",Roanoke,VA,"United States",8,700
+"stateName:New York",,"New York-JFK",NY,,GDL,"Miguel Hidalgo Intl",Guadalajara,,Mexico,1,696
+"stateName:New York",,"New York-JFK",NY,,MDE,"Jose Marie Cordova",Medellin,,Colombia,1,600
+"stateName:New York",,"New York-La Guardia",NY,,CAE,"Columbia Metropolitan Airport",Columbia,SC,"United States",1,532
+"stateName:New York",,"New York-La Guardia",NY,,DSM,"Des Moines Airport","Des Moines",IA,"United States",1,532
+"stateName:New York",,"New York-La Guardia",NY,,GSP,Greenville/Spartanbg,Greenville/Spartanburg,SC,"United States",1,532
+"stateName:New York",,"New York-La Guardia",NY,,YOW,"Macdonald-Cartier Intl",Ottawa,ON,Canada,1,532
+"stateName:New York",,"New York-JFK",NY,,VIE,"Vienna International",Vienna,,Austria,1,530
+"stateName:New York",,"New York-JFK",NY,,GYD,"Heydar Aliyev",Baku,,Azerbaijan,1,526
+"stateName:New York",,"New York-JFK",NY,,CKG,"Jiangbei International",Chongqing,,China,1,522
+"stateName:New York",,"New York-JFK",NY,,BEG,"Nikola Tesla Airport",Belgrade,,Serbia,2,508
+"stateName:New York",,"New York-JFK",NY,,TAS,"Tashkent-Vostochny International",Tashkent,,Uzbekistan,1,492
+"stateName:New York",,"New York-La Guardia",NY,,LEX,"Blue Grass",Lexington,KY,"United States",1,483
+"stateName:New York",,"New York-JFK",NY,,LRM,"Casa de Campo Intl","La Romana",,"Dominican Republic",2,450
+"stateName:New York",,"New York-La Guardia",NY,,CAK,"Canton Regional",Akron/Canton,OH,"United States",1,350
+"stateName:New York",,"New York-JFK",NY,,JED,"King Abdulaziz Intl",Jeddah,,"Saudi Arabia",1,330
+"stateName:New York",,"New York-JFK",NY,,SAP,"Ramon V. Morales Intl","San Pedro Sula",,Honduras,1,300
+"stateName:New York",,"Westchester County",NY,,LEB,"Lebanon Regional",Lebanon,NH,"United States",15,192
+"stateName:New York",,"New York-JFK",NY,,SKB,"Robert L. Bradshaw Intl","St. Kitts",,"Saint Kitts and Nevis",1,183
+"stateName:New York",,"New York-JFK",NY,,PSP,"Palm Springs Muni","Palm Springs",CA,"United States",1,170
+"stateName:New York",,"New York-JFK",NY,,TAB,"ANR Robinson International",Tobago,,"Trinidad and Tobago",1,154
+"stateName:New York",,"New York-JFK",NY,,LCY,"City Airport",London,EN,"United Kingdom",1,64
