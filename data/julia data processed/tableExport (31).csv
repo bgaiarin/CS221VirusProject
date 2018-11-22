@@ -1,0 +1,248 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Turkey,,Denizli,,,IKA,"Imam Khomeini International",Tehran,,Iran,113,26293
+countryName:Turkey,,Adana,,,DUS,"Duesseldorf International",Duesseldorf,,Germany,125,23894
+countryName:Turkey,,Adana,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,104,19970
+countryName:Turkey,,Istanbul,,,TLV,"Ben Gurion Intl","Tel Aviv-Yafo",,Israel,73,16398
+countryName:Turkey,,"Izmir-Adnan Mend",,,CGN,"Konrad Adenauer",Cologne-Bonn,,Germany,84,15216
+countryName:Turkey,,"Izmir-Adnan Mend",,,AMS,Schiphol,Amsterdam,,Netherlands,66,14890
+countryName:Turkey,,Adana,,,ECN,Ercan,Ercan,,Cyprus,74,14504
+countryName:Turkey,,Istanbul,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",51,14350
+countryName:Turkey,,Ankara,,,GYD,"Heydar Aliyev",Baku,,Azerbaijan,81,14090
+countryName:Turkey,,Adana,,,JED,"King Abdulaziz Intl",Jeddah,,"Saudi Arabia",63,13645
+countryName:Turkey,,"Izmir-Adnan Mend",,,TXL,Tegel,Berlin-Tegel,,Germany,73,13477
+countryName:Turkey,,"Izmir-Adnan Mend",,,MUC,"Franz Josef Strauss International",Munich,,Germany,71,13281
+countryName:Turkey,,Istanbul,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",40,13242
+countryName:Turkey,,"Izmir-Adnan Mend",,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,58,13025
+countryName:Turkey,,"Izmir-Adnan Mend",,,STR,"Echterdingen Airport",Stuttgart,,Germany,66,12460
+countryName:Turkey,,Adana,,,BEY,"Rafic Hariri International",Beirut,,Lebanon,50,11961
+countryName:Turkey,,"Izmir-Adnan Mend",,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",61,11955
+countryName:Turkey,,"Izmir-Adnan Mend",,,HAJ,Hannover,Hannover,,Germany,60,11179
+countryName:Turkey,,Antalya,,,BGW,"Baghdad International Airport",Baghdad,,Iraq,61,10334
+countryName:Turkey,,Adana,,,DOH,"Hamad International Airport",Doha,,Qatar,56,10048
+countryName:Turkey,,"Izmir-Adnan Mend",,,ZRH,Zurich,Zurich,,Switzerland,56,10035
+countryName:Turkey,,"Izmir-Adnan Mend",,,VIE,"Vienna International",Vienna,,Austria,56,9972
+countryName:Turkey,,"Izmir-Adnan Mend",,,HAM,Hamburg,Hamburg,,Germany,49,9219
+countryName:Turkey,,Istanbul,,,KWI,"Kuwait Intl",Kuwait,,Kuwait,43,8993
+countryName:Turkey,,Ankara,,,KBP,"Boryspil International",Kiev,,Ukraine,37,8523
+countryName:Turkey,,"Izmir-Adnan Mend",,,ATH,"Eleftherios Venizelos Airport",Athens,,Greece,57,8472
+countryName:Turkey,,"Izmir-Adnan Mend",,,MAN,"Manchester Airport",Manchester,EN,"United Kingdom",37,8367
+countryName:Turkey,,Antalya,,,VKO,Vnukovo,Moscow-Vnukovo,CF,"Russian Federation",44,8362
+countryName:Turkey,,Antalya,,,SVO,Sheremetyevo,Moscow-Sheremetyevo,CF,"Russian Federation",41,7856
+countryName:Turkey,,Istanbul,,,TBS,"Novo Alexeyevka International",Tbilisi,,Georgia,35,7818
+countryName:Turkey,,Istanbul,,,OTP,"Otopeni International",Bucharest,,Romania,33,7792
+countryName:Turkey,,"Izmir-Adnan Mend",,,NUE,Nuremberg,Nuremberg,,Germany,42,7678
+countryName:Turkey,,"Izmir-Adnan Mend",,,BRU,"Brussels Airport",Brussels,,Belgium,42,7529
+countryName:Turkey,,Istanbul,,,CAI,"Cairo Intl",Cairo,,Egypt,37,7088
+countryName:Turkey,,Ankara,,,MED,"Medina-Prince Mohammad",Madinah,,"Saudi Arabia",31,7019
+countryName:Turkey,,Istanbul,,,ALG,"Houari Boumediene",Algiers,,Algeria,33,7014
+countryName:Turkey,,Istanbul,,,MXP,Malpensa,Milan-Malpensa,,Italy,36,6931
+countryName:Turkey,,Istanbul,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,28,6629
+countryName:Turkey,,Hatay,,,RUH,"King Khalid Intl",Riyadh,,"Saudi Arabia",31,6338
+countryName:Turkey,,Istanbul,,,ICN,"Incheon International Airport",Seoul,,"South Korea",16,6152
+countryName:Turkey,,Diyarbakir,,,EBL,"Erbil International Airport",Erbil,,Iraq,32,5975
+countryName:Turkey,,Istanbul,,,BCN,Barcelona,Barcelona,,Spain,22,5875
+countryName:Turkey,,Istanbul,,,AMM,"Queen Alia Intl",Amman,,Jordan,27,5588
+countryName:Turkey,,Istanbul,,,CMN,"Mohammed V",Casablanca,,Morocco,20,5432
+countryName:Turkey,,Istanbul,,,BKK,"Suvarnabhumi - New Bangkok International Airport",Bangkok,,Thailand,9,5384
+countryName:Turkey,,Istanbul,,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",9,5384
+countryName:Turkey,,Istanbul,,,ODS,"Odesa International",Odesa,,Ukraine,25,4975
+countryName:Turkey,,Antalya,,,ARN,Arlanda,Stockholm-Arlanda,,Sweden,27,4901
+countryName:Turkey,,"Izmir-Adnan Mend",,,CPH,Kastrup,Copenhagen,,Denmark,26,4674
+countryName:Turkey,,Istanbul,,,SIN,Changi,Singapore,,Singapore,9,4400
+countryName:Turkey,,Istanbul,,,BEG,"Nikola Tesla Airport",Belgrade,,Serbia,22,4346
+countryName:Turkey,,Istanbul,,,VCE,"Marco Polo",Venice,,Italy,17,4296
+countryName:Turkey,,Antalya,,,SXF,Schoenefeld,Berlin-Schoenefeld,,Germany,23,4254
+countryName:Turkey,,Istanbul,,,PRG,Ruzyne,Prague,,"Czech Republic",17,4160
+countryName:Turkey,,Ankara,,,KBL,"Kabul International",Kabul,,Afghanistan,16,4140
+countryName:Turkey,,Antalya,,,ALA,"Almaty International",Almaty,,Kazakhstan,21,3996
+countryName:Turkey,,Istanbul,,,BUD,"Liszt Ferenc International",Budapest,,Hungary,21,3968
+countryName:Turkey,,Istanbul,,,TBZ,"Tabriz International",Tabriz,,Iran,13,3940
+countryName:Turkey,,Istanbul,,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",14,3835
+countryName:Turkey,,Istanbul,,,TAS,"Tashkent-Vostochny International",Tashkent,,Uzbekistan,15,3821
+countryName:Turkey,,"Izmir-Adnan Mend",,,BHX,"Birmingham Airport",Birmingham,EN,"United Kingdom",19,3739
+countryName:Turkey,,Ankara,,,ASB,"Ashgabat International",Ashgabat,,Turkmenistan,24,3736
+countryName:Turkey,,Istanbul,,,MAD,"Adolfo Suarez-Barajas",Madrid,,Spain,9,3664
+countryName:Turkey,,"Izmir-Adnan Mend",,,BRE,Bremen,Bremen,,Germany,21,3661
+countryName:Turkey,,Istanbul,,,GVA,"Geneva International Airport",Geneva,,Switzerland,17,3654
+countryName:Turkey,,"Izmir-Adnan Mend",,,BSL,"EuroAirport Swiss CH",Basel/Mulhouse,,Switzerland,20,3474
+countryName:Turkey,,Antalya,,,STN,Stansted,London-Stansted,EN,"United Kingdom",18,3463
+countryName:Turkey,,Istanbul,,,KIV,"Kishinev International",Kishinev,,Moldova,17,3416
+countryName:Turkey,,Istanbul,,,SOF,Sofia-Vrazhdebna,Sofia,,Bulgaria,17,3318
+countryName:Turkey,,Antalya,,,FMO,"Osnabruck International",Muenster,,Germany,15,3268
+countryName:Turkey,,Gazipasa,,,HEL,Helsinki-Vantaa,Helsinki,,Finland,17,3093
+countryName:Turkey,,Gazipasa,,,OSL,"Oslo Airport",Oslo,,Norway,17,3069
+countryName:Turkey,,Istanbul,,,GRU,"Guarulhos Intl","Sao Paulo-Guarulhos",SP,Brazil,1,3000
+countryName:Turkey,,Istanbul,,,BOM,"Mumbai (Chhatrapati Shivaji) International",Mumbai/Bombay,,India,1,3000
+countryName:Turkey,,Istanbul,,,DEL,"Indira Gandhi Intl",Delhi,,India,1,3000
+countryName:Turkey,,Istanbul,,,CAN,"Baiyun International",Guangzhou,,China,1,3000
+countryName:Turkey,,Istanbul,,,CGK,"Soekarno-Hatta Intl",Jakarta,,Indonesia,1,3000
+countryName:Turkey,,Istanbul,,,MNL,"Ninoy Aquino Intl",Manila,,Philippines,1,3000
+countryName:Turkey,,Istanbul,,,PEK,"Capital International",Beijing,,China,1,3000
+countryName:Turkey,,Istanbul,,,PVG,"Pudong International",Shanghai,,China,1,3000
+countryName:Turkey,,Istanbul,,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",1,3000
+countryName:Turkey,,Istanbul,,,ORD,"O'Hare International",Chicago-O'Hare,IL,"United States",1,3000
+countryName:Turkey,,Istanbul,,,SFO,"San Francisco Intl","San Francisco",CA,"United States",1,3000
+countryName:Turkey,,Istanbul,,,TUN,Carthage,Tunis,,Tunisia,9,2928
+countryName:Turkey,,Istanbul,,,LIS,Lisboa,Lisbon,,Portugal,9,2784
+countryName:Turkey,,Istanbul,,,BLQ,"Guglielmo Marconi",Bologna,,Italy,9,2728
+countryName:Turkey,,Istanbul,,,MIA,"Miami International",Miami,FL,"United States",1,2625
+countryName:Turkey,,Istanbul,,,YYZ,"Lester B. Pearson Intl",Toronto,ON,Canada,1,2625
+countryName:Turkey,,Istanbul,,,MLA,"Luqa International",Malta,,Malta,9,2528
+countryName:Turkey,,Antalya,,,TSE,"Astana International",Astana,,Kazakhstan,13,2500
+countryName:Turkey,,Istanbul,,,SKP,Skopje,Skopje,,Macedonia,12,2486
+countryName:Turkey,,Istanbul,,,HRK,"Osnova International",Kharkiv,,Ukraine,12,2482
+countryName:Turkey,,Istanbul,,,BAH,"Bahrain Intl",Bahrain,,Bahrain,16,2416
+countryName:Turkey,,Istanbul,,,ISB,"Benazir Bhutto Intl",Islamabad,,Pakistan,1,2384
+countryName:Turkey,,Istanbul,,,LHE,"Allama Iqbal Intl",Lahore,,Pakistan,1,2384
+countryName:Turkey,,Istanbul,,,DAC,"Hazrat Shahjalal International",Dhaka,,Bangladesh,1,2384
+countryName:Turkey,,Istanbul,,,CPT,"Cape Town Intl.","Cape Town",,"South Africa",1,2384
+countryName:Turkey,,Istanbul,,,JNB,"O.R. Tambo International Airport",Johannesburg,,"South Africa",5,2384
+countryName:Turkey,,Istanbul,,,KUL,"Kuala Lumpur International Airport","Kuala Lumpur",,Malaysia,1,2384
+countryName:Turkey,,Istanbul,,,MLE,"Ibrahim Nasir International",Male,,Maldives,3,2384
+countryName:Turkey,,Istanbul,,,NRT,Narita,Tokyo-Narita,,Japan,1,2384
+countryName:Turkey,,Istanbul,,,IAD,"Dulles International",Washington-Dulles,VA,"United States",1,2384
+countryName:Turkey,,Istanbul,,,SJJ,"Sarajevo International Airport",Sarajevo,,"Bosnia and Herzegovina",8,2379
+countryName:Turkey,,Antalya,,,LEJ,Leipzig,Leipzig,,Germany,15,2369
+countryName:Turkey,,Istanbul,,,TIA,Rinas,Tirana,,Albania,9,2320
+countryName:Turkey,,Istanbul,,,DUB,"Dublin International",Dublin,,Ireland,8,2303
+countryName:Turkey,,Istanbul,,,ISU,"Sulaymaniyah Airport",Sulaymaniyah,,Iraq,9,2289
+countryName:Turkey,,Istanbul,,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",1,2250
+countryName:Turkey,,Istanbul,,,LYS,Satolas,Lyon,,France,8,2226
+countryName:Turkey,,Istanbul,,,LOS,"Murtala Muhammed International",Lagos,,Nigeria,5,2184
+countryName:Turkey,,Istanbul,,,FRU,"Manas International",Bishkek,,Kyrgyzstan,14,2072
+countryName:Turkey,,Istanbul,,,GOT,"Goteborg-Landvetter Airport",Goteborg,,Sweden,7,2054
+countryName:Turkey,,Istanbul,,,KHI,"Jinnah Intl",Karachi,,Pakistan,1,1984
+countryName:Turkey,,Istanbul,,,BSR,"Basrah International",Basrah,,Iraq,9,1908
+countryName:Turkey,,Istanbul,,,TPE,"Taiwan Taoyuan International Airport",Taipei,,Taiwan,1,1875
+countryName:Turkey,,Istanbul,,,IAH,"George Bush Intercontinental",Houston-Intercontinental,TX,"United States",1,1875
+countryName:Turkey,,Istanbul,,,ZAG,Pleso,Zagreb,,Croatia,6,1857
+countryName:Turkey,,Istanbul,,,YNB,Yanbo,Yanbo,,"Saudi Arabia",4,1826
+countryName:Turkey,,Istanbul,,,PRN,"Pristina International",Pristina,,Serbia,9,1818
+countryName:Turkey,,Istanbul,,,KTM,"Tribhuvan International",Kathmandu,,Nepal,1,1788
+countryName:Turkey,,Istanbul,,,BOS,"Logan International",Boston,MA,"United States",1,1788
+countryName:Turkey,,Istanbul,,,LWO,"Lviv International",Lviv,,Ukraine,8,1758
+countryName:Turkey,,Istanbul,,,SKG,Makedonia,Thessaloniki,,Greece,6,1749
+countryName:Turkey,,Istanbul,,,LJU,"Joze Pucnik",Ljubljana,,Slovenia,6,1727
+countryName:Turkey,,Istanbul,,,NJF,"Al-Ashraf International Airport","Al Najaf",,Iraq,9,1722
+countryName:Turkey,,Istanbul,,,CZL,"Mohamed Boudiaf",Constantine,,Algeria,9,1717
+countryName:Turkey,,Istanbul,,,WAW,Okecie,Warsaw,,Poland,6,1658
+countryName:Turkey,,Istanbul,,,ORN,"Ahmed Ben Bella",Oran,,Algeria,10,1516
+countryName:Turkey,,Antalya,,,PAD,Paderborn,Paderborn,,Germany,4,1512
+countryName:Turkey,,Antalya,,,BRS,Bristol/Lulsgate,Bristol,EN,"United Kingdom",8,1512
+countryName:Turkey,,Istanbul,,,MRU,"Sir S. Ramgoolam International",Mauritius,,Mauritius,1,1488
+countryName:Turkey,,Istanbul,,,ATL,"Hartsfield-Jackson ATL",Atlanta,GA,"United States",1,1488
+countryName:Turkey,,Istanbul,,,KRT,"Khartoum Civil International",Khartoum,,Sudan,1,1464
+countryName:Turkey,,Istanbul,,,LED,Pulkovo,"St. Petersburg",NF,"Russian Federation",1,1464
+countryName:Turkey,,Istanbul,,,HBE,"Borg el Arab Airport",Alexandria,,Egypt,1,1432
+countryName:Turkey,,Dalaman,,,EDI,Turnhouse,Edinburgh,SC,"United Kingdom",7,1402
+countryName:Turkey,,Istanbul,,,MJI,"Mitiga, Tripoli Airport",Tripoli,,Libya,5,1386
+countryName:Turkey,,Istanbul,,,SCO,Aktau,Aktau,,Kazakhstan,5,1383
+countryName:Turkey,,Istanbul,,,NBO,"Jomo Kenyatta Intl",Nairobi,,Kenya,1,1352
+countryName:Turkey,,Istanbul,,,IFN,"Shahid Beheshti International Airport",Esfahan,,Iran,1,1352
+countryName:Turkey,,Istanbul,,,JIB,"Ambouli International",Djibouti,,Djibouti,1,1352
+countryName:Turkey,,"Sabiha Gokcen",,,SHJ,Sharjah,Sharjah,,"United Arab Emirates",8,1344
+countryName:Turkey,,Antalya,,,LTN,"Luton International",London-Luton,EN,"United Kingdom",7,1340
+countryName:Turkey,,Istanbul,,,KGL,"Kigali International Airport",Kigali,,Rwanda,8,1280
+countryName:Turkey,,Istanbul,,,NKC,Nouakchott,Nouakchott,,Mauritania,6,1280
+countryName:Turkey,,Istanbul,,,ACC,"Kotoka International",Accra,,Ghana,1,1280
+countryName:Turkey,,Istanbul,,,AGP,"Malaga Airport",Malaga,,Spain,1,1280
+countryName:Turkey,,Istanbul,,,DAR,"Julius Nyerere International","Dar Es Salaam",,Tanzania,1,1280
+countryName:Turkey,,Istanbul,,,MCT,"Seeb International",Muscat,,Oman,1,1280
+countryName:Turkey,,Istanbul,,,ABV,"Nnamdi Azikiwe International Airport",Abuja,,Nigeria,1,1280
+countryName:Turkey,,Istanbul,,,VLC,"Valencia Airport",Valencia,,Spain,5,1272
+countryName:Turkey,,Istanbul,,,MHD,"Shahid Hashemi Nejad",Mashhad,,Iran,1,1264
+countryName:Turkey,,Istanbul,,,SYZ,"Shahid Dastghaib International",Shiraz,,Iran,1,1264
+countryName:Turkey,,Istanbul,,,NAP,Capodichino,Naples,,Italy,5,1264
+countryName:Turkey,,Istanbul,,,BLL,Billund,Billund,,Denmark,6,1264
+countryName:Turkey,,Istanbul,,,NCE,"Cote D'Azur",Nice,,France,6,1264
+countryName:Turkey,,Istanbul,,,RIX,"Riga-Arpt Internaitonal",Riga,,Latvia,6,1264
+countryName:Turkey,,Istanbul,,,VNO,"Vilnius International",Vilnius,,Lithuania,4,1264
+countryName:Turkey,,Istanbul,,,ADD,"Bole International","Addis Ababa",,Ethiopia,1,1264
+countryName:Turkey,,Istanbul,,,MRS,Marignane,Marseille,,France,5,1264
+countryName:Turkey,,Istanbul,,,TLL,"Lennart Meri",Tallinn,,Estonia,5,1264
+countryName:Turkey,,Istanbul,,,HRG,"Hurghada International Airport",Hurghada,,Egypt,1,1256
+countryName:Turkey,,Sinop,,,HUZ,"Huizhou Airport",Huizhou,,China,1,1256
+countryName:Turkey,,Sinop,,,NAY,"Nanyuan Airport",Beijing,,China,1,1256
+countryName:Turkey,,Sinop,,,SZX,"Bao'an International",Shenzhen,,China,1,1232
+countryName:Turkey,,Sinop,,,TAO,"Liuting International",Qingdao,,China,1,1232
+countryName:Turkey,,Istanbul,,,HKT,"Phuket Intl",Phuket,,Thailand,1,1192
+countryName:Turkey,,Istanbul,,,HAN,"Noi Bai International",Hanoi,,Vietnam,1,1192
+countryName:Turkey,,Istanbul,,,SGN,"Tan Son Nhat International Airport","Ho Chi Minh City",,Vietnam,2,1192
+countryName:Turkey,,Istanbul,,,DMM,"King Fahad International Airport",Dammam,,"Saudi Arabia",4,1106
+countryName:Turkey,,Istanbul,,,TGD,Golubovci,Podgorica,,Montenegro,6,1082
+countryName:Turkey,,Istanbul,,,DYU,"Dushanbe International",Dushanbe,,Tajikistan,5,1062
+countryName:Turkey,,Istanbul,,,CTA,Fontanarossa,Catania,,Italy,5,1056
+countryName:Turkey,,Istanbul,,,KHE,Kherson,Kherson,,Ukraine,1,1056
+countryName:Turkey,,Istanbul,,,OZH,"Mokraya International",Zaporizhzhia,,Ukraine,6,1044
+countryName:Turkey,,Istanbul,,,TIP,"Tripoli Intl",Tripoli,,Libya,1,1036
+countryName:Turkey,,Istanbul,,,SEZ,"Seychelles Intl",Seychelles,,Seychelles,1,992
+countryName:Turkey,,Istanbul,,,BOG,"El Dorado Intl",Bogota,,Colombia,1,992
+countryName:Turkey,,Ankara,,,MZR,Mazar-e-Sharif,Mazar-e-Sharif,,Afghanistan,6,979
+countryName:Turkey,,Istanbul,,,FIH,"N'Djili International",Kinshasa,,"Democratic Republic of the Congo",1,960
+countryName:Turkey,,Istanbul,,,LUX,Findel,Luxembourg,,Luxembourg,5,952
+countryName:Turkey,,Istanbul,,,TLS,Blagnac,Toulouse,,France,4,948
+countryName:Turkey,,Istanbul,,,MSQ,"Minsk International",Minsk,,Belarus,1,948
+countryName:Turkey,,Istanbul,,,YUL,"Pierre E. Trudeau Intl",Montreal-PET,QC,Canada,1,894
+countryName:Turkey,,Antalya,,,GLA,"Glasgow International",Glasgow,SC,"United Kingdom",3,860
+countryName:Turkey,,Istanbul,,,EVN,"Zvartnots International Airport",Yerevan,,Armenia,1,825
+countryName:Turkey,,Istanbul,,,COO,Cadjehoun,Cotonou,,Benin,5,800
+countryName:Turkey,,Istanbul,,,VAR,Varna,Varna,,Bulgaria,4,792
+countryName:Turkey,,Istanbul,,,OPO,Porto,Porto,,Portugal,3,790
+countryName:Turkey,,Istanbul,,,SSH,"Sharm el-Sheikh Interrnational","Sharm el-Sheikh",,Egypt,1,790
+countryName:Turkey,,Sinop,,,CTU,"Shuangliu International",Chengdu,,China,4,760
+countryName:Turkey,,Istanbul,,,HAV,"Jose Marti Intl",Havana,,Cuba,1,744
+countryName:Turkey,,Istanbul,,,ZIA,"Off-Line Point",Trento,,Italy,1,720
+countryName:Turkey,,Antalya,,,DRS,Dresden,Dresden,,Germany,2,715
+countryName:Turkey,,Istanbul,,,DBV,Dubrovnik,Dubrovnik,,Croatia,3,685
+countryName:Turkey,,Istanbul,,,MCX,Makhachkala,Makhachkala,SF,"Russian Federation",1,660
+countryName:Turkey,,Istanbul,,,GRZ,Graz,Graz,,Austria,3,660
+countryName:Turkey,,Istanbul,,,KSC,Barca,Kosice,,Slovakia,3,660
+countryName:Turkey,,Istanbul,,,SZG,Salzburg,Salzburg,,Austria,3,660
+countryName:Turkey,,Istanbul,,,AER,International,Sochi,SF,"Russian Federation",1,660
+countryName:Turkey,,Istanbul,,,SKD,"Samarkand International",Samarkand,,Uzbekistan,4,653
+countryName:Turkey,,Antalya,,,EMA,"East Midlands","East Midlands",EN,"United Kingdom",2,651
+countryName:Turkey,,Istanbul,,,NIM,"Diori Hamani International Airport",Niamey,,Niger,4,640
+countryName:Turkey,,Istanbul,,,JRO,"Kilimanjaro International",Kilimanjaro,,Tanzania,3,640
+countryName:Turkey,,Istanbul,,,NSI,"Nsimalen Intl",Yaounde,,Cameroon,3,640
+countryName:Turkey,,Istanbul,,,OUA,Ouagadougou,Ouagadougou,,"Burkina Faso",3,640
+countryName:Turkey,,Istanbul,,,DLA,"Douala International",Douala,,Cameroon,1,640
+countryName:Turkey,,Istanbul,,,MBA,Mombasa,Mombasa,,Kenya,1,640
+countryName:Turkey,,Istanbul,,,ZNZ,"Zanzibar International",Zanzibar,,Tanzania,1,640
+countryName:Turkey,,Istanbul,,,STW,Stavropol,Stavropol,SF,"Russian Federation",1,636
+countryName:Turkey,,Istanbul,,,AQJ,"King Hussein International",Aqaba,,Jordan,1,632
+countryName:Turkey,,Istanbul,,,BEN,"Benina Intl",Benghazi,,Libya,4,582
+countryName:Turkey,,Antalya,,,SCN,Ensheim,Saarbruecken,,Germany,2,567
+countryName:Turkey,,Eskisehir,,,OST,Oostende/Brugge,Oostende/Brugge,,Belgium,3,555
+countryName:Turkey,,Bodrum,,,LPL,"John Lennon Airport",Liverpool,EN,"United Kingdom",3,549
+countryName:Turkey,,Istanbul,,,SVX,"Koltsovo Airport",Yekaterinburg,UF,"Russian Federation",1,537
+countryName:Turkey,,Istanbul,,,BRI,"Palese Macchie",Bari,,Italy,1,528
+countryName:Turkey,,Istanbul,,,CLJ,Napoca,Cluj-Napoca,,Romania,3,528
+countryName:Turkey,,Istanbul,,,KZN,"Kazan International",Kazan,VF,"Russian Federation",1,528
+countryName:Turkey,,Istanbul,,,ROV,Rostov,Rostov,SF,"Russian Federation",1,528
+countryName:Turkey,,Istanbul,,,CIT,"Shymkent International",Shymkent,,Kazakhstan,1,495
+countryName:Turkey,,Istanbul,,,KRR,Krasnodar,Krasnodar,SF,"Russian Federation",2,495
+countryName:Turkey,,Dalaman,,,CWL,Cardiff-Wales,Cardiff,WL,"United Kingdom",2,484
+countryName:Turkey,,Istanbul,,,AWZ,Ahwaz,"Ahwaz, Iran",,Iran,1,474
+countryName:Turkey,,Istanbul,,,ASM,"Asmara International",Asmara,,Eritrea,1,474
+countryName:Turkey,,Istanbul,,,OMH,Urumiyeh,Urumiyeh,,Iran,1,468
+countryName:Turkey,,Istanbul,,,AAE,"Rabah Bitat",Annaba,,Algeria,2,453
+countryName:Turkey,,Antalya,,,ERF,Erfurt-Weimar,Erfurt,,Germany,3,444
+countryName:Turkey,,Antalya,,,LBA,"Leeds/Bradford Airport",Leeds/Bradford,EN,"United Kingdom",2,431
+countryName:Turkey,,Antalya,,,NCL,"Newcastle International Airport",Newcastle,EN,"United Kingdom",2,431
+countryName:Turkey,,Antalya,,,RLG,Laage,Rostock-Laage,,Germany,3,420
+countryName:Turkey,,Istanbul,,,VOZ,Voronezh,Voronezh,CF,"Russian Federation",1,396
+countryName:Turkey,,Istanbul,,,BIO,"Bilbao Airport",Bilbao,,Spain,1,396
+countryName:Turkey,,Istanbul,,,UFA,Ufa,Ufa,VF,"Russian Federation",1,396
+countryName:Turkey,,Istanbul,,,KUF,Kurumoch,Samara,VF,"Russian Federation",1,396
+countryName:Turkey,,Kayseri,,,LGG,"Liege Airport",Liege,,Belgium,2,370
+countryName:Turkey,,Istanbul,,,TIF,Taif,Taif,,"Saudi Arabia",1,366
+countryName:Turkey,,Istanbul,,,NAL,Nalchik,Nalchik,SF,"Russian Federation",1,360
+countryName:Turkey,,Istanbul,,,BKO,"Senou International",Bamako,,Mali,1,320
+countryName:Turkey,,Istanbul,,,GUW,Atyrau,Atyrau,,Kazakhstan,1,296
+countryName:Turkey,,Kayseri,,,FDH,Friedrichshafen,Friedrichshafen,,Germany,2,288
+countryName:Turkey,,Istanbul,,,MRA,Misurata,Misurata,,Libya,1,284
+countryName:Turkey,,Istanbul,,,CND,"Mihail Kogalniceanu",Constanta,,Romania,1,264
+countryName:Turkey,,Istanbul,,,ELQ,Gassim,Gassim,,"Saudi Arabia",1,264
+countryName:Turkey,,Istanbul,,,NAJ,"Nakchivan Airport",Nakchivan,,Azerbaijan,1,264
+countryName:Turkey,,"Izmir-Adnan Mend",,,DTM,"Dortmund Airport",Dortmund,,Germany,1,189
+countryName:Turkey,,"Izmir-Adnan Mend",,,SXB,Entzheim,Strasbourg,,France,1,189

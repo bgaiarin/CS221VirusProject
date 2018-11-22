@@ -1,0 +1,116 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Japan,,Sapporo,,,TPE,"Taiwan Taoyuan International Airport",Taipei,,Taiwan,557,125044
+countryName:Japan,,Sapporo,,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",440,107378
+countryName:Japan,,Sapporo,,,PVG,"Pudong International",Shanghai,,China,504,93771
+countryName:Japan,,Sapporo,,,BKK,"Suvarnabhumi - New Bangkok International Airport",Bangkok,,Thailand,156,49367
+countryName:Japan,,Sapporo,,,HNL,"Honolulu Intl",Honolulu/Oahu,HI,"United States",166,45889
+countryName:Japan,,Sapporo,,,SIN,Changi,Singapore,,Singapore,148,40574
+countryName:Japan,,Fukuoka,,,MNL,"Ninoy Aquino Intl",Manila,,Philippines,152,37128
+countryName:Japan,,Sapporo,,,PEK,"Capital International",Beijing,,China,155,33818
+countryName:Japan,,Tokyo-Haneda,,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",73,21360
+countryName:Japan,,Sapporo,,,KUL,"Kuala Lumpur International Airport","Kuala Lumpur",,Malaysia,65,20945
+countryName:Japan,,Tokyo-Haneda,,,CGK,"Soekarno-Hatta Intl",Jakarta,,Indonesia,57,19912
+countryName:Japan,,Sapporo,,,KHH,"Kaohsiung Intl",Kaohsiung,,Taiwan,87,19760
+countryName:Japan,,Tokyo-Haneda,,,TSA,Songshan,Taipei-Songshan,,Taiwan,57,17536
+countryName:Japan,,Fukuoka,,,GUM,"Antonio B. Won Pat International Airport",Guam,TR,"United States",82,17305
+countryName:Japan,,Fukuoka,,,SGN,"Tan Son Nhat International Airport","Ho Chi Minh City",,Vietnam,67,15664
+countryName:Japan,,Osaka-Kansai,,,DPS,"Ngurah Rai",Denpasar-Bali,,Indonesia,33,14520
+countryName:Japan,,Fukuoka,,,HAN,"Noi Bai International",Hanoi,,Vietnam,54,14068
+countryName:Japan,,Tokyo-Haneda,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,43,13316
+countryName:Japan,,Tokyo-Haneda,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,36,12460
+countryName:Japan,,Osaka-Kansai,,,DMK,"Don Muang International Airport - formerly BKK",Bangkok,,Thailand,29,11988
+countryName:Japan,,Fukuoka,,,DLC,"Zhoushuizi International",Dalian,,China,60,11026
+countryName:Japan,,Tokyo-Haneda,,,ORD,"O'Hare International",Chicago-O'Hare,IL,"United States",32,10862
+countryName:Japan,,Tokyo-Haneda,,,CAN,"Baiyun International",Guangzhou,,China,49,10824
+countryName:Japan,,Tokyo-Haneda,,,SFO,"San Francisco Intl","San Francisco",CA,"United States",30,10039
+countryName:Japan,,Tokyo-Haneda,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",33,9984
+countryName:Japan,,Tokyo-Haneda,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",20,9653
+countryName:Japan,,Tokyo-Haneda,,,SHA,"Hongqiao International",Shanghai-Metro,,China,25,9576
+countryName:Japan,,Fukuoka,,,TAO,"Liuting International",Qingdao,,China,49,9536
+countryName:Japan,,Tokyo-Haneda,,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",25,8736
+countryName:Japan,,Tokyo-Haneda,,,SYD,"Kingsford Smith",Sydney,NS,Australia,21,7732
+countryName:Japan,,Osaka-Kansai,,,CNS,"Cairns International",Cairns,QL,Australia,14,7035
+countryName:Japan,,Osaka-Kansai,,,CEB,"Mactan International",Cebu,,Philippines,33,6940
+countryName:Japan,,Osaka-Kansai,,,HEL,Helsinki-Vantaa,Helsinki,,Finland,22,6834
+countryName:Japan,,Aomori,,,TSN,"Binhai International",Tianjin,,China,35,6282
+countryName:Japan,,Tokyo-Haneda,,,YVR,"Vancouver Intl",Vancouver,BC,Canada,17,5816
+countryName:Japan,,Tokyo-Narita,,,DFW,"Dallas/Ft Worth Intl","Dallas/Fort Worth",TX,"United States",17,5792
+countryName:Japan,,Osaka-Kansai,,,AMS,Schiphol,Amsterdam,,Netherlands,9,5034
+countryName:Japan,,Tokyo-Narita,,,DEL,"Indira Gandhi Intl",Delhi,,India,17,4952
+countryName:Japan,,Tokyo-Narita,,,IAD,"Dulles International",Washington-Dulles,VA,"United States",9,4912
+countryName:Japan,,Tokyo-Narita,,,IAH,"George Bush Intercontinental",Houston-Intercontinental,TX,"United States",9,4912
+countryName:Japan,,Sapporo,,,HGH,"Xiaoshan International",Hangzhou,,China,29,4650
+countryName:Japan,,Tokyo-Haneda,,,DOH,"Hamad International Airport",Doha,,Qatar,9,4568
+countryName:Japan,,Tokyo-Haneda,,,AKL,"Auckland Intl",Auckland,,"New Zealand",13,4404
+countryName:Japan,,Tokyo-Haneda,,,MUC,"Franz Josef Strauss International",Munich,,Germany,9,4312
+countryName:Japan,,Tokyo-Narita,,,MEX,"Benito Juarez Intl","Mexico City",,Mexico,9,4128
+countryName:Japan,,Tokyo-Narita,,,OOL,Coolangatta,"Gold Coast",QL,Australia,5,4020
+countryName:Japan,,Tokyo-Narita,,,SEA,"Seattle-Tacoma Intl",Seattle,WA,"United States",9,3864
+countryName:Japan,,Tokyo-Narita,,,MEL,"Melbourne Airport",Melbourne,VI,Australia,9,3768
+countryName:Japan,,Sapporo,,,NKG,"Lukou International",Nanjing,,China,20,3602
+countryName:Japan,,Osaka-Kansai,,,SZX,"Bao'an International",Shenzhen,,China,19,3538
+countryName:Japan,,Nagoya,,,DTW,"Metropolitan Wayne County",Detroit,MI,"United States",9,3384
+countryName:Japan,,Fukuoka,,,MFM,"Macau International",Macau,,Macau,19,3292
+countryName:Japan,,Tokyo-Haneda,,,YYZ,"Lester B. Pearson Intl",Toronto,ON,Canada,1,3232
+countryName:Japan,,Osaka-Kansai,,,XMN,"Gaoqi International",Xiamen,,China,13,3192
+countryName:Japan,,Tokyo-Haneda,,,KOA,Keahole,Kona/Hawaii,HI,"United States",9,2988
+countryName:Japan,,Osaka-Kansai,,,NOU,"La Tontouta",Noumea,,"New Caledonia",9,2926
+countryName:Japan,,Tokyo-Narita,,,EWR,"Newark Intl",Newark,NJ,"United States",1,2736
+countryName:Japan,,"Shizuoka City",,,URC,"Diwopu International",Urumqi,,China,9,2640
+countryName:Japan,,Osaka-Kansai,,,WUH,"Tianhe International",Wuhan,,China,11,2634
+countryName:Japan,,Tokyo-Narita,,,SVO,Sheremetyevo,Moscow-Sheremetyevo,CF,"Russian Federation",7,2400
+countryName:Japan,,Tokyo-Narita,,,IST,Ataturk,Istanbul,,Turkey,2,2384
+countryName:Japan,,Tokyo-Narita,,,BNE,"Brisbane Intl",Brisbane,QL,Australia,1,2376
+countryName:Japan,,Tokyo-Narita,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,1,2344
+countryName:Japan,,Osaka-Kansai,,,DAD,"Da Nang International","Da Nang",,Vietnam,9,2336
+countryName:Japan,,Tokyo-Haneda,,,MSP,International,"Minneapolis/St. Paul",MN,"United States",1,2328
+countryName:Japan,,Tokyo-Narita,,,ATL,"Hartsfield-Jackson ATL",Atlanta,GA,"United States",1,2328
+countryName:Japan,,Osaka-Kansai,,,CTU,"Shuangliu International",Chengdu,,China,10,2276
+countryName:Japan,,Tokyo-Narita,,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",1,2224
+countryName:Japan,,Tokyo-Narita,,,BOM,"Mumbai (Chhatrapati Shivaji) International",Mumbai/Bombay,,India,1,2184
+countryName:Japan,,Tokyo-Narita,,,BRU,"Brussels Airport",Brussels,,Belgium,1,2184
+countryName:Japan,,Tokyo-Narita,,,PNH,International,"Phnom Penh",,Cambodia,1,2184
+countryName:Japan,,Tokyo-Narita,,,SJC,"San Jose Municipal","San Jose",CA,"United States",1,2184
+countryName:Japan,,Osaka-Kansai,,,FOC,"Changle International",Fuzhou,,China,9,2145
+countryName:Japan,,Tokyo-Narita,,,DUS,"Duesseldorf International",Duesseldorf,,Germany,1,2128
+countryName:Japan,,Tokyo-Narita,,,RGN,"Yangon International",Yangon,,Myanmar,1,1872
+countryName:Japan,,Tokyo-Narita,,,ZRH,Zurich,Zurich,,Switzerland,1,1752
+countryName:Japan,,Tokyo-Narita,,,DEN,"Denver International",Denver,CO,"United States",1,1752
+countryName:Japan,,Tokyo-Narita,,,MXP,Malpensa,Milan-Malpensa,,Italy,1,1548
+countryName:Japan,,Tokyo-Narita,,,BOS,"Logan International",Boston,MA,"United States",1,1544
+countryName:Japan,,Tokyo-Narita,,,CPH,Kastrup,Copenhagen,,Denmark,1,1470
+countryName:Japan,,Tokyo-Narita,,,SAN,"San Diego International Airport","San Diego",CA,"United States",1,1392
+countryName:Japan,,Niigata,,,HRB,"Taiping International","Harbin, P. R. China",,China,7,1347
+countryName:Japan,,Osaka-Kansai,,,WUX,"Sunan Shuofang",Wuxi,,China,1,1344
+countryName:Japan,,Tokyo-Narita,,,SPN,"Saipan International",Saipan,TR,"United States",1,1320
+countryName:Japan,,Osaka-Kansai,,,TNA,"Yaoqiang International",Jinan,,China,1,1232
+countryName:Japan,,Tokyo-Narita,,,CMB,"Bandaranaike Intl",Colombo,,"Sri Lanka",1,1188
+countryName:Japan,,Tokyo-Narita,,,MAD,"Adolfo Suarez-Barajas",Madrid,,Spain,1,1152
+countryName:Japan,,Tokyo-Narita,,,PDX,"Portland Intl",Portland,OR,"United States",1,1085
+countryName:Japan,,Osaka-Kansai,,,XIY,"Xianyang International",Xi'an,,China,5,1016
+countryName:Japan,,Tokyo-Narita,,,WAW,Okecie,Warsaw,,Poland,1,1008
+countryName:Japan,,Tokyo-Narita,,,YUL,"Pierre E. Trudeau Intl",Montreal-PET,QC,Canada,1,1004
+countryName:Japan,,Tokyo-Narita,,,DME,Domodedovo,Moscow-Domodedovo,CF,"Russian Federation",1,870
+countryName:Japan,,Tokyo-Narita,,,YYC,"Calgary Intl",Calgary,AB,Canada,2,844
+countryName:Japan,,Osaka-Kansai,,,KWE,"Longdongbao International",Guiyang,,China,1,825
+countryName:Japan,,Osaka-Kansai,,,CGO,"Xinzheng International",Zhengzhou,,China,4,825
+countryName:Japan,,Tokyo-Narita,,,NAN,"Nadi International",Nadi,,Fiji,1,819
+countryName:Japan,,Osaka-Kansai,,,CSX,"Huanghua International Airport",Changsha,,China,3,795
+countryName:Japan,,Osaka-Kansai,,,CKG,"Jiangbei International",Chongqing,,China,1,720
+countryName:Japan,,Nagoya,,,NGB,"Lishe International",Ningbo,,China,1,720
+countryName:Japan,,Osaka-Kansai,,,YNT,"Penglai International",Yantai,,China,1,716
+countryName:Japan,,Tokyo-Narita,,,ROR,"Palau International","Koror, Palau Island",,Palau,1,660
+countryName:Japan,,"Shizuoka City",,,KCA,Quici,Kuqa,,China,1,610
+countryName:Japan,,Sapporo,,,UUS,Yuzhno-Sakhalinsk,Yuzhno-Sakhalinsk,FF,"Russian Federation",7,608
+countryName:Japan,,Tokyo-Narita,,,ULN,"Chinggis Khaan Intl",Ulaanbaatar,,Mongolia,1,596
+countryName:Japan,,Tokyo-Narita,,,PPT,Faaa,Tahiti,,"French Polynesia",1,590
+countryName:Japan,,Osaka-Kansai,,,YTY,Taizhou,Yangzhou,,China,3,540
+countryName:Japan,,Tokyo-Narita,,,KHV,Novyy,Khabarovsk,FF,"Russian Federation",2,474
+countryName:Japan,,Tokyo-Narita,,,POM,"Jackson Field","Port Moresby",,"Papua New Guinea",3,466
+countryName:Japan,,Tokyo-Narita,,,TAS,"Tashkent-Vostochny International",Tashkent,,Uzbekistan,1,454
+countryName:Japan,,Tokyo-Narita,,,CAI,"Cairo Intl",Cairo,,Egypt,1,364
+countryName:Japan,,Osaka-Kansai,,,XUZ,Guanyin,Xuzhou,,China,1,338
+countryName:Japan,,Osaka-Kansai,,,TNN,Tainan,Tainan,,Taiwan,1,330
+countryName:Japan,,Tokyo-Narita,,,BKI,"Kota Kinabalu International","Kota Kinabalu",,Malaysia,1,318
+countryName:Japan,,Okinawa,,,RMQ,Cingcyuangang,Taichung,,Taiwan,1,312
+countryName:Japan,,Osaka-Kansai,,,NTG,Xingdong,Nantong,,China,1,310

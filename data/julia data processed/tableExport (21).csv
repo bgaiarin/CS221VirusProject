@@ -1,0 +1,12 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+"countryName:Saint Kitts and Nevis",,"St. Kitts",,,MIA,"Miami International",Miami,FL,"United States",6,1992
+"countryName:Saint Kitts and Nevis",,"St. Kitts",,,ANU,"V C Bird Intl",Antigua,,"Antigua and Barbuda",17,1880
+"countryName:Saint Kitts and Nevis",,Nevis,,,SXM,"Prinses Juliana International","St. Maarten",,"Sint Maarten",14,606
+"countryName:Saint Kitts and Nevis",,Nevis,,,SJU,"Luis Munoz Marin Int","San Juan",PR,"United States",13,226
+"countryName:Saint Kitts and Nevis",,"St. Kitts",,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",1,183
+"countryName:Saint Kitts and Nevis",,"St. Kitts",,,CLT,"Charlotte-Douglas International Airport",Charlotte-Douglas,NC,"United States",1,128
+"countryName:Saint Kitts and Nevis",,Nevis,,,STT,"Cyril E. King Airport","St. Thomas",VI,"United States",13,126
+"countryName:Saint Kitts and Nevis",,Nevis,,,EIS,"Terrance B. Lettsome",Tortola,,"British Virgin Islands",3,56
+"countryName:Saint Kitts and Nevis",,"St. Kitts",,,DOM,"Melville Hall",Dominica,,Dominica,1,36
+"countryName:Saint Kitts and Nevis",,Nevis,,,AXA,"Clayton J. Lloyd International",Anguilla,,Anguilla,1,18
+"countryName:Saint Kitts and Nevis",,Nevis,,,VIJ,"Virgin Gorda","Virgin Gorda",,"British Virgin Islands",1,18

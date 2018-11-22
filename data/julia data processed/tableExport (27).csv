@@ -1,0 +1,37 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Chile,,Antofagasta,,,LIM,"Jorge Chavez Intl",Lima,,Peru,137,24452
+countryName:Chile,,Santiago,,,GRU,"Guarulhos Intl","Sao Paulo-Guarulhos",SP,Brazil,105,22294
+countryName:Chile,,Santiago,,,EZE,"Ministro Pistarini","Buenos Aires",BA,Argentina,64,14444
+countryName:Chile,,Santiago,,,AEP,"Jorge Newbery","Buenos Aires-Newbery",BA,Argentina,57,11376
+countryName:Chile,,Santiago,,,BOG,"El Dorado Intl",Bogota,,Colombia,33,7872
+countryName:Chile,,Santiago,,,MAD,"Adolfo Suarez-Barajas",Madrid,,Spain,17,7532
+countryName:Chile,,Santiago,,,PTY,"Tocumen Intl, Panama R","Panama City",,Panama,37,7080
+countryName:Chile,,Santiago,,,MIA,"Miami International",Miami,FL,"United States",17,6358
+countryName:Chile,,Santiago,,,MEX,"Benito Juarez Intl","Mexico City",,Mexico,9,4368
+countryName:Chile,,Santiago,,,COR,"Pajas Blancas",Cordoba,CD,Argentina,23,4164
+countryName:Chile,,Santiago,,,GIG,"Galeao-A.C.Jobim Intl","Rio De Janeiro",RJ,Brazil,17,3669
+countryName:Chile,,Santiago,,,MVD,Carrasco,Montevideo,,Uruguay,20,3433
+countryName:Chile,,Santiago,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,1,2888
+countryName:Chile,,Santiago,,,AKL,"Auckland Intl",Auckland,,"New Zealand",1,2376
+countryName:Chile,,Santiago,,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",1,2376
+countryName:Chile,,Santiago,,,DFW,"Dallas/Ft Worth Intl","Dallas/Fort Worth",TX,"United States",1,2200
+countryName:Chile,,Santiago,,,ROS,"Islas Malvinas",Rosario,SF,Argentina,11,2014
+countryName:Chile,,Santiago,,,SYD,"Kingsford Smith",Sydney,NS,Australia,1,1795
+countryName:Chile,,Santiago,,,ATL,"Hartsfield-Jackson ATL",Atlanta,GA,"United States",1,1736
+countryName:Chile,,Santiago,,,YYZ,"Lester B. Pearson Intl",Toronto,ON,Canada,1,1722
+countryName:Chile,,Iquique,,,ASU,"Silvio Pettirossi Intl",Asuncion,,Paraguay,9,1592
+countryName:Chile,,Santiago,,,IAH,"George Bush Intercontinental",Houston-Intercontinental,TX,"United States",1,1592
+countryName:Chile,,Santiago,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,1,1465
+countryName:Chile,,Santiago,,,GYE,"Jose Joaquin de Olmedo",Guayaquil,,Ecuador,7,1323
+countryName:Chile,,Santiago,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",1,1085
+countryName:Chile,,Iquique,,,LPB,"El Alto International","La Paz",,Bolivia,5,934
+countryName:Chile,,Santiago,,,MEL,"Melbourne Airport",Melbourne,VI,Australia,1,891
+countryName:Chile,,Santiago,,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",1,741
+countryName:Chile,,Santiago,,,NQN,"Presidente Peron",Neuquen,NE,Argentina,1,684
+countryName:Chile,,Santiago,,,VVI,"Viru Viru Intl","Santa Cruz-Viru Viru",,Bolivia,1,684
+countryName:Chile,,Santiago,,,TUC,"Benjamin Matienzo",Tucuman,TU,Argentina,1,684
+countryName:Chile,,"Easter Island",,,PPT,Faaa,Tahiti,,"French Polynesia",1,297
+countryName:Chile,,Santiago,,,PUJ,"Punta Cana International","Punta Cana",,"Dominican Republic",1,297
+countryName:Chile,,Santiago,,,CUN,"Cancun International",Cancun,,Mexico,1,297
+countryName:Chile,,Santiago,,,CCS,"Simon Bolivar International",Caracas,,Venezuela,1,296
+countryName:Chile,,Iquique,,,SLA,"Martin M. de Guemes",Salta,SA,Argentina,1,150

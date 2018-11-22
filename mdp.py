@@ -70,7 +70,15 @@ class EpidemicMDP:
 	# gets the probability a country is infected as a function of number of seats coming in from infected neighbors
 	def getInfectionProb(self, index, state):#, countries, neighbors):
 		country = self.countries[index]
+		
+		#print '\n\n\ngetting infection prob for country ', country, 'with index', index
+		#print self.neighbors
+		#print '\nneighbors of the country are', self.neighbors[country]
+		
 		infectedSeats = 0
+		if country not in self.neighbors.keys():
+			print 'COUNTRY', country, 'HAS NO INBOUND FLIGHTS IN OUR SYSTEM'
+			return 0.0
 		for neighbor in self.neighbors[country]:
 			if state[self.countries.index(neighbor[0])] == 1: # if neighbor is infected
 				infectedSeats += neighbor[1]
@@ -155,8 +163,25 @@ class EpidemicMDP:
 	#								INITIALIZE MDP 									#
 	#################################################################################
 
+	def loadCountryResponses(self, responseData):
+		#print '--- loading country response data ---'
+		countryResponses = {}
+		with open(responseData) as responseFile:
+			next(responseFile)
+			csvReader = csv.reader(responseFile, delimiter=',')
+			for row in csvReader:
+				country = row[0]
+				data = row[1]
+				if len(data) > 0:
+					countryResponses[country] = data
+		#print countryResponses
+		#print '--- done loading country response data ---'
+		return countryResponses
+
+
 	# loads flight info between countries & populates instance variables
 	def loadFlights(self, flightdata):
+		#print '--- loading flight data ---'
 		countries = []
 		neighbors = {}
 		totalSeats = 0
@@ -164,47 +189,64 @@ class EpidemicMDP:
 			next(flightFile)
 			csvReader = csv.reader(flightFile, delimiter=',')
 			for row in csvReader:
+				origin = row[0].strip()
+				if origin not in countries and origin in self.responseScores.keys():
+					countries.append(origin)
+					# todo does it matter if country has no flights to/from elsewhere in map?
+			flightFile.close()
+		with open(flightdata) as flightFile:
+			next(flightFile)
+			csvReader = csv.reader(flightFile, delimiter=',')
+			for row in csvReader:
+				origin = row[0].strip()
 				dest = row[1].strip()
-				if dest not in neighbors.keys():
-					neighbors[dest] = []
-				neighbors[dest] += [(row[0].strip(), int(row[2]))]
-				totalSeats += int(row[2])
-				if dest not in countries:
-					countries.append(dest)
+				#print 'reading in row of flight from', origin, 'to', dest
+				if origin in self.responseScores and dest in self.responseScores:
+					#print 'origin and dest both have response scores'
+					if origin in countries and dest in countries:
+						#print 'origin and dest are in country list'
+						if dest not in neighbors.keys():
+							neighbors[dest] = []
+						neighbors[dest] += [(origin, int(row[2]))]
+						totalSeats += int(row[2])
+		#print '--- done loading flight data ---'
+		#print countries, neighbors
 		return countries, neighbors, totalSeats
 
 	# builds initial state using country response data, infected countries, and # resources
-	def initState(self, responses_csv, initial_infections, initial_resources):
-			state = [initial_resources]
-			for country in self.countries:
-				state = [0, 0] + state # 2 slots for each country, keeps resources at end
+	def initState(self, initial_infections, initial_resources):
+		#print '--- initializing state ---'
+		state = [initial_resources]
+		for country in self.countries:
+			state = [0, 0] + state # 2 slots for each country, keeps resources at end
 
-			with open(responses_csv) as responseFile:
-				next(responseFile)
-				csvReader = csv.reader(responseFile, delimiter=',')
-				#print self.countries
-				for row in csvReader:
-					country = row[0]
-					#print country
-					if country in self.countries:
-						#print float(row[1])
-						state[self.countries.index(country) + len(self.countries)] = float(row[1]) / self.RESPONSE_DENOMINATOR
-						#print "added country rank. new state ", state
-					else:
-						print "ERROR COUNTRY NOT FOUND IN DATABASE: ", country
+		for country, score in self.responseScores.items():
+			#print country, score
+			if country in self.countries:
+				state[self.countries.index(country) + len(self.countries)] = float(score) / self.RESPONSE_DENOMINATOR
+				#print "added country rank. new state ", state
+			else:
+				pass#print "COUNTRY NOT FOUND IN COUNTRIES WITH FLIGHTS: ", country
 
-			for country, infection in initial_infections.items():
+		for country, infection in initial_infections.items():
+			if country in self.countries:
 				index = self.countries.index(country)
 				if index >= self.NUM_COUNTRIES or index < 0:
 					print "ERROR INITIALIZING STATE. COUNTRY NOT FOUND: ", country, index
 				else:
 					state[self.countries.index(country)] = infection
-			#print 'finished initializing state: ', state
-			return state
+			else:
+				print 'ERROR: INFECTED COUNTRY', country,'NOT IN LIST OF COUNTRIES'
+		#print '--- finished initializing state: ', state
+		return state
 
 	# initial_infections is dict from country to 1 or 0 (0 optional). initial_resources is scalar.
 	def __init__(self, transitions_csv, responses_csv, initial_infections = {}, initial_resources = 0):
+		self.responseScores = self.loadCountryResponses(responses_csv)
+		#print '\nresponsescores1:', self.responseScores, len(self.responseScores.keys())
 		self.countries, self.neighbors, self.TOTAL_SEATS = self.loadFlights(transitions_csv)
+		#print '\ncountries1:',self.countries, len(self.countries)
+		#print '\nneighbors:',self.neighbors
 		self.NUM_COUNTRIES = len(self.countries)
 		self.INDEX_RESOURCE = self.NUM_COUNTRIES * 2
 		self.RESPONSE_DENOMINATOR = 110.0 # amount response ranking is divided by during parsing; should be > 100
@@ -215,10 +257,12 @@ class EpidemicMDP:
 		self.NO_VIRUS_REWARD = 100.0 + self.NUM_COUNTRIES
 		self.END_RESOURCES_WEIGHT = 10.0
 		self.RESOURCES_DEPLETED_REWARD = -100.0 - (self.NUM_COUNTRIES * self.END_RESOURCES_WEIGHT)
-		self.state = self.initState(responses_csv, initial_infections, initial_resources)
-		'''
-		print 'finished initializing'
-		print self.countries
-		print self.TOTAL_SEATS
-		print 'state is', self.state, 'and num_countries is', self.NUM_COUNTRIES
-		'''
+		self.state = self.initState(initial_infections, initial_resources)
+		
+		#print '\nfinished initializing'
+		#print self.countries
+		#print 'num countries is', self.NUM_COUNTRIES, 'and len is', len(self.countries)
+		#print self.TOTAL_SEATS
+		# WHY ARE ALL THE COUNTRIES SHOWING UP? SHOULD ONLY BE 50ISH
+		#print 'state is', self.state, 'and num_countries is', self.NUM_COUNTRIES
+		

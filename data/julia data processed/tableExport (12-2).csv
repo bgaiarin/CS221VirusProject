@@ -1,0 +1,159 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Thailand,,Bangkok,,,SIN,Changi,Singapore,,Singapore,386,81251
+countryName:Thailand,,Bangkok,,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",247,66072
+countryName:Thailand,,Bangkok,,,KUL,"Kuala Lumpur International Airport","Kuala Lumpur",,Malaysia,307,58299
+countryName:Thailand,,Bangkok,,,PVG,"Pudong International",Shanghai,,China,216,42822
+countryName:Thailand,,Bangkok,,,ICN,"Incheon International Airport",Seoul,,"South Korea",140,42400
+countryName:Thailand,,Bangkok,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",87,34802
+countryName:Thailand,,Bangkok,,,TPE,"Taiwan Taoyuan International Airport",Taipei,,Taiwan,100,33899
+countryName:Thailand,,Bangkok,,,RGN,"Yangon International",Yangon,,Myanmar,152,28906
+countryName:Thailand,,Bangkok,,,CAN,"Baiyun International",Guangzhou,,China,151,28591
+countryName:Thailand,,Bangkok,,,PEK,"Capital International",Beijing,,China,117,26164
+countryName:Thailand,,Bangkok,,,SGN,"Tan Son Nhat International Airport","Ho Chi Minh City",,Vietnam,105,22488
+countryName:Thailand,,Bangkok,,,NRT,Narita,Tokyo-Narita,,Japan,71,22423
+countryName:Thailand,,Bangkok,,,HAN,"Noi Bai International",Hanoi,,Vietnam,82,21376
+countryName:Thailand,,Bangkok,,,DOH,"Hamad International Airport",Doha,,Qatar,59,20432
+countryName:Thailand,,Bangkok,,,KMG,"Changshui International",Kunming,,China,79,15228
+countryName:Thailand,,Bangkok,,,CGK,"Soekarno-Hatta Intl",Jakarta,,Indonesia,65,14572
+countryName:Thailand,,Bangkok,,,DEL,"Indira Gandhi Intl",Delhi,,India,61,14363
+countryName:Thailand,,Bangkok,,,HND,"Tokyo Intl (Haneda)",Tokyo-Haneda,,Japan,41,14176
+countryName:Thailand,,Bangkok,,,MNL,"Ninoy Aquino Intl",Manila,,Philippines,42,13468
+countryName:Thailand,,Bangkok,,,CSX,"Huanghua International Airport",Changsha,,China,61,13223
+countryName:Thailand,,Bangkok,,,BOM,"Mumbai (Chhatrapati Shivaji) International",Mumbai/Bombay,,India,54,13150
+countryName:Thailand,,Bangkok,,,CTU,"Shuangliu International",Chengdu,,China,63,13131
+countryName:Thailand,,Bangkok,,,MFM,"Macau International",Macau,,Macau,68,12703
+countryName:Thailand,,Bangkok,,,SYD,"Kingsford Smith",Sydney,NS,Australia,25,12352
+countryName:Thailand,,Bangkok,,,KIX,"Kansai International",Osaka-Kansai,,Japan,35,11992
+countryName:Thailand,,Bangkok,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",25,11880
+countryName:Thailand,,Bangkok,,,HGH,"Xiaoshan International",Hangzhou,,China,60,11102
+countryName:Thailand,,Bangkok,,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",27,11036
+countryName:Thailand,,Bangkok,,,SZX,"Bao'an International",Shenzhen,,China,57,10757
+countryName:Thailand,,Bangkok,,,CKG,"Jiangbei International",Chongqing,,China,50,9941
+countryName:Thailand,,Bangkok,,,CCU,"Subhas Chandra Bose Airport",Kolkata,,India,45,9888
+countryName:Thailand,,Bangkok,,,SVO,Sheremetyevo,Moscow-Sheremetyevo,CF,"Russian Federation",17,9648
+countryName:Thailand,,Bangkok,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,17,9152
+countryName:Thailand,,Bangkok,,,WUH,"Tianhe International",Wuhan,,China,54,9146
+countryName:Thailand,,Bangkok,,,XIY,"Xianyang International",Xi'an,,China,35,8112
+countryName:Thailand,,Bangkok,,,MEL,"Melbourne Airport",Melbourne,VI,Australia,21,7481
+countryName:Thailand,,Bangkok,,,CGO,"Xinzheng International",Zhengzhou,,China,45,7348
+countryName:Thailand,,Bangkok,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,9,6944
+countryName:Thailand,,Bangkok,,,DPS,"Ngurah Rai",Denpasar-Bali,,Indonesia,21,6888
+countryName:Thailand,,Bangkok,,,DAC,"Hazrat Shahjalal International",Dhaka,,Bangladesh,25,6675
+countryName:Thailand,,Bangkok,,,NKG,"Lukou International",Nanjing,,China,25,6576
+countryName:Thailand,,Bangkok,,,IST,Ataturk,Istanbul,,Turkey,13,6576
+countryName:Thailand,,Bangkok,,,CMB,"Bandaranaike Intl",Colombo,,"Sri Lanka",24,6451
+countryName:Thailand,,Bangkok,,,MCT,"Seeb International",Muscat,,Oman,21,6380
+countryName:Thailand,,Bangkok,,,PUS,"Gimhae Intl",Busan,,"South Korea",19,5956
+countryName:Thailand,,Bangkok,,,VIE,"Vienna International",Vienna,,Austria,10,5686
+countryName:Thailand,,Bangkok,,,ZRH,Zurich,Zurich,,Switzerland,9,5632
+countryName:Thailand,,Bangkok,,,NGO,"Chubu Centrair Intl",Nagoya,,Japan,14,5624
+countryName:Thailand,,Bangkok,,,TSN,"Binhai International",Tianjin,,China,19,5470
+countryName:Thailand,,Bangkok,,,HEL,Helsinki-Vantaa,Helsinki,,Finland,11,5348
+countryName:Thailand,,Bangkok,,,KHN,"Changbei International","Nanchang, Kiangsi",,China,27,5298
+countryName:Thailand,,Bangkok,,,PEN,"Penang International",Penang,,Malaysia,25,5110
+countryName:Thailand,,Bangkok,,,LPQ,"Luang Prabang International","Luang Prabang",,Laos,35,4684
+countryName:Thailand,,Bangkok,,,FOC,"Changle International",Fuzhou,,China,28,4504
+countryName:Thailand,,Bangkok,,,NNG,"Wuxu International",Nanning,,China,22,4438
+countryName:Thailand,,Bangkok,,,AMS,Schiphol,Amsterdam,,Netherlands,4,4026
+countryName:Thailand,,Bangkok,,,XMN,"Gaoqi International",Xiamen,,China,20,3980
+countryName:Thailand,,Bangkok,,,MLE,"Ibrahim Nasir International",Male,,Maldives,23,3888
+countryName:Thailand,,Bangkok,,,MAA,"Chennai International Airport",Chennai,,India,7,3760
+countryName:Thailand,,Bangkok,,,MDL,"Mandalay International",Mandalay,,Myanmar,23,3736
+countryName:Thailand,,Bangkok,,,MUC,"Franz Josef Strauss International",Munich,,Germany,3,3620
+countryName:Thailand,,Bangkok,,,BLR,"Kempegowda International",Bengaluru,,India,6,3580
+countryName:Thailand,,Bangkok,,,TAO,"Liuting International",Qingdao,,China,7,3446
+countryName:Thailand,,Bangkok,,,HAK,"Meilan International",Haikou,,China,13,3323
+countryName:Thailand,,Bangkok,,,KTM,"Tribhuvan International",Kathmandu,,Nepal,9,3312
+countryName:Thailand,,Bangkok,,,TNA,"Yaoqiang International",Jinan,,China,14,3234
+countryName:Thailand,,Bangkok,,,KHI,"Jinnah Intl",Karachi,,Pakistan,11,2931
+countryName:Thailand,,Bangkok,,,ARN,Arlanda,Stockholm-Arlanda,,Sweden,1,2912
+countryName:Thailand,,Bangkok,,,CPH,Kastrup,Copenhagen,,Denmark,1,2912
+countryName:Thailand,,Bangkok,,,OSL,"Oslo Airport",Oslo,,Norway,1,2912
+countryName:Thailand,,Bangkok,,,HFE,"Xinqiao International",Hefei,,China,15,2888
+countryName:Thailand,,Bangkok,,,TLV,"Ben Gurion Intl","Tel Aviv-Yafo",,Israel,1,2751
+countryName:Thailand,,Bangkok,,,KWI,"Kuwait Intl",Kuwait,,Kuwait,4,2552
+countryName:Thailand,,Bangkok,,,CTS,"New Chitose",Sapporo,,Japan,7,2548
+countryName:Thailand,,Bangkok,,,DAD,"Da Nang International","Da Nang",,Vietnam,9,2504
+countryName:Thailand,,Bangkok,,,FUK,Fukuoka,Fukuoka,,Japan,1,2424
+countryName:Thailand,,Bangkok,,,LHE,"Allama Iqbal Intl",Lahore,,Pakistan,1,2424
+countryName:Thailand,,Bangkok,,,HYD,"Rajiv Gandhi International",Hyderabad,,India,1,2345
+countryName:Thailand,,Bangkok,,,WUX,"Sunan Shuofang",Wuxi,,China,10,2331
+countryName:Thailand,,Bangkok,,,AKL,"Auckland Intl",Auckland,,"New Zealand",1,2320
+countryName:Thailand,,Bangkok,,,SWA,"Jieyang Chaoshan",Shantou,,China,10,2285
+countryName:Thailand,,Bangkok,,,JAI,"Jaipur International",Jaipur,,India,6,2260
+countryName:Thailand,,Bangkok,,,AMM,"Queen Alia Intl",Amman,,Jordan,4,2224
+countryName:Thailand,,Bangkok,,,KHH,"Kaohsiung Intl",Kaohsiung,,Taiwan,6,2185
+countryName:Thailand,,Bangkok,,,ADD,"Bole International","Addis Ababa",,Ethiopia,8,2160
+countryName:Thailand,,Bangkok,,,BNE,"Brisbane Intl",Brisbane,QL,Australia,4,2112
+countryName:Thailand,,Bangkok,,,PER,"Perth International",Perth,WA,Australia,4,2112
+countryName:Thailand,,Bangkok,,,KWE,"Longdongbao International",Guiyang,,China,11,2057
+countryName:Thailand,,Bangkok,,,MXP,Malpensa,Milan-Malpensa,,Italy,1,1926
+countryName:Thailand,,Bangkok,,,BAH,"Bahrain Intl",Bahrain,,Bahrain,6,1904
+countryName:Thailand,,Bangkok,,,NBO,"Jomo Kenyatta Intl",Nairobi,,Kenya,5,1872
+countryName:Thailand,,Bangkok,,,SHE,"Taoxian International",Shenyang,,China,1,1845
+countryName:Thailand,,Bangkok,,,DME,Domodedovo,Moscow-Domodedovo,CF,"Russian Federation",1,1675
+countryName:Thailand,,Bangkok,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,1,1605
+countryName:Thailand,,Bangkok,,,BRU,"Brussels Airport",Brussels,,Belgium,1,1605
+countryName:Thailand,,Bangkok,,,SJW,"Zhengding International",Shijiazhuang,,China,10,1600
+countryName:Thailand,,Bangkok,,,OVB,Tolmachevo,Novosibirsk,IF,"Russian Federation",3,1580
+countryName:Thailand,,Bangkok,,,GAY,Gaya,Gaya,,India,5,1525
+countryName:Thailand,,Bangkok,,,ISB,"Benazir Bhutto Intl",Islamabad,,Pakistan,1,1515
+countryName:Thailand,,Bangkok,,,TAE,"Daegu International",Daegu,,"South Korea",1,1464
+countryName:Thailand,,Bangkok,,,AMD,"S. VallabhBhai Patel",Ahmedabad,,India,3,1456
+countryName:Thailand,,Bangkok,,,OKA,Naha,Okinawa,,Japan,1,1440
+countryName:Thailand,,Bangkok,,,JHB,"Senai Intl","Johor Bahru",,Malaysia,6,1440
+countryName:Thailand,,Bangkok,,,COK,"Kochi International Airport",Kochi,,India,1,1440
+countryName:Thailand,,Bangkok,,,KNO,"Kuala Namu",Medan,,Indonesia,1,1440
+countryName:Thailand,,Bangkok,,,KBP,"Boryspil International",Kiev,,Ukraine,3,1439
+countryName:Thailand,,Bangkok,,,TYN,"Wusu International",Taiyuan,,China,5,1336
+countryName:Thailand,,Bangkok,,,YTY,Taizhou,Yangzhou,,China,7,1260
+countryName:Thailand,,Bangkok,,,CAI,"Cairo Intl",Cairo,,Egypt,1,1204
+countryName:Thailand,,Bangkok,,,DLC,"Zhoushuizi International",Dalian,,China,1,1107
+countryName:Thailand,,Bangkok,,,BWN,"Brunei International","Bandar Seri Begawan",,"Brunei Darussalam",4,1008
+countryName:Thailand,,Bangkok,,,LHW,Zhongchuan,Lanzhou,,China,6,970
+countryName:Thailand,,Bangkok,,,PBH,"Paro International",Paro,,Bhutan,1,944
+countryName:Thailand,,Bangkok,,,LYA,Beijiao,Luoyang,,China,4,900
+countryName:Thailand,,Bangkok,,,DLI,"Lien Khuong","Da Lat",,Vietnam,1,900
+countryName:Thailand,,Bangkok,,,IXC,Chandigarh,Chandigarh,,India,1,895
+countryName:Thailand,,Bangkok,,,ALA,"Almaty International",Almaty,,Kazakhstan,1,830
+countryName:Thailand,,U-Tapao,,,MXZ,Meixian,Meixian,,China,2,756
+countryName:Thailand,,Bangkok,,,TRZ,Tiruchchirappalli,Tiruchchirappalli,,India,1,720
+countryName:Thailand,,Bangkok,,,CEB,"Mactan International",Cebu,,Philippines,1,700
+countryName:Thailand,,Bangkok,,,TSE,"Astana International",Astana,,Kazakhstan,1,664
+countryName:Thailand,,Bangkok,,,CGP,"Shah Amanat International Airport",Chittagong,,Bangladesh,1,636
+countryName:Thailand,,Bangkok,,,IKT,Irkutsk,Irkutsk,IF,"Russian Federation",1,632
+countryName:Thailand,,Bangkok,,,CGN,"Konrad Adenauer",Cologne-Bonn,,Germany,1,620
+countryName:Thailand,,Bangkok,,,JJN,Jinjiang,Quanzhou,,China,1,616
+countryName:Thailand,,Bangkok,,,KWL,"Liangjiang International",Guilin,,China,1,616
+countryName:Thailand,,Bangkok,,,TAS,"Tashkent-Vostochny International",Tashkent,,Uzbekistan,3,601
+countryName:Thailand,,Bangkok,,,IKA,"Imam Khomeini International",Tehran,,Iran,1,576
+countryName:Thailand,,U-Tapao,,,ZYI,"Xinzhou Airport",Zunyi,,China,1,567
+countryName:Thailand,,U-Tapao,,,LYI,"Shubuling Airport",Linyi,,China,1,567
+countryName:Thailand,,Bangkok,,,INC,Hedong,Yinchuan,,China,3,558
+countryName:Thailand,,Bangkok,,,ASB,"Ashgabat International",Ashgabat,,Turkmenistan,3,543
+countryName:Thailand,,Bangkok,,,BHY,Fucheng,Beihai,,China,1,540
+countryName:Thailand,,Bangkok,,,BBI,"Biju Patnaik",Bhubaneshwar,,India,1,537
+countryName:Thailand,,Bangkok,,,RUN,"Roland Garros","St. Denis",,Reunion,1,524
+countryName:Thailand,,Bangkok,,,LKO,"Chaudhary Charan Singh",Lucknow,,India,1,510
+countryName:Thailand,,Bangkok,,,HRB,"Taiping International","Harbin, P. R. China",,China,2,504
+countryName:Thailand,,U-Tapao,,,YCU,Guangong,Yuncheng,,China,1,504
+countryName:Thailand,,Bangkok,,,WNZ,"Yongqiang International",Wenzhou,,China,1,492
+countryName:Thailand,,U-Tapao,,,SYX,"Phoenix International",Sanya,,China,1,492
+countryName:Thailand,,Bangkok,,,NYT,"Nay Pyi Taw International","Nay Pyi Taw",,Myanmar,1,490
+countryName:Thailand,,Bangkok,,,NGB,"Lishe International",Ningbo,,China,1,474
+countryName:Thailand,,Bangkok,,,VVO,Vladivostok,Vladivostok,FF,"Russian Federation",1,474
+countryName:Thailand,,Bangkok,,,NTG,Xingdong,Nantong,,China,1,378
+countryName:Thailand,,Bangkok,,,YNZ,"Nanyang Airport",Yancheng,,China,2,378
+countryName:Thailand,,U-Tapao,,,BAV,Erliban,Baotou,,China,1,378
+countryName:Thailand,,"Chiang Mai",,,VDH,"Dong Hoi","Dong Hoi",,Vietnam,1,360
+countryName:Thailand,,Bangkok,,,PKZ,"Pakse International",Pakse,,Laos,1,350
+countryName:Thailand,,Bangkok,,,CGQ,"Longjia International",Changchun,,China,1,336
+countryName:Thailand,,Bangkok,,,HIA,Lianshui,Huaian,,China,1,308
+countryName:Thailand,,Bangkok,,,XUZ,Guanyin,Xuzhou,,China,1,308
+countryName:Thailand,,Bangkok,,,IXB,Bagdogra,Bagdogra,,India,1,236
+countryName:Thailand,,Bangkok,,,GAU,"Gopinath Bordoloi International",Guwahati,,India,1,236
+countryName:Thailand,,U-Tapao,,,YIH,Sanxia,Yichang,,China,1,189
+countryName:Thailand,,U-Tapao,,,DAT,Beijiazao,Datong,,China,1,189
+countryName:Thailand,,Bangkok,,,ZHA,Zhanjiang,Zhanjiang,,China,2,178
+countryName:Thailand,,Bangkok,,,DSN,"Ejin Horo",Ordos,,China,1,168
+countryName:Thailand,,Phuket,,,HET,"Baita International",Hohhot,,China,1,154

@@ -1,0 +1,116 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Taiwan,,Hualien,,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",471,117779
+countryName:Taiwan,,Kaohsiung,,,NRT,Narita,Tokyo-Narita,,Japan,185,43352
+countryName:Taiwan,,Kaohsiung,,,KIX,"Kansai International",Osaka-Kansai,,Japan,180,39667
+countryName:Taiwan,,Kaohsiung,,,ICN,"Incheon International Airport",Seoul,,"South Korea",140,34463
+countryName:Taiwan,,Kaohsiung,,,BKK,"Suvarnabhumi - New Bangkok International Airport",Bangkok,,Thailand,87,28832
+countryName:Taiwan,,Kaohsiung,,,PVG,"Pudong International",Shanghai,,China,105,27386
+countryName:Taiwan,,Kaohsiung,,,MFM,"Macau International",Macau,,Macau,140,26896
+countryName:Taiwan,,Kaohsiung,,,SIN,Changi,Singapore,,Singapore,91,24487
+countryName:Taiwan,,Kaohsiung,,,SGN,"Tan Son Nhat International Airport","Ho Chi Minh City",,Vietnam,93,24458
+countryName:Taiwan,,Taipei,,,HND,"Tokyo Intl (Haneda)",Tokyo-Haneda,,Japan,73,20416
+countryName:Taiwan,,Kaohsiung,,,XMN,"Gaoqi International",Xiamen,,China,110,18693
+countryName:Taiwan,,Kaohsiung,,,MNL,"Ninoy Aquino Intl",Manila,,Philippines,69,18477
+countryName:Taiwan,,Kaohsiung,,,OKA,Naha,Okinawa,,Japan,73,16192
+countryName:Taiwan,,Kaohsiung,,,KUL,"Kuala Lumpur International Airport","Kuala Lumpur",,Malaysia,49,15448
+countryName:Taiwan,,Taipei,,,SFO,"San Francisco Intl","San Francisco",CA,"United States",30,12838
+countryName:Taiwan,,Kaohsiung,,,PUS,"Gimhae Intl",Busan,,"South Korea",55,11567
+countryName:Taiwan,,Taipei,,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",25,11264
+countryName:Taiwan,,Kaohsiung,,,HAN,"Noi Bai International",Hanoi,,Vietnam,47,11070
+countryName:Taiwan,,Kaohsiung,,,FUK,Fukuoka,Fukuoka,,Japan,44,11011
+countryName:Taiwan,,Kaohsiung,,,PEK,"Capital International",Beijing,,China,39,10950
+countryName:Taiwan,,Kaohsiung,,,CTS,"New Chitose",Sapporo,,Japan,32,10927
+countryName:Taiwan,,Taipei-Songshan,,,SHA,"Hongqiao International",Shanghai-Metro,,China,23,8833
+countryName:Taiwan,,Taipei,,,NGO,"Chubu Centrair Intl",Nagoya,,Japan,33,8516
+countryName:Taiwan,,Kaohsiung,,,SZX,"Bao'an International",Shenzhen,,China,31,8089
+countryName:Taiwan,,Kaohsiung,,,CAN,"Baiyun International",Guangzhou,,China,28,7005
+countryName:Taiwan,,Taipei,,,YVR,"Vancouver Intl",Vancouver,BC,Canada,17,6683
+countryName:Taiwan,,Taipei,,,DMK,"Don Muang International Airport - formerly BKK",Bangkok,,Thailand,17,6552
+countryName:Taiwan,,Taipei,,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",9,5632
+countryName:Taiwan,,Kaohsiung,,,HGH,"Xiaoshan International",Hangzhou,,China,24,5609
+countryName:Taiwan,,Taipei,,,DPS,"Ngurah Rai",Denpasar-Bali,,Indonesia,9,4952
+countryName:Taiwan,,Taipei,,,CGK,"Soekarno-Hatta Intl",Jakarta,,Indonesia,9,4920
+countryName:Taiwan,,Taipei,,,SYD,"Kingsford Smith",Sydney,NS,Australia,9,4896
+countryName:Taiwan,,Taipei,,,AMS,Schiphol,Amsterdam,,Netherlands,9,4506
+countryName:Taiwan,,Kaohsiung,,,NKG,"Lukou International",Nanjing,,China,18,4343
+countryName:Taiwan,,Kaohsiung,,,WUX,"Sunan Shuofang",Wuxi,,China,21,4306
+countryName:Taiwan,,Taipei,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",1,4136
+countryName:Taiwan,,Taipei,,,TAE,"Daegu International",Daegu,,"South Korea",14,3980
+countryName:Taiwan,,Taipei,,,PNH,International,"Phnom Penh",,Cambodia,17,3722
+countryName:Taiwan,,Taipei,,,BNE,"Brisbane Intl",Brisbane,QL,Australia,9,3708
+countryName:Taiwan,,Taipei,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,4,3700
+countryName:Taiwan,,Taipei,,,BKI,"Kota Kinabalu International","Kota Kinabalu",,Malaysia,13,3396
+countryName:Taiwan,,Kaohsiung,,,NGB,"Lishe International",Ningbo,,China,21,3373
+countryName:Taiwan,,Taipei,,,VIE,"Vienna International",Vienna,,Austria,5,3236
+countryName:Taiwan,,Taipei,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,1,2864
+countryName:Taiwan,,Taipei,,,ONT,"Ontario Intl",Ontario,CA,"United States",1,2864
+countryName:Taiwan,,Taipei,,,IAH,"George Bush Intercontinental",Houston-Intercontinental,TX,"United States",1,2800
+countryName:Taiwan,,Taipei,,,SEA,"Seattle-Tacoma Intl",Seattle,WA,"United States",1,2800
+countryName:Taiwan,,Taipei,,,YYZ,"Lester B. Pearson Intl",Toronto,ON,Canada,1,2800
+countryName:Taiwan,,Taipei,,,HAK,"Meilan International",Haikou,,China,13,2792
+countryName:Taiwan,,Kaohsiung,,,CSX,"Huanghua International Airport",Changsha,,China,11,2636
+countryName:Taiwan,,Taipei,,,HKD,Hakodate,Hakodate,,Japan,10,2552
+countryName:Taiwan,,Taipei,,,SDJ,Sendai,Sendai,,Japan,10,2540
+countryName:Taiwan,,Taipei-Songshan,,,GMP,"Gimpo International",Seoul-Gimpo,,"South Korea",13,2330
+countryName:Taiwan,,Taipei,,,XIY,"Xianyang International",Xi'an,,China,10,2118
+countryName:Taiwan,,Kaohsiung,,,WUH,"Tianhe International",Wuhan,,China,9,2105
+countryName:Taiwan,,Taipei,,,ORD,"O'Hare International",Chicago-O'Hare,IL,"United States",1,2100
+countryName:Taiwan,,Taipei,,,CEB,"Mactan International",Cebu,,Philippines,4,1982
+countryName:Taiwan,,Kaohsiung,,,CKG,"Jiangbei International",Chongqing,,China,10,1970
+countryName:Taiwan,,Taipei,,,SHE,"Taoxian International",Shenyang,,China,9,1960
+countryName:Taiwan,,Taipei,,,CGO,"Xinzheng International",Zhengzhou,,China,9,1935
+countryName:Taiwan,,Taipei,,,TAO,"Liuting International",Qingdao,,China,7,1912
+countryName:Taiwan,,Taipei,,,IST,Ataturk,Istanbul,,Turkey,1,1875
+countryName:Taiwan,,Taipei,,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",2,1836
+countryName:Taiwan,,Taipei,,,CTU,"Shuangliu International",Chengdu,,China,8,1777
+countryName:Taiwan,,Taipei,,,HRB,"Taiping International","Harbin, P. R. China",,China,5,1690
+countryName:Taiwan,,Taipei,,,TNA,"Yaoqiang International",Jinan,,China,4,1630
+countryName:Taiwan,,Taipei,,,LHW,Zhongchuan,Lanzhou,,China,7,1628
+countryName:Taiwan,,Taipei,,,KWL,"Liangjiang International",Guilin,,China,7,1608
+countryName:Taiwan,,Kaohsiung,,,KHN,"Changbei International","Nanchang, Kiangsi",,China,10,1604
+countryName:Taiwan,,Taipei,,,KMQ,Komatsu,Komatsu,,Japan,8,1464
+countryName:Taiwan,,Kaohsiung,,,TSN,"Binhai International",Tianjin,,China,8,1372
+countryName:Taiwan,,Taipei,,,WNZ,"Yongqiang International",Wenzhou,,China,3,1354
+countryName:Taiwan,,Taipei,,,SJW,"Zhengding International",Shijiazhuang,,China,5,1340
+countryName:Taiwan,,Taipei,,,NNG,"Wuxu International",Nanning,,China,8,1332
+countryName:Taiwan,,Taipei,,,HIJ,"Hiroshima Airport",Hiroshima,,Japan,1,1320
+countryName:Taiwan,,Taipei,,,KWE,"Longdongbao International",Guiyang,,China,4,1320
+countryName:Taiwan,,Taipei,,,RGN,"Yangon International",Yangon,,Myanmar,1,1320
+countryName:Taiwan,,Taipei,,,HFE,"Xinqiao International",Hefei,,China,1,1264
+countryName:Taiwan,,Taipei,,,OKJ,Okayama,Okayama,,Japan,7,1260
+countryName:Taiwan,,Taipei,,,YNT,"Penglai International",Yantai,,China,1,1232
+countryName:Taiwan,,Taipei,,,DLC,"Zhoushuizi International",Dalian,,China,7,1168
+countryName:Taiwan,,Taipei,,,TYN,"Wusu International",Taiyuan,,China,6,1162
+countryName:Taiwan,,Taipei,,,PEN,"Penang International",Penang,,Malaysia,6,1155
+countryName:Taiwan,,Taipei,,,TAK,Takamatsu,Takamatsu,,Japan,3,1155
+countryName:Taiwan,,Taipei,,,CGQ,"Longjia International",Changchun,,China,4,1137
+countryName:Taiwan,,Taipei,,,GUM,"Antonio B. Won Pat International Airport",Guam,TR,"United States",1,990
+countryName:Taiwan,,Taipei,,,DEL,"Indira Gandhi Intl",Delhi,,India,1,930
+countryName:Taiwan,,Taipei,,,HNL,"Honolulu Intl",Honolulu/Oahu,HI,"United States",1,918
+countryName:Taiwan,,Taipei,,,MEL,"Melbourne Airport",Melbourne,VI,Australia,1,918
+countryName:Taiwan,,Taipei,,,CJU,"Jeju International",Jeju,,"South Korea",1,900
+countryName:Taiwan,,Kaohsiung,,,KMG,"Changshui International",Kunming,,China,4,863
+countryName:Taiwan,,"Sun Moon Lake",,,CGB,"Marechal Rondon Intl",Cuiaba,MT,Brazil,1,826
+countryName:Taiwan,,Taipei,,,KOJ,Kagoshima,Kagoshima,,Japan,1,825
+countryName:Taiwan,,Taipei,,,LJG,"Sanyi Airport",Lijiang,,China,4,780
+countryName:Taiwan,,Taipei,,,DAD,"Da Nang International","Da Nang",,Vietnam,1,720
+countryName:Taiwan,,Taipei,,,FSZ,"Mount Fuji",Shizuoka,,Japan,1,660
+countryName:Taiwan,,Taipei,,,XUZ,Guanyin,Xuzhou,,China,4,660
+countryName:Taiwan,,Taipei,,,KMI,Miyazaki,Miyazaki,,Japan,1,660
+countryName:Taiwan,,Taipei,,,NTG,Xingdong,Nantong,,China,1,620
+countryName:Taiwan,,Taipei,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,1,612
+countryName:Taiwan,,Taipei,,,HET,"Baita International",Hohhot,,China,1,552
+countryName:Taiwan,,Taipei,,,TXN,"Tunxi International",Huangshan,,China,1,552
+countryName:Taiwan,,Taipei,,,KLO,"Kalibo International",Kalibo,,Philippines,1,525
+countryName:Taiwan,,Kaohsiung,,,KMJ,Kumamoto,Kumamoto,,Japan,1,495
+countryName:Taiwan,,Taipei,,,ROR,"Palau International","Koror, Palau Island",,Palau,1,495
+countryName:Taiwan,,Taipei,,,CZX,Benniu,Changzhou,,China,1,474
+countryName:Taiwan,,Taipei,,,REP,"Angkor International","Siem Reap",,Cambodia,1,360
+countryName:Taiwan,,Taipei,,,SYX,"Phoenix International",Sanya,,China,1,330
+countryName:Taiwan,,Taipei,,,TOY,Toyama,Toyama,,Japan,1,330
+countryName:Taiwan,,Taipei,,,PPS,"Puerto Princesa International","Puerto Princesa",,Philippines,1,175
+countryName:Taiwan,,Taipei,,,WEH,Dashuibo,Weihai,,China,1,165
+countryName:Taiwan,,Taipei,,,YNZ,"Nanyang Airport",Yancheng,,China,1,165
+countryName:Taiwan,,Taipei,,,YTY,Taizhou,Yangzhou,,China,1,165
+countryName:Taiwan,,Taipei,,,SWA,"Jieyang Chaoshan",Shantou,,China,1,85
+countryName:Taiwan,,Taipei,,,YIW,"Yiwu Airport",Yiwu,,China,1,85

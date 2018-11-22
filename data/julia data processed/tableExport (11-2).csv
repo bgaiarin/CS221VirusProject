@@ -1,0 +1,17 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Laos,,"Luang Prabang",,,BKK,"Suvarnabhumi - New Bangkok International Airport",Bangkok,,Thailand,67,9772
+countryName:Laos,,"Luang Prabang",,,KMG,"Changshui International",Kunming,,China,34,5606
+countryName:Laos,,Vientiane,,,ICN,"Incheon International Airport",Seoul,,"South Korea",14,3582
+countryName:Laos,,"Luang Prabang",,,DMK,"Don Muang International Airport - formerly BKK",Bangkok,,Thailand,9,2880
+countryName:Laos,,"Luang Prabang",,,REP,"Angkor International","Siem Reap",,Cambodia,7,1632
+countryName:Laos,,Vientiane,,,PNH,International,"Phnom Penh",,Cambodia,1,1616
+countryName:Laos,,"Luang Prabang",,,KUL,"Kuala Lumpur International Airport","Kuala Lumpur",,Malaysia,4,1440
+countryName:Laos,,"Luang Prabang",,,SZX,"Bao'an International",Shenzhen,,China,4,820
+countryName:Laos,,Vientiane,,,CAN,"Baiyun International",Guangzhou,,China,5,790
+countryName:Laos,,"Luang Prabang",,,HAK,"Meilan International",Haikou,,China,4,656
+countryName:Laos,,Vientiane,,,NNG,"Wuxu International",Nanning,,China,1,495
+countryName:Laos,,"Luang Prabang",,,SIN,Changi,Singapore,,Singapore,1,450
+countryName:Laos,,Vientiane,,,PUS,"Gimhae Intl",Busan,,"South Korea",1,450
+countryName:Laos,,"Luang Prabang",,,CNX,"Chiang Mai Intl","Chiang Mai",,Thailand,1,350
+countryName:Laos,,Pakse,,,SGN,"Tan Son Nhat International Airport","Ho Chi Minh City",,Vietnam,1,210
+countryName:Laos,,Vientiane,,,CZX,Benniu,Changzhou,,China,1,150

@@ -1,11 +1,15 @@
 from mdp import EpidemicMDP # changed from import mdp
 
-NUM_COUNTRIES = 4
+infections = {'France' : 1}
+resources = 5
+resp_csv = 'data/country_response_indicators.csv'
+trans_csv = 'data/transitions.csv'
+newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
+print newmdp.countries
+NUM_COUNTRIES = newmdp.NUM_COUNTRIES
 INDEX_RESOURCE = NUM_COUNTRIES*2
 num_trials = 5
 max_iterations = 5
-resp_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv'
-trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
 
 def getDumbActions(state):
 	resources = state[INDEX_RESOURCE]
@@ -63,12 +67,13 @@ def simulate(actionCommand, trial_num, resp_csv, trans_csv, infections, resource
 		total_reward += max_reward
 		its += 1
 
-	avg_reward = total_reward/float(its)
-	print "TRIAL:", trial_num, " ", avg_reward
+	if its == 0:
+		print "TRIAL:", trial_num, '- SIMULATION ITERATIONS EQUALS ZERO'
+	else:
+		avg_reward = total_reward/float(its)
+		print "TRIAL:", trial_num, " ", avg_reward
 
 #startstate = [0,1,0,0,0.8,0.2,0.88,0.3,5]
-infections = {'France' : 1}
-resources = 5
 
 ### UNIFORM RESOURCE ALLOCATION: EVERYTHING AT T=1, EQUAL NUMBERS TO EACH STATE
 print " "
@@ -92,7 +97,6 @@ for i in range(num_trials):
 ### BEST ACTION
 print " "
 print("##### USING MDP.GETACTIONS #####") 
-newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
 for i in range(num_trials):
 	simulate(newmdp.getActions, i, resp_csv, trans_csv, infections, resources)
 

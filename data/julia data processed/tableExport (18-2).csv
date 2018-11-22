@@ -1,0 +1,19 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Barbados,,Bridgetown,,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",21,6234
+countryName:Barbados,,Bridgetown,,,YYZ,"Lester B. Pearson Intl",Toronto,ON,Canada,6,2755
+countryName:Barbados,,Bridgetown,,,POS,"Piarco International","Port of Spain",,"Trinidad and Tobago",22,2660
+countryName:Barbados,,Bridgetown,,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",10,2658
+countryName:Barbados,,Bridgetown,,,MIA,"Miami International",Miami,FL,"United States",9,2272
+countryName:Barbados,,Bridgetown,,,SVD,"E T Joshua","St. Vincent",,"Saint Vincent and Grenadines",25,2176
+countryName:Barbados,,Bridgetown,,,MAN,"Manchester Airport",Manchester,EN,"United Kingdom",4,1865
+countryName:Barbados,,Bridgetown,,,SLU,"George F.L. Charles","St. Lucia-Castries",,"Saint Lucia",17,1632
+countryName:Barbados,,Bridgetown,,,GND,"Maurice Bishop International",Grenada,,"Grenada and South Grenadines",19,1428
+countryName:Barbados,,Bridgetown,,,FLL,"Ft Lauderdale Intl","Fort Lauderdale",FL,"United States",1,1200
+countryName:Barbados,,Bridgetown,,,OGL,"Ogle Airport",Georgetown,,Guyana,9,1088
+countryName:Barbados,,Bridgetown,,,ANU,"V C Bird Intl",Antigua,,"Antigua and Barbuda",6,884
+countryName:Barbados,,Bridgetown,,,DOM,"Melville Hall",Dominica,,Dominica,11,884
+countryName:Barbados,,Bridgetown,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,3,771
+countryName:Barbados,,Bridgetown,,,FDF,"Martinique A. Cesaire","Fort De France",,Martinique,6,554
+countryName:Barbados,,Bridgetown,,,PTP,"Le Raizet","Pointe A Pitre",,Guadeloupe,1,204
+countryName:Barbados,,Bridgetown,,,BOS,"Logan International",Boston,MA,"United States",1,162
+countryName:Barbados,,Bridgetown,,,CLT,"Charlotte-Douglas International Airport",Charlotte-Douglas,NC,"United States",1,128

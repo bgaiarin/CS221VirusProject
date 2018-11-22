@@ -1,0 +1,44 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+"countryName:New Zealand",,Auckland,,,SYD,"Kingsford Smith",Sydney,NS,Australia,190,43078
+"countryName:New Zealand",,Auckland,,,MEL,"Melbourne Airport",Melbourne,VI,Australia,120,25539
+"countryName:New Zealand",,Auckland,,,BNE,"Brisbane Intl",Brisbane,QL,Australia,100,20545
+"countryName:New Zealand",,Auckland,,,SIN,Changi,Singapore,,Singapore,25,10200
+"countryName:New Zealand",,Auckland,,,OOL,Coolangatta,"Gold Coast",QL,Australia,35,8836
+"countryName:New Zealand",,Auckland,,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",17,7512
+"countryName:New Zealand",,Auckland,,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",20,6928
+"countryName:New Zealand",,Auckland,,,CAN,"Baiyun International",Guangzhou,,China,17,6200
+"countryName:New Zealand",,Auckland,,,NAN,"Nadi International",Nadi,,Fiji,16,5203
+"countryName:New Zealand",,Auckland,,,SFO,"San Francisco Intl","San Francisco",CA,"United States",8,4660
+"countryName:New Zealand",,Auckland,,,PVG,"Pudong International",Shanghai,,China,9,4248
+"countryName:New Zealand",,Auckland,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",1,4136
+"countryName:New Zealand",,Auckland,,,RAR,"Rarotonga Island","Rarotonga Island",,"Cook Islands",15,3710
+"countryName:New Zealand",,Auckland,,,APW,"Faleolo Intl",Apia,,"Western Samoa",15,3205
+"countryName:New Zealand",,Auckland,,,PER,"Perth International",Perth,WA,Australia,3,2890
+"countryName:New Zealand",,Auckland,,,HNL,"Honolulu Intl",Honolulu/Oahu,HI,"United States",6,2840
+"countryName:New Zealand",,Auckland,,,SCL,"Arturo M Benitez",Santiago,,Chile,1,2376
+"countryName:New Zealand",,Auckland,,,PEK,"Capital International",Beijing,,China,1,2344
+"countryName:New Zealand",,Auckland,,,BKK,"Suvarnabhumi - New Bangkok International Airport",Bangkok,,Thailand,1,2320
+"countryName:New Zealand",,Auckland,,,NRT,Narita,Tokyo-Narita,,Japan,1,2312
+"countryName:New Zealand",,Auckland,,,KUL,"Kuala Lumpur International Airport","Kuala Lumpur",,Malaysia,8,2288
+"countryName:New Zealand",,Auckland,,,ICN,"Incheon International Airport",Seoul,,"South Korea",1,2248
+"countryName:New Zealand",,Auckland,,,DOH,"Hamad International Airport",Doha,,Qatar,1,2072
+"countryName:New Zealand",,Auckland,,,TBU,Fua'Amotu,"Tongatapu, Tonga Isl",,Tonga,9,1966
+"countryName:New Zealand",,Auckland,,,IAH,"George Bush Intercontinental",Houston-Intercontinental,TX,"United States",1,1734
+"countryName:New Zealand",,Auckland,,,YVR,"Vancouver Intl",Vancouver,BC,Canada,1,1560
+"countryName:New Zealand",,Auckland,,,ADL,"Adelaide International",Adelaide,SA,Australia,3,1496
+"countryName:New Zealand",,Auckland,,,PPT,Faaa,Tahiti,,"French Polynesia",5,1463
+"countryName:New Zealand",,Auckland,,,EZE,"Ministro Pistarini","Buenos Aires",BA,Argentina,1,1445
+"countryName:New Zealand",,Wellington,,,CBR,Canberra,Canberra,AC,Australia,1,1400
+"countryName:New Zealand",,Waitangi,,,CGO,"Xinzheng International",Zhengzhou,,China,1,1272
+"countryName:New Zealand",,Auckland,,,HND,"Tokyo Intl (Haneda)",Tokyo-Haneda,,Japan,1,1248
+"countryName:New Zealand",,Auckland,,,CKG,"Jiangbei International",Chongqing,,China,10,1232
+"countryName:New Zealand",,Auckland,,,KIX,"Kansai International",Osaka-Kansai,,Japan,1,1156
+"countryName:New Zealand",,Waitangi,,,HGH,"Xiaoshan International",Hangzhou,,China,1,1152
+"countryName:New Zealand",,Waitangi,,,KMG,"Changshui International",Kunming,,China,1,1152
+"countryName:New Zealand",,Auckland,,,NOU,"La Tontouta",Noumea,,"New Caledonia",5,966
+"countryName:New Zealand",,Auckland,,,SZX,"Bao'an International",Shenzhen,,China,1,894
+"countryName:New Zealand",,Auckland,,,CTU,"Shuangliu International",Chengdu,,China,1,843
+"countryName:New Zealand",,Auckland,,,MNL,"Ninoy Aquino Intl",Manila,,Philippines,1,762
+"countryName:New Zealand",,Auckland,,,VLI,"Bauerfield International","Port Vila",,Vanuatu,4,756
+"countryName:New Zealand",,Auckland,,,IUE,"Hanan International","Niue Island",,Niue,1,510
+"countryName:New Zealand",,Auckland,,,SUV,"Nausori International",Suva,,Fiji,1,244

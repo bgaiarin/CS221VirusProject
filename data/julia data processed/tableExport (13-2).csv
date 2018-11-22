@@ -1,0 +1,12 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Mongolia,,Ulaanbaatar,,,ICN,"Incheon International Airport",Seoul,,"South Korea",15,3117
+countryName:Mongolia,,Ulaanbaatar,,,PEK,"Capital International",Beijing,,China,13,2464
+countryName:Mongolia,,Ulaanbaatar,,,SVO,Sheremetyevo,Moscow-Sheremetyevo,CF,"Russian Federation",6,1413
+countryName:Mongolia,,Ulaanbaatar,,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",2,745
+countryName:Mongolia,,Ulaanbaatar,,,NRT,Narita,Tokyo-Narita,,Japan,1,596
+countryName:Mongolia,,Ulaanbaatar,,,FRU,"Manas International",Bishkek,,Kyrgyzstan,1,480
+countryName:Mongolia,,Ulaanbaatar,,,PUS,"Gimhae Intl",Busan,,"South Korea",3,473
+countryName:Mongolia,,Ulaanbaatar,,,NZH,"Xijiao Airport",Manzhouli,,China,1,420
+countryName:Mongolia,,Ulaanbaatar,,,IKT,Irkutsk,Irkutsk,IF,"Russian Federation",4,250
+countryName:Mongolia,,Ulaanbaatar,,,HET,"Baita International",Hohhot,,China,1,200
+countryName:Mongolia,,Ulaanbaatar,,,UUD,Ulan-Ude,Ulan-Ude,IF,"Russian Federation",1,150

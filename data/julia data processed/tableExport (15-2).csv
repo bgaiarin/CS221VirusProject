@@ -1,0 +1,69 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:China,,Beihai,,,BKK,"Suvarnabhumi - New Bangkok International Airport",Bangkok,,Thailand,132,23614
+countryName:China,,Guangzhou,,,DMK,"Don Muang International Airport - formerly BKK",Bangkok,,Thailand,78,17519
+countryName:China,,Guangzhou,,,SIN,Changi,Singapore,,Singapore,81,16364
+countryName:China,,Guangzhou,,,KUL,"Kuala Lumpur International Airport","Kuala Lumpur",,Malaysia,78,16110
+countryName:China,,Guangzhou,,,SYD,"Kingsford Smith",Sydney,NS,Australia,23,9874
+countryName:China,,Guangzhou,,,HKT,"Phuket Intl",Phuket,,Thailand,50,9127
+countryName:China,,Guangzhou,,,PNH,International,"Phnom Penh",,Cambodia,45,8724
+countryName:China,,Guangzhou,,,SGN,"Tan Son Nhat International Airport","Ho Chi Minh City",,Vietnam,39,8318
+countryName:China,,Baotou,,,REP,"Angkor International","Siem Reap",,Cambodia,45,8247
+countryName:China,,Guangzhou,,,MEL,"Melbourne Airport",Melbourne,VI,Australia,23,7896
+countryName:China,,Guangzhou,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",12,7097
+countryName:China,,Guangzhou,,,HND,"Tokyo Intl (Haneda)",Tokyo-Haneda,,Japan,25,6408
+countryName:China,,Guangzhou,,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",13,6360
+countryName:China,,Guangzhou,,,DPS,"Ngurah Rai",Denpasar-Bali,,Indonesia,23,5970
+countryName:China,,Guangzhou,,,MNL,"Ninoy Aquino Intl",Manila,,Philippines,39,5836
+countryName:China,,Guangzhou,,,SVO,Sheremetyevo,Moscow-Sheremetyevo,CF,"Russian Federation",11,5212
+countryName:China,,Guangzhou,,,DOH,"Hamad International Airport",Doha,,Qatar,4,4916
+countryName:China,,Guangzhou,,,AKL,"Auckland Intl",Auckland,,"New Zealand",11,4896
+countryName:China,,Guangzhou,,,CXR,"Cam Rahn International","Nha Trang",,Vietnam,28,4140
+countryName:China,,Guangzhou,,,KIX,"Kansai International",Osaka-Kansai,,Japan,18,4071
+countryName:China,,Guangzhou,,,ADD,"Bole International","Addis Ababa",,Ethiopia,9,3882
+countryName:China,,Guangzhou,,,CGK,"Soekarno-Hatta Intl",Jakarta,,Indonesia,17,3880
+countryName:China,,Guangzhou,,,BKI,"Kota Kinabalu International","Kota Kinabalu",,Malaysia,19,3488
+countryName:China,,Guangzhou,,,CMB,"Bandaranaike Intl",Colombo,,"Sri Lanka",15,3162
+countryName:China,,Guangzhou,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,8,3076
+countryName:China,,Guangzhou,,,NRT,Narita,Tokyo-Narita,,Japan,8,3053
+countryName:China,,Guangzhou,,,IST,Ataturk,Istanbul,,Turkey,1,3000
+countryName:China,,Guangzhou,,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",3,2994
+countryName:China,,Guangzhou,,,CAI,"Cairo Intl",Cairo,,Egypt,1,2912
+countryName:China,,Baotou,,,UTP,"Rayong-Pattaya Intl",U-Tapao,,Thailand,11,2862
+countryName:China,,Guangzhou,,,YVR,"Vancouver Intl",Vancouver,BC,Canada,7,2386
+countryName:China,,Guangzhou,,,BNE,"Brisbane Intl",Brisbane,QL,Australia,1,2112
+countryName:China,,Zhengzhou,,,KBV,"Krabi Airport",Krabi,,Thailand,9,1992
+countryName:China,,Zhengzhou,,,WGN,"Waitangi Airport",Waitangi,,"New Zealand",9,1984
+countryName:China,,Guangzhou,,,CHC,"Christchurch Intl",Christchurch,,"New Zealand",1,1824
+countryName:China,,Guangzhou,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",6,1824
+countryName:China,,Beihai,,,DAD,"Da Nang International","Da Nang",,Vietnam,7,1796
+countryName:China,,Guangzhou,,,AMS,Schiphol,Amsterdam,,Netherlands,1,1666
+countryName:China,,Guangzhou,,,ADL,"Adelaide International",Adelaide,SA,Australia,6,1662
+countryName:China,,Guangzhou,,,PER,"Perth International",Perth,WA,Australia,1,1662
+countryName:China,,Guangzhou,,,USM,"Ko Samui","Ko Samui",,Thailand,5,1596
+countryName:China,,Guangzhou,,,MDC,"Sam Ratulangi",Manado,,Indonesia,6,1560
+countryName:China,,Guangzhou,,,JHB,"Senai Intl","Johor Bahru",,Malaysia,1,1440
+countryName:China,,Guangzhou,,,BAR,"Baker Aaf","Baker Island",AK,"United States",1,1272
+countryName:China,,Guangzhou,,,PEN,"Penang International",Penang,,Malaysia,1,1272
+countryName:China,,Guangzhou,,,LGK,"Langkawi International",Langkawi,,Malaysia,6,1266
+countryName:China,,Guangzhou,,,YYZ,"Lester B. Pearson Intl",Toronto,ON,Canada,1,1236
+countryName:China,,Guangzhou,,,SFO,"San Francisco Intl","San Francisco",CA,"United States",1,1236
+countryName:China,,Guangzhou,,,RGN,"Yangon International",Yangon,,Myanmar,6,1176
+countryName:China,,Guangzhou,,,CNS,"Cairns International",Cairns,QL,Australia,1,1108
+countryName:China,,Guangzhou,,,MCT,"Seeb International",Muscat,,Oman,1,1040
+countryName:China,,Chaoyang,,,YSQ,"Spring Island","Spring Island",BC,Canada,1,1024
+countryName:China,,Guangzhou,,,VTE,"Wattay Intl",Vientiane,,Laos,4,790
+countryName:China,,Chongqing,,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",2,780
+countryName:China,,Guangzhou,,,PQC,"Phu Quoc Island International","Phu Quoc Island",,Vietnam,1,775
+countryName:China,,Guangzhou,,,IKA,"Imam Khomeini International",Tehran,,Iran,1,768
+countryName:China,,Chengdu,,,URT,"Surat Thani","Surat Thani",,Thailand,1,720
+countryName:China,,Changsha,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,1,714
+countryName:China,,Chengdu,,,KOS,International,Sihanoukville,,Cambodia,1,660
+countryName:China,,Guangzhou,,,LHE,"Allama Iqbal Intl",Lahore,,Pakistan,2,652
+countryName:China,,Changsha,,,KLO,"Kalibo International",Kalibo,,Philippines,3,564
+countryName:China,,Chongqing,,,HEL,Helsinki-Vantaa,Helsinki,,Finland,2,562
+countryName:China,,Guangzhou,,,MRU,"Sir S. Ramgoolam International",Mauritius,,Mauritius,1,550
+countryName:China,,Chongqing,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,1,522
+countryName:China,,Guangzhou,,,NBO,"Jomo Kenyatta Intl",Nairobi,,Kenya,1,476
+countryName:China,,Chengdu,,,SQD,"Sinop Railway Service",Sinop,,Turkey,1,364
+countryName:China,,Guangzhou,,,BGW,"Baghdad International Airport",Baghdad,,Iraq,1,288
+countryName:China,,Changchun,,,SVX,"Koltsovo Airport",Yekaterinburg,UF,"Russian Federation",1,168

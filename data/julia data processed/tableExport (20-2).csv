@@ -1,0 +1,10 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Mozambique,,Nampula,,,JNB,"O.R. Tambo International Airport",Johannesburg,,"South Africa",91,6808
+countryName:Mozambique,,Maputo,,,ADD,"Bole International","Addis Ababa",,Ethiopia,1,1480
+countryName:Mozambique,,Maputo,,,LIS,Lisboa,Lisbon,,Portugal,1,1122
+countryName:Mozambique,,Nampula,,,NBO,"Jomo Kenyatta Intl",Nairobi,,Kenya,8,894
+countryName:Mozambique,,Maputo,,,LAD,"4 De Fevereiro",Luanda,,Angola,2,825
+countryName:Mozambique,,Maputo,,,DOH,"Hamad International Airport",Doha,,Qatar,1,780
+countryName:Mozambique,,Pemba,,,DAR,"Julius Nyerere International","Dar Es Salaam",,Tanzania,2,278
+countryName:Mozambique,,Maputo,,,DUR,"King Shaka Intl",Durban,,"South Africa",1,116
+countryName:Mozambique,,Beira,,,HRE,"Harare International",Harare,,Zimbabwe,1,102

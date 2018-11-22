@@ -1,0 +1,16 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Togo,,Lome,,,ACC,"Kotoka International",Accra,,Ghana,9,1885
+countryName:Togo,,Lome,,,ADD,"Bole International","Addis Ababa",,Ethiopia,1,1620
+countryName:Togo,,Lome,,,ABJ,"Felix Houphouet Boigny",Abidjan,,"Ivory Coast (Cote d'Ivoire)",9,1608
+countryName:Togo,,Lome,,,EWR,"Newark Intl",Newark,NJ,"United States",1,1350
+countryName:Togo,,Lome,,,LOS,"Murtala Muhammed International",Lagos,,Nigeria,7,938
+countryName:Togo,,Lome,,,DLA,"Douala International",Douala,,Cameroon,5,804
+countryName:Togo,,Lome,,,LBV,"Leon M'ba International",Libreville,,Gabon,6,737
+countryName:Togo,,Lome,,,LIS,Lisboa,Lisbon,,Portugal,1,542
+countryName:Togo,,Lome,,,COO,Cadjehoun,Cotonou,,Benin,6,540
+countryName:Togo,,Lome,,,FIH,"N'Djili International",Kinshasa,,"Democratic Republic of the Congo",1,536
+countryName:Togo,,Lome,,,ABV,"Nnamdi Azikiwe International Airport",Abuja,,Nigeria,4,536
+countryName:Togo,,Lome,,,CMN,"Mohammed V",Casablanca,,Morocco,2,444
+countryName:Togo,,Lome,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,1,416
+countryName:Togo,,Lome,,,OUA,Ouagadougou,Ouagadougou,,"Burkina Faso",5,404
+countryName:Togo,,Lome,,,BKO,"Senou International",Bamako,,Mali,1,335

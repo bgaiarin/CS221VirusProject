@@ -1,0 +1,69 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Australia,,Adelaide,SA,,SIN,Changi,Singapore,,Singapore,272,83220
+countryName:Australia,,Adelaide,SA,,AKL,"Auckland Intl",Auckland,,"New Zealand",275,64354
+countryName:Australia,,Adelaide,SA,,DPS,"Ngurah Rai",Denpasar-Bali,,Indonesia,181,41669
+countryName:Australia,,Adelaide,SA,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",129,40270
+countryName:Australia,,Adelaide,SA,,DXB,"Dubai International",Dubai,,"United Arab Emirates",73,37664
+countryName:Australia,,Adelaide,SA,,KUL,"Kuala Lumpur International Airport","Kuala Lumpur",,Malaysia,98,30333
+countryName:Australia,,Brisbane,QL,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",83,27359
+countryName:Australia,,Brisbane,QL,,BKK,"Suvarnabhumi - New Bangkok International Airport",Bangkok,,Thailand,60,21752
+countryName:Australia,,Adelaide,SA,,CAN,"Baiyun International",Guangzhou,,China,66,20598
+countryName:Australia,,Brisbane,QL,,CHC,"Christchurch Intl",Christchurch,,"New Zealand",103,20570
+countryName:Australia,,Brisbane,QL,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",41,17488
+countryName:Australia,,Adelaide,SA,,DOH,"Hamad International Airport",Doha,,Qatar,33,16544
+countryName:Australia,,Brisbane,QL,,NRT,Narita,Tokyo-Narita,,Japan,44,14053
+countryName:Australia,,Brisbane,QL,,WLG,"Wellington Intl",Wellington,,"New Zealand",75,13464
+countryName:Australia,,Brisbane,QL,,PVG,"Pudong International",Shanghai,,China,41,12218
+countryName:Australia,,Adelaide,SA,,NAN,"Nadi International",Nadi,,Fiji,59,11014
+countryName:Australia,,Brisbane,QL,,TPE,"Taiwan Taoyuan International Airport",Taipei,,Taiwan,31,9828
+countryName:Australia,,Brisbane,QL,,PEK,"Capital International",Beijing,,China,25,8767
+countryName:Australia,,Darwin,NT,,MNL,"Ninoy Aquino Intl",Manila,,Philippines,27,8690
+countryName:Australia,,Brisbane,QL,,HNL,"Honolulu Intl",Honolulu/Oahu,HI,"United States",25,8117
+countryName:Australia,,Brisbane,QL,,ZQN,Queenstown,Queenstown,,"New Zealand",40,7358
+countryName:Australia,,Brisbane,QL,,ICN,"Incheon International Airport",Seoul,,"South Korea",17,6895
+countryName:Australia,,Melbourne,VI,,SGN,"Tan Son Nhat International Airport","Ho Chi Minh City",,Vietnam,15,6794
+countryName:Australia,,Cairns,QL,,KIX,"Kansai International",Osaka-Kansai,,Japan,11,5878
+countryName:Australia,,Brisbane,QL,,POM,"Jackson Field","Port Moresby",,"Papua New Guinea",36,5852
+countryName:Australia,,Brisbane,QL,,YVR,"Vancouver Intl",Vancouver,BC,Canada,12,5543
+countryName:Australia,,Melbourne,VI,,CGK,"Soekarno-Hatta Intl",Jakarta,,Indonesia,18,5211
+countryName:Australia,,Sydney,NS,,HND,"Tokyo Intl (Haneda)",Tokyo-Haneda,,Japan,9,5000
+countryName:Australia,,Sydney,NS,,SFO,"San Francisco Intl","San Francisco",CA,"United States",9,4465
+countryName:Australia,,Perth,WA,,JNB,"O.R. Tambo International Airport",Johannesburg,,"South Africa",7,4178
+countryName:Australia,,Sydney,NS,,DFW,"Dallas/Ft Worth Intl","Dallas/Fort Worth",TX,"United States",1,3872
+countryName:Australia,,Brisbane,QL,,SZX,"Bao'an International",Shenzhen,,China,10,3152
+countryName:Australia,,Brisbane,QL,,VLI,"Bauerfield International","Port Vila",,Vanuatu,14,2779
+countryName:Australia,,Melbourne,VI,,SCL,"Arturo M Benitez",Santiago,,Chile,6,2686
+countryName:Australia,,Melbourne,VI,,HKT,"Phuket Intl",Phuket,,Thailand,5,2680
+countryName:Australia,,Brisbane,QL,,NOU,"La Tontouta",Noumea,,"New Caledonia",12,2280
+countryName:Australia,,Melbourne,VI,,CMB,"Bandaranaike Intl",Colombo,,"Sri Lanka",1,2176
+countryName:Australia,,Melbourne,VI,,TAO,"Liuting International",Qingdao,,China,6,2160
+countryName:Australia,,Melbourne,VI,,DEL,"Indira Gandhi Intl",Delhi,,India,6,2048
+countryName:Australia,,Melbourne,VI,,BWN,"Brunei International","Bandar Seri Begawan",,"Brunei Darussalam",1,2032
+countryName:Australia,,Sydney,NS,,IAH,"George Bush Intercontinental",Houston-Intercontinental,TX,"United States",1,1952
+countryName:Australia,,Perth,WA,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",1,1888
+countryName:Australia,,Melbourne,VI,,CTU,"Shuangliu International",Chengdu,,China,4,1761
+countryName:Australia,,Melbourne,VI,,XMN,"Gaoqi International",Xiamen,,China,5,1704
+countryName:Australia,,Melbourne,VI,,CKG,"Jiangbei International",Chongqing,,China,3,1602
+countryName:Australia,,Melbourne,VI,,HGH,"Xiaoshan International",Hangzhou,,China,5,1536
+countryName:Australia,,Sydney,NS,,HAN,"Noi Bai International",Hanoi,,Vietnam,1,1196
+countryName:Australia,,Sydney,NS,,HAK,"Meilan International",Haikou,,China,4,1192
+countryName:Australia,,Brisbane,QL,,HIR,"Honiara International","Honiara, Guadalcanal",,"Solomon Islands",8,1184
+countryName:Australia,,Sydney,NS,,FOC,"Changle International",Fuzhou,,China,1,1136
+countryName:Australia,,Perth,WA,,MRU,"Sir S. Ramgoolam International",Mauritius,,Mauritius,1,1100
+countryName:Australia,,Melbourne,VI,,CSX,"Huanghua International Airport",Changsha,,China,3,1040
+countryName:Australia,,Melbourne,VI,,XIY,"Xianyang International",Xi'an,,China,3,1040
+countryName:Australia,,Sydney,NS,,KMG,"Changshui International",Kunming,,China,1,968
+countryName:Australia,,Darwin,NT,,DIL,"Pres. Nicolau Lobato",Dili,,"East Timor",11,912
+countryName:Australia,,Brisbane,QL,,APW,"Faleolo Intl",Apia,,"Western Samoa",5,897
+countryName:Australia,,Brisbane,QL,,NLK,"Norfolk Island","Norfolk Island",,"Norfolk Island",4,850
+countryName:Australia,,Sydney,NS,,NKG,"Lukou International",Nanjing,,China,1,726
+countryName:Australia,,Brisbane,QL,,DUD,"Dunedin International",Dunedin,,"New Zealand",3,525
+countryName:Australia,,Sydney,NS,,TBU,Fua'Amotu,"Tongatapu, Tonga Isl",,Tonga,1,525
+countryName:Australia,,Sydney,NS,,CGO,"Xinzheng International",Zhengzhou,,China,1,520
+countryName:Australia,,Brisbane,QL,,INU,"Nauru Island Intl",Nauru,,Nauru,2,402
+countryName:Australia,,Sydney,NS,,RAR,"Rarotonga Island","Rarotonga Island",,"Cook Islands",1,312
+countryName:Australia,,Sydney,NS,,SUV,"Nausori International",Suva,,Fiji,1,244
+countryName:Australia,,Learmonth,WA,,XCH,"Christmas Island","Christmas Island",,"Christmas Island",2,198
+countryName:Australia,,Brisbane,QL,,SON,"Santo-Pekoa International",Luganville,,Vanuatu,1,189
+countryName:Australia,,Perth,WA,,BKI,"Kota Kinabalu International","Kota Kinabalu",,Malaysia,1,159
+countryName:Australia,,Perth,WA,,CCK,"Cocos Islands","Cocos-Keeling Is.",,"Cocos (Keeling) Islands",1,146

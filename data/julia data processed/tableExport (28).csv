@@ -1,0 +1,31 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Albania,,Tirana,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,31,5293
+countryName:Albania,,Tirana,,,MXP,Malpensa,Milan-Malpensa,,Italy,25,4744
+countryName:Albania,,Tirana,,,VRN,Verona,Verona,,Italy,13,2552
+countryName:Albania,,Tirana,,,VIE,"Vienna International",Vienna,,Austria,10,2436
+countryName:Albania,,Tirana,,,IST,Ataturk,Istanbul,,Turkey,9,2320
+countryName:Albania,,Tirana,,,BGY,"Bergamo/Orio Al Serio","Milan-Orio Serio",,Italy,9,2318
+countryName:Albania,,Tirana,,,BLQ,"Guglielmo Marconi",Bologna,,Italy,9,2318
+countryName:Albania,,Tirana,,,PSA,"Galileo Galilei",Pisa,,Italy,9,2318
+countryName:Albania,,Tirana,,,VCE,"Marco Polo",Venice,,Italy,8,2192
+countryName:Albania,,Tirana,,,FLR,Peretola,Florence,,Italy,6,1560
+countryName:Albania,,Tirana,,,ATH,"Eleftherios Venizelos Airport",Athens,,Greece,8,1302
+countryName:Albania,,Tirana,,,RMI,Miramare,Rimini,,Italy,5,1248
+countryName:Albania,,Tirana,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,7,1199
+countryName:Albania,,Tirana,,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",7,1008
+countryName:Albania,,Tirana,,,LJU,"Joze Pucnik",Ljubljana,,Slovenia,4,940
+countryName:Albania,,Tirana,,,PEG,"St. Francis of Assisi",Perugia,,Italy,4,936
+countryName:Albania,,Tirana,,,GOA,"Cristoforo Colombo",Genoa,,Italy,1,920
+countryName:Albania,,Tirana,,,AOI,Falconara,Ancona,,Italy,1,736
+countryName:Albania,,Tirana,,,TSF,Venice-Treviso,Venice-Treviso,,Italy,1,736
+countryName:Albania,,Tirana,,,BRI,"Palese Macchie",Bari,,Italy,1,736
+countryName:Albania,,Tirana,,,AMS,Schiphol,Amsterdam,,Netherlands,4,676
+countryName:Albania,,Tirana,,,LTN,"Luton International",London-Luton,EN,"United Kingdom",1,642
+countryName:Albania,,Tirana,,,BUD,"Liszt Ferenc International",Budapest,,Hungary,1,642
+countryName:Albania,,Tirana,,,BRU,"Brussels Airport",Brussels,,Belgium,5,634
+countryName:Albania,,Tirana,,,CUF,Levaldigi,Cuneo,,Italy,3,616
+countryName:Albania,,Tirana,,,MUC,"Franz Josef Strauss International",Munich,,Germany,1,572
+countryName:Albania,,Tirana,,,TRN,"Citta Di Torino",Turin,,Italy,1,552
+countryName:Albania,,Tirana,,,BEG,"Nikola Tesla Airport",Belgrade,,Serbia,5,476
+countryName:Albania,,Tirana,,,ORY,Orly,Paris-Orly,,France,2,378
+countryName:Albania,,Tirana,,,CGN,"Konrad Adenauer",Cologne-Bonn,,Germany,1,147

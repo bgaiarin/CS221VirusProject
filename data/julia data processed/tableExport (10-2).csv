@@ -1,0 +1,45 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Iraq,,Baghdad,,,IKA,"Imam Khomeini International",Tehran,,Iran,97,20741
+countryName:Iraq,,Baghdad,,,IST,Ataturk,Istanbul,,Turkey,99,19070
+countryName:Iraq,,Baghdad,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",59,14130
+countryName:Iraq,,Baghdad,,,DOH,"Hamad International Airport",Doha,,Qatar,81,12672
+countryName:Iraq,,Baghdad,,,MHD,"Shahid Hashemi Nejad",Mashhad,,Iran,60,11826
+countryName:Iraq,,Baghdad,,,BEY,"Rafic Hariri International",Beirut,,Lebanon,43,6647
+countryName:Iraq,,Baghdad,,,AMM,"Queen Alia Intl",Amman,,Jordan,39,5416
+countryName:Iraq,,Baghdad,,,DAM,"Damascus Intl",Damascus,,Syria,19,3509
+countryName:Iraq,,Baghdad,,,IFN,"Shahid Beheshti International Airport",Esfahan,,Iran,13,3494
+countryName:Iraq,,Baghdad,,,CAI,"Cairo Intl",Cairo,,Egypt,17,3426
+countryName:Iraq,,Baghdad,,,BAH,"Bahrain Intl",Bahrain,,Bahrain,13,2047
+countryName:Iraq,,Baghdad,,,SHJ,Sharjah,Sharjah,,"United Arab Emirates",10,1848
+countryName:Iraq,,"Al Najaf",,,KWI,"Kuwait Intl",Kuwait,,Kuwait,8,1408
+countryName:Iraq,,Baghdad,,,ESB,Esenboga,Ankara,,Turkey,7,1380
+countryName:Iraq,,Baghdad,,,SRY,"Dasht-e-Naz Airport",Sari,,Iran,5,1319
+countryName:Iraq,,Erbil,,,VIE,"Vienna International",Vienna,,Austria,5,1272
+countryName:Iraq,,Baghdad,,,GYD,"Heydar Aliyev",Baku,,Azerbaijan,5,993
+countryName:Iraq,,Baghdad,,,KER,Kerman,"Kerman, Iran",,Iran,4,924
+countryName:Iraq,,Baghdad,,,SAW,"Sabiha Gokcen","Sabiha Gokcen",,Turkey,5,836
+countryName:Iraq,,Baghdad,,,TBZ,"Tabriz International",Tabriz,,Iran,3,766
+countryName:Iraq,,Baghdad,,,CPH,Kastrup,Copenhagen,,Denmark,4,720
+countryName:Iraq,,"Al Najaf",,,MCT,"Seeb International",Muscat,,Oman,1,692
+countryName:Iraq,,"Al Najaf",,,KHI,"Jinnah Intl",Karachi,,Pakistan,4,676
+countryName:Iraq,,Baghdad,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,4,636
+countryName:Iraq,,Baghdad,,,ATH,"Eleftherios Venizelos Airport",Athens,,Greece,3,615
+countryName:Iraq,,Baghdad,,,DUS,"Duesseldorf International",Duesseldorf,,Germany,3,540
+countryName:Iraq,,Baghdad,,,DEL,"Indira Gandhi Intl",Delhi,,India,3,444
+countryName:Iraq,,"Al Najaf",,,BOM,"Mumbai (Chhatrapati Shivaji) International",Mumbai/Bombay,,India,1,440
+countryName:Iraq,,Baghdad,,,KUL,"Kuala Lumpur International Airport","Kuala Lumpur",,Malaysia,1,412
+countryName:Iraq,,Baghdad,,,SYZ,"Shahid Dastghaib International",Shiraz,,Iran,1,384
+countryName:Iraq,,Baghdad,,,AYT,Antalya,Antalya,,Turkey,1,360
+countryName:Iraq,,Baghdad,,,MMX,Sturup,Malmo-Sturup,,Sweden,2,360
+countryName:Iraq,,Baghdad,,,ADJ,"Marka International Airpot",Amman,,Jordan,1,334
+countryName:Iraq,,Baghdad,,,SSH,"Sharm el-Sheikh Interrnational","Sharm el-Sheikh",,Egypt,1,318
+countryName:Iraq,,Erbil,,,GZT,Oguzeli,Gaziantep,,Turkey,1,318
+countryName:Iraq,,Baghdad,,,VKO,Vnukovo,Moscow-Vnukovo,CF,"Russian Federation",1,296
+countryName:Iraq,,Baghdad,,,CAN,"Baiyun International",Guangzhou,,China,1,288
+countryName:Iraq,,Baghdad,,,AZD,"Shahid Sadooghi",Yazd,,Iran,1,271
+countryName:Iraq,,Baghdad,,,RAS,Sandra-e-Jangal,Rasht,,Iran,1,271
+countryName:Iraq,,Erbil,,,DIY,Diyarbakir,Diyarbakir,,Turkey,1,264
+countryName:Iraq,,Baghdad,,,ADU,Ardabil,Ardabil,,Iran,1,260
+countryName:Iraq,,Erbil,,,PRG,Ruzyne,Prague,,"Czech Republic",1,187
+countryName:Iraq,,Baghdad,,,TXL,Tegel,Berlin-Tegel,,Germany,1,180
+countryName:Iraq,,Baghdad,,,MSQ,"Minsk International",Minsk,,Belarus,1,148

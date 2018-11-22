@@ -1,0 +1,148 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Singapore,,Singapore,,,CGK,"Soekarno-Hatta Intl",Jakarta,,Indonesia,298,62399
+countryName:Singapore,,Singapore,,,KUL,"Kuala Lumpur International Airport","Kuala Lumpur",,Malaysia,318,57582
+countryName:Singapore,,Singapore,,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",156,43855
+countryName:Singapore,,Singapore,,,BKK,"Suvarnabhumi - New Bangkok International Airport",Bangkok,,Thailand,155,40213
+countryName:Singapore,,Singapore,,,MNL,"Ninoy Aquino Intl",Manila,,Philippines,131,35848
+countryName:Singapore,,Singapore,,,DPS,"Ngurah Rai",Denpasar-Bali,,Indonesia,133,28962
+countryName:Singapore,,Singapore,,,TPE,"Taiwan Taoyuan International Airport",Taipei,,Taiwan,81,23489
+countryName:Singapore,,Singapore,,,SYD,"Kingsford Smith",Sydney,NS,Australia,62,23280
+countryName:Singapore,,Singapore,,,SGN,"Tan Son Nhat International Airport","Ho Chi Minh City",,Vietnam,108,23183
+countryName:Singapore,,Singapore,,,MEL,"Melbourne Airport",Melbourne,VI,Australia,60,22782
+countryName:Singapore,,Singapore,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",49,21032
+countryName:Singapore,,Singapore,,,PVG,"Pudong International",Shanghai,,China,65,19304
+countryName:Singapore,,Singapore,,,PEN,"Penang International",Penang,,Malaysia,104,19001
+countryName:Singapore,,Singapore,,,ICN,"Incheon International Airport",Seoul,,"South Korea",56,18253
+countryName:Singapore,,Singapore,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",33,16280
+countryName:Singapore,,Singapore,,,HND,"Tokyo Intl (Haneda)",Tokyo-Haneda,,Japan,49,15912
+countryName:Singapore,,Singapore,,,HKT,"Phuket Intl",Phuket,,Thailand,88,14927
+countryName:Singapore,,Singapore,,,DMK,"Don Muang International Airport - formerly BKK",Bangkok,,Thailand,60,14215
+countryName:Singapore,,Singapore,,,PER,"Perth International",Perth,WA,Australia,52,13697
+countryName:Singapore,,Singapore,,,BNE,"Brisbane Intl",Brisbane,QL,Australia,41,13564
+countryName:Singapore,,Singapore,,,NRT,Narita,Tokyo-Narita,,Japan,41,13064
+countryName:Singapore,,Singapore,,,PEK,"Capital International",Beijing,,China,33,12680
+countryName:Singapore,,Singapore,,,CAN,"Baiyun International",Guangzhou,,China,57,12560
+countryName:Singapore,,Singapore,,,BOM,"Mumbai (Chhatrapati Shivaji) International",Mumbai/Bombay,,India,36,12517
+countryName:Singapore,,Singapore,,,DEL,"Indira Gandhi Intl",Delhi,,India,41,11968
+countryName:Singapore,,Singapore,,,MAA,"Chennai International Airport",Chennai,,India,44,11106
+countryName:Singapore,,Singapore,,,SUB,Juanda,Surabaya,,Indonesia,43,10164
+countryName:Singapore,,Singapore,,,CMB,"Bandaranaike Intl",Colombo,,"Sri Lanka",36,9848
+countryName:Singapore,,Singapore,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,17,9720
+countryName:Singapore,,Singapore,,,HAN,"Noi Bai International",Hanoi,,Vietnam,39,9258
+countryName:Singapore,,Singapore,,,RGN,"Yangon International",Yangon,,Myanmar,40,8559
+countryName:Singapore,,Singapore,,,DAC,"Hazrat Shahjalal International",Dhaka,,Bangladesh,35,8296
+countryName:Singapore,,Singapore,,,AKL,"Auckland Intl",Auckland,,"New Zealand",17,7960
+countryName:Singapore,,Singapore,,,DOH,"Hamad International Airport",Doha,,Qatar,17,7488
+countryName:Singapore,,Singapore,,,KNO,"Kuala Namu",Medan,,Indonesia,36,7428
+countryName:Singapore,,Singapore,,,BLR,"Kempegowda International",Bengaluru,,India,30,7196
+countryName:Singapore,,Singapore,,,AMS,Schiphol,Amsterdam,,Netherlands,12,6542
+countryName:Singapore,,Singapore,,,PNH,International,"Phnom Penh",,Cambodia,33,6228
+countryName:Singapore,,Singapore,,,ZRH,Zurich,Zurich,,Switzerland,9,6168
+countryName:Singapore,,Singapore,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,12,5913
+countryName:Singapore,,Singapore,,,KCH,"Kuching International",Kuching,,Malaysia,31,5848
+countryName:Singapore,,Singapore,,,KIX,"Kansai International",Osaka-Kansai,,Japan,14,5785
+countryName:Singapore,,Singapore,,,CEB,"Mactan International",Cebu,,Philippines,32,5541
+countryName:Singapore,,Singapore,,,SZX,"Bao'an International",Shenzhen,,China,27,5034
+countryName:Singapore,,Singapore,,,MLE,"Ibrahim Nasir International",Male,,Maldives,20,4598
+countryName:Singapore,,Singapore,,,USM,"Ko Samui","Ko Samui",,Thailand,25,4176
+countryName:Singapore,,Singapore,,,TRZ,Tiruchchirappalli,Tiruchchirappalli,,India,17,4160
+countryName:Singapore,,Singapore,,,IST,Ataturk,Istanbul,,Turkey,9,4120
+countryName:Singapore,,Singapore,,,SFO,"San Francisco Intl","San Francisco",CA,"United States",9,3976
+countryName:Singapore,,Singapore,,,XMN,"Gaoqi International",Xiamen,,China,24,3966
+countryName:Singapore,,Singapore,,,FOC,"Changle International",Fuzhou,,China,16,3786
+countryName:Singapore,,Singapore,,,MUC,"Franz Josef Strauss International",Munich,,Germany,11,3782
+countryName:Singapore,,Singapore,,,SZB,"Sultan Abdul Aziz Shah","Kuala Lumpur",,Malaysia,49,3744
+countryName:Singapore,,Singapore,,,BDO,"Husein Sastranegara",Bandung,,Indonesia,13,3360
+countryName:Singapore,,Singapore,,,BWN,"Brunei International","Bandar Seri Begawan",,"Brunei Darussalam",21,3322
+countryName:Singapore,,Singapore,,,LGK,"Langkawi International",Langkawi,,Malaysia,19,3234
+countryName:Singapore,,Singapore,,,CRK,"Clark Intl Airport",Angeles/Mabalacat,,Philippines,16,3223
+countryName:Singapore,,Singapore,,,HYD,"Rajiv Gandhi International",Hyderabad,,India,13,3184
+countryName:Singapore,,Singapore,,,IPH,"Sultan Azlan Shah",Ipoh,,Malaysia,21,3156
+countryName:Singapore,,Singapore,,,CTU,"Shuangliu International",Chengdu,,China,17,3040
+countryName:Singapore,,Singapore,,,HGH,"Xiaoshan International",Hangzhou,,China,8,2988
+countryName:Singapore,,Singapore,,,CNX,"Chiang Mai Intl","Chiang Mai",,Thailand,18,2858
+countryName:Singapore,,Singapore,,,KBV,"Krabi Airport",Krabi,,Thailand,9,2776
+countryName:Singapore,,Singapore,,,REP,"Angkor International","Siem Reap",,Cambodia,11,2760
+countryName:Singapore,,Singapore,,,CKG,"Jiangbei International",Chongqing,,China,9,2716
+countryName:Singapore,,Singapore,,,JOG,Adisutjipto,Yogyakarta,,Indonesia,9,2640
+countryName:Singapore,,Singapore,,,HDY,"Hat Yai International","Hat Yai",,Thailand,15,2557
+countryName:Singapore,,Singapore,,,BKI,"Kota Kinabalu International","Kota Kinabalu",,Malaysia,9,2530
+countryName:Singapore,,Singapore,,,HEL,Helsinki-Vantaa,Helsinki,,Finland,6,2480
+countryName:Singapore,,Singapore,,,ADL,"Adelaide International",Adelaide,SA,Australia,1,2280
+countryName:Singapore,,Singapore,,,FUK,Fukuoka,Fukuoka,,Japan,1,2280
+countryName:Singapore,,Singapore,,,NGO,"Chubu Centrair Intl",Nagoya,,Japan,1,2280
+countryName:Singapore,,Singapore,,,CHC,"Christchurch Intl",Christchurch,,"New Zealand",1,2240
+countryName:Singapore,,Singapore,,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",1,2224
+countryName:Singapore,,Singapore,,,NKG,"Lukou International",Nanjing,,China,2,2224
+countryName:Singapore,,Singapore,,,COK,"Kochi International Airport",Kochi,,India,14,2180
+countryName:Singapore,,Singapore,,,DAD,"Da Nang International","Da Nang",,Vietnam,8,2076
+countryName:Singapore,,Singapore,,,JNB,"O.R. Tambo International Airport",Johannesburg,,"South Africa",6,2024
+countryName:Singapore,,Singapore,,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",1,1952
+countryName:Singapore,,Singapore,,,TSN,"Binhai International",Tianjin,,China,7,1946
+countryName:Singapore,,Singapore,,,TAO,"Liuting International",Qingdao,,China,5,1946
+countryName:Singapore,,Singapore,,,MXP,Malpensa,Milan-Malpensa,,Italy,5,1771
+countryName:Singapore,,Singapore,,,MFM,"Macau International",Macau,,Macau,4,1738
+countryName:Singapore,,Singapore,,,HAK,"Meilan International",Haikou,,China,6,1735
+countryName:Singapore,,Singapore,,,CCU,"Subhas Chandra Bose Airport",Kolkata,,India,8,1646
+countryName:Singapore,,Singapore,,,ADD,"Bole International","Addis Ababa",,Ethiopia,1,1620
+countryName:Singapore,,Singapore,,,CJB,"Coimbatore International",Coimbatore,,India,7,1566
+countryName:Singapore,,Singapore,,,DME,Domodedovo,Moscow-Domodedovo,CF,"Russian Federation",1,1518
+countryName:Singapore,,Singapore,,,MAN,"Manchester Airport",Manchester,EN,"United Kingdom",1,1518
+countryName:Singapore,,Singapore,,,DRW,"Darwin International",Darwin,NT,Australia,6,1500
+countryName:Singapore,,Singapore,,,KLO,"Kalibo International",Kalibo,,Philippines,7,1491
+countryName:Singapore,,Singapore,,,PLM,"S M Badaruddin II",Palembang,,Indonesia,6,1489
+countryName:Singapore,,Singapore,,,KMG,"Changshui International",Kunming,,China,6,1472
+countryName:Singapore,,Singapore,,,PDG,Minangkabau,Padang,,Indonesia,1,1440
+countryName:Singapore,,Singapore,,,MYY,Miri,"Miri, Sarawak",,Malaysia,5,1440
+countryName:Singapore,,Singapore,,,AMD,"S. VallabhBhai Patel",Ahmedabad,,India,1,1425
+countryName:Singapore,,Singapore,,,CBR,Canberra,Canberra,AC,Australia,1,1400
+countryName:Singapore,,Singapore,,,OOL,Coolangatta,"Gold Coast",QL,Australia,1,1390
+countryName:Singapore,,Singapore,,,SHE,"Taoxian International",Shenyang,,China,1,1390
+countryName:Singapore,,Singapore,,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",4,1390
+countryName:Singapore,,Singapore,,,MRU,"Sir S. Ramgoolam International",Mauritius,,Mauritius,1,1375
+countryName:Singapore,,Singapore,,,CPH,Kastrup,Copenhagen,,Denmark,1,1375
+countryName:Singapore,,Singapore,,,WUH,"Tianhe International",Wuhan,,China,5,1344
+countryName:Singapore,,Singapore,,,SRG,"Ahmad Yani",Semarang,,Indonesia,5,1320
+countryName:Singapore,,Singapore,,,KHH,"Kaohsiung Intl",Kaohsiung,,Taiwan,3,1310
+countryName:Singapore,,Singapore,,,JJN,Jinjiang,Quanzhou,,China,4,1291
+countryName:Singapore,,Singapore,,,DUS,"Duesseldorf International",Duesseldorf,,Germany,1,1265
+countryName:Singapore,,Singapore,,,DVO,"Francisco Bangoy International",Davao,,Philippines,6,1200
+countryName:Singapore,,Singapore,,,PKU,"Sultan Syarif Kasim II",Pekanbaru,,Indonesia,7,1170
+countryName:Singapore,,Singapore,,,POM,"Jackson Field","Port Moresby",,"Papua New Guinea",6,1128
+countryName:Singapore,,Singapore,,,KTM,"Tribhuvan International",Kathmandu,,Nepal,5,1092
+countryName:Singapore,,Singapore,,,KUA,"Sultan Haji Ahmad Shah",Kuantan,,Malaysia,4,1077
+countryName:Singapore,,Singapore,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,4,1012
+countryName:Singapore,,Singapore,,,WAW,Okecie,Warsaw,,Poland,1,1008
+countryName:Singapore,,Singapore,,,HRB,"Taiping International","Harbin, P. R. China",,China,1,980
+countryName:Singapore,,Singapore,,,ATQ,"Sri Guru Ram Dass Jee",Amritsar,,India,2,980
+countryName:Singapore,,Singapore,,,IXM,Madurai,Madurai,,India,1,930
+countryName:Singapore,,Singapore,,,CSX,"Huanghua International Airport",Changsha,,China,4,900
+countryName:Singapore,,Singapore,,,CGO,"Xinzheng International",Zhengzhou,,China,1,835
+countryName:Singapore,,Singapore,,,WUX,"Sunan Shuofang",Wuxi,,China,1,835
+countryName:Singapore,,Singapore,,,XIY,"Xianyang International",Xi'an,,China,1,835
+countryName:Singapore,,Singapore,,,TRV,"Trivandrum International",Thiruvananthapuram,,India,4,834
+countryName:Singapore,,Singapore,,,NAN,"Nadi International",Nadi,,Fiji,3,819
+countryName:Singapore,,Singapore,,,CNS,"Cairns International",Cairns,QL,Australia,3,780
+countryName:Singapore,,Singapore,,,BPN,Sepinggan,Balikpapan,,Indonesia,4,750
+countryName:Singapore,,Singapore,,,JED,"King Abdulaziz Intl",Jeddah,,"Saudi Arabia",1,735
+countryName:Singapore,,Singapore,,,ATH,"Eleftherios Venizelos Airport",Athens,,Greece,1,735
+countryName:Singapore,,Singapore,,,BTU,"Bintulu Airport","Bintulu, Sarawak",,Malaysia,1,720
+countryName:Singapore,,Singapore,,,NNG,"Wuxu International",Nanning,,China,1,668
+countryName:Singapore,,Singapore,,,LKO,"Chaudhary Charan Singh",Lucknow,,India,1,668
+countryName:Singapore,,Singapore,,,JAI,"Jaipur International",Jaipur,,India,1,668
+countryName:Singapore,,Singapore,,,NGB,"Lishe International",Ningbo,,China,1,668
+countryName:Singapore,,Singapore,,,MDC,"Sam Ratulangi",Manado,,Indonesia,3,636
+countryName:Singapore,,Singapore,,,LOP,"Lombok International",Praya,,Indonesia,3,600
+countryName:Singapore,,Singapore,,,OKA,Naha,Okinawa,,Japan,1,540
+countryName:Singapore,,Singapore,,,SWA,"Jieyang Chaoshan",Shantou,,China,1,540
+countryName:Singapore,,Singapore,,,ILO,International,Iloilo,,Philippines,1,540
+countryName:Singapore,,Singapore,,,BCN,Barcelona,Barcelona,,Spain,1,506
+countryName:Singapore,,Singapore,,,TNA,"Yaoqiang International",Jinan,,China,1,501
+countryName:Singapore,,Singapore,,,HIJ,"Hiroshima Airport",Hiroshima,,Japan,1,468
+countryName:Singapore,,Singapore,,,UPG,"Sultan Hasanuddin",Makassar,,Indonesia,3,450
+countryName:Singapore,,Singapore,,,VTE,"Wattay Intl",Vientiane,,Laos,1,450
+countryName:Singapore,,Singapore,,,VTZ,Vishakhapatnam,Vishakhapatnam,,India,1,384
+countryName:Singapore,,Singapore,,,DIL,"Pres. Nicolau Lobato",Dili,,"East Timor",2,300
+countryName:Singapore,,Singapore,,,CTS,"New Chitose",Sapporo,,Japan,1,245
+countryName:Singapore,,Singapore,,,TAS,"Tashkent-Vostochny International",Tashkent,,Uzbekistan,1,227
+countryName:Singapore,,Singapore,,,MDL,"Mandalay International",Mandalay,,Myanmar,1,150

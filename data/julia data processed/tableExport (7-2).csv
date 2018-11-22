@@ -1,0 +1,18 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Belarus,,Minsk,,,SVO,Sheremetyevo,Moscow-Sheremetyevo,CF,"Russian Federation",57,8160
+countryName:Belarus,,Minsk,,,DME,Domodedovo,Moscow-Domodedovo,CF,"Russian Federation",49,7644
+countryName:Belarus,,Minsk,,,KBP,"Boryspil International",Kiev,,Ukraine,17,3184
+countryName:Belarus,,Minsk,,,VKO,Vnukovo,Moscow-Vnukovo,CF,"Russian Federation",9,1824
+countryName:Belarus,,Minsk,,,VIE,"Vienna International",Vienna,,Austria,4,1232
+countryName:Belarus,,Minsk,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,7,1000
+countryName:Belarus,,Minsk,,,IST,Ataturk,Istanbul,,Turkey,1,948
+countryName:Belarus,,Minsk,,,WAW,Okecie,Warsaw,,Poland,3,784
+countryName:Belarus,,Minsk,,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",1,408
+countryName:Belarus,,Minsk,,,SVX,"Koltsovo Airport",Yekaterinburg,UF,"Russian Federation",1,396
+countryName:Belarus,,Minsk,,,RIX,"Riga-Arpt Internaitonal",Riga,,Latvia,1,380
+countryName:Belarus,,Minsk,,,OZH,"Mokraya International",Zaporizhzhia,,Ukraine,1,312
+countryName:Belarus,,Minsk,,,TAS,"Tashkent-Vostochny International",Tashkent,,Uzbekistan,2,300
+countryName:Belarus,,Minsk,,,ASB,"Ashgabat International",Ashgabat,,Turkmenistan,2,288
+countryName:Belarus,,Minsk,,,BCN,Barcelona,Barcelona,,Spain,1,172
+countryName:Belarus,,Minsk,,,GYD,"Heydar Aliyev",Baku,,Azerbaijan,1,151
+countryName:Belarus,,Minsk,,,BGW,"Baghdad International Airport",Baghdad,,Iraq,1,148

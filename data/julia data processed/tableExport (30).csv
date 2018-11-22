@@ -1,0 +1,8 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Mauritania,,Nouadhibou,,,CMN,"Mohammed V",Casablanca,,Morocco,12,1170
+countryName:Mauritania,,Nouakchott,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,1,1040
+countryName:Mauritania,,Nouadhibou,,,LPA,"Gran Canaria","Gran Canaria",,Spain,11,910
+countryName:Mauritania,,Nouakchott,,,DKR,"Leopold Sedar Senghor",Dakar,,Senegal,8,846
+countryName:Mauritania,,Nouakchott,,,ALG,"Houari Boumediene",Algiers,,Algeria,4,476
+countryName:Mauritania,,Nouakchott,,,TUN,Carthage,Tunis,,Tunisia,1,426
+countryName:Mauritania,,Nouakchott,,,BKO,"Senou International",Bamako,,Mali,1,284

@@ -1,0 +1,78 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+"countryName:Saudi Arabia",,Abha,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",333,77488
+"countryName:Saudi Arabia",,Abha,,,CAI,"Cairo Intl",Cairo,,Egypt,352,74207
+"countryName:Saudi Arabia",,Jeddah,,,CGK,"Soekarno-Hatta Intl",Jakarta,,Indonesia,41,20906
+"countryName:Saudi Arabia",,Abha,,,SHJ,Sharjah,Sharjah,,"United Arab Emirates",119,20496
+"countryName:Saudi Arabia",,Dammam,,,IST,Ataturk,Istanbul,,Turkey,90,20000
+"countryName:Saudi Arabia",,Dammam,,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",97,19696
+"countryName:Saudi Arabia",,Dammam,,,MCT,"Seeb International",Muscat,,Oman,98,16987
+"countryName:Saudi Arabia",,Dammam,,,BAH,"Bahrain Intl",Bahrain,,Bahrain,115,16231
+"countryName:Saudi Arabia",,Dammam,,,AMM,"Queen Alia Intl",Amman,,Jordan,102,16146
+"countryName:Saudi Arabia",,Dammam,,,BOM,"Mumbai (Chhatrapati Shivaji) International",Mumbai/Bombay,,India,51,14738
+"countryName:Saudi Arabia",,Dammam,,,LHE,"Allama Iqbal Intl",Lahore,,Pakistan,49,13580
+"countryName:Saudi Arabia",,Dammam,,,HBE,"Borg el Arab Airport",Alexandria,,Egypt,84,13502
+"countryName:Saudi Arabia",,Dammam,,,ISB,"Benazir Bhutto Intl",Islamabad,,Pakistan,40,9793
+"countryName:Saudi Arabia",,Dammam,,,KHI,"Jinnah Intl",Karachi,,Pakistan,38,8653
+"countryName:Saudi Arabia",,Jeddah,,,KRT,"Khartoum Civil International",Khartoum,,Sudan,39,8542
+"countryName:Saudi Arabia",,Dammam,,,BEY,"Rafic Hariri International",Beirut,,Lebanon,47,8397
+"countryName:Saudi Arabia",,Dammam,,,DEL,"Indira Gandhi Intl",Delhi,,India,34,8238
+"countryName:Saudi Arabia",,Dammam,,,CMB,"Bandaranaike Intl",Colombo,,"Sri Lanka",25,8156
+"countryName:Saudi Arabia",,Jeddah,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",22,8113
+"countryName:Saudi Arabia",,Dammam,,,MNL,"Ninoy Aquino Intl",Manila,,Philippines,17,6579
+"countryName:Saudi Arabia",,Dammam,,,ADD,"Bole International","Addis Ababa",,Ethiopia,25,6326
+"countryName:Saudi Arabia",,Jeddah,,,SAW,"Sabiha Gokcen","Sabiha Gokcen",,Turkey,27,4996
+"countryName:Saudi Arabia",,Jeddah,,,PEW,"Bacha Khan Intl",Peshawar,,Pakistan,14,4899
+"countryName:Saudi Arabia",,Jeddah,,,KUL,"Kuala Lumpur International Airport","Kuala Lumpur",,Malaysia,10,4840
+"countryName:Saudi Arabia",,Dammam,,,COK,"Kochi International Airport",Kochi,,India,9,4408
+"countryName:Saudi Arabia",,Jeddah,,,MUX,"Multan International",Multan,,Pakistan,21,4349
+"countryName:Saudi Arabia",,Jeddah,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,10,4266
+"countryName:Saudi Arabia",,Jeddah,,,CMN,"Mohammed V",Casablanca,,Morocco,8,3813
+"countryName:Saudi Arabia",,Dammam,,,CCJ,"Calicut International",Calicut-Kozhikode,,India,16,3632
+"countryName:Saudi Arabia",,Gassim,,,HMB,"International Airport",Sohag,,Egypt,19,3166
+"countryName:Saudi Arabia",,Dammam,,,DAC,"Hazrat Shahjalal International",Dhaka,,Bangladesh,8,3003
+"countryName:Saudi Arabia",,Dammam,,,HYD,"Rajiv Gandhi International",Hyderabad,,India,4,2669
+"countryName:Saudi Arabia",,Dammam,,,TRV,"Trivandrum International",Thiruvananthapuram,,India,5,2528
+"countryName:Saudi Arabia",,Gassim,,,ATZ,Asyut,Asyut,,Egypt,14,2468
+"countryName:Saudi Arabia",,Jeddah,,,KNO,"Kuala Namu",Medan,,Indonesia,7,2234
+"countryName:Saudi Arabia",,Jeddah,,,SUB,Juanda,Surabaya,,Indonesia,6,2115
+"countryName:Saudi Arabia",,Jeddah,,,LYP,"Faisalabad International",Faisalabad,,Pakistan,11,1873
+"countryName:Saudi Arabia",,Dammam,,,SKT,"Sialkot International",Sialkot,,Pakistan,8,1854
+"countryName:Saudi Arabia",,Dammam,,,AMS,Schiphol,Amsterdam,,Netherlands,1,1656
+"countryName:Saudi Arabia",,Jeddah,,,HTY,"Hatay Airport",Hatay,,Turkey,6,1476
+"countryName:Saudi Arabia",,Jeddah,,,SSH,"Sharm el-Sheikh Interrnational","Sharm el-Sheikh",,Egypt,9,1402
+"countryName:Saudi Arabia",,Jeddah,,,TUN,Carthage,Tunis,,Tunisia,7,1342
+"countryName:Saudi Arabia",,Jeddah,,,BTJ,"Sultan Iskandar Muda","Banda Aceh",,Indonesia,4,1316
+"countryName:Saudi Arabia",,Jeddah,,,ESB,Esenboga,Ankara,,Turkey,8,1264
+"countryName:Saudi Arabia",,Jeddah,,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",4,1248
+"countryName:Saudi Arabia",,Jeddah,,,RKT,"Ras Al Khaimah Intl","Ras Al Khaimah",,"United Arab Emirates",3,1176
+"countryName:Saudi Arabia",,Jeddah,,,ATH,"Eleftherios Venizelos Airport",Athens,,Greece,3,1168
+"countryName:Saudi Arabia",,Jeddah,,,CGP,"Shah Amanat International Airport",Chittagong,,Bangladesh,1,1110
+"countryName:Saudi Arabia",,Jeddah,,,IAD,"Dulles International",Washington-Dulles,VA,"United States",3,990
+"countryName:Saudi Arabia",,Riyadh,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,2,954
+"countryName:Saudi Arabia",,Jeddah,,,UPG,"Sultan Hasanuddin",Makassar,,Indonesia,2,880
+"countryName:Saudi Arabia",,Jeddah,,,ASM,"Asmara International",Asmara,,Eritrea,1,820
+"countryName:Saudi Arabia",,Jeddah,,,LXR,"Luxor International Airport",Luxor,,Egypt,1,820
+"countryName:Saudi Arabia",,Dammam,,,IXE,"Mangalore Airport",Mangalore,,India,2,744
+"countryName:Saudi Arabia",,Jeddah,,,ZYL,"Osmani International",Sylhet,,Bangladesh,1,740
+"countryName:Saudi Arabia",,Jeddah,,,SIN,Changi,Singapore,,Singapore,1,735
+"countryName:Saudi Arabia",,Jeddah,,,MXP,Malpensa,Milan-Malpensa,,Italy,2,660
+"countryName:Saudi Arabia",,Riyadh,,,MLE,"Ibrahim Nasir International",Male,,Maldives,1,660
+"countryName:Saudi Arabia",,Riyadh,,,MUC,"Franz Josef Strauss International",Munich,,Germany,1,657
+"countryName:Saudi Arabia",,Jeddah,,,NBO,"Jomo Kenyatta Intl",Nairobi,,Kenya,4,618
+"countryName:Saudi Arabia",,Jeddah,,,PKU,"Sultan Syarif Kasim II",Pekanbaru,,Indonesia,2,540
+"countryName:Saudi Arabia",,Dammam,,,MAA,"Chennai International Airport",Chennai,,India,1,522
+"countryName:Saudi Arabia",,Jeddah,,,JNB,"O.R. Tambo International Airport",Johannesburg,,"South Africa",1,522
+"countryName:Saudi Arabia",,Dammam,,,KTM,"Tribhuvan International",Kathmandu,,Nepal,1,462
+"countryName:Saudi Arabia",,Jeddah,,,BPN,Sepinggan,Balikpapan,,Indonesia,1,440
+"countryName:Saudi Arabia",,Jeddah,,,SOC,"Adi Sumarmo","Surakarta (Solo)",,Indonesia,2,360
+"countryName:Saudi Arabia",,Jeddah,,,BDO,"Husein Sastranegara",Bandung,,Indonesia,2,360
+"countryName:Saudi Arabia",,Jeddah,,,PDG,Minangkabau,Padang,,Indonesia,1,360
+"countryName:Saudi Arabia",,Madinah,,,MIR,Skanes,Monastir,,Tunisia,1,358
+"countryName:Saudi Arabia",,Jeddah,,,ADA,"Adana Sakirpasa",Adana,,Turkey,1,328
+"countryName:Saudi Arabia",,Jeddah,,,ASW,International,Aswan,,Egypt,1,328
+"countryName:Saudi Arabia",,Riyadh,,,TZX,Trabzon,Trabzon,,Turkey,1,328
+"countryName:Saudi Arabia",,Jeddah,,,KDH,"Kandahar International",Kandahar,,Afghanistan,1,310
+"countryName:Saudi Arabia",,Jeddah,,,PLM,"S M Badaruddin II",Palembang,,Indonesia,1,180
+"countryName:Saudi Arabia",,Jeddah,,,DJE,Zarsis,Djerba,,Tunisia,1,179
+"countryName:Saudi Arabia",,Jeddah,,,KBL,"Kabul International",Kabul,,Afghanistan,1,148
+"countryName:Saudi Arabia",,Jeddah,,,HGA,"Egal International",Hargeisa,,Somalia,1,146

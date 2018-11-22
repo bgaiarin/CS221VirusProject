@@ -1,0 +1,16 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Gabon,,Libreville,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,4,2705
+countryName:Gabon,,Libreville,,,ABJ,"Felix Houphouet Boigny",Abidjan,,"Ivory Coast (Cote d'Ivoire)",8,1276
+countryName:Gabon,,Libreville,,,COO,Cadjehoun,Cotonou,,Benin,8,1224
+countryName:Gabon,,Libreville,,,DLA,"Douala International",Douala,,Cameroon,10,1127
+countryName:Gabon,,Libreville,,,IST,Ataturk,Istanbul,,Turkey,1,960
+countryName:Gabon,,Libreville,,,BZV,"Maya Maya",Brazzaville,,Congo,6,946
+countryName:Gabon,,Libreville,,,PNR,"Pointe Noire","Pointe Noire",,Congo,8,746
+countryName:Gabon,,Libreville,,,LFW,"G. Eyadema International",Lome,,Togo,5,737
+countryName:Gabon,,Libreville,,,KGL,"Kigali International Airport",Kigali,,Rwanda,1,480
+countryName:Gabon,,Libreville,,,NSI,"Nsimalen Intl",Yaounde,,Cameroon,4,469
+countryName:Gabon,,Libreville,,,CMN,"Mohammed V",Casablanca,,Morocco,2,444
+countryName:Gabon,,Libreville,,,FIH,"N'Djili International",Kinshasa,,"Democratic Republic of the Congo",1,268
+countryName:Gabon,,Libreville,,,BKO,"Senou International",Bamako,,Mali,1,256
+countryName:Gabon,,Libreville,,,TMS,"Sao Tome International Airport","Sao Tome",,"Sao Tome and Principe",2,210
+countryName:Gabon,,Libreville,,,LOS,"Murtala Muhammed International",Lagos,,Nigeria,1,134

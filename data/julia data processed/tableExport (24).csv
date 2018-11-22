@@ -1,0 +1,8 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Vanuatu,,Luganville,,,BNE,"Brisbane Intl",Brisbane,QL,Australia,9,1645
+countryName:Vanuatu,,"Port Vila",,,SYD,"Kingsford Smith",Sydney,NS,Australia,5,1323
+countryName:Vanuatu,,"Port Vila",,,AKL,"Auckland Intl",Auckland,,"New Zealand",4,756
+countryName:Vanuatu,,"Port Vila",,,NOU,"La Tontouta",Noumea,,"New Caledonia",5,659
+countryName:Vanuatu,,"Port Vila",,,HIR,"Honiara International","Honiara, Guadalcanal",,"Solomon Islands",2,650
+countryName:Vanuatu,,"Port Vila",,,NAN,"Nadi International",Nadi,,Fiji,8,639
+countryName:Vanuatu,,"Port Vila",,,SUV,"Nausori International",Suva,,Fiji,3,213

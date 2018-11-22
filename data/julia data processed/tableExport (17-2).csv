@@ -1,0 +1,16 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Namibia,,Windhoek,,,JNB,"O.R. Tambo International Airport",Johannesburg,,"South Africa",56,6930
+countryName:Namibia,,Windhoek,,,CPT,"Cape Town Intl.","Cape Town",,"South Africa",45,3265
+countryName:Namibia,,Windhoek,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,1,1952
+countryName:Namibia,,Windhoek,,,LAD,"4 De Fevereiro",Luanda,,Angola,7,1616
+countryName:Namibia,,Windhoek,,,DOH,"Hamad International Airport",Doha,,Qatar,1,1560
+countryName:Namibia,,Windhoek,,,ADD,"Bole International","Addis Ababa",,Ethiopia,1,1350
+countryName:Namibia,,Windhoek,,,MUC,"Franz Josef Strauss International",Munich,,Germany,1,620
+countryName:Namibia,,Windhoek,,,GBE,"Sir Seretse Khama Intl",Gaborone,,Botswana,1,560
+countryName:Namibia,,Windhoek,,,LOS,"Murtala Muhammed International",Lagos,,Nigeria,1,560
+countryName:Namibia,,Windhoek,,,CGN,"Konrad Adenauer",Cologne-Bonn,,Germany,1,310
+countryName:Namibia,,Windhoek,,,SDD,Mukanka,Lubango,,Angola,1,240
+countryName:Namibia,,Windhoek,,,HRE,"Harare International",Harare,,Zimbabwe,1,185
+countryName:Namibia,,Windhoek,,,LUN,"Lusaka Intl",Lusaka,,Zambia,1,185
+countryName:Namibia,,Windhoek,,,VFA,"Victoria Falls International","Victoria Falls",,Zimbabwe,1,185
+countryName:Namibia,,Windhoek,,,HLE,"Saint Helena",Jamestown,,"Saint Helena",1,101

@@ -1,0 +1,20 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+"countryName:Trinidad and Tobago",,"Port of Spain",,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",33,5788
+"countryName:Trinidad and Tobago",,"Port of Spain",,,MIA,"Miami International",Miami,FL,"United States",19,3984
+"countryName:Trinidad and Tobago",,"Port of Spain",,,GEO,"Cheddi Jagan International",Georgetown,,Guyana,17,3696
+"countryName:Trinidad and Tobago",,"Port of Spain",,,BGI,"Grantley Adams International",Bridgetown,,Barbados,23,2977
+"countryName:Trinidad and Tobago",,"Port of Spain",,,YYZ,"Lester B. Pearson Intl",Toronto,ON,Canada,13,2266
+"countryName:Trinidad and Tobago",,"Port of Spain",,,FLL,"Ft Lauderdale Intl","Fort Lauderdale",FL,"United States",11,2124
+"countryName:Trinidad and Tobago",,"Port of Spain",,,GND,"Maurice Bishop International",Grenada,,"Grenada and South Grenadines",25,1972
+"countryName:Trinidad and Tobago",,"Port of Spain",,,SVD,"E T Joshua","St. Vincent",,"Saint Vincent and Grenadines",22,1972
+"countryName:Trinidad and Tobago",,"Port of Spain",,,PBM,"Johan A. Pengel Intl",Paramaribo,,Suriname,8,1676
+"countryName:Trinidad and Tobago",,"Port of Spain",,,PTY,"Tocumen Intl, Panama R","Panama City",,Panama,9,1438
+"countryName:Trinidad and Tobago",,"Port of Spain",,,UVF,"Hewanorra Intl","St. Lucia-Vieux Fort",,"Saint Lucia",2,1320
+"countryName:Trinidad and Tobago",,"Port of Spain",,,IAH,"George Bush Intercontinental",Houston-Intercontinental,TX,"United States",1,1272
+"countryName:Trinidad and Tobago",,"Port of Spain",,,ANU,"V C Bird Intl",Antigua,,"Antigua and Barbuda",3,836
+"countryName:Trinidad and Tobago",,"Port of Spain",,,CCS,"Simon Bolivar International",Caracas,,Venezuela,6,566
+"countryName:Trinidad and Tobago",,"Port of Spain",,,SLU,"George F.L. Charles","St. Lucia-Castries",,"Saint Lucia",1,544
+"countryName:Trinidad and Tobago",,"Port of Spain",,,SXM,"Prinses Juliana International","St. Maarten",,"Sint Maarten",1,462
+"countryName:Trinidad and Tobago",,"Port of Spain",,,KIN,"Norman Manley Intl",Kingston,,Jamaica,1,462
+"countryName:Trinidad and Tobago",,"Port of Spain",,,CUR,"Hato International",Curacao,,Curacao,1,444
+"countryName:Trinidad and Tobago",,"Port of Spain",,,MCO,"Orlando Intl",Orlando,FL,"United States",1,308

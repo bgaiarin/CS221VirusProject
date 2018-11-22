@@ -1,0 +1,158 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Greece,,Athens,,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",103,20723
+countryName:Greece,,Athens,,,LCA,Larnaca,Larnaca,,Cyprus,126,20586
+countryName:Greece,,Athens,,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,96,17692
+countryName:Greece,,Athens,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,78,16114
+countryName:Greece,,Athens,,,MUC,"Franz Josef Strauss International",Munich,,Germany,84,15535
+countryName:Greece,,Athens,,,DUS,"Duesseldorf International",Duesseldorf,,Germany,68,13055
+countryName:Greece,,Athens,,,MAN,"Manchester Airport",Manchester,EN,"United Kingdom",50,10944
+countryName:Greece,,Athens,,,AMS,Schiphol,Amsterdam,,Netherlands,53,10940
+countryName:Greece,,Athens,,,IST,Ataturk,Istanbul,,Turkey,60,9909
+countryName:Greece,,Athens,,,STR,"Echterdingen Airport",Stuttgart,,Germany,52,8975
+countryName:Greece,,Athens,,,SVO,Sheremetyevo,Moscow-Sheremetyevo,CF,"Russian Federation",53,8825
+countryName:Greece,,Athens,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",40,8757
+countryName:Greece,,Athens,,,TLV,"Ben Gurion Intl","Tel Aviv-Yafo",,Israel,48,8732
+countryName:Greece,,Athens,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,42,8425
+countryName:Greece,,Athens,,,ORY,Orly,Paris-Orly,,France,43,8127
+countryName:Greece,,Athens,,,STN,Stansted,London-Stansted,EN,"United Kingdom",38,8098
+countryName:Greece,,Athens,,,BGY,"Bergamo/Orio Al Serio","Milan-Orio Serio",,Italy,42,7858
+countryName:Greece,,Athens,,,ZRH,Zurich,Zurich,,Switzerland,36,7539
+countryName:Greece,,Athens,,,VIE,"Vienna International",Vienna,,Austria,40,7218
+countryName:Greece,,Athens,,,SXF,Schoenefeld,Berlin-Schoenefeld,,Germany,36,7081
+countryName:Greece,,Athens,,,OTP,"Otopeni International",Bucharest,,Romania,44,7041
+countryName:Greece,,Karpathos,,,CGN,"Konrad Adenauer",Cologne-Bonn,,Germany,41,7014
+countryName:Greece,,Athens,,,LTN,"Luton International",London-Luton,EN,"United Kingdom",21,5709
+countryName:Greece,,Athens,,,BLQ,"Guglielmo Marconi",Bologna,,Italy,31,5669
+countryName:Greece,,Athens,,,MXP,Malpensa,Milan-Malpensa,,Italy,28,5115
+countryName:Greece,,Athens,,,SOF,Sofia-Vrazhdebna,Sofia,,Bulgaria,26,4772
+countryName:Greece,,Athens,,,TXL,Tegel,Berlin-Tegel,,Germany,25,4722
+countryName:Greece,,Athens,,,BRS,Bristol/Lulsgate,Bristol,EN,"United Kingdom",22,4439
+countryName:Greece,,Athens,,,DOH,"Hamad International Airport",Doha,,Qatar,17,4384
+countryName:Greece,,Athens,,,HAJ,Hannover,Hannover,,Germany,22,4149
+countryName:Greece,,Athens,,,CRL,"Brussels S. Charleroi",Brussels,,Belgium,16,3969
+countryName:Greece,,Athens,,,BRU,"Brussels Airport",Brussels,,Belgium,15,3793
+countryName:Greece,,Athens,,,BUD,"Liszt Ferenc International",Budapest,,Hungary,19,3790
+countryName:Greece,,Athens,,,CIA,Ciampino,Rome-Ciampino,,Italy,20,3780
+countryName:Greece,,Athens,,,HAM,Hamburg,Hamburg,,Germany,21,3709
+countryName:Greece,,Athens,,,PFO,"Paphos International",Paphos,,Cyprus,19,3630
+countryName:Greece,,Athens,,,BCN,Barcelona,Barcelona,,Spain,13,3563
+countryName:Greece,,Athens,,,CPH,Kastrup,Copenhagen,,Denmark,13,3477
+countryName:Greece,,Athens,,,CAI,"Cairo Intl",Cairo,,Egypt,14,3364
+countryName:Greece,,Kerkyra,,,BHX,"Birmingham Airport",Birmingham,EN,"United Kingdom",15,3363
+countryName:Greece,,Athens,,,NUE,Nuremberg,Nuremberg,,Germany,19,3272
+countryName:Greece,,Athens,,,ARN,Arlanda,Stockholm-Arlanda,,Sweden,14,2966
+countryName:Greece,,Athens,,,EWR,"Newark Intl",Newark,NJ,"United States",1,2904
+countryName:Greece,,Athens,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",1,2904
+countryName:Greece,,Kerkyra,,,EMA,"East Midlands","East Midlands",EN,"United Kingdom",12,2692
+countryName:Greece,,Athens,,,EIN,Eindhoven,Eindhoven,,Netherlands,14,2646
+countryName:Greece,,Athens,,,GVA,"Geneva International Airport",Geneva,,Switzerland,12,2610
+countryName:Greece,,Athens,,,MAD,"Adolfo Suarez-Barajas",Madrid,,Spain,6,2488
+countryName:Greece,,Athens,,,LYS,Satolas,Lyon,,France,12,2363
+countryName:Greece,,Athens,,,WMI,Modlin,"Nowy Dwor Mazowiecki",,Poland,12,2268
+countryName:Greece,,Athens,,,NTE,"Chateau Bougon",Nantes,,France,13,2265
+countryName:Greece,,Athens,,,BEG,"Nikola Tesla Airport",Belgrade,,Serbia,12,2262
+countryName:Greece,,Athens,,,VNO,"Vilnius International",Vilnius,,Lithuania,11,2109
+countryName:Greece,,Kerkyra,,,NCL,"Newcastle International Airport",Newcastle,EN,"United Kingdom",9,2060
+countryName:Greece,,Athens,,,KBP,"Boryspil International",Kiev,,Ukraine,9,1979
+countryName:Greece,,Athens,,,EDI,Turnhouse,Edinburgh,SC,"United Kingdom",8,1753
+countryName:Greece,,Athens,,,WAW,Okecie,Warsaw,,Poland,10,1738
+countryName:Greece,,Athens,,,BSL,"EuroAirport Swiss CH",Basel/Mulhouse,,Switzerland,10,1716
+countryName:Greece,,Athens,,,DUB,"Dublin International",Dublin,,Ireland,9,1671
+countryName:Greece,,Athens,,,DME,Domodedovo,Moscow-Domodedovo,CF,"Russian Federation",6,1566
+countryName:Greece,,Athens,,,BEY,"Rafic Hariri International",Beirut,,Lebanon,10,1548
+countryName:Greece,,Kerkyra,,,NRN,Nordrhein-Westfale,Nordrhein-Westfale,,Germany,8,1512
+countryName:Greece,,Athens,,,KTW,Pyrzowice,Katowice,,Poland,5,1422
+countryName:Greece,,Athens,,,DRS,Dresden,Dresden,,Germany,9,1331
+countryName:Greece,,Athens,,,TIA,Rinas,Tirana,,Albania,8,1302
+countryName:Greece,,Athens,,,MRS,Marignane,Marseille,,France,8,1245
+countryName:Greece,,Kerkyra,,,LBA,"Leeds/Bradford Airport",Leeds/Bradford,EN,"United Kingdom",5,1240
+countryName:Greece,,Athens,,,PRG,Ruzyne,Prague,,"Czech Republic",7,1218
+countryName:Greece,,Athens,,,JED,"King Abdulaziz Intl",Jeddah,,"Saudi Arabia",5,1168
+countryName:Greece,,Athens,,,FMM,"Allgaeu Airport",Memmingen,,Germany,5,1134
+countryName:Greece,,Athens,,,AMM,"Queen Alia Intl",Amman,,Jordan,7,1118
+countryName:Greece,,Athens,,,LIN,Linate,Milan-Linate,,Italy,1,1104
+countryName:Greece,,Athens,,,KRK,"John Paul Ii Balice In",Krakow,,Poland,6,1104
+countryName:Greece,,Athens,,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",1,1088
+countryName:Greece,,Athens,,,BRE,Bremen,Bremen,,Germany,7,1078
+countryName:Greece,,Athens,,,HEL,Helsinki-Vantaa,Helsinki,,Finland,5,1052
+countryName:Greece,,Athens,,,LIS,Lisboa,Lisbon,,Portugal,6,1044
+countryName:Greece,,Athens,,,NAP,Capodichino,Naples,,Italy,5,1038
+countryName:Greece,,Irakleion,,,ERF,Erfurt-Weimar,Erfurt,,Germany,7,1036
+countryName:Greece,,Kerkyra,,,LED,Pulkovo,"St. Petersburg",NF,"Russian Federation",6,1009
+countryName:Greece,,Kerkyra,,,GLA,"Glasgow International",Glasgow,SC,"United Kingdom",5,986
+countryName:Greece,,Athens,,,BOD,Merignac,Bordeaux,,France,5,982
+countryName:Greece,,Kerkyra,,,CWL,Cardiff-Wales,Cardiff,WL,"United Kingdom",4,968
+countryName:Greece,,Kerkyra,,,NWI,"Norwich International Airport",Norwich,EN,"United Kingdom",4,968
+countryName:Greece,,Athens,,,TLS,Blagnac,Toulouse,,France,6,951
+countryName:Greece,,Athens,,,BTS,"M.R. Stefanik",Bratislava,,Slovakia,4,945
+countryName:Greece,,"Chania, Crete",,,HHN,Frankfurt-Hahn,Hahn,,Germany,5,945
+countryName:Greece,,Rhodes,,,NYO,"Stockholm Skavsta",Nykoping,,Sweden,5,945
+countryName:Greece,,Rhodes,,,LPL,"John Lennon Airport",Liverpool,EN,"United Kingdom",4,915
+countryName:Greece,,Kerkyra,,,SZG,Salzburg,Salzburg,,Austria,6,900
+countryName:Greece,,Athens,,,KUT,Kutaisi,Kutaisi,,Georgia,3,856
+countryName:Greece,,Athens,,,PEK,"Capital International",Beijing,,China,1,849
+countryName:Greece,,Athens,,,CMN,"Mohammed V",Casablanca,,Morocco,1,820
+countryName:Greece,,Athens,,,FKB,"Baden Airpark","Karlsruhe/Baden Baden",,Germany,4,756
+countryName:Greece,,Athens,,,WRO,Strachowice,Wroclaw,,Poland,3,756
+countryName:Greece,,Kerkyra,,,TSF,Venice-Treviso,Venice-Treviso,,Italy,4,756
+countryName:Greece,,Athens,,,KIV,"Kishinev International",Kishinev,,Moldova,4,751
+countryName:Greece,,"Chania, Crete",,,GOT,"Goteborg-Landvetter Airport",Goteborg,,Sweden,3,734
+countryName:Greece,,Athens,,,VCE,"Marco Polo",Venice,,Italy,4,696
+countryName:Greece,,Athens,,,TBS,"Novo Alexeyevka International",Tbilisi,,Georgia,1,696
+countryName:Greece,,Athens,,,TLL,"Lennart Meri",Tallinn,,Estonia,2,695
+countryName:Greece,,Athens,,,MLA,"Luqa International",Malta,,Malta,3,690
+countryName:Greece,,Athens,,,CLJ,Napoca,Cluj-Napoca,,Romania,1,642
+countryName:Greece,,Athens,,,BAH,"Bahrain Intl",Bahrain,,Bahrain,4,615
+countryName:Greece,,Athens,,,POZ,Lawica,Poznan,,Poland,2,567
+countryName:Greece,,Athens,,,RZE,Jasionka,Rzeszow,,Poland,2,567
+countryName:Greece,,Thessaloniki,,,BVA,Beauvais-Tille,Paris,,France,3,567
+countryName:Greece,,Irakleion,,,FMO,"Osnabruck International",Muenster,,Germany,4,560
+countryName:Greece,,Athens,,,NCE,"Cote D'Azur",Nice,,France,3,522
+countryName:Greece,,Athens,,,EVN,"Zvartnots International Airport",Yerevan,,Armenia,1,522
+countryName:Greece,,Athens,,,IKA,"Imam Khomeini International",Tehran,,Iran,1,522
+countryName:Greece,,Thessaloniki,,,OVB,Tolmachevo,Novosibirsk,IF,"Russian Federation",3,519
+countryName:Greece,,Irakleion,,,FDH,Friedrichshafen,Friedrichshafen,,Germany,3,495
+countryName:Greece,,Athens,,,SIN,Changi,Singapore,,Singapore,1,490
+countryName:Greece,,Kerkyra,,,ROV,Rostov,Rostov,SF,"Russian Federation",3,490
+countryName:Greece,,Kerkyra,,,DSA,"Robin Hood",Doncaster/Sheffield,EN,"United Kingdom",2,484
+countryName:Greece,,Kerkyra,,,KRR,Krasnodar,Krasnodar,SF,"Russian Federation",3,461
+countryName:Greece,,Thessaloniki,,,IAS,Iasi,Iasi,,Romania,1,428
+countryName:Greece,,Athens,,,EBL,"Erbil International Airport",Erbil,,Iraq,1,410
+countryName:Greece,,Athens,,,KRT,"Khartoum Civil International",Khartoum,,Sudan,1,410
+countryName:Greece,,Athens,,,IEV,"Zhuliany International",Kiev-Metro,,Ukraine,3,408
+countryName:Greece,,Athens,,,GDN,"Gdansk Lech Walesa",Gdansk,,Poland,1,378
+countryName:Greece,,Athens,,,LPP,Lappeenranta,Lappeenranta,,Finland,1,378
+countryName:Greece,,"Chania, Crete",,,PSA,"Galileo Galilei",Pisa,,Italy,2,378
+countryName:Greece,,Thessaloniki,,,DTM,"Dortmund Airport",Dortmund,,Germany,2,378
+countryName:Greece,,Thessaloniki,,,GRO,"Costa Brava",Gerona,,Spain,2,378
+countryName:Greece,,Irakleion,,,LEJ,Leipzig,Leipzig,,Germany,2,372
+countryName:Greece,,Athens,,,LUX,Findel,Luxembourg,,Luxembourg,2,348
+countryName:Greece,,Thessaloniki,,,KUF,Kurumoch,Samara,VF,"Russian Federation",1,346
+countryName:Greece,,Thessaloniki,,,SVX,"Koltsovo Airport",Yekaterinburg,UF,"Russian Federation",1,346
+countryName:Greece,,Irakleion,,,ETZ,Lorraine,Metz/Nancy,,France,2,341
+countryName:Greece,,Kerkyra,,,LNZ,"Blue Danube",Linz,,Austria,2,339
+countryName:Greece,,Athens,,,DBV,Dubrovnik,Dubrovnik,,Croatia,2,312
+countryName:Greece,,Athens,,,HBE,"Borg el Arab Airport",Alexandria,,Egypt,2,304
+countryName:Greece,,Kerkyra,,,RIX,"Riga-Arpt Internaitonal",Riga,,Latvia,2,288
+countryName:Greece,,Thessaloniki,,,LWO,"Lviv International",Lviv,,Ukraine,1,288
+countryName:Greece,,Irakleion,,,RLG,Laage,Rostock-Laage,,Germany,1,280
+countryName:Greece,,Kerkyra,,,ABZ,Dyce,Aberdeen,SC,"United Kingdom",1,242
+countryName:Greece,,Kerkyra,,,EXT,Exeter,Exeter,EN,"United Kingdom",1,242
+countryName:Greece,,Rhodes,,,BOH,"Bournemouth/Hurn International",Bournemouth,EN,"United Kingdom",1,242
+countryName:Greece,,Athens,,,CTA,Fontanarossa,Catania,,Italy,1,234
+countryName:Greece,,Athens,,,BGW,"Baghdad International Airport",Baghdad,,Iraq,1,205
+countryName:Greece,,Athens,,,BLL,Billund,Billund,,Denmark,1,189
+countryName:Greece,,Athens,,,LCJ,"Lodz Lublinek Airport",Lodz,,Poland,1,189
+countryName:Greece,,Irakleion,,,GRQ,Eelde,Groningen,,Netherlands,1,189
+countryName:Greece,,Rhodes,,,KUN,"Kaunas International",Kaunas,,Lithuania,1,189
+countryName:Greece,,Irakleion,,,LIL,Lesquin,Lille,,France,1,185
+countryName:Greece,,Irakleion,,,BES,Bretagne,Brest,,France,1,174
+countryName:Greece,,Irakleion,,,DOL,"St Gatien",Deauville,,France,1,174
+countryName:Greece,,Thessaloniki,,,KZN,"Kazan International",Kazan,VF,"Russian Federation",1,173
+countryName:Greece,,Thessaloniki,,,UFA,Ufa,Ufa,VF,"Russian Federation",1,173
+countryName:Greece,,Irakleion,,,GRZ,Graz,Graz,,Austria,1,150
+countryName:Greece,,Irakleion,,,RTM,"Rotterdam Airport",Rotterdam,,Netherlands,1,149
+countryName:Greece,,Thessaloniki,,,ODS,"Odesa International",Odesa,,Ukraine,1,144
+countryName:Greece,,Thessaloniki,,,MRV,"Mineral Nyye Vody","Mineralnye Vody",SF,"Russian Federation",1,144
+countryName:Greece,,Thessaloniki,,,DNK,"Dnipropetrovsk International",Dnipropetrovsk,,Ukraine,1,144
+countryName:Greece,,Thessaloniki,,,VOZ,Voronezh,Voronezh,CF,"Russian Federation",1,144

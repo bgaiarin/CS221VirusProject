@@ -1,0 +1,139 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+"countryName:Russian Federation",,Chelyabinsk,UF,,DXB,"Dubai International",Dubai,,"United Arab Emirates",130,29770
+"countryName:Russian Federation",,Sochi,SF,,IST,Ataturk,Istanbul,,Turkey,128,21845
+"countryName:Russian Federation",,Sochi,SF,,EVN,"Zvartnots International Airport",Yerevan,,Armenia,130,20746
+"countryName:Russian Federation",,Irkutsk,IF,,PEK,"Capital International",Beijing,,China,65,18082
+"countryName:Russian Federation",,Krasnodar,SF,,PRG,Ruzyne,Prague,,"Czech Republic",116,17817
+"countryName:Russian Federation",,Sochi,SF,,TLV,"Ben Gurion Intl","Tel Aviv-Yafo",,Israel,64,14766
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,75,14560
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,GYD,"Heydar Aliyev",Baku,,Azerbaijan,99,14331
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,PVG,"Pudong International",Shanghai,,China,32,14265
+"countryName:Russian Federation",,Sochi,SF,,TAS,"Tashkent-Vostochny International",Tashkent,,Uzbekistan,63,14120
+"countryName:Russian Federation",,Sochi,SF,,DYU,"Dushanbe International",Dushanbe,,Tajikistan,63,12543
+"countryName:Russian Federation",,"St. Petersburg",NF,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,75,12507
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",52,11838
+"countryName:Russian Federation",,Chelyabinsk,UF,,FRU,"Manas International",Bishkek,,Kyrgyzstan,79,11342
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,FCO,Fiumicino,"Rome-Da Vinci",,Italy,61,11101
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,BKK,"Suvarnabhumi - New Bangkok International Airport",Bangkok,,Thailand,31,10319
+"countryName:Russian Federation",,Sochi,SF,,TBS,"Novo Alexeyevka International",Tbilisi,,Georgia,65,9936
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,MUC,"Franz Josef Strauss International",Munich,,Germany,60,9926
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,VIE,"Vienna International",Vienna,,Austria,52,8850
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,DEL,"Indira Gandhi Intl",Delhi,,India,25,8474
+"countryName:Russian Federation",,"St. Petersburg",NF,,AMS,Schiphol,Amsterdam,,Netherlands,41,8360
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,JFK,"John F Kennedy Intl","New York-JFK",NY,"United States",17,8016
+"countryName:Russian Federation",,Irkutsk,IF,,ICN,"Incheon International Airport",Seoul,,"South Korea",31,7887
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,BCN,Barcelona,Barcelona,,Spain,37,7881
+"countryName:Russian Federation",,"St. Petersburg",NF,,BUD,"Liszt Ferenc International",Budapest,,Hungary,37,7510
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,HAN,"Noi Bai International",Hanoi,,Vietnam,17,7251
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,MXP,Malpensa,Milan-Malpensa,,Italy,41,7184
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,LBD,"Khujand International",Khujand,,Tajikistan,32,6716
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,ZRH,Zurich,Zurich,,Switzerland,31,6302
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,SXF,Schoenefeld,Berlin-Schoenefeld,,Germany,33,6088
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,SKG,Makedonia,Thessaloniki,,Greece,37,5970
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,DOH,"Hamad International Airport",Doha,,Qatar,25,5536
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,OSS,Osh,Osh,,Kyrgyzstan,34,5388
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,CAN,"Baiyun International",Guangzhou,,China,11,5212
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,DUS,"Duesseldorf International",Duesseldorf,,Germany,25,5056
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,ARN,Arlanda,Stockholm-Arlanda,,Sweden,24,4780
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,ATH,"Eleftherios Venizelos Airport",Athens,,Greece,25,4612
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,LCA,Larnaca,Larnaca,,Cyprus,24,4448
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,NRT,Narita,Tokyo-Narita,,Japan,14,4002
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,TJU,"Kulob Airport",Kulob,,Tajikistan,13,3956
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,BEG,"Nikola Tesla Airport",Belgrade,,Serbia,24,3688
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,GVA,"Geneva International Airport",Geneva,,Switzerland,18,3663
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,BRU,"Brussels Airport",Brussels,,Belgium,17,3656
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,TIV,Tivat,Tivat,,Montenegro,24,3586
+"countryName:Russian Federation",,Irkutsk,IF,,HKG,"Hong Kong Intl","Hong Kong",,"Hong Kong",9,3532
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,SHJ,Sharjah,Sharjah,,"United Arab Emirates",19,3528
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,LIS,Lisboa,Lisbon,,Portugal,9,3432
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,MAD,"Adolfo Suarez-Barajas",Madrid,,Spain,17,3324
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,HKT,"Phuket Intl",Phuket,,Thailand,2,3216
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,SKD,"Samarkand International",Samarkand,,Uzbekistan,15,2667
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,VCE,"Marco Polo",Venice,,Italy,17,2662
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,BLQ,"Guglielmo Marconi",Bologna,,Italy,9,2528
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,CPH,Kastrup,Copenhagen,,Denmark,10,2528
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,LWN,Leninakan,Leninakan,,Armenia,14,2352
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,SYX,"Phoenix International",Sanya,,China,11,2312
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,OSL,"Oslo Airport",Oslo,,Norway,9,2240
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,ASB,"Ashgabat International",Ashgabat,,Turkmenistan,14,2205
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,AYT,Antalya,Antalya,,Turkey,5,1996
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,SOF,Sofia-Vrazhdebna,Sofia,,Bulgaria,10,1948
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,HAV,"Jose Marti Intl",Havana,,Cuba,1,1928
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,LAX,"Los Angeles Intl","Los Angeles",CA,"United States",1,1928
+"countryName:Russian Federation",,Moscow-Vnukovo,CF,,BGY,"Bergamo/Orio Al Serio","Milan-Orio Serio",,Italy,9,1890
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,AGP,"Malaga Airport",Malaga,,Spain,9,1738
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,KVD,Ganja,Ganja,,Azerbaijan,9,1718
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,NCE,"Cote D'Azur",Nice,,France,9,1640
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,TAO,"Liuting International",Qingdao,,China,4,1620
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",1,1608
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,SGN,"Tan Son Nhat International Airport","Ho Chi Minh City",,Vietnam,1,1608
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,TFS,"Sur Reina Sofia",Tenerife-Reinasofia,,Spain,5,1516
+"countryName:Russian Federation",,Moscow-Vnukovo,CF,,CGN,"Konrad Adenauer",Cologne-Bonn,,Germany,1,1512
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,VRN,Verona,Verona,,Italy,6,1498
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,IKA,"Imam Khomeini International",Tehran,,Iran,9,1479
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,HAM,Hamburg,Hamburg,,Germany,1,1464
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,STR,"Echterdingen Airport",Stuttgart,,Germany,1,1464
+"countryName:Russian Federation",,"St. Petersburg",NF,,ALC,"Alicante Airport",Alicante,,Spain,9,1443
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,NMA,Namangan,Namangan,,Uzbekistan,8,1392
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,SIN,Changi,Singapore,,Singapore,1,1265
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,HAJ,Hannover,Hannover,,Germany,1,1264
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,LGW,Gatwick,London-Gatwick,EN,"United Kingdom",1,1264
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,LYS,Satolas,Lyon,,France,1,1264
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,VLC,"Valencia Airport",Valencia,,Spain,1,1264
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,HER,"Nikos Kazantzakis Airport",Irakleion,,Greece,8,1238
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,UGC,"Urgench International",Urgench,,Uzbekistan,5,1224
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,MLE,"Ibrahim Nasir International",Male,,Maldives,1,1200
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,KMG,"Changshui International",Kunming,,China,4,1192
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,CIT,"Shymkent International",Shymkent,,Kazakhstan,5,1152
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,BHK,"Bukhara International",Bukhara,,Uzbekistan,4,1135
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,TXL,Tegel,Berlin-Tegel,,Germany,9,1061
+"countryName:Russian Federation",,"St. Petersburg",NF,,MLA,"Luqa International",Malta,,Malta,6,1044
+"countryName:Russian Federation",,Rostov,SF,,CFU,"Ioannis Kapodistrias Airport",Kerkyra,,Greece,6,1009
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,BAH,"Bahrain Intl",Bahrain,,Bahrain,4,984
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,MIA,"Miami International",Miami,FL,"United States",3,964
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,WUH,"Tianhe International",Wuhan,,China,1,952
+"countryName:Russian Federation",,Moscow-Vnukovo,CF,,FMM,"Allgaeu Airport",Memmingen,,Germany,1,945
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,ORY,Orly,Paris-Orly,,France,1,885
+"countryName:Russian Federation",,"St. Petersburg",NF,,DRS,Dresden,Dresden,,Germany,9,868
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,VRA,"Juan G. Gomez Intl",Varadero,,Cuba,1,801
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,AZN,Andizhan,Andizhan,,Uzbekistan,3,748
+"countryName:Russian Federation",,Irkutsk,IF,,CTU,"Shuangliu International",Chengdu,,China,3,731
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,PSA,"Galileo Galilei",Pisa,,Italy,4,725
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,ZAG,Pleso,Zagreb,,Croatia,1,700
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,LJU,"Joze Pucnik",Ljubljana,,Slovenia,5,696
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,PFO,"Paphos International",Paphos,,Cyprus,3,626
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,VDA,Ovda,Ovda,,Israel,3,624
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,FEG,"Fergana International",Fergana,,Uzbekistan,4,584
+"countryName:Russian Federation",,Moscow-Vnukovo,CF,,FKB,"Baden Airpark","Karlsruhe/Baden Baden",,Germany,1,567
+"countryName:Russian Federation",,Moscow-Vnukovo,CF,,GRO,"Costa Brava",Gerona,,Spain,1,567
+"countryName:Russian Federation",,Moscow-Vnukovo,CF,,BTS,"M.R. Stefanik",Bratislava,,Slovakia,1,567
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,SZX,"Bao'an International",Shenzhen,,China,1,554
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,RMI,Miramare,Rimini,,Italy,2,544
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,RHO,Diagoras,Rhodes,,Greece,1,519
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,BEY,"Rafic Hariri International",Beirut,,Lebanon,1,474
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,CMN,"Mohammed V",Casablanca,,Morocco,1,444
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,XIY,"Xianyang International",Xi'an,,China,1,434
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,AMM,"Queen Alia Intl",Amman,,Jordan,3,388
+"countryName:Russian Federation",,Vladivostok,FF,,PUS,"Gimhae Intl",Busan,,"South Korea",1,384
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,NVI,"Navoi International",Navoi,,Uzbekistan,2,358
+"countryName:Russian Federation",,Yuzhno-Sakhalinsk,FF,,CTS,"New Chitose",Sapporo,,Japan,5,350
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,KVA,"Megas Alexandros",Kavala,,Greece,1,346
+"countryName:Russian Federation",,Novosibirsk,IF,,DSN,"Ejin Horo",Ordos,,China,2,336
+"countryName:Russian Federation",,Moscow-Vnukovo,CF,,ESB,Esenboga,Ankara,,Turkey,1,318
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,IAD,"Dulles International",Washington-Dulles,VA,"United States",1,300
+"countryName:Russian Federation",,Moscow-Vnukovo,CF,,BGW,"Baghdad International Airport",Baghdad,,Iraq,1,296
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,KLV,"Karlovy Vary International Airport","Karlovy Vary",,"Czech Republic",1,288
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,KUT,Kutaisi,Kutaisi,,Georgia,1,268
+"countryName:Russian Federation",,Petropavlovsk,FF,,ANC,"Ted Stevens Intl",Anchorage,AK,"United States",1,225
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,SZG,Salzburg,Salzburg,,Austria,1,208
+"countryName:Russian Federation",,Moscow-Vnukovo,CF,,GZP,Gazipasa,Gazipasa,,Turkey,1,189
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,TMJ,Termez,Termez,,Uzbekistan,1,187
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,LLK,"Lankaran Airport",Lankaran,,Azerbaijan,1,168
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,CTA,Fontanarossa,Catania,,Italy,1,158
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,NAP,Capodichino,Naples,,Italy,1,158
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,KBL,"Kabul International",Kabul,,Afghanistan,1,155
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,KSQ,Khanabad,Karshi,,Uzbekistan,1,150
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,NCU,Nukus,Nukus,,Uzbekistan,1,150
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,BUS,Batumi,Batumi,,Georgia,1,134
+"countryName:Russian Federation",,Moscow-Sheremetyevo,CF,,ALG,"Houari Boumediene",Algiers,,Algeria,1,101
+"countryName:Russian Federation",,Moscow-Domodedovo,CF,,LEJ,Leipzig,Leipzig,,Germany,1,54

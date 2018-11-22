@@ -1,0 +1,20 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Turkmenistan,,Ashgabat,,,IST,Ataturk,Istanbul,,Turkey,18,3592
+countryName:Turkmenistan,,Ashgabat,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",11,1760
+countryName:Turkmenistan,,Ashgabat,,,ATQ,"Sri Guru Ram Dass Jee",Amritsar,,India,7,1315
+countryName:Turkmenistan,,Ashgabat,,,DME,Domodedovo,Moscow-Domodedovo,CF,"Russian Federation",8,1197
+countryName:Turkmenistan,,Ashgabat,,,BHX,"Birmingham Airport",Birmingham,EN,"United Kingdom",6,1134
+countryName:Turkmenistan,,Ashgabat,,,GYD,"Heydar Aliyev",Baku,,Azerbaijan,2,896
+countryName:Turkmenistan,,Ashgabat,,,DEL,"Indira Gandhi Intl",Delhi,,India,3,576
+countryName:Turkmenistan,,Ashgabat,,,LHR,Heathrow,London-Heathrow,EN,"United Kingdom",2,567
+countryName:Turkmenistan,,Ashgabat,,,BKK,"Suvarnabhumi - New Bangkok International Airport",Bangkok,,Thailand,3,543
+countryName:Turkmenistan,,Ashgabat,,,URC,"Diwopu International",Urumqi,,China,1,495
+countryName:Turkmenistan,,Ashgabat,,,KZN,"Kazan International",Kazan,VF,"Russian Federation",2,432
+countryName:Turkmenistan,,Ashgabat,,,LED,Pulkovo,"St. Petersburg",NF,"Russian Federation",2,432
+countryName:Turkmenistan,,Ashgabat,,,PEK,"Capital International",Beijing,,China,2,378
+countryName:Turkmenistan,,Ashgabat,,,ALA,"Almaty International",Almaty,,Kazakhstan,2,288
+countryName:Turkmenistan,,Ashgabat,,,AUH,"Abu Dhabi Intl","Abu Dhabi",,"United Arab Emirates",2,288
+countryName:Turkmenistan,,Ashgabat,,,MSQ,"Minsk International",Minsk,,Belarus,2,288
+countryName:Turkmenistan,,Ashgabat,,,ESB,Esenboga,Ankara,,Turkey,1,144
+countryName:Turkmenistan,,Ashgabat,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,1,144
+countryName:Turkmenistan,,Ashgabat,,,FRA,"Frankfurt International Airport",Frankfurt,,Germany,1,144

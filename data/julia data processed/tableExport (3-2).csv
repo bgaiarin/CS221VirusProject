@@ -1,0 +1,10 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Chad,,N'Djamena,,,ADD,"Bole International","Addis Ababa",,Ethiopia,6,1279
+countryName:Chad,,N'Djamena,,,DLA,"Douala International",Douala,,Cameroon,7,1047
+countryName:Chad,,N'Djamena,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,1,624
+countryName:Chad,,N'Djamena,,,IST,Ataturk,Istanbul,,Turkey,1,480
+countryName:Chad,,N'Djamena,,,NBO,"Jomo Kenyatta Intl",Nairobi,,Kenya,1,444
+countryName:Chad,,N'Djamena,,,CMN,"Mohammed V",Casablanca,,Morocco,1,333
+countryName:Chad,,N'Djamena,,,CAI,"Cairo Intl",Cairo,,Egypt,1,290
+countryName:Chad,,N'Djamena,,,ABV,"Nnamdi Azikiwe International Airport",Abuja,,Nigeria,1,268
+countryName:Chad,,N'Djamena,,,NGE,Ngaoundere,N'Gaoundere,,Cameroon,1,256

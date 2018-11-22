@@ -1,0 +1,10 @@
+Origin,"Origin Name","Origin City","Origin State","Origin Country",Destination,"Destination Name","Destination City","Destination State","Destination Country","Direct Flights","Total Seats"
+countryName:Djibouti,,Djibouti,,,ADD,"Bole International","Addis Ababa",,Ethiopia,24,2668
+countryName:Djibouti,,Djibouti,,,IST,Ataturk,Istanbul,,Turkey,1,1352
+countryName:Djibouti,,Djibouti,,,MGQ,"Mogadishu Intl",Mogadishu,,Somalia,1,1352
+countryName:Djibouti,,Djibouti,,,DIR,"Aba Tenna D Yilma International","Dire Dawa",,Ethiopia,10,1244
+countryName:Djibouti,,Djibouti,,,DOH,"Hamad International Airport",Doha,,Qatar,1,1152
+countryName:Djibouti,,Djibouti,,,DXB,"Dubai International",Dubai,,"United Arab Emirates",1,728
+countryName:Djibouti,,Djibouti,,,HGA,"Egal International",Hargeisa,,Somalia,6,656
+countryName:Djibouti,,Djibouti,,,NBO,"Jomo Kenyatta Intl",Nairobi,,Kenya,4,384
+countryName:Djibouti,,Djibouti,,,CDG,"Charles De Gaulle","Paris-De Gaulle",,France,1,208
