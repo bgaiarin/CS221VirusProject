@@ -55,11 +55,11 @@ class EpidemicMDP:
 		units_used = sum(action)
 		newState = state[:]
 		for i in range(self.NUM_COUNTRIES, self.INDEX_RESOURCE):
-			scalar = action[i - self.NUM_COUNTRIES]
-			if (scalar != 0):
+			scalar = action[i - self.NUM_COUNTRIES] # gets how many resources are added to country at i
+			if (scalar != 0): # we are gonna allocate something
 				scalar += 1					
 				update = newState[i]*scalar*(self.squash(scalar))					
-				newState[i] = ( update if update < 1.0 else self.MAX_RESPONSE_SCORE )	#Keep in range (0,1)
+				newState[i] = ( update if update < self.MAX_RESPONSE_SCORE else self.MAX_RESPONSE_SCORE )	#Keep in range (0,max). caps benefit of reward.
 		newState[self.INDEX_RESOURCE] = newState[self.INDEX_RESOURCE]-units_used
 		return newState
 
@@ -99,7 +99,7 @@ class EpidemicMDP:
 
 	# Return reward for a given state, where reward = (# uninfected countries + weight*leftover_resources)
 	# If state, however, is a terminal state, we do one of two things: 
-		# If virus is killed, we return a big positive reward. Ending with resources remaining is a bonus!
+		# If virus is killed, we return a big positive reward. Ending with resources remaining is a bonus! #todo should be small or none
 		# If virus is not killed but resources have been all used, we return a big negative reward. Ending with uninfected countries is a bonus!
 	def getReward(self, state): 
 
@@ -123,6 +123,8 @@ class EpidemicMDP:
 			for i in range(0, self.NUM_COUNTRIES): 
 				if state[i] == 0: num_zeros += 1
 			return num_zeros + leftover
+
+		# todo make sure all rewards are between certain value. do rewards only come at the end?
 
 	# generates a next state and its reward probabilistically based on current state
 	def sampleNextStateReward(self, state, action):
@@ -253,10 +255,10 @@ class EpidemicMDP:
 		self.INFECTION_COEFFICIENT = 3.0
 		self.PREVENTION_COST = 0.8
 		self.INFECTION_COST = 0.6 # 0 < x < 1, should be <= PREVENTION_COST
-		self.MAX_RESPONSE_SCORE = 0.99
+		self.MAX_RESPONSE_SCORE = 0.99 # todo change to like .8?
 		self.NO_VIRUS_REWARD = 100.0 + self.NUM_COUNTRIES
 		self.END_RESOURCES_WEIGHT = 10.0
-		self.RESOURCES_DEPLETED_REWARD = -100.0 - (self.NUM_COUNTRIES * self.END_RESOURCES_WEIGHT)
+		self.RESOURCES_DEPLETED_REWARD = -100.0 - (self.NUM_COUNTRIES * self.END_RESOURCES_WEIGHT) # todo get rid of this
 		self.state = self.initState(initial_infections, initial_resources)
 		
 		#print '\nfinished initializing'
