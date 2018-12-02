@@ -1,9 +1,9 @@
 from mdp import EpidemicMDP # changed from import mdp
 
 infections = {'France' : 1}
-resources = 5
-resp_csv = 'data/country_response_indicators.csv'
-trans_csv = 'data/transitions.csv'
+resources = 4
+resp_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv'
+trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
 newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
 print newmdp.countries
 NUM_COUNTRIES = newmdp.NUM_COUNTRIES
@@ -30,7 +30,6 @@ def getEqualActions(state):
 	for index in action_indices: 
 		actions[0][index] = allocation
 	return actions
-
 
 def getUniformActions(state): 
 	resources = state[INDEX_RESOURCE]
@@ -59,7 +58,7 @@ def simulate(actionCommand, trial_num, resp_csv, trans_csv, infections, resource
 		max_reward = float("-inf")
 		max_state = s
 		for action in actions: 
-			new_s, reward = mdp.sampleNextStateReward(s, action)
+			new_s, reward = mdp.sampleNextState(s, action)
 			if (reward > max_reward):
 				max_reward = reward
 				max_state = new_s
@@ -101,6 +100,27 @@ for i in range(num_trials):
 	simulate(newmdp.getActions, i, resp_csv, trans_csv, infections, resources)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+######## DUMPSTER ########################################################
+
+
 ### SINGLE RESOURCE ALLOCATION: ONE UNIT PER INFECTED STATE PER TIME SLICE
 
 ### RANDOM RESOURCE ALLOCATION: EVERYTHING AT T=1, RANDOM NUMBERS TO EACH STATE
@@ -127,7 +147,7 @@ for i in range(num_trials):
 # 			max_state = s
 			
 # 			for action in actions: 
-# 				new_s, reward = mdp.sampleNextStateReward(s, action)
+# 				new_s, reward = mdp.sampleNextState(s, action)
 # 				if (reward > max_reward):
 # 					max_reward = reward
 # 					max_state = new_s

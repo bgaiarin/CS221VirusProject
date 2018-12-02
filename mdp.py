@@ -64,7 +64,7 @@ class EpidemicMDP:
 		return newState
 
 	#################################################################################
-	#							GET NEXT ACTION & REWARD 							#
+	#							GET NEXT STATE, ACTION & REWARD 					#
 	#################################################################################
 
 	# gets the probability a country is infected as a function of number of seats coming in from infected neighbors
@@ -99,35 +99,35 @@ class EpidemicMDP:
 
 	# Return reward for a given state, where reward = (# uninfected countries + weight*leftover_resources)
 	# If state, however, is a terminal state, we do one of two things: 
-		# If virus is killed, we return a big positive reward. Ending with resources remaining is a bonus! #todo should be small or none
+		# If virus is killed, we return a big positive reward. 
 		# If virus is not killed but resources have been all used, we return a big negative reward. Ending with uninfected countries is a bonus!
 	def getReward(self, state): 
 
 		# Check to see if virus has been terminated and get # of uninfected countries 
 		result = self.noVirus(state)
 		virus_terminated = result[0]
-		num_uninfected_countries = self.NUM_COUNTRIES - result[1]
+		num_infected_countries = self.NUM_COUNTRIES - result[1]
+		num_uninfected_countries = self.NUM_COUNTRIES - num_infected_countries
 
 		# END STATE: No more infected countries 
 		if (virus_terminated): 
-			return self.NO_VIRUS_REWARD + (state[self.INDEX_RESOURCE]*self.END_RESOURCES_WEIGHT)
+			return self.REWARD_WEIGHT*self.NUM_COUNTRIES 	#bonus for saving resources: + (state[self.INDEX_RESOURCE]*self.END_RESOURCES_WEIGHT)
 
 		# END STATE: No more resources
 		elif (state[self.INDEX_RESOURCE] == 0): 
-			return self.RESOURCES_DEPLETED_REWARD + (num_uninfected_countries * self.END_RESOURCES_WEIGHT)
+			return -(self.REWARD_WEIGHT*self.NUM_COUNTRIES) + num_uninfected_countries	#todo: delete little reward for countries that are still uninfected?
 		
 		# NOT AN END STATE
 		else:
-			num_zeros = 0
-			leftover = self.squash(state[self.INDEX_RESOURCE])
+			num_ones = 0.0
 			for i in range(0, self.NUM_COUNTRIES): 
-				if state[i] == 0: num_zeros += 1
-			return num_zeros + leftover
+				if state[i] == 1: num_ones += 1.0
+			return -num_ones 					#todo: add bonus for leftover resources? 
 
 		# todo make sure all rewards are between certain value. do rewards only come at the end?
 
-	# generates a next state and its reward probabilistically based on current state
-	def sampleNextStateReward(self, state, action):
+	# Generates a next state, and its response indicators and reward, probabilistically based on current state. 
+	def sampleNextState(self, state, action):
 		newState = state[:]
 
 		# Reduce the resistance scores of infected countries by a coefficient of INFECTION_COST
@@ -245,26 +245,38 @@ class EpidemicMDP:
 	# initial_infections is dict from country to 1 or 0 (0 optional). initial_resources is scalar.
 	def __init__(self, transitions_csv, responses_csv, initial_infections = {}, initial_resources = 0):
 		self.responseScores = self.loadCountryResponses(responses_csv)
-		#print '\nresponsescores1:', self.responseScores, len(self.responseScores.keys())
 		self.countries, self.neighbors, self.TOTAL_SEATS = self.loadFlights(transitions_csv)
-		#print '\ncountries1:',self.countries, len(self.countries)
-		#print '\nneighbors:',self.neighbors
 		self.NUM_COUNTRIES = len(self.countries)
 		self.INDEX_RESOURCE = self.NUM_COUNTRIES * 2
 		self.RESPONSE_DENOMINATOR = 110.0 # amount response ranking is divided by during parsing; should be > 100
 		self.INFECTION_COEFFICIENT = 3.0
 		self.PREVENTION_COST = 0.8
 		self.INFECTION_COST = 0.6 # 0 < x < 1, should be <= PREVENTION_COST
-		self.MAX_RESPONSE_SCORE = 0.99 # todo change to like .8?
-		self.NO_VIRUS_REWARD = 100.0 + self.NUM_COUNTRIES
-		self.END_RESOURCES_WEIGHT = 10.0
-		self.RESOURCES_DEPLETED_REWARD = -100.0 - (self.NUM_COUNTRIES * self.END_RESOURCES_WEIGHT) # todo get rid of this
+		self.MAX_RESPONSE_SCORE = 0.9 # todo change to like .8?
+		self.REWARD_WEIGHT = 5.0 	#used to scale rewards with #countries infected/uninfected 
 		self.state = self.initState(initial_infections, initial_resources)
-		
-		#print '\nfinished initializing'
-		#print self.countries
-		#print 'num countries is', self.NUM_COUNTRIES, 'and len is', len(self.countries)
-		#print self.TOTAL_SEATS
-		# WHY ARE ALL THE COUNTRIES SHOWING UP? SHOULD ONLY BE 50ISH
-		#print 'state is', self.state, 'and num_countries is', self.NUM_COUNTRIES
+
+
+
+
+
+
+
+
+
+
+
+######## DUMPSTER ########################################################
+
+#print '\nresponsescores1:', self.responseScores, len(self.responseScores.keys())
+#print '\ncountries1:',self.countries, len(self.countries)
+#print '\nneighbors:',self.neighbors
+#print '\nfinished initializing'
+#print self.countries
+#print 'num countries is', self.NUM_COUNTRIES, 'and len is', len(self.countries)
+#print self.TOTAL_SEATS
+# WHY ARE ALL THE COUNTRIES SHOWING UP? SHOULD ONLY BE 50ISH
+#print 'state is', self.state, 'and num_countries is', self.NUM_COUNTRIES
+
+
 		
