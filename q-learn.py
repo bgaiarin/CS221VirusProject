@@ -1,94 +1,165 @@
 from mdp import EpidemicMDP # changed from import mdp
+import random 
+from collections import defaultdict
+import math 
 
 infections = {'France' : 1}
-resources = 5
-resp_csv = 'data/country_response_indicators.csv'
-trans_csv = 'data/transitions.csv'
+resources = 4
+resp_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv'
+trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
 newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
 print newmdp.countries
 NUM_COUNTRIES = newmdp.NUM_COUNTRIES
 INDEX_RESOURCE = NUM_COUNTRIES*2
-num_trials = 5
-num_iterations = 5
+num_simulations = 5
+max_iterations = 20
+action_without_resources = [[0]*NUM_COUNTRIES]
+
 discount = 1
+weights = defaultdict(float)
+explorationProb = 0.2
 
 
-# mdp.sampleNextState(state, action)  => returns: (newState, reward)
-# mdp.getReward(state)
-# mdp.isEnd(state)
-# mdp.getActions(state) => returns: [[], [], etc.] list of all possible actions from state
+#### Q-LEARNING HELPER FUNCTIONS #################################
 
-#### Q-LEARNING #################################
+# def discretizeState(s):
 
+
+# A helper function. 
+# Takes in a state (vector) and returns it as a hashable type (string). 
+def makeHashable(state):
+    # s = discretizeState(state)
+    link = "-"
+    return link.join(str(r) for v in state for r in v)
+
+# Return a single-element list containing a binary (indicator) feature
+# for the existence of the (state, action) pair.  Provides no generalization.
 def featureExtractor(state, action):
-    featureKey = (state, action)
+    featureKey = makeHashable((state, action))
     featureValue = 1
     return [(featureKey, featureValue)]
 
 # Call this function to get the step size to update the weights.
-def getStepSize():
-    return 1.0 / math.sqrt(self.num_iterations)
+def getStepSize(num_iterations):
+    return 1.0 / math.sqrt(num_iterations)
 
-def incorporateFeedback(self, state, action, reward, newState):
-    #FIGURE OUT Vopt: 
+#### Q-LEARNING MAIN FUNCTIONS #################################
+
+# Return the Q function associated with the weights and features
+def getQ(state, action):
+    score = 0
+    for f, v in featureExtractor(state, action):
+        score += weights[f] * v
+    return score
+
+# This algorithm will produce an action given a state.
+# Here we use the epsilon-greedy algorithm: with probability
+# |explorationProb|, take a random action.
+def chooseAction(state, actions):
+    if random.random() < explorationProb:
+        return random.choice(actions)
+    else:
+        return max((getQ(state, a), a) for a in actions)[1]
+
+# Call this function with (s, a, r, s'), which you should use to update |weights|.
+# Note that if s is a terminal state, then s' will be None.  
+# Update the weights using getStepSize(). 
+# Use getQ() to compute the current estimate of the parameters.
+def incorporateFeedback(state, action, reward, newState, actions, num_iterations):
     Vopt = 0
     if (newState != None):      #CHECK: TERMINAL STATE
-        for a in self.actions(newState):
-            new_Vopt = self.getQ(newState, a)
+        for a in actions:
+            new_Vopt = getQ(newState, a)
             if (new_Vopt > Vopt): Vopt = new_Vopt
 
-    update = ((1-getStepSize())*(self.getQ(state, action))) + ((getStepSize())*(reward + discount*Vopt))
+    update = ((1-getStepSize(num_iterations))*(getQ(state, action))) + ((getStepSize(num_iterations))*(reward + discount*Vopt))
 
     for f, v in featureExtractor(state, action):
-        self.weights[f] += update 
+        weights[f] += update 
 
 
-#### SIMULATE #####################################
+#### SIMULATE (RUN Q-LEARNING) #####################################
 
-mdp = EpidemicMDP(trans_csv, resp_csv, infections, resources)
-s = mdp.state   #initial state
-for i in range(num_iterations):
+def simulateQLearning(trial_num): 
+    mdp = EpidemicMDP(trans_csv, resp_csv, infections, resources)
+    state = mdp.state   #initial state
+    total_rewards = 0
+    resources_depleted_delay = 2
+    num_iterations = 0
+    actions = mdp.getActions(state)
+    for i in range(max_iterations):
 
+        # CASE: VIRUS IS KILLED
+        if mdp.isEnd(state): break 
 
+        # CASE: RESOURCES ARE DEPLETED 
+        if resources_depleted_delay == 0: break 
+        if (state[INDEX_RESOURCE] <= 0):
+            resources_depleted_delay -= 1
+            actions = action_without_resources      #e.g. [[0,0,0,0]]
 
+        # Choose action based on Q and epsilon-greedy search strategy. 
+        best_action = chooseAction(state, actions)
+        num_iterations += 1
 
+        # Observe newState and associated reward. 
+        newState, reward = mdp.sampleNextState(state, best_action)
+        total_rewards += reward
 
+        # Update Q weights 
+        actions = mdp.getActions(newState)
+        incorporateFeedback(state, best_action, reward, newState, actions, num_iterations)
 
+        state = newState
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    avg_reward = total_rewards/float(num_iterations)
+    print(avg_reward)
 
 
+# RUN Q-LEARNING
+for i in range(num_simulations):
+    weights = defaultdict(float)   #Reset weights so weights from old simulations don't bleed into new ones. (DO WE NEED TO DO THIS?)
+    simulateQLearning(i)
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+######### DUMPSTER ###############################################################
 
 
 # ##### OLD SIMULATE CODE FROM BASELINE.PY ########

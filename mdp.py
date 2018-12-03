@@ -93,9 +93,9 @@ class EpidemicMDP:
 		if (num_ones == 0): return (True, num_ones)
 		return (False, num_ones)
 
-	# Checks to see if a state is a terminal state (is all [0, 0, 0, 0] or has depleted resources). 
+	# Checks to see if a state is a terminal state (is all [0, 0, 0, 0]). 
 	def isEnd(self, state):
-		return (self.noVirus(state)[0]) # if (state[INDEX_RESOURCE] == 0): return True 
+		return (self.noVirus(state)[0]) 
 
 	# Return reward for a given state, where reward = (# uninfected countries + weight*leftover_resources)
 	# If state, however, is a terminal state, we do one of two things: 
