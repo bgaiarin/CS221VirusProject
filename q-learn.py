@@ -2,9 +2,10 @@ from mdp import EpidemicMDP # changed from import mdp
 import random 
 from collections import defaultdict
 import math 
+import numpy as np
 
 infections = {'France' : 1}
-resources = 4
+resources = 20
 resp_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv'
 trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
 newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
@@ -12,7 +13,7 @@ print newmdp.countries
 NUM_COUNTRIES = newmdp.NUM_COUNTRIES
 INDEX_RESOURCE = NUM_COUNTRIES*2
 num_simulations = 5
-max_iterations = 20
+max_iterations = 30
 action_without_resources = [[0]*NUM_COUNTRIES]
 
 discount = 1
@@ -22,15 +23,21 @@ explorationProb = 0.2
 
 #### Q-LEARNING HELPER FUNCTIONS #################################
 
-# def discretizeState(s):
-
+# Accepts a state S and discretizes it by rounding response scores to the nearest tenth. 
+# ATTENTION: ALL OF THIS IS NOT SOPHISTICATED. 
+# Would likely be best to replace this discretization method with a something like 
+# multilayer feedforward, or some other NN-backed method. 
+def discretizeState(s):
+    for i in range(NUM_COUNTRIES, INDEX_RESOURCE):
+        s[i] = round(s[i], 1)
+    return s
 
 # A helper function. 
 # Takes in a state (vector) and returns it as a hashable type (string). 
 def makeHashable(state):
-    # s = discretizeState(state)
+    state = discretizeState(list(state[0] + state[1]))
     link = "-"
-    return link.join(str(r) for v in state for r in v)
+    return link.join(str(state))
 
 # Return a single-element list containing a binary (indicator) feature
 # for the existence of the (state, action) pair.  Provides no generalization.
@@ -50,6 +57,7 @@ def getQ(state, action):
     score = 0
     for f, v in featureExtractor(state, action):
         score += weights[f] * v
+    #if (score != 0): print(score)
     return score
 
 # This algorithm will produce an action given a state.
@@ -59,7 +67,9 @@ def chooseAction(state, actions):
     if random.random() < explorationProb:
         return random.choice(actions)
     else:
-        return max((getQ(state, a), a) for a in actions)[1]
+        acts = list(actions)
+        random.shuffle(acts)     #shuffle actions so we don't always return same max_action in the events of ties! 
+        return max((getQ(state, a), a) for a in acts)[1]     
 
 # Call this function with (s, a, r, s'), which you should use to update |weights|.
 # Note that if s is a terminal state, then s' will be None.  
@@ -286,6 +296,14 @@ for i in range(num_simulations):
 # mdp = 
 # simulate_QL_over_MDP(newmdp)
 
+
+
+# Accepts a state S and discretizes it by converting response scores into rankings, where the 
+# highest response score gets the max (MAX_RESPONSE_SCORE) and the lowest gets the 
+# min (MAX_RESPONSE_SCORE/NUM_COUNTRIES). 
+# ATTENTION: ALL OF THIS IS HARD-CODED AND NOT SOPHISTICATED. 
+# Would likely be best to replace this discretization method with a something like 
+# multilayer feedforward, or some other NN-backed method. 
 
 
 
