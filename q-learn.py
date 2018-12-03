@@ -4,33 +4,42 @@ from collections import defaultdict
 import math 
 import numpy as np
 
-infections = {'France' : 1}
-resources = 20
+infections = {'Nigeria' : 1}
+resources = 15
 resp_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv'
 trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
 newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
 print newmdp.countries
 NUM_COUNTRIES = newmdp.NUM_COUNTRIES
 INDEX_RESOURCE = NUM_COUNTRIES*2
-num_simulations = 5
-max_iterations = 30
+num_simulations = 150
+max_iterations = 100
 action_without_resources = [[0]*NUM_COUNTRIES]
 
 discount = 1
 weights = defaultdict(float)
 explorationProb = 0.2
+learning_rate = 0.9
 
 
 #### Q-LEARNING HELPER FUNCTIONS #################################
 
 # Accepts a state S and discretizes it by rounding response scores to the nearest tenth. 
+# Then discretizes it further by grouping binary-response-action integers together for each country,
+# and sorting the final list. The idea here is that order should not matter when we're using our 
+# states as feature keys in our weights dictionary. 
 # ATTENTION: ALL OF THIS IS NOT SOPHISTICATED. 
 # Would likely be best to replace this discretization method with a something like 
 # multilayer feedforward, or some other NN-backed method. 
 def discretizeState(s):
+    #ROUND TO NEAREST TENTH
     for i in range(NUM_COUNTRIES, INDEX_RESOURCE):
         s[i] = round(s[i], 1)
-    return s
+    #GROUP BINARY-RESPONSE-ACTION TOGETHER FOR EACH STATE, AND SORT
+    ds = [None]*NUM_COUNTRIES
+    for i in range(NUM_COUNTRIES):
+        ds[i] = str(s[i]) + str(s[NUM_COUNTRIES + i]) + str(s[INDEX_RESOURCE + i])
+    return sorted(ds)
 
 # A helper function. 
 # Takes in a state (vector) and returns it as a hashable type (string). 
@@ -46,9 +55,9 @@ def featureExtractor(state, action):
     featureValue = 1
     return [(featureKey, featureValue)]
 
-# Call this function to get the step size to update the weights.
-def getStepSize(num_iterations):
-    return 1.0 / math.sqrt(num_iterations)
+# # Call this function to get the step size to update the weights.
+# def getStepSize(num_iterations):
+#     return 1.0 / math.sqrt(num_iterations)
 
 #### Q-LEARNING MAIN FUNCTIONS #################################
 
@@ -57,7 +66,7 @@ def getQ(state, action):
     score = 0
     for f, v in featureExtractor(state, action):
         score += weights[f] * v
-    #if (score != 0): print(score)
+    #if (score != 0): print("SCORE: ", score)
     return score
 
 # This algorithm will produce an action given a state.
@@ -66,23 +75,32 @@ def getQ(state, action):
 def chooseAction(state, actions):
     if random.random() < explorationProb:
         return random.choice(actions)
-    else:
-        acts = list(actions)
-        random.shuffle(acts)     #shuffle actions so we don't always return same max_action in the events of ties! 
-        return max((getQ(state, a), a) for a in acts)[1]     
+    else: 
+        max_actions = []
+        max_q = float("-inf")
+        for a in actions: 
+            q = getQ(state, a)
+            if (q > max_q):
+                max_q = q
+                max_actions = [a]
+            elif (q == max_q):
+                max_actions.append(a)
+        return random.choice(max_actions)   #random choice selection for tie-breaking 
+
 
 # Call this function with (s, a, r, s'), which you should use to update |weights|.
 # Note that if s is a terminal state, then s' will be None.  
 # Update the weights using getStepSize(). 
 # Use getQ() to compute the current estimate of the parameters.
-def incorporateFeedback(state, action, reward, newState, actions, num_iterations):
+def incorporateFeedback(state, action, reward, newState, actions, num_iterations, newState_is_end):
     Vopt = 0
-    if (newState != None):      #CHECK: TERMINAL STATE
+    if not newState_is_end:      #CHECK: TERMINAL STATE
         for a in actions:
             new_Vopt = getQ(newState, a)
             if (new_Vopt > Vopt): Vopt = new_Vopt
 
-    update = ((1-getStepSize(num_iterations))*(getQ(state, action))) + ((getStepSize(num_iterations))*(reward + discount*Vopt))
+    #update = ((1-getStepSize(num_iterations))*(getQ(state, action))) + ((getStepSize(num_iterations))*(reward + discount*Vopt))
+    update = learning_rate*(reward + (discount*Vopt) - getQ(state, action))
 
     for f, v in featureExtractor(state, action):
         weights[f] += update 
@@ -96,11 +114,12 @@ def simulateQLearning(trial_num):
     total_rewards = 0
     resources_depleted_delay = 2
     num_iterations = 0
-    actions = mdp.getActions(state)
+    actions = newmdp.getActions(state)
     for i in range(max_iterations):
 
         # CASE: VIRUS IS KILLED
-        if mdp.isEnd(state): break 
+        if mdp.isEnd(state): 
+            break 
 
         # CASE: RESOURCES ARE DEPLETED 
         if resources_depleted_delay == 0: break 
@@ -117,8 +136,8 @@ def simulateQLearning(trial_num):
         total_rewards += reward
 
         # Update Q weights 
-        actions = mdp.getActions(newState)
-        incorporateFeedback(state, best_action, reward, newState, actions, num_iterations)
+        actions = newmdp.getActions(newState)
+        if (resources_depleted_delay == 2): incorporateFeedback(state, best_action, reward, newState, actions, num_iterations, mdp.isEnd(newState))
 
         state = newState
 
@@ -128,7 +147,7 @@ def simulateQLearning(trial_num):
 
 # RUN Q-LEARNING
 for i in range(num_simulations):
-    weights = defaultdict(float)   #Reset weights so weights from old simulations don't bleed into new ones. (DO WE NEED TO DO THIS?)
+    #weights = defaultdict(float)   #Reset weights so weights from old simulations don't bleed into new ones. (DO WE NEED TO DO THIS?)
     simulateQLearning(i)
 
 
@@ -306,4 +325,10 @@ for i in range(num_simulations):
 # multilayer feedforward, or some other NN-backed method. 
 
 
-
+# def chooseAction(state, actions):
+#     if random.random() < explorationProb:
+#         return random.choice(actions)
+#     else:
+#         acts = list(actions)
+#         random.shuffle(acts)     #shuffle actions so we don't always return same max_action in the events of ties! 
+#         return max((getQ(state, a), a) for a in acts)[1]   

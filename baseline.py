@@ -1,7 +1,7 @@
 from mdp import EpidemicMDP # changed from import mdp
 
 infections = {'France' : 1}
-resources = 4
+resources = 40
 resp_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv'
 trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
 newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
