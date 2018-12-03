@@ -5,20 +5,22 @@ import math
 import numpy as np
 
 infections = {'Nigeria' : 1}
-resources = 15
-resp_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv'
-trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
+resources = 20
+# resp_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv'
+# trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
+resp_csv = 'data/country_response_indicators.csv'
+trans_csv = 'data/transitions.csv'
 newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
 print newmdp.countries
 NUM_COUNTRIES = newmdp.NUM_COUNTRIES
 INDEX_RESOURCE = NUM_COUNTRIES*2
-num_simulations = 150
+num_simulations = 50
 max_iterations = 100
 action_without_resources = [[0]*NUM_COUNTRIES]
 
 discount = 1
 weights = defaultdict(float)
-explorationProb = 0.2
+explorationProb = 0.14
 learning_rate = 0.9
 
 
@@ -38,7 +40,7 @@ def discretizeState(s):
     #GROUP BINARY-RESPONSE-ACTION TOGETHER FOR EACH STATE, AND SORT
     ds = [None]*NUM_COUNTRIES
     for i in range(NUM_COUNTRIES):
-        ds[i] = str(s[i]) + str(s[NUM_COUNTRIES + i]) + str(s[INDEX_RESOURCE + i])
+        ds[i] = str(s[i]) + str(s[NUM_COUNTRIES + i]) + str(s[INDEX_RESOURCE + 1 + i])
     return sorted(ds)
 
 # A helper function. 

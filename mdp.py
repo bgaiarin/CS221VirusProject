@@ -124,9 +124,8 @@ class EpidemicMDP:
 			for i in range(0, self.NUM_COUNTRIES): 
 				if state[i] == 1: num_ones += 1.0
 				else: num_zeros += 1.0
-			return num_zeros-num_ones 					#todo: add bonus for leftover resources? 
+			return num_zeros-num_ones 					#add bonus for leftover resources? 
 
-		# todo make sure all rewards are between certain value. do rewards only come at the end?
 
 	# Generates a next state, and its response indicators and reward, probabilistically based on current state. 
 	def sampleNextState(self, state, action):
