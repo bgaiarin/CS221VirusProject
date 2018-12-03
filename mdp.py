@@ -120,11 +120,12 @@ class EpidemicMDP:
 		# NOT AN END STATE
 		else:
 			num_ones = 0.0
+			num_zeros = 0.0
 			for i in range(0, self.NUM_COUNTRIES): 
 				if state[i] == 1: num_ones += 1.0
-			return -num_ones 					#todo: add bonus for leftover resources? 
+				else: num_zeros += 1.0
+			return num_zeros-num_ones 					#add bonus for leftover resources? 
 
-		# todo make sure all rewards are between certain value. do rewards only come at the end?
 
 	# Generates a next state, and its response indicators and reward, probabilistically based on current state. 
 	def sampleNextState(self, state, action):
@@ -250,8 +251,8 @@ class EpidemicMDP:
 		self.INDEX_RESOURCE = self.NUM_COUNTRIES * 2
 		self.RESPONSE_DENOMINATOR = 110.0 # amount response ranking is divided by during parsing; should be > 100
 		self.INFECTION_COEFFICIENT = 3.0
-		self.PREVENTION_COST = 0.8
-		self.INFECTION_COST = 0.6 # 0 < x < 1, should be <= PREVENTION_COST
+		self.PREVENTION_COST = 0.9
+		self.INFECTION_COST = 0.68 # 0 < x < 1, should be <= PREVENTION_COST
 		self.MAX_RESPONSE_SCORE = 0.9 # todo change to like .8?
 		self.REWARD_WEIGHT = 5.0 	#used to scale rewards with #countries infected/uninfected 
 		self.state = self.initState(initial_infections, initial_resources)
