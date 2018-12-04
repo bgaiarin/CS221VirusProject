@@ -21,7 +21,7 @@ for filename in os.listdir('./'):
 
 				flights[origin][dest] += size
 
-with open('transitions.csv', 'w+') as outFile:
+with open('transitions_10countries.csv', 'w+') as outFile:
 	for origin, dests in flights.items():
 		for dest, size in dests.items():
 			outFile.write('' + origin + ',' + dest + ',' + str(size) + '\n')
