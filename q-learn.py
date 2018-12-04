@@ -5,16 +5,17 @@ import math
 import numpy as np
 
 infections = {'Nigeria' : 1}
-resources = 20
+resources = 15
 # resp_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv'
 # trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
 resp_csv = 'data/country_response_indicators.csv'
-trans_csv = 'data/transitions.csv'
+#trans_csv = 'data/transitions.csv'
+trans_csv = 'data/transitions_9countries.csv'
 newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
 print newmdp.countries
 NUM_COUNTRIES = newmdp.NUM_COUNTRIES
 INDEX_RESOURCE = NUM_COUNTRIES*2
-num_simulations = 50
+num_simulations = 150
 max_iterations = 100
 action_without_resources = [[0]*NUM_COUNTRIES]
 

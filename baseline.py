@@ -1,16 +1,18 @@
 from mdp import EpidemicMDP # changed from import mdp
+import random 
 
 infections = {'Nigeria' : 1}
-resources = 20
+resources = 15
 # resp_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv'
 # trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
 resp_csv = 'data/country_response_indicators.csv'
-trans_csv = 'data/transitions.csv'
+#trans_csv = 'data/transitions.csv'
+trans_csv = 'data/transitions_9countries.csv'
 newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
 print newmdp.countries
 NUM_COUNTRIES = newmdp.NUM_COUNTRIES
 INDEX_RESOURCE = NUM_COUNTRIES*2
-num_trials = 50
+num_trials = 150
 max_iterations = 100
 
 def getDumbActions(state):
@@ -40,6 +42,14 @@ def getUniformActions(state):
 	for i in range(NUM_COUNTRIES):
 		actions[0].append(allocation)
 	return actions
+
+# def getRandomActions(state):
+# 	actions = newmdp.getActions(state)
+# 	if (actions == []): return []
+# 	else: 
+# 		c = random.choice(actions)
+# 		return [c]
+
 
 def simulate(actionCommand, trial_num, resp_csv, trans_csv, infections, resources):
 	grand_total_rewards = 0
@@ -89,12 +99,24 @@ print("##### EQUAL RESOURCE ALLOCATION #####")
 for i in range(num_trials):
 	simulate(getEqualActions, i, resp_csv, trans_csv, infections, resources)
 
-
 ### DUMB RESOURCE ALLOCATION: EVERYTHING AT T=1, GIVE ALL TO ONE STATE
 print " "
 print("##### DUMB RESOURCE ALLOCATION #####") 
 for i in range(num_trials):
 	simulate(getDumbActions, i, resp_csv, trans_csv, infections, resources)
+
+# ### RANDOM ALLOCATION: RANDOM AMOUNTS ASSIGNED TO RANDOM STATES 
+# print " "
+# print("##### RANDOM RESOURCE ALLOCATION #####") 
+# for i in range(num_trials):
+# 	simulate(getRandomActions, i, resp_csv, trans_csv, infections, resources)
+
+
+### RANDOM RESOURCE ALLOCATION: EVERYTHING AT T=1, RANDOM NUMBERS TO EACH STATE
+# for each unit, randomly pick index to give it to
+
+### RANDOM RESOURCE ALLOCATION: ONE UNIT PER TIME SLICE
+# randomly pick index to give it to
 
 ### BEST ACTION
 # print " "
