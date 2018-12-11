@@ -8,9 +8,13 @@ class FuncApproximator:
 
 	def sample(self, state): 
 		print ('in sample step in FA with state', state)
-		# somehow get state to be a numpy array
-		state = np.asarray(state)
-		Us_probs_py, Cs_probs_py = self.sess.run([self.Us_probs, self.Cs_probs], feed_dict={self.state_plc : state})
+		#return [0] * self.num_countries
+		# get state to be a numpy array
+		npState = np.asarray(state)
+		print (npState)
+		np.reshape(npState, (len(npState), 1))
+		print (npState)
+		Us_probs_py, Cs_probs_py = self.sess.run([self.Us_probs, self.Cs_probs], feed_dict={self.state_plc : npState})
 
 		# python numpy stuff to sample from the us and cs
 		print(Us_probs_py)
@@ -25,18 +29,19 @@ class FuncApproximator:
 		# when return action, also return some hidden info so that the action has the placeholders
 		# or iterate over it - trying to go from [0 1 1 2] (aggregate/bucket - what MDP gets) to [1 2 3 3] (input to gather)
 		# have a very distinct name for these two!!
-
+		return
 		sess.run(self.train)
 		print (loss) # make sure it's, if not going down, at least not going super high
 
 	# plc = placeholder
 
 	def buildTFgraph(self):
-		print ('in buildTFgraph step in FA')
-		MLP_us = snt.MLP(output_sizes=self.Us_output_sizes) # json ish   # units
-		MLP_cs = snt.MLP(output_sizes=self.Cs_output_sizes) # countries
+		print ('\n\nin buildTFgraph step in FA\n\n')
+		
+		MLP_us = snt.nets.MLP(output_sizes=self.Us_output_sizes) # json ish   # units
+		MLP_cs = snt.nets.MLP(output_sizes=self.Cs_output_sizes) # countries
 
-		self.state_plc = tf.placeholder(shape=[self.state_dim], dtype=tf.float32, name="state_plc")  #dimension of state
+		self.state_plc = tf.placeholder(shape=(self.state_dim,1), dtype=tf.float32, name="state_plc")  #dimension of state
 		Us_logits = MLP_us(self.state_plc)  # apply MLP
 		Cs_logits = MLP_cs(self.state_plc)
 
@@ -49,27 +54,31 @@ class FuncApproximator:
 		self.Cs_plc = tf.placeholder(shape=[None], dtype=tf.int32, name="Cs_plc")  # 1 dimensional, but don't know how long
 		self.Ts_plc = tf.placeholder(shape=[], dtype=tf.float32, name="Ts_plc") # Ts = future rewards (target)
 
-		Us_lprobs = tf.nn.logsoftmax(Us_logits)
-		Cs_lprobs = tf.nn.logsoftmax(Cs_logits)
+		Us_lprobs = tf.nn.log_softmax(Us_logits)
+		Cs_lprobs = tf.nn.log_softmax(Cs_logits)
 
 		# probability of that number of units
 		lprob_of_action = Us_lprobs[self.Us_plc] + tf.reduce_sum(tf.gather(Cs_lprobs, self.Cs_plc))
 		self.loss = -(lprob_of_action * self.Ts_plc)
 
 		self.train = tf.train.AdamOptimizer(learning_rate=self.learning_rate).minimize(self.loss)
-
+		print('\n\nfinished tf graph\n\n')
 		# sess.run on train is PG step
 
 	def __init__(self, cfg):
 		self.num_countries = cfg["NUM_COUNTRIES"]
 		self.num_resources = cfg["NUM_RESOURCES"]
-		self.Us_output_sizes = 1	#1 int for # resources	#OR SHOULD IT BE NUM_RESOURCES? 
-		self.Cs_output_sizes = self.num_resources			#OR SOMETHING ELSE? 
+
+		# output_sizes = tuple(output_sizes) -->  self._num_layers = len(self._output_sizes)
+		# --> self._layers = [basic.Linear(self._output_sizes[i]... for each layer
+		self.Us_output_sizes = [40, 20, 1]
+		#self.Us_output_sizes = tf.constant([[40, 20, 1],[1, 0, 0]])	#1 int for # resources	#OR SHOULD IT BE NUM_RESOURCES? 
+		self.Cs_output_sizes = [40, 20, self.num_resources]			#OR SOMETHING ELSE? 
 		self.state_dim = (self.num_countries * 2) + 1
 		self.learning_rate = 0.01
 		self.sess = tf.Session() 
 		self.buildTFgraph()
-		# need some global variable initializer line - will get error message.
+
 		tf.initializers.global_variables()
 
 

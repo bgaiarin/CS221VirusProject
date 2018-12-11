@@ -39,7 +39,7 @@ MAX_ITERATIONS = 10
 EXTRA_ITERATIONS = 3 # number of steps to run after it reaches end state
 
 # From Q-Learning and copied. Necessary? 
-action_without_resources = [[0] * mdp.NUM_COUNTRIES] 
+action_without_resources = [0] * mdp.NUM_COUNTRIES 
 GAMMA = 0.99
 
 #### INITIALIZE FA #################################
@@ -50,7 +50,7 @@ fa = FuncApproximator(cfg)
 #total outer for loop = number total_episodes
 for ep in range(TOTAL_EPISODES):
     state = mdp.state
-    actions = []  # list of (state, action) pairs
+    actions = []  # list of (state, action, reward) pairs
     itersLeft = EXTRA_ITERATIONS
 
     ## FORWARD PASS: experiment and get reward
@@ -58,7 +58,7 @@ for ep in range(TOTAL_EPISODES):
         print ('in ep', ep, 'taking step', step)
         if mdp.isEnd(state):
             step = MAX_ITERATIONS - itersLeft  # runs a few steps after it reaches end state
-            itersLeft -= 1
+            itersLeft -= 1  # make sure we are able to take actions allocating 0 (FA should do this)
     	
         #sample action using FuncApproximator & save
         action = fa.sample(state)
