@@ -6,20 +6,8 @@ import sonnet as snt
 
 class FuncApproximator:
 
-	def __init__(self):
-		self.num_countries = 
-		self.num_resources = 
-		self.Us_output_sizes = 1	#1 int for # resources	#OR SHOULD IT BE NUM_RESOURCES? 
-		self.Cs_output_sizes = self.num_resources			#OR SOMETHING ELSE? 
-		self.state_dim = (self.num_countries*2) + 1
-		self.learning_rate = 0.01
-		self.sess = tf.Session() 
-		self.buildTFgraph()
-		# need some global variable initializer line - will get error message.
-		tf.initializers.global_variables()
-
 	def sample(self, state): 
-
+		print ('in sample step in FA with state', state)
 		# somehow get state to be a numpy array
 		state = np.asarray(state)
 		Us_probs_py, Cs_probs_py = self.sess.run([self.Us_probs, self.Cs_probs], feed_dict={self.state_plc : state})
@@ -28,20 +16,23 @@ class FuncApproximator:
 		print(Us_probs_py)
 		print(Cs_probs_py)
 
+		return action
+
 
 	# backwards step - do policy gradient update based on how RL controller knows. will have saved all the actions, loop through, call this each time.
 	def update(self, state, action, target):
-		pass
+		print ('in update step in FA with state', state, 'and action', action)
 		# when return action, also return some hidden info so that the action has the placeholders
 		# or iterate over it - trying to go from [0 1 1 2] (aggregate/bucket - what MDP gets) to [1 2 3 3] (input to gather)
 		# have a very distinct name for these two!!
 
-		# in update, call sess.run(self.train)
-		# print loss, make sure it's, if not going down, at least not going super high
+		sess.run(self.train)
+		print (loss) # make sure it's, if not going down, at least not going super high
 
 	# plc = placeholder
 
 	def buildTFgraph(self):
+		print ('in buildTFgraph step in FA')
 		MLP_us = snt.MLP(output_sizes=self.Us_output_sizes) # json ish   # units
 		MLP_cs = snt.MLP(output_sizes=self.Cs_output_sizes) # countries
 
@@ -68,6 +59,19 @@ class FuncApproximator:
 		self.train = tf.train.AdamOptimizer(learning_rate=self.learning_rate).minimize(self.loss)
 
 		# sess.run on train is PG step
+
+	def __init__(self, cfg):
+		self.num_countries = cfg["NUM_COUNTRIES"]
+		self.num_resources = cfg["NUM_RESOURCES"]
+		self.Us_output_sizes = 1	#1 int for # resources	#OR SHOULD IT BE NUM_RESOURCES? 
+		self.Cs_output_sizes = self.num_resources			#OR SOMETHING ELSE? 
+		self.state_dim = (self.num_countries * 2) + 1
+		self.learning_rate = 0.01
+		self.sess = tf.Session() 
+		self.buildTFgraph()
+		# need some global variable initializer line - will get error message.
+		tf.initializers.global_variables()
+
 
 '''
 RL:
@@ -135,3 +139,4 @@ than to run experiment longer.
         
         optimizer = tf.train.AdamOptimizer(learning_rate=lr)
         self.update_batch = optimizer.apply_gradients(zip(self.gradient_holders,tvars))
+'''

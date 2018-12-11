@@ -77,7 +77,7 @@ class EpidemicMDP:
 		
 		infectedSeats = 0
 		if country not in self.neighbors.keys():
-			print 'COUNTRY', country, 'HAS NO INBOUND FLIGHTS IN OUR SYSTEM'
+			print ('COUNTRY', country, 'HAS NO INBOUND FLIGHTS IN OUR SYSTEM')
 			return 0.0
 		for neighbor in self.neighbors[country]:
 			if state[self.countries.index(neighbor[0])] == 1: # if neighbor is infected
@@ -139,7 +139,7 @@ class EpidemicMDP:
 			elif state[i] == 1:
 				newState[self.NUM_COUNTRIES + i] *= self.INFECTION_COST
 			else:
-				print 'INFECTION FLAG NON-BINARY VALUE ERROR FOR COUNTRY AT INDEX', index
+				print ('INFECTION FLAG NON-BINARY VALUE ERROR FOR COUNTRY AT INDEX', index)
 		#print 'after updating scores:',newState
 
 		# Alter per-country resistances in newState to reflect new resource allocation based on action.
@@ -157,7 +157,7 @@ class EpidemicMDP:
 				if random.uniform(0,1) < q:
 					newState = newState[:index] + [0] + newState[index + 1:]
 			else:
-				print 'INFECTION FLAG NON-BINARY VALUE ERROR FOR COUNTRY AT INDEX', index
+				print ('INFECTION FLAG NON-BINARY VALUE ERROR FOR COUNTRY AT INDEX', index)
 
 		reward = self.getReward(newState)
 		return newState, reward
@@ -235,11 +235,11 @@ class EpidemicMDP:
 			if country in self.countries:
 				index = self.countries.index(country)
 				if index >= self.NUM_COUNTRIES or index < 0:
-					print "ERROR INITIALIZING STATE. COUNTRY NOT FOUND: ", country, index
+					print ("ERROR INITIALIZING STATE. COUNTRY NOT FOUND: ", country, index)
 				else:
 					state[self.countries.index(country)] = infection
 			else:
-				print 'ERROR: INFECTED COUNTRY', country,'NOT IN LIST OF COUNTRIES'
+				print ('ERROR: INFECTED COUNTRY', country,'NOT IN LIST OF COUNTRIES')
 		#print '--- finished initializing state: ', state
 		return state
 

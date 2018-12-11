@@ -2,57 +2,89 @@
 #### PACKAGES #################################
 
 from mdp import EpidemicMDP 
+from funcapprox import FuncApproximator
 import random 
 from collections import defaultdict
 import math 
-from funcapprox import FuncApproximator 
-
 import tensorflow as tf
 import tensorflow.contrib.slim as slim
 import numpy as np
 import matplotlib.pyplot as plt
-%matplotlib inline
+#%matplotlib inline
 
+# what is this?
 try:
     xrange = xrange
 except:
     xrange = range
 
-#### GLOBAL VARIABLES #################################
+#### INITIALIZE MDP #################################
 
 infections = {'Nigeria' : 1}
-# resp_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv'
-# trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
-resp_csv = 'data/country_response_indicators.csv'
-#trans_csv = 'data/transitions.csv'
-trans_csv = 'data/transitions_9countries.csv'
-mdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) 
-NUM_COUNTRIES = mdp.NUM_COUNTRIES
-INDEX_RESOURCE = NUM_COUNTRIES*2
-RESOURCES = 15
-TOTAL_EPISODES = 10	#2000? Calculate time per episode, and maximize. One episode should be < 11 seconds. 
+resources = 5
+resp_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv' #'data/country_response_indicators.csv'
+trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv' #'data/transitions.csv' data/transitions_9countries.csv'
+mdp = EpidemicMDP(trans_csv, resp_csv, infections, resources)
+
+print ('init mdp. num countries is', mdp.NUM_COUNTRIES)
+
+
+#### GLOBAL VARS #################################
+cfg = {}  # config to pass to func approx
+cfg["NUM_COUNTRIES"] = mdp.NUM_COUNTRIES
+cfg["INDEX_RESOURCE"] = cfg["NUM_COUNTRIES"] * 2
+cfg["NUM_RESOURCES"] = resources
+TOTAL_EPISODES = 10	#2000? Calculate time per episode, and maximize. One episode should be < 11 seconds.
+MAX_ITERATIONS = 10
+EXTRA_ITERATIONS = 3 # number of steps to run after it reaches end state
 
 # From Q-Learning and copied. Necessary? 
-NUM_SIMULATIONS = 150
-MAX_ITERATIONS = 100
-action_without_resources = [[0]*NUM_COUNTRIES]
+action_without_resources = [[0] * mdp.NUM_COUNTRIES] 
 GAMMA = 0.99
+
+#### INITIALIZE FA #################################
+fa = FuncApproximator(cfg)
 
 #### RUN #################################
 
-total outer for loop = number total_episodes
-	in each episode: 
-		## FORWARD PASS
-		sample action using func FuncApproximator
-		take that action using MDP
-		save action that we took!
-		keep doing that a bunch of times until MDP terminates
-			--> print actions? 
-			--> printing loss? 
-			--> printing total reward 
-		## BACKWARD PASS
-		get final reward that we had
-		go over all actions that we took, do policy gradient update on that state and the action 
+#total outer for loop = number total_episodes
+for ep in range(TOTAL_EPISODES):
+    state = mdp.state
+    actions = []  # list of (state, action) pairs
+    itersLeft = EXTRA_ITERATIONS
+
+    ## FORWARD PASS: experiment and get reward
+    for step in range(MAX_ITERATIONS):
+        print ('in ep', ep, 'taking step', step)
+        if mdp.isEnd(state):
+            step = MAX_ITERATIONS - itersLeft  # runs a few steps after it reaches end state
+            itersLeft -= 1
+    	
+        #sample action using FuncApproximator & save
+        action = fa.sample(state)
+        #take that action using MDP
+        new_state, reward = mdp.sampleNextState(state, action)
+
+        actions.append((state, action, reward)) # does reward have to be cumulative?
+    	
+        state = new_state
+        
+
+    print(actions)
+	#--> print loss? 
+	#--> print total reward 
+
+    # reverse actions for easy backward pass
+    actions.reverse()
+	## BACKWARD PASS: use reward to update actions
+    for (state, action, target) in actions:
+        print ('updating')
+        #get final reward that we had
+
+        #go over all actions that we took, do policy gradient update on that state and the action 
+        fa.update(state, action, target)
+
+    print ('completed episode no.', ep)
 
 
 
