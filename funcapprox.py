@@ -1,4 +1,4 @@
-from mdp import EpidemicMDP 
+from policygrad import * 
 import tensorflow as tf
 import numpy as np
 import sonnet as snt 
@@ -7,15 +7,27 @@ import sonnet as snt
 
 class FuncApproximator:
 
-	def __init__(self, cfg):
-		self.cfg = cfg
+	def __init__(self):
+		self.num_countries = policygrad.NUM_COUNTRIES
+		self.Us_output_sizes = 1	#1 int for # resources	#OR SHOULD IT BE NUM_RESOURCES? 
+		self.Cs_output_sizes = self.num_countries 			#OR SOMETHING ELSE? 
+		self.state_dim = (self.num_countries*2) + 1
+		self.learning_rate = 0.01
 		self.sess = tf.Session() 
 		self.buildTFgraph()
 		# need some global variable initializer line - will get error message.
+		tf.initializers.global_variables()
 
-	def sample(self, state): # somehow get state to be a numpy array
+	def sample(self, state): 
+
+		# somehow get state to be a numpy array
+		state = np.asarray(state)
 		Us_probs_py, Cs_probs_py = self.sess.run([self.Us_probs, self.Cs_probs], feed_dict={self.state_plc : state})
+
 		# python numpy stuff to sample from the us and cs
+		print(Us_probs_py)
+		print(Cs_probs_py)
+		
 
 	# backwards step - do policy gradient update based on how RL controller knows. will have saved all the actions, loop through, call this each time.
 	def update(self, state, action, target):
@@ -28,12 +40,12 @@ class FuncApproximator:
 		# print loss, make sure it's, if not going down, at least not going super high
 
 	# plc = placeholder
-	def buildTFgraph(self):
-		cfg = self.cfg
-		MLP_us = snt.MLP(output_sizes=cfg["output_sizes"]["Us"]) # json ish   # units
-		MLP_cs = snt.MLP(output_sizes=cfg["output_sizes"]["Cs"]) # countries
 
-		self.state_plc = tf.placeholder(shape=[cfg["state_dim"]], dtype=tf.float32, name="state_plc")  #dimension of state
+	def buildTFgraph(self):
+		MLP_us = snt.MLP(output_sizes=self.Us_output_sizes) # json ish   # units
+		MLP_cs = snt.MLP(output_sizes=self.Cs_output_sizes) # countries
+
+		self.state_plc = tf.placeholder(shape=[self.state_dim], dtype=tf.float32, name="state_plc")  #dimension of state
 		Us_logits = MLP_us(self.state_plc)  # apply MLP
 		Cs_logits = MLP_cs(self.state_plc)
 
@@ -53,7 +65,7 @@ class FuncApproximator:
 		lprob_of_action = Us_lprobs[self.Us_plc] + tf.reduce_sum(tf.gather(Cs_lprobs, self.Cs_plc))
 		self.loss = -(lprob_of_action * self.Ts_plc)
 
-		self.train = tf.train.AdamOptimizer(learning_rate=cfg["learning_rate"]).minimize(self.loss)
+		self.train = tf.train.AdamOptimizer(learning_rate=self.learning_rate).minimize(self.loss)
 
 		# sess.run on train is PG step
 
