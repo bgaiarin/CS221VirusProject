@@ -1,4 +1,3 @@
-from policygrad import * 
 import tensorflow as tf
 import numpy as np
 import sonnet as snt 
@@ -8,9 +7,10 @@ import sonnet as snt
 class FuncApproximator:
 
 	def __init__(self):
-		self.num_countries = policygrad.NUM_COUNTRIES
+		self.num_countries = 
+		self.num_resources = 
 		self.Us_output_sizes = 1	#1 int for # resources	#OR SHOULD IT BE NUM_RESOURCES? 
-		self.Cs_output_sizes = self.num_countries 			#OR SOMETHING ELSE? 
+		self.Cs_output_sizes = self.num_resources			#OR SOMETHING ELSE? 
 		self.state_dim = (self.num_countries*2) + 1
 		self.learning_rate = 0.01
 		self.sess = tf.Session() 
@@ -27,7 +27,7 @@ class FuncApproximator:
 		# python numpy stuff to sample from the us and cs
 		print(Us_probs_py)
 		print(Cs_probs_py)
-		
+
 
 	# backwards step - do policy gradient update based on how RL controller knows. will have saved all the actions, loop through, call this each time.
 	def update(self, state, action, target):
