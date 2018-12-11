@@ -43,6 +43,12 @@ def getUniformActions(state):
 		actions[0].append(allocation)
 	return actions
 
+def getNoActions(state): 
+	actions = [[]]
+	for i in range(NUM_COUNTRIES):
+		actions[0].append(0)
+	return actions
+
 # def getRandomActions(state):
 # 	actions = newmdp.getActions(state)
 # 	if (actions == []): return []
@@ -104,6 +110,12 @@ print " "
 print("##### DUMB RESOURCE ALLOCATION #####") 
 for i in range(num_trials):
 	simulate(getDumbActions, i, resp_csv, trans_csv, infections, resources)
+
+### NO RESOURCE ALLOCATION: DON'T DO ANYTHING
+print " "
+print("##### NO RESOURCE ALLOCATION #####") 
+for i in range(num_trials):
+	simulate(getNoActions, i, resp_csv, trans_csv, infections, resources)
 
 # ### RANDOM ALLOCATION: RANDOM AMOUNTS ASSIGNED TO RANDOM STATES 
 # print " "
