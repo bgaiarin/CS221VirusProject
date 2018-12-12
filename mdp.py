@@ -31,7 +31,7 @@ class EpidemicMDP:
 		num_resources = state[self.INDEX_RESOURCE]
 		all_actions = []
 		index_array = self.getIndexArray()
-		for i in range(1, num_resources+1):
+		for i in range(1, num_resources + 1):
 			actions = self.iterateGetActions(index_array, i)
 			for action in actions: 
 				all_actions.append(action)
@@ -52,6 +52,18 @@ class EpidemicMDP:
 	# 		newState[i] gets increased and not decremented. Again, we can choose not to do this if we change
 	#		the update equation that we use. 
 	def updateResistances(self, state, action): 
+
+		newState = state[:]
+		for country in action:
+			index = country + self.NUM_COUNTRIES
+			update = newState[index] * self.RESISTANCE_BOOST
+			newState[index] = min(update, self.MAX_RESPONSE_SCORE)  #Keep in range (0,max). caps benefit of reward.
+
+		newState[self.INDEX_RESOURCE] -= len(action) # subtracts units used
+		return newState
+
+
+		'''
 		units_used = sum(action)
 		newState = state[:]
 		for i in range(self.NUM_COUNTRIES, self.INDEX_RESOURCE):
@@ -62,6 +74,7 @@ class EpidemicMDP:
 				newState[i] = ( update if update < self.MAX_RESPONSE_SCORE else self.MAX_RESPONSE_SCORE )	#Keep in range (0,max). caps benefit of reward.
 		newState[self.INDEX_RESOURCE] = newState[self.INDEX_RESOURCE]-units_used
 		return newState
+		'''
 
 	#################################################################################
 	#							GET NEXT STATE, ACTION & REWARD 					#
@@ -255,6 +268,7 @@ class EpidemicMDP:
 		self.INFECTION_COST = 0.68 # 0 < x < 1, should be <= PREVENTION_COST
 		self.MAX_RESPONSE_SCORE = 0.9 # todo change to like .8?
 		self.REWARD_WEIGHT = 5.0 	#used to scale rewards with #countries infected/uninfected 
+		self.RESISTANCE_BOOST = 1.1 # amount by which resistance is increased when 1 resource unit is allocated
 		self.state = self.initState(initial_infections, initial_resources)
 
 

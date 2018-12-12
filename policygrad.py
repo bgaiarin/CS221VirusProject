@@ -52,10 +52,11 @@ for ep in range(TOTAL_EPISODES):
     state = mdp.state
     actions = []  # list of (state, action, reward) pairs
     itersLeft = EXTRA_ITERATIONS
+    reward_total = 0
 
     ## FORWARD PASS: experiment and get reward
     for step in range(MAX_ITERATIONS):
-        print ('in ep', ep, 'taking step', step)
+        #print ('in ep', ep, 'taking step', step)
         if mdp.isEnd(state):
             step = MAX_ITERATIONS - itersLeft  # runs a few steps after it reaches end state
             itersLeft -= 1  # make sure we are able to take actions allocating 0 (FA should do this)
@@ -64,13 +65,13 @@ for ep in range(TOTAL_EPISODES):
         action = fa.sample(state)
         #take that action using MDP
         new_state, reward = mdp.sampleNextState(state, action)
+        reward_total += reward
 
         actions.append((state, action, reward)) # does reward have to be cumulative?
     	
         state = new_state
         
-
-    print(actions)
+    #print(actions)
 	#--> print loss? 
 	#--> print total reward 
 
@@ -78,13 +79,13 @@ for ep in range(TOTAL_EPISODES):
     actions.reverse()
 	## BACKWARD PASS: use reward to update actions
     for (state, action, target) in actions:
-        print ('updating')
+        #print ('updating')
         #get final reward that we had
 
         #go over all actions that we took, do policy gradient update on that state and the action 
         fa.update(state, action, target)
 
-    print ('completed episode no.', ep)
+    print ('completed episode no.', ep, 'with reward', reward_total)
 
 
 
