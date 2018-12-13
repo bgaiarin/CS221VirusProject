@@ -1,5 +1,7 @@
 from mdp import EpidemicMDP # changed from import mdp
 import random 
+from collections import defaultdict
+import matplotlib.pyplot as plt
 
 infections = {'Nigeria' : 1}
 resources = 15
@@ -7,13 +9,19 @@ resources = 15
 # trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
 resp_csv = 'data/country_response_indicators.csv'
 #trans_csv = 'data/transitions.csv'
-trans_csv = 'data/transitions_9countries.csv'
+trans_csv = 'data/transitions_7countries.csv'
 newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
 print(newmdp.countries)
 NUM_COUNTRIES = newmdp.NUM_COUNTRIES
+MAX_MDP_REWARD = newmdp.MAX_REWARD
 INDEX_RESOURCE = NUM_COUNTRIES*2
-num_trials = 8
+num_trials = 1001
 max_iterations = 100
+
+#PY PLOT
+Xdata = []
+Ydata = [[],[],[],[]]
+ENDdata = [0,0,0,0]
 
 
 # Given a number of resources, allocates one to each country. 
@@ -64,7 +72,7 @@ def getRandomActions(state):
 		return [c]
 
 
-def simulate(actionCommand, trial_num, resp_csv, trans_csv, infections, resources):
+def simulate(actionCommand, trial_num, resp_csv, trans_csv, infections, resources, baseline):
 	grand_total_rewards = 0
 	mdp = EpidemicMDP(trans_csv, resp_csv, infections, resources)
 	s = mdp.state
@@ -95,36 +103,76 @@ def simulate(actionCommand, trial_num, resp_csv, trans_csv, infections, resource
 		print("TRIAL:", trial_num, '- SIMULATION ITERATIONS EQUALS ZERO')
 	else:
 		avg_reward = total_reward/float(its)
-		#print "TRIAL:", trial_num, " ", avg_reward
-		print("End: ", max_reward)
-		print("Average: ", avg_reward)
+		# print("End: ", max_reward)
+		# print("Average: ", avg_reward)
+
+	if (max_reward == MAX_MDP_REWARD): ENDdata[baseline] += 1
+	
+	return avg_reward
+	#Ydata[baseline].append(avg_reward)
+
 
 
 ### UNIFORM RESOURCE ALLOCATION: EVERYTHING AT T=1, EQUAL NUMBERS TO EACH STATE
 print(" ")
 print("##### UNIFORM RESOURCE ALLOCATION #####")
+r = 0
 for i in range(num_trials):
-	simulate(getUniformActions, i, resp_csv, trans_csv, infections, resources)
-
+	if (i % 20 == 0 or i == 0): Xdata.append(i)
+	r += simulate(getUniformActions, i, resp_csv, trans_csv, infections, resources, 0)/20.0
+	if (i % 20 == 0 or i == 0): 
+		Ydata[0].append(r)
+		r = 0
 ### EQUAL RESOURCE ALLOCATION: EVERYTHING AT T=1, EQUAL NUMBERS TO EACH INFECTED STATE
 print(" ")
 print("##### EQUAL RESOURCE ALLOCATION #####") 
+r = 0
 for i in range(num_trials):
-	simulate(getEqualActions, i, resp_csv, trans_csv, infections, resources)
-
+	r += simulate(getEqualActions, i, resp_csv, trans_csv, infections, resources, 1)/20.0
+	if (i % 20 == 0 or i == 0): 
+		Ydata[1].append(r)
+		r = 0
 ### NO RESOURCE ALLOCATION: DON'T DO ANYTHING
 print(" ")
 print("##### NO RESOURCE ALLOCATION #####") 
+r = 0
 for i in range(num_trials):
-	simulate(getNoActions, i, resp_csv, trans_csv, infections, resources)
-
+	r += simulate(getNoActions, i, resp_csv, trans_csv, infections, resources, 2)/20.0
+	if (i % 20 == 0 or i == 0): 
+		Ydata[2].append(r)
+		r = 0
 ### RANDOM ALLOCATION: RANDOM AMOUNTS ASSIGNED TO RANDOM STATES 
 print(" ")
 print("##### RANDOM RESOURCE ALLOCATION #####") 
+r = 0
 for i in range(num_trials):
-	simulate(getRandomActions, i, resp_csv, trans_csv, infections, resources)
+	r += simulate(getRandomActions, i, resp_csv, trans_csv, infections, resources, 3)/20.0
+	if (i % 20 == 0 or i == 0): 
+		Ydata[3].append(r)
+		r = 0
 
+#PRINT NUMBER OF SUCCESSFUL GAMES
+print("##### UNIFORM RESOURCE ALLOCATION #####")
+print(ENDdata[0])
+print("##### EQUAL RESOURCE ALLOCATION #####") 
+print(ENDdata[1])
+print("##### NO RESOURCE ALLOCATION #####") 
+print(ENDdata[2])
+print("##### RANDOM RESOURCE ALLOCATION #####") 
+print(ENDdata[3])
 
+#PLOT 
+for i in range(4):
+	if (i == 0): l = "Uniform"
+	if (i == 1): l = "Equal"
+	if (i == 2): l = "No Allocation"
+	if (i == 3): l = "Random"
+	plt.plot(Xdata, Ydata[i], label = l)
+plt.ylabel('Average Reward')
+plt.xlabel('Simulation')
+plt.title('Average Rewards for all Baselines')
+plt.legend()
+plt.show()
 
 
 

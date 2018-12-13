@@ -15,7 +15,7 @@ trans_csv = 'data/transitions_7countries.csv'
 newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
 NUM_COUNTRIES = newmdp.NUM_COUNTRIES
 INDEX_RESOURCE = NUM_COUNTRIES*2
-num_simulations = 150
+num_simulations = 400
 max_iterations = 100
 action_without_resources = [[0]*NUM_COUNTRIES]
 

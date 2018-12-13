@@ -38,10 +38,6 @@ TOTAL_EPISODES = 10	#2000? Calculate time per episode, and maximize. One episode
 MAX_ITERATIONS = 10
 EXTRA_ITERATIONS = 3 # number of steps to run after it reaches end state
 
-# From Q-Learning and copied. Necessary? 
-action_without_resources = [0] * mdp.NUM_COUNTRIES 
-GAMMA = 0.99
-
 #### INITIALIZE FA #################################
 fa = FuncApproximator(cfg)
 
