@@ -28,7 +28,7 @@ class EpidemicMDP:
 		for r in rlist: 
 			allocs = self.getAllocations(r)
 			for a in allocs: 
-				actions.append(a)
+				actions.append(list(a))
 		return actions
 
 	#################################################################################

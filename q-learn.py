@@ -12,10 +12,9 @@ resp_csv = 'data/country_response_indicators.csv'
 #trans_csv = 'data/transitions.csv'
 trans_csv = 'data/transitions_9countries.csv'
 newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
-print newmdp.countries
 NUM_COUNTRIES = newmdp.NUM_COUNTRIES
 INDEX_RESOURCE = NUM_COUNTRIES*2
-num_simulations = 150
+num_simulations = 5
 max_iterations = 100
 action_without_resources = [[0]*NUM_COUNTRIES]
 
@@ -34,27 +33,31 @@ learning_rate = 0.9
 # ATTENTION: ALL OF THIS IS NOT SOPHISTICATED. 
 # Would likely be best to replace this discretization method with a something like 
 # multilayer feedforward, or some other NN-backed method. 
-def discretizeState(s):
+def discretizeState(state, action):
     #ROUND TO NEAREST TENTH
     for i in range(NUM_COUNTRIES, INDEX_RESOURCE):
-        s[i] = round(s[i], 1)
+        state[i] = round(state[i], 1)
+    #COLLECT ALLOCATION FREQUENCIES
+    allocs = [0]*NUM_COUNTRIES
+    for a in action: 
+        allocs[a] += 1
     #GROUP BINARY-RESPONSE-ACTION TOGETHER FOR EACH STATE, AND SORT
     ds = [None]*NUM_COUNTRIES
     for i in range(NUM_COUNTRIES):
-        ds[i] = str(s[i]) + str(s[NUM_COUNTRIES + i]) + str(s[INDEX_RESOURCE + 1 + i])
+        ds[i] = str(state[i]) + str(state[NUM_COUNTRIES + i]) + str(allocs[i])
     return sorted(ds)
 
 # A helper function. 
 # Takes in a state (vector) and returns it as a hashable type (string). 
-def makeHashable(state):
-    state = discretizeState(list(state[0] + state[1]))
+def makeHashable(state, action):
+    state = discretizeState(state, action)
     link = "-"
     return link.join(str(state))
 
 # Return a single-element list containing a binary (indicator) feature
 # for the existence of the (state, action) pair.  Provides no generalization.
 def featureExtractor(state, action):
-    featureKey = makeHashable((state, action))
+    featureKey = makeHashable(state, action)
     featureValue = 1
     return [(featureKey, featureValue)]
 
@@ -145,7 +148,8 @@ def simulateQLearning(trial_num):
         state = newState
 
     avg_reward = total_rewards/float(num_iterations)
-    print(avg_reward)
+    print("END: ", reward)
+    print("AVG: ", avg_reward)
 
 
 # RUN Q-LEARNING
