@@ -11,13 +11,13 @@ class EpidemicMDP:
 	# If r = 4, creates an array of indices: [0, 1, 2, 3]
 	def getPartsArray(self, r): 
 		arr = []
-		for i in range(r):
+		for i in range(r+1):
 			arr.append(i)
 		return arr 
 
 	# Get all possible combinations of actions for a given # of resources 
 	def getAllocations(self, resource):
-		combos = itertools.combinations_with_replacement(self.getPartsArray(self.NUM_COUNTRIES), resource)
+		combos = itertools.combinations_with_replacement(self.getPartsArray(self.NUM_COUNTRIES-1), resource)
 		return list(combos)
 
 	# Given a  state, returns all possible actions (resource allocations). 
@@ -110,27 +110,26 @@ class EpidemicMDP:
 		# If virus is not killed but resources have been all used, we return a big negative reward. Ending with uninfected countries is a bonus!
 	def getReward(self, state): 
 
-		# Check to see if virus has been terminated and get # of uninfected countries 
-		result = self.noVirus(state)
-		virus_terminated = result[0]
-		num_infected_countries = self.NUM_COUNTRIES - result[1]
+		# Check to see if virus has been terminated and get # of infected and uninfected countries 
+		virus_terminated, num_infected_countries = self.noVirus(state)
 		num_uninfected_countries = self.NUM_COUNTRIES - num_infected_countries
 
 		# END STATE: No more infected countries 
 		if (virus_terminated): 
-			return self.REWARD_WEIGHT*self.NUM_COUNTRIES 	#bonus for saving resources: + (state[self.INDEX_RESOURCE]*self.END_RESOURCES_WEIGHT)
+			return self.MAX_REWARD 	#bonus for saving resources: + (state[self.INDEX_RESOURCE]*self.END_RESOURCES_WEIGHT)
 
 		# END STATE: No more resources
-		elif (state[self.INDEX_RESOURCE] == 0): 
-			return -(self.REWARD_WEIGHT*self.NUM_COUNTRIES) + num_uninfected_countries	#todo: delete little reward for countries that are still uninfected?
-		
+		elif (state[self.INDEX_RESOURCE] <= 0): 
+			return -self.MAX_REWARD				#todo: little reward for countries that are still uninfected?
+			
 		# NOT AN END STATE
 		else:
+			unit = self.NUM_COUNTRIES/self.MAX_REWARD
 			num_ones = 0.0
 			num_zeros = 0.0
 			for i in range(0, self.NUM_COUNTRIES): 
-				if state[i] == 1: num_ones += 1.0
-				else: num_zeros += 1.0
+				if state[i] == 1: num_ones += unit
+				else: num_zeros += unit
 			return num_zeros-num_ones 					#add bonus for leftover resources? 
 
 
@@ -261,9 +260,31 @@ class EpidemicMDP:
 		self.PREVENTION_COST = 0.9
 		self.INFECTION_COST = 0.68 # 0 < x < 1, should be <= PREVENTION_COST
 		self.MAX_RESPONSE_SCORE = 0.9 # todo change to like .8?
-		self.REWARD_WEIGHT = 5.0 	#used to scale rewards with #countries infected/uninfected 
+		self.MAX_REWARD = 10.0
 		self.RESISTANCE_BOOST = 1.1 # amount by which resistance is increased when 1 resource unit is allocated
 		self.state = self.initState(initial_infections, initial_resources)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -286,6 +307,36 @@ class EpidemicMDP:
 #print self.TOTAL_SEATS
 # WHY ARE ALL THE COUNTRIES SHOWING UP? SHOULD ONLY BE 50ISH
 #print 'state is', self.state, 'and num_countries is', self.NUM_COUNTRIES
+
+
+# OLD REWARDS FUNCTION: 
+
+	# def getReward(self, state): 
+
+	# 	# Check to see if virus has been terminated and get # of uninfected countries 
+	# 	result = self.noVirus(state)
+	# 	virus_terminated = result[0]
+	# 	num_infected_countries = self.NUM_COUNTRIES - result[1]
+	# 	num_uninfected_countries = self.NUM_COUNTRIES - num_infected_countries
+
+	# 	# END STATE: No more infected countries 
+	# 	if (virus_terminated): 
+	# 		return self.REWARD_WEIGHT*self.NUM_COUNTRIES 	#bonus for saving resources: + (state[self.INDEX_RESOURCE]*self.END_RESOURCES_WEIGHT)
+
+	# 	# END STATE: No more resources
+	# 	elif (state[self.INDEX_RESOURCE] == 0): 
+	# 		return -(self.REWARD_WEIGHT*self.NUM_COUNTRIES) + num_uninfected_countries	#todo: delete little reward for countries that are still uninfected?
+		
+	# 	# NOT AN END STATE
+	# 	else:
+	# 		num_ones = 0.0
+	# 		num_zeros = 0.0
+	# 		for i in range(0, self.NUM_COUNTRIES): 
+	# 			if state[i] == 1: num_ones += 1.0
+	# 			else: num_zeros += 1.0
+	# 		return num_zeros-num_ones 					#add bonus for leftover resources? 
+
+
 
 # OLD GET ACTIONS FUNCTIONS: 
 

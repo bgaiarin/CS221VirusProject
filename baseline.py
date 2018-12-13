@@ -12,7 +12,7 @@ newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to 
 print(newmdp.countries)
 NUM_COUNTRIES = newmdp.NUM_COUNTRIES
 INDEX_RESOURCE = NUM_COUNTRIES*2
-num_trials = 150
+num_trials = 8
 max_iterations = 100
 
 
@@ -96,7 +96,8 @@ def simulate(actionCommand, trial_num, resp_csv, trans_csv, infections, resource
 	else:
 		avg_reward = total_reward/float(its)
 		#print "TRIAL:", trial_num, " ", avg_reward
-		print(avg_reward)
+		print("End: ", max_reward)
+		print("Average: ", avg_reward)
 
 
 ### UNIFORM RESOURCE ALLOCATION: EVERYTHING AT T=1, EQUAL NUMBERS TO EACH STATE
