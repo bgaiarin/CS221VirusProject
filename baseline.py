@@ -106,8 +106,9 @@ def simulate(actionCommand, trial_num, resp_csv, trans_csv, infections, resource
 		# print("End: ", max_reward)
 		# print("Average: ", avg_reward)
 
+	# If virus killed by the end state
 	if (max_reward == MAX_MDP_REWARD): ENDdata[baseline] += 1
-	
+
 	return avg_reward
 	#Ydata[baseline].append(avg_reward)
 

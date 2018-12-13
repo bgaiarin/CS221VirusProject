@@ -242,9 +242,9 @@ class EpidemicMDP:
 		self.INFECTION_COEFFICIENT = 10.0
 		self.PREVENTION_COST = 0.9
 		self.INFECTION_COST = 0.60 # 0 < x < 1, should be <= PREVENTION_COST
-		self.MAX_RESPONSE_SCORE = 0.9 # todo change to like .8?
+		self.MAX_RESPONSE_SCORE = 0.98 # todo change to like .8?
 		self.MAX_REWARD = 10.0
-		self.RESISTANCE_BOOST = 1.1 # amount by which resistance is increased when 1 resource unit is allocated
+		self.RESISTANCE_BOOST = 1.5 # amount by which resistance is increased when 1 resource unit is allocated
 		self.state = self.initState(initial_infections, initial_resources)
 
 
