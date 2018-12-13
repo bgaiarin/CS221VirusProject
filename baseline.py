@@ -15,25 +15,6 @@ INDEX_RESOURCE = NUM_COUNTRIES*2
 num_trials = 150
 max_iterations = 100
 
-def getDumbActions(state):
-	resources = state[INDEX_RESOURCE]
-	actions = [[0]*NUM_COUNTRIES]
-	actions[0][0] = resources  			#ONLY WORKS IF STATE[0] IS UNINFECTED; IF NOT, CHANGE INDEX HERE.
-	return actions 
-
-def getEqualActions(state):
-	resources = state[INDEX_RESOURCE]
-	num_ones = 0
-	action_indices = []
-	for i in range(0, NUM_COUNTRIES):
-		if (state[i] == 1): 
-			num_ones += 1
-			action_indices.append(i)
-	allocation = float(resources)/num_ones
-	actions = [[0]*NUM_COUNTRIES]
-	for index in action_indices: 
-		actions[0][index] = allocation
-	return actions
 
 # Given a number of resources, allocates one to each country. 
 # If # resources < # countries, then the first (# countries - # resources)
@@ -48,19 +29,39 @@ def getUniformActions(state):
 		countries -= 1
 	return [action]
 
+# Allocate all resources to all and only infected countries. 
+# Will use all resources in first time step. 
+# Allocates equally amongst infected states, so long as 
+# resources can be divided equally amongst the infected states.
+def getEqualActions(state):
+	action_indices = []
+	for i in range(0, NUM_COUNTRIES):
+		if (state[i] == 1): 
+			action_indices.append(i)
 
+	resources = state[INDEX_RESOURCE]
+	action = []
+	index = len(action_indices)-1
+	for i in range(resources):
+		if (index == -1): 
+			index = len(action_indices)-1		#start over, we run until i == resources
+		action.append(action_indices[index])
+		index -= 1
+	return [action]
+
+# Do not allocate any resources
 def getNoActions(state): 
 	actions = [[]]
-	for i in range(NUM_COUNTRIES):
-		actions[0].append(0)
 	return actions
 
-# def getRandomActions(state):
-# 	actions = newmdp.getActions(state)
-# 	if (actions == []): return []
-# 	else: 
-# 		c = random.choice(actions)
-# 		return [c]
+# Select random action from all possible actions 
+# (all possible allocations of possible resource quantities at time t)
+def getRandomActions(state):
+	actions = newmdp.getActions(state)
+	if (actions == []): return []
+	else: 
+		c = random.choice(actions)
+		return [c]
 
 
 def simulate(actionCommand, trial_num, resp_csv, trans_csv, infections, resources):
@@ -97,7 +98,6 @@ def simulate(actionCommand, trial_num, resp_csv, trans_csv, infections, resource
 		#print "TRIAL:", trial_num, " ", avg_reward
 		print(avg_reward)
 
-#startstate = [0,1,0,0,0.8,0.2,0.88,0.3,5]
 
 ### UNIFORM RESOURCE ALLOCATION: EVERYTHING AT T=1, EQUAL NUMBERS TO EACH STATE
 print(" ")
@@ -111,36 +111,17 @@ print("##### EQUAL RESOURCE ALLOCATION #####")
 for i in range(num_trials):
 	simulate(getEqualActions, i, resp_csv, trans_csv, infections, resources)
 
-### DUMB RESOURCE ALLOCATION: EVERYTHING AT T=1, GIVE ALL TO ONE STATE
-print(" ")
-print("##### DUMB RESOURCE ALLOCATION #####") 
-for i in range(num_trials):
-	simulate(getDumbActions, i, resp_csv, trans_csv, infections, resources)
-
 ### NO RESOURCE ALLOCATION: DON'T DO ANYTHING
 print(" ")
 print("##### NO RESOURCE ALLOCATION #####") 
 for i in range(num_trials):
 	simulate(getNoActions, i, resp_csv, trans_csv, infections, resources)
 
-# ### RANDOM ALLOCATION: RANDOM AMOUNTS ASSIGNED TO RANDOM STATES 
-# print " "
-# print("##### RANDOM RESOURCE ALLOCATION #####") 
-# for i in range(num_trials):
-# 	simulate(getRandomActions, i, resp_csv, trans_csv, infections, resources)
-
-
-### RANDOM RESOURCE ALLOCATION: EVERYTHING AT T=1, RANDOM NUMBERS TO EACH STATE
-# for each unit, randomly pick index to give it to
-
-### RANDOM RESOURCE ALLOCATION: ONE UNIT PER TIME SLICE
-# randomly pick index to give it to
-
-### BEST ACTION
-# print(" ") 
-# print("##### USING MDP.GETACTIONS #####") 
-# for i in range(num_trials):
-# 	simulate(newmdp.getActions, i, resp_csv, trans_csv, infections, resources)
+### RANDOM ALLOCATION: RANDOM AMOUNTS ASSIGNED TO RANDOM STATES 
+print(" ")
+print("##### RANDOM RESOURCE ALLOCATION #####") 
+for i in range(num_trials):
+	simulate(getRandomActions, i, resp_csv, trans_csv, infections, resources)
 
 
 

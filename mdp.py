@@ -8,34 +8,28 @@ class EpidemicMDP:
 	#								GET ACTIONS 									#
 	#################################################################################
 
-	# If NUM_COUNTRIES = 4, creates an array of indices: [0, 1, 2, 3]
-	def getIndexArray(self): 
+	# If r = 4, creates an array of indices: [0, 1, 2, 3]
+	def getPartsArray(self, r): 
 		arr = []
-		for i in range(self.NUM_COUNTRIES):
+		for i in range(r):
 			arr.append(i)
 		return arr 
 
 	# Get all possible combinations of actions for a given # of resources 
-	def iterateGetActions(self, index_array, resources):
-		combos = itertools.combinations_with_replacement(index_array, resources)
-		arr = []
-		for c in combos: 
-			actions = [0] * self.NUM_COUNTRIES
-			for index in c: 
-				actions[index] += 1
-			arr.append(actions)
-		return arr
+	def getAllocations(self, resource):
+		combos = itertools.combinations_with_replacement(self.getPartsArray(self.NUM_COUNTRIES), resource)
+		return list(combos)
 
 	# Given a  state, returns all possible actions (resource allocations). 
 	def getActions(self, state):
-		num_resources = state[self.INDEX_RESOURCE]
-		all_actions = []
-		index_array = self.getIndexArray()
-		for i in range(1, num_resources + 1):
-			actions = self.iterateGetActions(index_array, i)
-			for action in actions: 
-				all_actions.append(action)
-		return all_actions
+		resources = state[self.INDEX_RESOURCE]
+		actions = []
+		rlist = self.getPartsArray(resources)
+		for r in rlist: 
+			allocs = self.getAllocations(r)
+			for a in allocs: 
+				actions.append(a)
+		return actions
 
 	#################################################################################
 	#							UPDATE RESPONSE INDICATORS 							#
@@ -292,6 +286,37 @@ class EpidemicMDP:
 #print self.TOTAL_SEATS
 # WHY ARE ALL THE COUNTRIES SHOWING UP? SHOULD ONLY BE 50ISH
 #print 'state is', self.state, 'and num_countries is', self.NUM_COUNTRIES
+
+# OLD GET ACTIONS FUNCTIONS: 
+
+# 	# If NUM_COUNTRIES = 4, creates an array of indices: [0, 1, 2, 3]
+# 	def getIndexArray(self): 
+# 		arr = []
+# 		for i in range(self.NUM_COUNTRIES):
+# 			arr.append(i)
+# 		return arr 
+
+# 	# Get all possible combinations of actions for a given # of resources 
+# 	def iterateGetActions(self, index_array, resources):
+# 		combos = itertools.combinations_with_replacement(index_array, resources)
+# 		arr = []
+# 		for c in combos: 
+# 			actions = [0] * self.NUM_COUNTRIES
+# 			for index in c: 
+# 				actions[index] += 1
+# 			arr.append(actions)
+# 		return arr
+
+# 	# Given a  state, returns all possible actions (resource allocations). 
+# 	def getActions(self, state):
+# 		num_resources = state[self.INDEX_RESOURCE]
+# 		all_actions = []
+# 		index_array = self.getIndexArray()
+# 		for i in range(1, num_resources + 1):
+# 			actions = self.iterateGetActions(index_array, i)
+# 			for action in actions: 
+# 				all_actions.append(action)
+# 		return all_actions
 
 
 		

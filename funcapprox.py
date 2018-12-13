@@ -89,6 +89,41 @@ class FuncApproximator:
 		tf.global_variables_initializer().run(session=self.sess)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+######## DUMPSTER ########################################################
+
+
+
 '''
 RL:
 play an episode (keep sampling from mdp and func approx)
