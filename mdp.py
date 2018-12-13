@@ -35,10 +35,6 @@ class EpidemicMDP:
 	#							UPDATE RESPONSE INDICATORS 							#
 	#################################################################################
 
-	# Takes a number and makes it fall between 1 and 0. 
-	def squash(self, num):
-	 	return (num/(1.0+num))
-
 	# Accepts a state and an action (ex: [0, 1, 0, 2, 0]), and updates response indicators for countries 
 	# that have been granted additional resources by the action. Returns a state with the updated response indicators.
 	# NOTE: There is some funky math here. The equation we use for updating is subject to be changed. 
@@ -57,25 +53,12 @@ class EpidemicMDP:
 		return newState
 
 
-		'''
-		units_used = sum(action)
-		newState = state[:]
-		for i in range(self.NUM_COUNTRIES, self.INDEX_RESOURCE):
-			scalar = action[i - self.NUM_COUNTRIES] # gets how many resources are added to country at i
-			if (scalar != 0): # we are gonna allocate something
-				scalar += 1					
-				update = newState[i]*scalar*(self.squash(scalar))					
-				newState[i] = ( update if update < self.MAX_RESPONSE_SCORE else self.MAX_RESPONSE_SCORE )	#Keep in range (0,max). caps benefit of reward.
-		newState[self.INDEX_RESOURCE] = newState[self.INDEX_RESOURCE]-units_used
-		return newState
-		'''
-
 	#################################################################################
 	#							GET NEXT STATE, ACTION & REWARD 					#
 	#################################################################################
 
 	# gets the probability a country is infected as a function of number of seats coming in from infected neighbors
-	def getInfectionProb(self, index, state):#, countries, neighbors):
+	def getInfectionProb(self, index, state):
 		country = self.countries[index]
 		
 		#print '\n\n\ngetting infection prob for country ', country, 'with index', index
@@ -256,9 +239,9 @@ class EpidemicMDP:
 		self.NUM_COUNTRIES = len(self.countries)
 		self.INDEX_RESOURCE = self.NUM_COUNTRIES * 2
 		self.RESPONSE_DENOMINATOR = 110.0 # amount response ranking is divided by during parsing; should be > 100
-		self.INFECTION_COEFFICIENT = 3.0
+		self.INFECTION_COEFFICIENT = 10.0
 		self.PREVENTION_COST = 0.9
-		self.INFECTION_COST = 0.68 # 0 < x < 1, should be <= PREVENTION_COST
+		self.INFECTION_COST = 0.60 # 0 < x < 1, should be <= PREVENTION_COST
 		self.MAX_RESPONSE_SCORE = 0.9 # todo change to like .8?
 		self.MAX_REWARD = 10.0
 		self.RESISTANCE_BOOST = 1.1 # amount by which resistance is increased when 1 resource unit is allocated
@@ -368,6 +351,21 @@ class EpidemicMDP:
 # 			for action in actions: 
 # 				all_actions.append(action)
 # 		return all_actions
+
+# OLD UPDATE RESPONSES: 
+
+		'''
+		units_used = sum(action)
+		newState = state[:]
+		for i in range(self.NUM_COUNTRIES, self.INDEX_RESOURCE):
+			scalar = action[i - self.NUM_COUNTRIES] # gets how many resources are added to country at i
+			if (scalar != 0): # we are gonna allocate something
+				scalar += 1					
+				update = newState[i]*scalar*(self.squash(scalar))					
+				newState[i] = ( update if update < self.MAX_RESPONSE_SCORE else self.MAX_RESPONSE_SCORE )	#Keep in range (0,max). caps benefit of reward.
+		newState[self.INDEX_RESOURCE] = newState[self.INDEX_RESOURCE]-units_used
+		return newState
+		'''
 
 
 		
