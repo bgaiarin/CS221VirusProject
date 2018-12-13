@@ -3,6 +3,7 @@ import random
 from collections import defaultdict
 import math 
 import numpy as np
+import matplotlib.pyplot as plt
 
 infections = {'Nigeria' : 1}
 resources = 15
@@ -10,11 +11,11 @@ resources = 15
 # trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv'
 resp_csv = 'data/country_response_indicators.csv'
 #trans_csv = 'data/transitions.csv'
-trans_csv = 'data/transitions_9countries.csv'
+trans_csv = 'data/transitions_7countries.csv'
 newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
 NUM_COUNTRIES = newmdp.NUM_COUNTRIES
 INDEX_RESOURCE = NUM_COUNTRIES*2
-num_simulations = 5
+num_simulations = 150
 max_iterations = 100
 action_without_resources = [[0]*NUM_COUNTRIES]
 
@@ -22,6 +23,12 @@ discount = 1
 weights = defaultdict(float)
 explorationProb = 0.14
 learning_rate = 0.9
+
+#PY PLOT
+Xdata = []
+Ydata = []
+ENDdata = defaultdict(float)
+
 
 
 #### Q-LEARNING HELPER FUNCTIONS #################################
@@ -151,13 +158,31 @@ def simulateQLearning(trial_num):
     print("END: ", reward)
     print("AVG: ", avg_reward)
 
+    Xdata.append(trial_num)
+    Ydata.append(avg_reward)
+    ENDdata[reward] += 1.0
+
 
 # RUN Q-LEARNING
 for i in range(num_simulations):
     #weights = defaultdict(float)   #Reset weights so weights from old simulations don't bleed into new ones. (DO WE NEED TO DO THIS?)
     simulateQLearning(i)
-
-
+#PLOT 
+plt.plot(Xdata, Ydata)
+plt.ylabel('Average Reward')
+plt.xlabel('Simulation')
+plt.title('Average Rewards per Q-Learning Simulation')
+plt.show()
+#PLOT
+keys = ENDdata.keys()
+counts = []
+for key in keys: 
+    counts.append(ENDdata[key])
+plt.bar(keys, counts, width=0.8) 
+plt.ylabel('Appearances')
+plt.xlabel('End Reward')
+plt.title('Number of Appearances of End Rewards Across All Q-Learning Simulations')
+plt.show()
 
 
 
