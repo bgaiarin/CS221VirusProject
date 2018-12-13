@@ -9,7 +9,7 @@ resp_csv = 'data/country_response_indicators.csv'
 #trans_csv = 'data/transitions.csv'
 trans_csv = 'data/transitions_9countries.csv'
 newmdp = EpidemicMDP(trans_csv, resp_csv, infections, resources) # sorta awk to declare twice but getActions needs instance
-print newmdp.countries
+print(newmdp.countries)
 NUM_COUNTRIES = newmdp.NUM_COUNTRIES
 INDEX_RESOURCE = NUM_COUNTRIES*2
 num_trials = 150
@@ -35,13 +35,19 @@ def getEqualActions(state):
 		actions[0][index] = allocation
 	return actions
 
+# Given a number of resources, allocates one to each country. 
+# If # resources < # countries, then the first (# countries - # resources)
+# countries won't receive any resource.
 def getUniformActions(state): 
 	resources = state[INDEX_RESOURCE]
-	allocation = float(resources)/NUM_COUNTRIES
-	actions = [[]]
-	for i in range(NUM_COUNTRIES):
-		actions[0].append(allocation)
-	return actions
+	action = []
+	countries = NUM_COUNTRIES-1
+	for i in range(resources):
+		if (countries == -1): break
+		action.append(countries)
+		countries -= 1
+	return [action]
+
 
 def getNoActions(state): 
 	actions = [[]]
@@ -85,34 +91,34 @@ def simulate(actionCommand, trial_num, resp_csv, trans_csv, infections, resource
 		its += 1
 
 	if its == 0:
-		print "TRIAL:", trial_num, '- SIMULATION ITERATIONS EQUALS ZERO'
+		print("TRIAL:", trial_num, '- SIMULATION ITERATIONS EQUALS ZERO')
 	else:
 		avg_reward = total_reward/float(its)
 		#print "TRIAL:", trial_num, " ", avg_reward
-		print avg_reward
+		print(avg_reward)
 
 #startstate = [0,1,0,0,0.8,0.2,0.88,0.3,5]
 
 ### UNIFORM RESOURCE ALLOCATION: EVERYTHING AT T=1, EQUAL NUMBERS TO EACH STATE
-print " "
+print(" ")
 print("##### UNIFORM RESOURCE ALLOCATION #####")
 for i in range(num_trials):
 	simulate(getUniformActions, i, resp_csv, trans_csv, infections, resources)
 
 ### EQUAL RESOURCE ALLOCATION: EVERYTHING AT T=1, EQUAL NUMBERS TO EACH INFECTED STATE
-print " "
+print(" ")
 print("##### EQUAL RESOURCE ALLOCATION #####") 
 for i in range(num_trials):
 	simulate(getEqualActions, i, resp_csv, trans_csv, infections, resources)
 
 ### DUMB RESOURCE ALLOCATION: EVERYTHING AT T=1, GIVE ALL TO ONE STATE
-print " "
+print(" ")
 print("##### DUMB RESOURCE ALLOCATION #####") 
 for i in range(num_trials):
 	simulate(getDumbActions, i, resp_csv, trans_csv, infections, resources)
 
 ### NO RESOURCE ALLOCATION: DON'T DO ANYTHING
-print " "
+print(" ")
 print("##### NO RESOURCE ALLOCATION #####") 
 for i in range(num_trials):
 	simulate(getNoActions, i, resp_csv, trans_csv, infections, resources)
@@ -131,7 +137,7 @@ for i in range(num_trials):
 # randomly pick index to give it to
 
 ### BEST ACTION
-# print " "
+# print(" ") 
 # print("##### USING MDP.GETACTIONS #####") 
 # for i in range(num_trials):
 # 	simulate(newmdp.getActions, i, resp_csv, trans_csv, infections, resources)
