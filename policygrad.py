@@ -15,9 +15,9 @@ import matplotlib.pyplot as plt
 #### INITIALIZE MDP #################################
 
 infections = {'Nigeria' : 1}
-resources = 200
+resources = 15
 resp_csv = 'data/country_response_indicators.csv' #'data/FR_MAUR_NIG_SA_responseIndicators.csv' #'data/country_response_indicators.csv'
-trans_csv = 'data/transitions.csv' #'data/FR_MAUR_NIG_SA_transitions.csv' #'data/transitions.csv' data/transitions_7countries.csv'
+trans_csv = 'data/transitions_7countries.csv' #'data/FR_MAUR_NIG_SA_transitions.csv' #'data/transitions.csv' data/transitions_7countries.csv'
 mdp = EpidemicMDP(trans_csv, resp_csv, infections, resources)
 
 print ('init mdp. num countries is', mdp.NUM_COUNTRIES)
@@ -29,7 +29,7 @@ cfg["NUM_COUNTRIES"] = mdp.NUM_COUNTRIES
 cfg["INDEX_RESOURCE"] = cfg["NUM_COUNTRIES"] * 2
 cfg["NUM_RESOURCES"] = resources
 cfg["MAX_REWARD"] = mdp.MAX_REWARD
-TOTAL_EPISODES = 150000	#2000? Calculate time per episode, and maximize. One episode should be < 11 seconds.
+TOTAL_EPISODES = 100000	#2000? Calculate time per episode, and maximize. One episode should be < 11 seconds.
 MAX_ITERATIONS = 20
 EXTRA_ITERATIONS = 3 # number of steps to run after it reaches end state
 
