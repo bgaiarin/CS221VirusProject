@@ -107,13 +107,14 @@ class EpidemicMDP:
 			
 		# NOT AN END STATE
 		else:
-			unit = self.NUM_COUNTRIES/self.MAX_REWARD
-			num_ones = 0.0
-			num_zeros = 0.0
-			for i in range(0, self.NUM_COUNTRIES): 
-				if state[i] == 1: num_ones += unit
-				else: num_zeros += unit
-			return num_zeros-num_ones 					#add bonus for leftover resources? 
+			return -self.MAX_REWARD 
+			# unit = self.MAX_REWARD/self.NUM_COUNTRIES
+			# num_ones = 0.0
+			# num_zeros = 0.0
+			# for i in range(0, self.NUM_COUNTRIES): 
+			# 	if state[i] == 1: num_ones += unit
+			# 	else: num_zeros += unit
+			# return num_zeros-num_ones 					#add bonus for leftover resources? 
 
 
 	# Generates a next state, and its response indicators and reward, probabilistically based on current state. 

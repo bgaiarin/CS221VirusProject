@@ -14,22 +14,22 @@ import matplotlib.pyplot as plt
 
 #### INITIALIZE MDP #################################
 
-infections = {'Nigeria' : 1}
+infexions = {'Nigeria' : 1}
 resources = 15
 resp_csv = 'data/country_response_indicators.csv' #'data/FR_MAUR_NIG_SA_responseIndicators.csv' #'data/country_response_indicators.csv'
-trans_csv = 'data/transitions_7countries.csv' #'data/FR_MAUR_NIG_SA_transitions.csv' #'data/transitions.csv' data/transitions_7countries.csv'
-mdp = EpidemicMDP(trans_csv, resp_csv, infections, resources)
+trans_csv = 'data/transitions.csv' #'data/FR_MAUR_NIG_SA_transitions.csv' #'data/transitions.csv' data/transitions_7countries.csv'
+init_mdp = EpidemicMDP(trans_csv, resp_csv, infexions, resources)
 
-print ('init mdp. num countries is', mdp.NUM_COUNTRIES)
+print ('init mdp. num countries is', init_mdp.NUM_COUNTRIES)
 
 
 #### GLOBAL VARS #################################
 cfg = {}  # config to pass to func approx
-cfg["NUM_COUNTRIES"] = mdp.NUM_COUNTRIES
+cfg["NUM_COUNTRIES"] = init_mdp.NUM_COUNTRIES
 cfg["INDEX_RESOURCE"] = cfg["NUM_COUNTRIES"] * 2
 cfg["NUM_RESOURCES"] = resources
-cfg["MAX_REWARD"] = mdp.MAX_REWARD
-TOTAL_EPISODES = 100000	#2000? Calculate time per episode, and maximize. One episode should be < 11 seconds.
+cfg["MAX_REWARD"] = init_mdp.MAX_REWARD
+TOTAL_EPISODES = 150000	#2000? Calculate time per episode, and maximize. One episode should be < 11 seconds.
 MAX_ITERATIONS = 20
 EXTRA_ITERATIONS = 3 # number of steps to run after it reaches end state
 
@@ -45,6 +45,19 @@ fa = FuncApproximator(cfg)
 
 #total outer for loop = number total_episodes
 for ep in range(TOTAL_EPISODES):
+    
+    #Select random initial seed
+    # countries = init_mdp.countries
+    # arr = []
+    # for c in countries:
+    #     arr.append({c : 1})
+    # infections = random.choice(arr)
+                                                # infections = random.sample(arr, random.randint(0,cfg["NUM_COUNTRIES"]-1))
+                                                # s = ","
+                                                # infections = s.join(infections)
+    infections = infexions
+    
+    mdp = EpidemicMDP(trans_csv, resp_csv, infections, resources)
     state = mdp.state
     actions = []  # list of (state, action, reward) pairs
     itersLeft = EXTRA_ITERATIONS
@@ -74,16 +87,24 @@ for ep in range(TOTAL_EPISODES):
     # reverse actions for easy backward pass
     actions.reverse()
 	## BACKWARD PASS: use reward to update actions
+    if (ep % 100 == 0):
+        print(" ")
+        print(" ")
     for (state, action, target) in actions:
         #print ('updating')
         #get final reward that we had
+
+        if (ep % 100 == 0):
+            print("EPISODE: ", ep)
+            print("STATE: ", state)
+            print("ACTION: ", action, " REWARD: ", target)
 
         #go over all actions that we took, do policy gradient update on that state and the action 
         ep_loss += fa.update(state, action, target)
 
     ep_avg_reward = reward_total/its
     ep_avg_loss = ep_loss/its
-    print ('episode no.', ep, 'with average reward', ep_avg_reward, 'and average loss', ep_avg_loss)
+    #print ('episode no.', ep, 'with average reward', ep_avg_reward, 'and average loss', ep_avg_loss)
     
     if (reward == cfg["MAX_REWARD"]): WinCount += 1
     Xdata.append(ep)
