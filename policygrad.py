@@ -12,18 +12,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 #%matplotlib inline
 
-# what is this?
-try:
-    xrange = xrange
-except:
-    xrange = range
-
 #### INITIALIZE MDP #################################
 
 infections = {'Nigeria' : 1}
-resources = 5
-resp_csv = 'data/FR_MAUR_NIG_SA_responseIndicators.csv' #'data/country_response_indicators.csv'
-trans_csv = 'data/FR_MAUR_NIG_SA_transitions.csv' #'data/transitions.csv' data/transitions_9countries.csv'
+resources = 200
+resp_csv = 'data/country_response_indicators.csv' #'data/FR_MAUR_NIG_SA_responseIndicators.csv' #'data/country_response_indicators.csv'
+trans_csv = 'data/transitions.csv' #'data/FR_MAUR_NIG_SA_transitions.csv' #'data/transitions.csv' data/transitions_7countries.csv'
 mdp = EpidemicMDP(trans_csv, resp_csv, infections, resources)
 
 print ('init mdp. num countries is', mdp.NUM_COUNTRIES)
@@ -34,9 +28,15 @@ cfg = {}  # config to pass to func approx
 cfg["NUM_COUNTRIES"] = mdp.NUM_COUNTRIES
 cfg["INDEX_RESOURCE"] = cfg["NUM_COUNTRIES"] * 2
 cfg["NUM_RESOURCES"] = resources
-TOTAL_EPISODES = 10	#2000? Calculate time per episode, and maximize. One episode should be < 11 seconds.
-MAX_ITERATIONS = 10
+cfg["MAX_REWARD"] = mdp.MAX_REWARD
+TOTAL_EPISODES = 150000	#2000? Calculate time per episode, and maximize. One episode should be < 11 seconds.
+MAX_ITERATIONS = 20
 EXTRA_ITERATIONS = 3 # number of steps to run after it reaches end state
+
+Xdata = []
+Rdata = []
+Ldata = []
+WinCount = 0
 
 #### INITIALIZE FA #################################
 fa = FuncApproximator(cfg)
@@ -49,13 +49,17 @@ for ep in range(TOTAL_EPISODES):
     actions = []  # list of (state, action, reward) pairs
     itersLeft = EXTRA_ITERATIONS
     reward_total = 0
+    its = 0.0
+    ep_loss = 0.0
 
     ## FORWARD PASS: experiment and get reward
     for step in range(MAX_ITERATIONS):
         #print ('in ep', ep, 'taking step', step)
+        its += 1.0
         if mdp.isEnd(state):
-            step = MAX_ITERATIONS - itersLeft  # runs a few steps after it reaches end state
-            itersLeft -= 1  # make sure we are able to take actions allocating 0 (FA should do this)
+            # step = MAX_ITERATIONS - itersLeft  # runs a few steps after it reaches end state
+            # itersLeft -= 1  # make sure we are able to take actions allocating 0 (FA should do this)
+            break
     	
         #sample action using FuncApproximator & save
         action = fa.sample(state)
@@ -66,10 +70,6 @@ for ep in range(TOTAL_EPISODES):
         actions.append((state, action, reward)) # does reward have to be cumulative?
     	
         state = new_state
-        
-    #print(actions)
-	#--> print loss? 
-	#--> print total reward 
 
     # reverse actions for easy backward pass
     actions.reverse()
@@ -79,9 +79,34 @@ for ep in range(TOTAL_EPISODES):
         #get final reward that we had
 
         #go over all actions that we took, do policy gradient update on that state and the action 
-        fa.update(state, action, target)
+        ep_loss += fa.update(state, action, target)
 
-    print ('completed episode no.', ep, 'with reward', reward_total)
+    ep_avg_reward = reward_total/its
+    ep_avg_loss = ep_loss/its
+    print ('episode no.', ep, 'with average reward', ep_avg_reward, 'and average loss', ep_avg_loss)
+    
+    if (reward == cfg["MAX_REWARD"]): WinCount += 1
+    Xdata.append(ep)
+    Rdata.append(ep_avg_reward)
+    Ldata.append(ep_avg_loss)
+
+
+# #PRINT NUMBER OF EPISODES WHERE VIRUS IS KILLED
+print("NUMBER OF EPISODES WHERE VIRUS IS KILLED: ", WinCount)
+
+# #PLOT
+plt.plot(Xdata, Rdata)
+plt.ylabel('Average Reward')
+plt.xlabel('Simulation')
+plt.title('Average Rewards for Policy Gradient')
+plt.show()
+# #PLOT
+plt.plot(Xdata, Ldata)
+plt.ylabel('Average Loss')
+plt.xlabel('Simulation')
+plt.title('Loss for Policy Gradient')
+plt.show()
+
 
 
 
@@ -143,7 +168,11 @@ for ep in range(TOTAL_EPISODES):
 #     return discounted_r
 
 # #### DEFINE AGENT CLASS #################################
-
+# # what is this?
+# try:
+#     xrange = xrange
+# except:
+#     xrange = range
 # # class agent():
 # #     def __init__(self, lr, s_size,a_size,h_size):
 # #         #These lines established the feed-forward part of the network. The agent takes a state and produces an action.

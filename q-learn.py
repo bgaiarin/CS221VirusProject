@@ -68,10 +68,6 @@ def featureExtractor(state, action):
     featureValue = 1
     return [(featureKey, featureValue)]
 
-# # Call this function to get the step size to update the weights.
-# def getStepSize(num_iterations):
-#     return 1.0 / math.sqrt(num_iterations)
-
 #### Q-LEARNING MAIN FUNCTIONS #################################
 
 # Return the Q function associated with the weights and features

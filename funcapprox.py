@@ -23,7 +23,7 @@ class FuncApproximator:
 		numUnits = np.random.choice(np.size(Us_probs_py), None, p=np.squeeze(Us_probs_py))
 		action = np.random.choice(np.size(Cs_probs_py), numUnits, p=np.squeeze(Cs_probs_py))
 
-		print ('action:', action)
+		#print ('action:', action)
 
 		return action
 
@@ -37,7 +37,7 @@ class FuncApproximator:
 		# have a very distinct name for these two!!
 		loss_py, _ = self.sess.run([self.loss, self.train], feed_dict={self.state_plc: state, self.action_plc: action, self.target_plc: target})
 		#print (loss) # make sure it's, if not going down, at least not going super high
-		print('loss in update step:', loss_py)
+		return abs(loss_py)
 	# plc = placeholder
 
 	def buildTFgraph(self):
@@ -78,11 +78,11 @@ class FuncApproximator:
 
 		# output_sizes = tuple(output_sizes) -->  self._num_layers = len(self._output_sizes)
 		# --> self._layers = [basic.Linear(self._output_sizes[i]... for each layer
-		self.Us_output_sizes = [9, 9, self.num_resources + 1]  # todo add 40 back to first layer
+		self.Us_output_sizes = [60, 40, 20, 9, self.num_resources + 1]  # todo add 40 back to first layer
 		#self.Us_output_sizes = tf.constant([[40, 20, 1],[1, 0, 0]])	#1 int for # resources	#OR SHOULD IT BE NUM_RESOURCES? 
-		self.Cs_output_sizes = [9, 9, self.num_countries]			#OR SOMETHING ELSE? 
+		self.Cs_output_sizes = [60, 40, 20, 9, self.num_countries]			#OR SOMETHING ELSE? 
 		self.state_dim = (self.num_countries * 2) + 1
-		self.learning_rate = 0.01
+		self.learning_rate = 0.0001
 		self.sess = tf.Session() 
 		self.buildTFgraph()
 
