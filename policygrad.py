@@ -21,6 +21,7 @@ trans_csv = 'data/transitions.csv' #'data/FR_MAUR_NIG_SA_transitions.csv' #'data
 init_mdp = EpidemicMDP(trans_csv, resp_csv, infexions, resources)
 
 print ('init mdp. num countries is', init_mdp.NUM_COUNTRIES)
+print(init_mdp.countries)
 
 
 #### GLOBAL VARS #################################
@@ -29,7 +30,7 @@ cfg["NUM_COUNTRIES"] = init_mdp.NUM_COUNTRIES
 cfg["INDEX_RESOURCE"] = cfg["NUM_COUNTRIES"] * 2
 cfg["NUM_RESOURCES"] = resources
 cfg["MAX_REWARD"] = init_mdp.MAX_REWARD
-TOTAL_EPISODES = 150000	#2000? Calculate time per episode, and maximize. One episode should be < 11 seconds.
+TOTAL_EPISODES = 250000	#2000? Calculate time per episode, and maximize. One episode should be < 11 seconds.
 MAX_ITERATIONS = 20
 EXTRA_ITERATIONS = 3 # number of steps to run after it reaches end state
 
@@ -37,6 +38,7 @@ Xdata = []
 Rdata = []
 Ldata = []
 WinCount = 0
+total_avg_rewards = 0.0
 
 #### INITIALIZE FA #################################
 fa = FuncApproximator(cfg)
@@ -104,6 +106,7 @@ for ep in range(TOTAL_EPISODES):
 
     ep_avg_reward = reward_total/its
     ep_avg_loss = ep_loss/its
+    total_avg_rewards += ep_avg_reward
     #print ('episode no.', ep, 'with average reward', ep_avg_reward, 'and average loss', ep_avg_loss)
     
     if (reward == cfg["MAX_REWARD"]): WinCount += 1
@@ -116,6 +119,7 @@ for ep in range(TOTAL_EPISODES):
 print("NUMBER OF EPISODES WHERE VIRUS IS KILLED: ", WinCount)
 
 # #PLOT
+print("AVERAGE REWARD ACROSS ALL EPISODES: ", (total_avg_rewards/TOTAL_EPISODES))
 plt.plot(Xdata, Rdata)
 plt.ylabel('Average Reward')
 plt.xlabel('Simulation')
